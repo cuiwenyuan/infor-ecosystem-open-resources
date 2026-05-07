@@ -150,7 +150,7 @@
 
 - **GitHub Issues**: [提交问题或建议](https://github.com/cuiwenyuan/infor-ecosystem-open-resources/issues)
 - **GitHub Discussions**: [社区讨论](https://github.com/cuiwenyuan/infor-ecosystem-open-resources/discussions)
-- **电子邮件**: your-email@example.com（可选）
+- **电子邮件**: troy.cui@qq.com
 
 ---
 
