@@ -71,9 +71,9 @@ extra:
       link: https://github.com/cuiwenyuan
     - icon: fontawesome/brands/linkedin
       link: https://linkedin.com/
-  analytics:
-    provider: google
-    property: G-XXXXXXXXXX  # 替换为你的 Google Analytics ID
+  # analytics:
+  #   provider: google
+  #   property: G-XXXXXXXXXX  # TODO: 替换为你的 Google Analytics ID
 
 extra_css:
   - assets/css/extra.css
