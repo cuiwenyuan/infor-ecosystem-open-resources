@@ -1,3 +1,8 @@
+---
+title: "顾问与实施公司 - Infor 生态第三方资源导航站"
+description: "收录全球 Infor 实施顾问与合作伙伴公司，按地区和产品专长分类，覆盖 Infor LN、M3、CloudSuite、SyteLine 等产品。"
+---
+
 # 顾问与实施公司
 
 > Infor 生态中的专业顾问与实施公司，提供 ERP 实施、咨询、培训和技术支持服务。

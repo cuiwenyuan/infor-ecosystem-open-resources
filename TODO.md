@@ -116,12 +116,18 @@
 ### 低优先级任务
 
 #### 9. 优化搜索功能
-- [ ] 配置 Algolia DocSearch（可选）
-- [ ] 优化 MkDocs 搜索权重
+- [x] 优化 MkDocs 搜索权重 ✅ 2026-05-07（配置 separator、min_search_length=1、prebuild_index=true）
+- [ ] 配置 Algolia DocSearch（可选，需申请审核）
 
-#### 10. 添加 Site Map
-- [ ] 配置 mkdocs-sitemap 插件
+#### 10. SEO 优化
+- [x] 创建 .nojekyll 文件 ✅ 2026-05-07
+- [x] 创建 robots.txt ✅ 2026-05-07
+- [x] 为所有 22 个 .md 页面添加 Frontmatter（title、description）✅ 2026-05-07
+- [x] 创建 docs/overrides/main.html（JSON-LD 结构化数据）✅ 2026-05-07
+- [x] 优化 mkdocs.yml 全局 SEO（site_description、搜索配置）✅ 2026-05-07
+- [x] Sitemap.xml（Material 主题自动生成）✅ 2026-05-07
 - [ ] 提交到 Google Search Console
+- [ ] 提交到百度站长平台
 
 ---
 

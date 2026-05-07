@@ -1,3 +1,8 @@
+---
+title: "按产品线分类 - Infor 生态第三方资源导航站"
+description: "按产品线分类浏览 Infor 产品与资源，涵盖 LN、M3、CloudSuite Industrial、FSM、EAM、WMS、HCM、Coleman AI 等。"
+---
+
 # 按产品线分类
 
 > 以 Infor 产品线为组织维度，全面介绍 Infor 生态中各核心产品和专业解决方案的定位、目标市场和关键特性。

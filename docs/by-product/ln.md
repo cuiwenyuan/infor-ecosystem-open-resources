@@ -1,3 +1,8 @@
+---
+title: "Infor LN - Infor 生态第三方资源导航站"
+description: "Infor LN 资源导航，收录 LN 相关的顾问公司、技术博客、开发工具和社区论坛。"
+---
+
 # Infor LN
 
 > Infor LN 是面向大型企业复杂离散制造需求的旗舰 ERP 解决方案，源自 Baan ERP，支持多站点、多实体运营。

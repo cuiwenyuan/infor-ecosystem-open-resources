@@ -1,3 +1,8 @@
+---
+title: "Infor OS - Infor 生态第三方资源导航站"
+description: "Infor OS 平台资源导航，收录 Infor OS、ION、Ming.le 等平台相关的技术文档、开发工具和社区资源。"
+---
+
 # Infor OS (平台)
 
 > Infor OS 是 Infor 的云操作系统，为所有 Infor 云产品提供统一的运行平台、API 网关、集成能力和用户体验。

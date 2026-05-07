@@ -1,3 +1,8 @@
+---
+title: "CloudSuite Industrial - Infor 生态第三方资源导航站"
+description: "CloudSuite Industrial（原 SyteLine）资源导航，收录 CSI 相关的顾问公司、技术博客和工具资源。"
+---
+
 # CloudSuite Industrial (SyteLine)
 
 > CloudSuite Industrial（前称 SyteLine）是面向中端离散制造企业的 ERP 解决方案，以易实施和配置到订单能力著称。
