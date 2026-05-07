@@ -1,0 +1,607 @@
+/* ==========================================================================
+   Infor 生态资源导航站 - 自定义样式
+   Material for MkDocs 扩展样式
+   ========================================================================== */
+
+/* ---------------------------------------------------------------------------
+   1. 资源卡片基础样式
+   --------------------------------------------------------------------------- */
+
+.resource-card {
+  background: var(--md-default-bg-color);
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 0.5rem;
+  padding: 1.2rem 1.4rem;
+  margin-bottom: 1.2rem;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+  page-break-inside: avoid;
+}
+
+.resource-card:hover {
+  border-color: var(--md-primary-fg-color);
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+}
+
+[data-md-color-scheme="slate"] .resource-card:hover {
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* ---------------------------------------------------------------------------
+   2. 卡片头部 - 资源名称 + 标签
+   --------------------------------------------------------------------------- */
+
+.resource-card-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.6rem;
+}
+
+.resource-card-header h3,
+.resource-card-header h4 {
+  margin: 0 !important;
+  padding: 0 !important;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+/* 资源类型标签 */
+.resource-tag {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.15rem 0.6rem;
+  border-radius: 1rem;
+  font-size: 0.7rem;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+}
+
+/* 标签颜色变体 */
+.resource-tag--forum {
+  background: rgba(63, 81, 181, 0.12);
+  color: var(--md-primary-fg-color);
+}
+
+.resource-tag--consultant {
+  background: rgba(0, 137, 123, 0.12);
+  color: #00897b;
+}
+
+.resource-tag--blog {
+  background: rgba(245, 124, 0, 0.12);
+  color: #f57c00;
+}
+
+.resource-tag--tool {
+  background: rgba(126, 87, 194, 0.12);
+  color: #7e57c2;
+}
+
+.resource-tag--training {
+  background: rgba(211, 47, 47, 0.12);
+  color: #d32f2f;
+}
+
+.resource-tag--official {
+  background: rgba(33, 150, 243, 0.12);
+  color: #2196f3;
+}
+
+.resource-tag--partner {
+  background: rgba(255, 193, 7, 0.15);
+  color: #f9a825;
+}
+
+/* 荣誉徽章 */
+.badge-gold {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.1rem 0.45rem;
+  border-radius: 1rem;
+  font-size: 0.65rem;
+  font-weight: 600;
+  background: linear-gradient(135deg, #ffd54f, #ffb300);
+  color: #5d4037;
+}
+
+.badge-award {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.1rem 0.45rem;
+  border-radius: 1rem;
+  font-size: 0.65rem;
+  font-weight: 600;
+  background: linear-gradient(135deg, #e1bee7, #ab47bc);
+  color: #fff;
+}
+
+/* ---------------------------------------------------------------------------
+   3. 卡片元信息行
+   --------------------------------------------------------------------------- */
+
+.resource-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  margin-bottom: 0.6rem;
+  font-size: 0.82rem;
+  color: var(--md-default-fg-color--light);
+}
+
+.resource-meta-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.resource-meta-item .twemoji {
+  font-size: 0.9rem;
+  vertical-align: middle;
+}
+
+/* ---------------------------------------------------------------------------
+   4. 卡片描述
+   --------------------------------------------------------------------------- */
+
+.resource-desc {
+  color: var(--md-default-fg-color);
+  font-size: 0.9rem;
+  line-height: 1.6;
+  margin-bottom: 0.6rem;
+}
+
+/* ---------------------------------------------------------------------------
+   5. 特色功能列表
+   --------------------------------------------------------------------------- */
+
+.resource-features {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-bottom: 0.6rem;
+}
+
+.resource-feature-chip {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.2rem 0.55rem;
+  border-radius: 0.3rem;
+  font-size: 0.75rem;
+  background: var(--md-code-bg-color);
+  color: var(--md-code-fg-color);
+}
+
+/* ---------------------------------------------------------------------------
+   6. 链接行
+   --------------------------------------------------------------------------- */
+
+.resource-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.4rem;
+}
+
+.resource-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 0.3rem 0.7rem;
+  border-radius: 0.3rem;
+  font-size: 0.8rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: background-color 0.15s ease;
+}
+
+.resource-link--primary {
+  background: var(--md-primary-fg-color);
+  color: var(--md-primary-bg-color);
+}
+
+.resource-link--primary:hover {
+  opacity: 0.88;
+}
+
+.resource-link--secondary {
+  background: var(--md-default-fg-color--lightest);
+  color: var(--md-default-fg-color);
+}
+
+.resource-link--secondary:hover {
+  background: var(--md-default-fg-color--lighter);
+}
+
+/* ---------------------------------------------------------------------------
+   7. 顾问公司卡片增强
+   --------------------------------------------------------------------------- */
+
+.consultant-card {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 1rem 1.4rem;
+}
+
+.consultant-card .consultant-info {
+  grid-column: 1 / -1;
+}
+
+.consultant-card .consultant-details {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 0.4rem 1rem;
+  grid-column: 1 / -1;
+}
+
+.consultant-detail-item {
+  font-size: 0.85rem;
+}
+
+.consultant-detail-item strong {
+  color: var(--md-default-fg-color--light);
+  font-weight: 500;
+}
+
+/* 产品专长星级 */
+.expertise-stars {
+  display: inline-flex;
+  gap: 0.15rem;
+  color: #ffb300;
+  font-size: 0.8rem;
+}
+
+/* ---------------------------------------------------------------------------
+   8. 工具卡片增强
+   --------------------------------------------------------------------------- */
+
+.tool-card {
+  position: relative;
+}
+
+.tool-license {
+  position: absolute;
+  top: 1rem;
+  right: 1.2rem;
+  padding: 0.15rem 0.5rem;
+  border-radius: 0.3rem;
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.tool-license--opensource {
+  background: rgba(76, 175, 80, 0.12);
+  color: #4caf50;
+}
+
+.tool-license--free {
+  background: rgba(33, 150, 243, 0.12);
+  color: #2196f3;
+}
+
+.tool-license--commercial {
+  background: rgba(255, 152, 0, 0.12);
+  color: #ff9800;
+}
+
+.tool-license--marketplace {
+  background: rgba(156, 39, 176, 0.12);
+  color: #9c27b0;
+}
+
+/* ---------------------------------------------------------------------------
+   9. 统计卡片（首页用）
+   --------------------------------------------------------------------------- */
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.stat-card {
+  text-align: center;
+  padding: 1.2rem 1rem;
+  background: var(--md-default-bg-color);
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 0.5rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.stat-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+}
+
+.stat-number {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--md-primary-fg-color);
+  line-height: 1.2;
+}
+
+.stat-label {
+  font-size: 0.82rem;
+  color: var(--md-default-fg-color--light);
+  margin-top: 0.3rem;
+}
+
+/* ---------------------------------------------------------------------------
+   10. 快速导航卡片（首页用）
+   --------------------------------------------------------------------------- */
+
+.nav-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.nav-card {
+  display: block;
+  padding: 1.2rem 1.4rem;
+  background: var(--md-default-bg-color);
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 0.5rem;
+  text-decoration: none !important;
+  color: inherit !important;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.15s ease;
+}
+
+.nav-card:hover {
+  border-color: var(--md-primary-fg-color);
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+  transform: translateY(-2px);
+}
+
+.nav-card-icon {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.nav-card-title {
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--md-default-fg-color);
+  margin-bottom: 0.3rem;
+}
+
+.nav-card-desc {
+  font-size: 0.82rem;
+  color: var(--md-default-fg-color--light);
+  line-height: 1.5;
+}
+
+/* ---------------------------------------------------------------------------
+   11. 产品对比表格增强
+   --------------------------------------------------------------------------- */
+
+.comparison-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.88rem;
+}
+
+.comparison-table th {
+  background: var(--md-primary-fg-color);
+  color: var(--md-primary-bg-color);
+  padding: 0.7rem 1rem;
+  text-align: left;
+  font-weight: 600;
+}
+
+.comparison-table td {
+  padding: 0.6rem 1rem;
+  border-bottom: 1px solid var(--md-default-fg-color--lightest);
+}
+
+.comparison-table tr:nth-child(even) {
+  background: rgba(0, 0, 0, 0.02);
+}
+
+[data-md-color-scheme="slate"] .comparison-table tr:nth-child(even) {
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.comparison-table tr:hover {
+  background: rgba(var(--md-primary-fg-color--rgb), 0.04);
+}
+
+/* ---------------------------------------------------------------------------
+   12. 资源索引（页面顶部分类快速导航）
+   --------------------------------------------------------------------------- */
+
+.resource-index {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 1rem 0 1.5rem;
+  padding: 1rem;
+  background: var(--md-code-bg-color);
+  border-radius: 0.4rem;
+}
+
+.resource-index a {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.3rem 0.7rem;
+  border-radius: 0.3rem;
+  font-size: 0.82rem;
+  color: var(--md-default-fg-color);
+  text-decoration: none;
+  transition: background-color 0.15s ease;
+}
+
+.resource-index a:hover {
+  background: var(--md-accent-fg-color--transparent);
+}
+
+/* ---------------------------------------------------------------------------
+   13. 分区标题带图标
+   --------------------------------------------------------------------------- */
+
+.section-title {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid var(--md-primary-fg-color);
+}
+
+.section-title .twemoji {
+  font-size: 1.3rem;
+}
+
+/* ---------------------------------------------------------------------------
+   14. 更新时间标签
+   --------------------------------------------------------------------------- */
+
+.last-updated {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 0.2rem 0.5rem;
+  border-radius: 0.3rem;
+  font-size: 0.75rem;
+  color: var(--md-default-fg-color--light);
+  background: var(--md-default-fg-color--lightest);
+  margin-top: 0.5rem;
+}
+
+/* ---------------------------------------------------------------------------
+   15. 交叉引用资源链接网格
+   --------------------------------------------------------------------------- */
+
+.cross-ref-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 0.8rem;
+  margin: 1rem 0;
+}
+
+.cross-ref-card {
+  padding: 0.8rem 1rem;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 0.4rem;
+  text-decoration: none !important;
+  color: inherit !important;
+  transition: border-color 0.15s ease, background-color 0.15s ease;
+}
+
+.cross-ref-card:hover {
+  border-color: var(--md-accent-fg-color);
+  background: var(--md-accent-fg-color--transparent);
+}
+
+.cross-ref-title {
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+
+.cross-ref-count {
+  font-size: 0.75rem;
+  color: var(--md-default-fg-color--light);
+}
+
+/* ---------------------------------------------------------------------------
+   16. 响应式调整
+   --------------------------------------------------------------------------- */
+
+@media (max-width: 600px) {
+  .stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .nav-cards {
+    grid-template-columns: 1fr;
+  }
+
+  .consultant-card .consultant-details {
+    grid-template-columns: 1fr;
+  }
+
+  .cross-ref-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .resource-card {
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .stats-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ---------------------------------------------------------------------------
+   17. 打印优化
+   --------------------------------------------------------------------------- */
+
+@media print {
+  .resource-card {
+    break-inside: avoid;
+    border: 1px solid #ccc;
+    box-shadow: none;
+  }
+
+  .resource-card:hover {
+    box-shadow: none;
+  }
+}
+
+/* ---------------------------------------------------------------------------
+   18. 滚动条美化（Webkit）
+   --------------------------------------------------------------------------- */
+
+.md-sidebar__scrollwrap::-webkit-scrollbar {
+  width: 4px;
+}
+
+.md-sidebar__scrollwrap::-webkit-scrollbar-thumb {
+  background: var(--md-default-fg-color--lighter);
+  border-radius: 2px;
+}
+
+/* ---------------------------------------------------------------------------
+   19. Admonition 定制
+   --------------------------------------------------------------------------- */
+
+.md-typeset .admonition.info,
+.md-typeset details.info {
+  border-color: var(--md-primary-fg-color);
+}
+
+.md-typeset .admonition.tip,
+.md-typeset details.tip {
+  border-color: #00897b;
+}
+
+/* ---------------------------------------------------------------------------
+   20. 页面顶部 hero 区域（首页用）
+   --------------------------------------------------------------------------- */
+
+.hero-section {
+  text-align: center;
+  padding: 2rem 1rem 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.hero-section h1 {
+  font-size: 2rem !important;
+  margin-bottom: 0.5rem !important;
+}
+
+.hero-tagline {
+  font-size: 1.1rem;
+  color: var(--md-default-fg-color--light);
+  max-width: 600px;
+  margin: 0 auto;
+}
