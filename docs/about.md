@@ -138,7 +138,7 @@ infor-ecosystem-open-resources/
 
 ### 邮件联系
 
-- **电子邮件**：your-email@example.com（可选）
+- **电子邮件**：troy.cui@qq.com（可选）
 
 ---
 

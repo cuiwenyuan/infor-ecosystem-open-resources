@@ -238,7 +238,7 @@ Closes #12
 
 ### 举报
 
-如遇到不当行为，请联系：[your-email@example.com](mailto:your-email@example.com)
+如遇到不当行为，请联系：[troy.cui@qq.com](mailto:troy.cui@qq.com)
 
 ---
 
