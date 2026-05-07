@@ -1,3 +1,32 @@
+/* Infor 品牌色覆盖 - Material 主题 custom palette */
+[data-md-color-scheme="default"] {
+  --md-primary-fg-color: #D81820;
+  --md-primary-fg-color--light: #E34850;
+  --md-primary-fg-color--lighter: #EE8E93;
+  --md-primary-fg-color--lightest: #FBD4D5;
+  --md-primary-fg-color--dark: #B01319;
+  --md-primary-fg-color--darker: #880E13;
+  --md-primary-bg-color: #FFFFFF;
+  --md-primary-bg-color--light: #FFFFFFCC;
+  --md-primary-fg-color--rgb: 216, 24, 32;
+  --md-accent-fg-color: #D81820;
+  --md-accent-fg-color--transparent: rgba(216, 24, 32, 0.12);
+}
+
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: #EE8E93;
+  --md-primary-fg-color--light: #F3B3B7;
+  --md-primary-fg-color--lighter: #F8D9DA;
+  --md-primary-fg-color--lightest: #FDECEE;
+  --md-primary-fg-color--dark: #D81820;
+  --md-primary-fg-color--darker: #B01319;
+  --md-primary-bg-color: #1A1A2E;
+  --md-primary-bg-color--light: #1A1A2ECC;
+  --md-primary-fg-color--rgb: 238, 142, 147;
+  --md-accent-fg-color: #EE8E93;
+  --md-accent-fg-color--transparent: rgba(238, 142, 147, 0.12);
+}
+
 /* ==========================================================================
    Infor 生态资源导航站 - 自定义样式
    Material for MkDocs 扩展样式
@@ -60,7 +89,7 @@
 
 /* 标签颜色变体 */
 .resource-tag--forum {
-  background: rgba(63, 81, 181, 0.12);
+  background: rgba(216, 24, 32, 0.12);
   color: var(--md-primary-fg-color);
 }
 
@@ -85,8 +114,8 @@
 }
 
 .resource-tag--official {
-  background: rgba(33, 150, 243, 0.12);
-  color: #2196f3;
+  background: rgba(216, 24, 32, 0.12);
+  color: #D81820;
 }
 
 .resource-tag--partner {
@@ -278,8 +307,8 @@
 }
 
 .tool-license--free {
-  background: rgba(33, 150, 243, 0.12);
-  color: #2196f3;
+  background: rgba(216, 24, 32, 0.12);
+  color: #D81820;
 }
 
 .tool-license--commercial {
