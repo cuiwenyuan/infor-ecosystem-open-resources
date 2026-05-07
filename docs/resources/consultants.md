@@ -2,7 +2,7 @@
 
 > Infor 生态中的专业顾问与实施公司，提供 ERP 实施、咨询、培训和技术支持服务。
 >
-> **最后更新**：2026-05-07 | **收录数量**：42+ 家公司
+> **最后更新**：2026-05-07 | **收录数量**：46+ 家公司
 
 ---
 
@@ -434,6 +434,35 @@
 
 ---
 
+### 27. 班睿信息科技有限公司
+
+| 项目 | 详情 |
+|------|------|
+| **位置** | 上海（临港新片区） |
+| **官网** | [banray.com.cn](https://www.banray.com.cn) |
+| **专长产品** | Infor LN |
+| **服务** | Infor LN ERP 实施、咨询与培训；运维支持服务（提供 Zoho Helpdesk 在线工单平台） |
+| **经验** | 成立于 2015 年，50-99 人规模，深耕 Infor LN 产品实施与培训领域 |
+| **特色** | 官网开设 Infor LN 培训教程专栏，提供系统功能操作指南；配套班睿服务平台（Banray Helpdesk）进行客户工单管理 |
+| **联系方式** | 上海市自贸区临港新片区环湖西二路 888 号 1 幢 1 区 19060 室 |
+
+---
+
+### 28. 朝上数信科技（上海）有限公司
+
+| 项目 | 详情 |
+|------|------|
+| **位置** | 上海（嘉定区安亭镇） |
+| **官网** | [zhaoshangsoft.cn](http://www.zhaoshangsoft.cn) |
+| **专长产品** | Infor LN, Infor SyteLine (CloudSuite Industrial) |
+| **行业** | 制造业（项目型、离散型制造） |
+| **荣誉** | Infor 核心合作伙伴、云服务推广合作伙伴 |
+| **服务** | 企业流程再造、ERP 实施（Infor LN / SyteLine）、软硬件一体化服务方案、云服务推广与迁移 |
+| **经验** | 成立于 2021 年，以 Infor ERP 产品为核心提供一站式管理应用解决方案 |
+| **联系方式** | 上海市嘉定区安亭镇墨玉南路 1080 号 508 室 J |
+
+---
+
 ## 🌍 跨区域 / 多国运营
 
 ### 25. Grant Thornton
@@ -528,9 +557,9 @@
 
 | Infor 产品 | 顾问公司 |
 |------------|----------|
-| **Infor LN** | Sama Consulting, PCG Services, NexGenTech, Xencore Global, Tarento, Coserve Solutions, 润数信息, 拓创数信, 梯升科技, 领三咨询 |
+| **Infor LN** | Sama Consulting, PCG Services, NexGenTech, Xencore Global, Tarento, Coserve Solutions, 润数信息, 拓创数信, 梯升科技, 领三咨询, 班睿信息, 朝上数信 |
 | **Infor M3** | Columbus Global, Lightning ERP, mashfrog, Xencore Global, MSC Group, Tarento, OTS Solutions, NestAscend, Kalathas Consulting |
-| **Infor CloudSuite Industrial (SyteLine)** | Godlan, Decision Resources, Visual South, PCG Services |
+| **Infor CloudSuite Industrial (SyteLine)** | Godlan, Decision Resources, Visual South, PCG Services, 朝上数信 |
 | **Infor Lawson** | Blue Eagle Consulting, RPI Consultants |
 | **Infor WMS** | mashfrog, Cerca Technology, 润数信息 |
 | **Infor 全产品线** | Alpha Apex Group, Guide Technologies, Grant Thornton, Copley Consulting, Kinsey |
