@@ -860,18 +860,283 @@ InforUsers CloudSuite Community 是一个专注于 Lawson Software 和 CloudSuit
 
 ---
 
+### Original Software – Infor Community
+
+**类型**：合作伙伴社区活动
+
+**适用产品**：Infor 全线
+
+**地区**：全球
+
+**语言**：英文
+
+**简介**：
+Original Software 运营的 Infor 社区活动、用户组会议和在线研讨会
+
+**链接**：
+- 官网：[Original Software – Infor Community](https://originalsoftware.com/applications/infor/community/)
+
+**特色**：
+- 合作伙伴运营的社区活动
+- 定期用户组会议和在线研讨会
+- 覆盖 Infor 全线产品
+
+**最后更新**：2026-05-07
+
+---
+
+### Infor Partner Network – LinkedIn
+
+**类型**：LinkedIn 展示页
+
+**适用产品**：Infor 全线
+
+**地区**：全球
+
+**语言**：英文
+
+**简介**：
+Infor 合作伙伴网络的 LinkedIn 页面，连接合作伙伴和生态系统
+
+**链接**：
+- LinkedIn：[Infor Partner Network](https://www.linkedin.com/showcase/infor-partner-network)
+
+**特色**：
+- Infor 官方合作伙伴网络展示页
+- 连接全球合作伙伴和生态系统资源
+- LinkedIn 平台运营
+
+**最后更新**：2026-05-07
+
+---
+
+## 🌐 Reddit 与社交媒体社区
+
+### r/ERP (Reddit)
+
+**类型**：Reddit 社区
+
+**适用产品**：通用 ERP（含 Infor 讨论）
+
+**地区**：全球
+
+**语言**：英文
+
+**简介**：
+Reddit 上最大的 ERP 讨论社区，不定期有 Infor LN、M3、CloudSuite 相关讨论和问答
+
+**链接**：
+- 官网：[r/ERP](https://www.reddit.com/r/ERP/)
+
+**特色**：
+- Reddit 最大 ERP 社区
+- 涵盖多种 ERP 产品讨论
+- Infor 相关问答
+
+**最后更新**：2026-05-07
+
+### r/manufacturing (Reddit)
+
+**类型**：Reddit 社区
+
+**适用产品**：Infor LN, M3, CSI
+
+**地区**：全球
+
+**语言**：英文
+
+**简介**：
+Reddit 制造业社区，偶有 Infor ERP 选型、实施经验分享帖
+
+**链接**：
+- 官网：[r/manufacturing](https://www.reddit.com/r/manufacturing/)
+
+**特色**：
+- 制造业专业社区
+- ERP 选型讨论
+- 实施经验分享
+
+**最后更新**：2026-05-07
+
+---
+
+## 🇨🇳 中国社区与论坛
+
+### CSDN ERP/CRM 社区
+
+**类型**：技术论坛
+
+**适用产品**：Infor LN, Baan, 各类 ERP
+
+**地区**：中国
+
+**语言**：中文
+
+**简介**：
+中国最大的开发者社区 CSDN 的 ERP/CRM 板块，包含 Infor LN 系统架构解析、二次开发教程等技术文章
+
+**链接**：
+- 论坛：[CSDN ERP/CRM 板块](https://bbs.csdn.net/forums/ERP)
+
+**特色**：
+- 中国最大开发者社区
+- Infor LN 技术文章
+- 二次开发教程
+
+**最后更新**：2026-05-07
+
+### 知乎 - Infor ERP 话题
+
+**类型**：问答社区
+
+**适用产品**：Infor LN, CloudSuite
+
+**地区**：中国
+
+**语言**：中文
+
+**简介**：
+知乎上关于 Infor ERP 的讨论话题，涵盖云转型建议、LN 工程师职业发展等内容
+
+**链接**：
+- 话题页：[知乎 - Infor ERP](https://www.zhihu.com/topic/19624662)
+
+**特色**：
+- 中文问答社区
+- 职业发展讨论
+- 云转型建议
+
+**最后更新**：2026-05-07
+
+### Infor HCM 社区
+
+**类型**：官方子社区
+
+**适用产品**：Infor HCM, Lawson
+
+**地区**：全球
+
+**语言**：英文
+
+**简介**：
+Infor Global Community 下的 HCM 人力资本管理专门社区板块
+
+**链接**：
+- 官网：[Infor HCM Community](https://community.infor.com/categories/human-capital-management/p1)
+
+**特色**：
+- Infor 官方子社区
+- HCM 专业讨论
+- 人力资本管理
+
+**最后更新**：2026-05-07
+
+### Infor MES 社区
+
+**类型**：官方子社区
+
+**适用产品**：Infor MES, Factory Track
+
+**地区**：全球
+
+**语言**：英文
+
+**简介**：
+Infor Community 下的制造执行系统社区，讨论 MES 和车间管理相关话题
+
+**链接**：
+- 官网：[Infor MES Community](https://community.infor.com/categories/mes/p1)
+
+**特色**：
+- Infor 官方子社区
+- MES 制造执行系统
+- 车间管理话题
+
+**最后更新**：2026-05-07
+
+### Infor Landmark 开发社区
+
+**类型**：官方子社区
+
+**适用产品**：Infor HCM, FSM, Lawson (Landmark)
+
+**地区**：全球
+
+**语言**：英文
+
+**简介**：
+Infor Community 下的 Landmark 平台开发社区，讨论 Lawson/FSM/HCM 的 Landmark 技术开发
+
+**链接**：
+- 官网：[Infor Landmark Development](https://community.infor.com/categories/landmark-development/p1)
+
+**特色**：
+- Infor 官方子社区
+- Landmark 平台开发
+- 技术开发讨论
+
+**最后更新**：2026-05-07
+
+### IMUN M3 User Network - Asia Pacific
+
+**类型**：官方用户组
+
+**适用产品**：Infor M3
+
+**地区**：亚太
+
+**语言**：英文
+
+**简介**：
+覆盖澳大利亚、新西兰、印度等亚太地区的 Infor M3 用户网络
+
+**链接**：
+- 官网：[IMUN M3 User Network - Asia Pacific](https://community.infor.com/group/353-imun-m3-user-network-asia-pacific)
+
+**特色**：
+- 亚太地区 M3 用户组
+- 澳大利亚、新西兰、印度
+- 地区性用户网络
+
+**最后更新**：2026-05-07
+
+### WMS LATAM User Group
+
+**类型**：官方用户组
+
+**适用产品**：Infor WMS
+
+**地区**：拉丁美洲
+
+**语言**：西班牙语
+
+**简介**：
+拉丁美洲 Infor WMS 用户组，西语社区
+
+**链接**：
+- 官网：[WMS LATAM User Group](https://community.infor.com/group/350-wms-latam-user-group)
+
+**特色**：
+- 拉丁美洲用户组
+- 西班牙语社区
+- WMS 专业
+
+**最后更新**：2026-05-07
+
+---
+
 ## 📝 待补充资源
 
 ### 需要继续搜集的资源
 
 - [x] LinkedIn Infor 用户群组（部分已完成：M3 User Network、LN NAUG）
-- [ ] Reddit Infor ERP 相关讨论（待详细分析）
+- [x] Reddit Infor ERP 相关讨论 - 已完成 ✅
 - [x] Infor M3 User Group Americas (M3UGA) - 已完成 ✅
 - [ ] Infor CloudSuite 用户社区 - 详细信息
-- [ ] 中国地区 Infor 用户组或论坛（待补充）
+- [x] 中国地区 Infor 用户组或论坛 - 已完成 ✅
 - [ ] 其他地区性用户组（亚太、欧洲其他）
-- [ ] CSDN Infor 技术博客专区
-- [ ] 知乎 Infor ERP 话题
+- [x] CSDN Infor 技术博客专区 - 已完成 ✅
+- [x] 知乎 Infor ERP 话题 - 已完成 ✅
 - [ ] 腾讯云开发者社区 Infor 文章
 
 ### 如何贡献
@@ -895,6 +1160,6 @@ InforUsers CloudSuite Community 是一个专注于 Lawson Software 和 CloudSuit
 
 ---
 
-**本分类收录资源数**：13 （持续收集中）  
-**最后更新**：2026-05-06  
+**本分类收录资源数**：24 （持续收集中）  
+**最后更新**：2026-05-07  
 **维护者**：Infor 生态社区

@@ -34,6 +34,24 @@
 - **经验**：自 1995 年起拥有 Infor 顾问和开发团队，与数百家企业成功合作
 - **官网**：[shcompass.com](http://www.shcompass.com)
 
+### 4. 上海博科资讯
+
+- **位置**：上海
+- **专长**：Infor ERP（多产品）
+- **行业**：制造业、贸易
+
+---
+
+## 📝 博客与教程
+
+| 资源名称 | 简介 | 链接 |
+|---------|------|------|
+| **我走的窄道（腾讯云）** | Infor ERP LN 15年经验分享，从5.0c到10.3升级历程 | [访问](https://cloud.tencent.com/developer/article/1395725) |
+| **葡萄城技术博客** | 活字格低代码 Infor ERP 二次开发案例 | [访问](https://www.grapecity.com.cn/blogs/huozige-infor-erp) |
+| **CSDN Infor 二次开发专栏** | Infor ERP/MRP 二次开发详细教程 | [访问](https://download.csdn.net/blog/column/12787182/) |
+| **CSDN Infor LN 功能特性** | Infor LN ERP 功能特性中文介绍 | [访问](https://blog.csdn.net/2401_85211680/article/details/139294011) |
+| **腾讯云开发者社区** | Infor LN 在线帮助和学习资源导航 | [访问](https://cloud.tencent.com/developer/article/1889346) |
+
 ---
 
 ## 📌 官方资源

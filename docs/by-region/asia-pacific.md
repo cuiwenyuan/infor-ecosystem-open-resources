@@ -44,6 +44,44 @@
 - **专长**：Infor M3
 - **经验**：成立于 1977 年，5001-10000 名员工
 
+### 6. Genesis Software
+
+- **位置**：新德里，印度
+- **专长**：Infor ERP（多产品）
+- **荣誉**：Infor Channel Partner
+- **服务**：咨询和实施服务
+- **官网**：[genesissoftwares.co.in](https://genesissoftwares.co.in/)
+
+### 7. GlobalBaan
+
+- **位置**：全球
+- **专长**：Infor LN, Baan
+- **行业**：大型企业和中小企业
+- **服务**：LN 实施、培训、托管服务
+- **官网**：[globalbaan.com](https://globalbaan.com/)
+
+---
+
+## 🎓 用户组与社区
+
+| 资源名称 | 简介 | 链接 |
+|---------|------|------|
+| **M3 User Group Americas (M3UGA)** | M3 美洲用户组，定期举办虚拟会议 | [访问](https://m3uga.org/) |
+| **Infor Global Community** | 官方社区 | [访问](https://community.infor.com/) |
+| **Tarento CoE** | Infor Centre of Excellence 培训 | [访问](https://www.tarento.com/infor/) |
+
+## 📝 博客与教程
+
+| 资源名称 | 简介 | 链接 |
+|---------|------|------|
+| **Tarento Blog** | Infor M3/LN 实施经验分享 | [访问](https://www.tarento.com/) |
+| **Netray Resources** | M3 API 工具包和开发指南 | [访问](https://www.netray.co/resources/) |
+| **Fortude M3 Blog** | M3 Web SDK 开发专家教程 | [访问](https://fortude.co/blog/) |
+
+## 📌 官方资源
+
+- [Infor 亚太合作伙伴查找](https://partners.infor.com/?dv=true&apac=true) — 官方 Partner Finder（亚太）
+
 ---
 
 > 更多顾问公司请查看 [顾问与实施公司](../resources/consultants.md)

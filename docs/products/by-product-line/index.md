@@ -1,131 +1,210 @@
 # 按产品线分类
 
-> 本页面按**产品线**分类展示 Infor 产品，帮助您了解不同产品线的定位、区别和选择建议。
+> 以 Infor 产品线为组织维度，全面介绍 Infor 生态中各核心产品和专业解决方案的定位、目标市场和关键特性。
+>
+> **适用场景**：已了解或正在使用某款 Infor 产品，希望深入了解同系列产品或寻找替代/互补方案。
 
 ---
 
-## CloudSuite Industrial（前称 SyteLine）
+## 核心 ERP 产品
 
-### 产品定位
+Infor 通过收购多家知名 ERP 厂商形成了多元化的产品线，每款产品都有明确的细分市场定位。
 
-面向中端离散制造企业的 ERP 解决方案，以配置到订单（CTO）和易实施著称。
+### Infor LN（源自 Baan）
 
-| 项目 | 说明 |
+| 项目 | 详情 |
 |------|------|
-| **目标客户** | 中端市场（200-2,000 名员工） |
-| **制造类型** | 离散制造 |
-| **核心优势** | CTO、APS、ECM、易实施 |
-| **适用行业** | 电子、工业设备、汽车组件、金属加工 |
+| **前身** | Baan IV / Baan 5c / Baan LN |
+| **目标客户** | 大型企业（500-10,000+ 员工） |
+| **核心行业** | 汽车、航空航天、高科技电子、工业制造、金属加工 |
+| **部署方式** | 云部署（Infor OS/AWS）、本地部署 |
+| **关键优势** | 复杂离散制造、多站点多实体运营、工程变更管理、CTO/ETO 支持 |
 
-### 核心功能
+**主要模块**：制造管理、供应链管理、财务管理、项目管理、质量管理
 
-- BOM 管理、工艺路线和工作中心管理
-- 工作订单管理、MRP、APS
-- 工程变更管理（ECM）、产品配置器
-- 内置 WMS（基础仓库管理）
-
-📌 **详细页面**：[CloudSuite Industrial](../by-product/csi.md)
-
-🔗 **相关资源**：
-- 💬 论坛：[SyteLine User Group (UK)](../resources/forums.md) | [SUN](../resources/forums.md) | [TUG CSI](../resources/forums.md)
-- 🏢 顾问：[Godlan](../resources/consultants.md) | [Decision Resources](../resources/consultants.md) | [Visual South](../resources/consultants.md)
-- 📝 博客：[Datix CSI Blog](../resources/blogs.md) | [Visual South Training](../resources/blogs.md)
+**相关资源**：
+- [Infor LN 详细介绍](../by-product/ln.md)
+- [LN 专长顾问](../../resources/consultants.md) — Sama Consulting, PCG Services, NexGen Technologies 等
+- [LN 博客与教程](../../resources/blogs.md) — FullOnBaan, Reinforce Tech
+- [LN 开发工具](../../resources/tools.md) — DevTools, Studio, PMC
 
 ---
 
-## Infor LN
+### Infor M3（源自 Movex / Intentia）
 
-### 产品定位
-
-面向大型企业复杂离散制造需求的旗舰 ERP，源自 Baan ERP，支持多站点、多实体运营。
-
-| 项目 | 说明 |
+| 项目 | 详情 |
 |------|------|
-| **目标客户** | 企业级（500-10,000+ 员工） |
-| **制造类型** | 离散制造 |
-| **核心优势** | 多站点管理、复杂企业级功能 |
-| **适用行业** | 大型汽车、工业制造、电子 |
+| **前身** | Movex / Intentia M3 |
+| **目标客户** | 中大型企业 |
+| **核心行业** | **食品饮料**、化工制药、时尚/服装/鞋帽、设备制造、分销 |
+| **部署方式** | 云部署（CloudSuite M3）、本地部署 |
+| **关键优势** | 流程制造深度覆盖、行业模板丰富、批处理/配方管理、时尚全链路 |
 
-### 核心功能
+**主要模块**：制造（流程/混合）、供应链（分销/零售）、财务管理、时尚管理
 
-- 多级 BOM 管理、高级计划和调度（APS）
-- 工程变更管理（ECM）
-- **多站点管理**（核心优势）
-- 复杂的多实体需求支持
-
-📌 **详细页面**：[Infor LN](../by-product/ln.md)
-
-🔗 **相关资源**：
-- 💬 论坛：[LN ERP Customer Community](../resources/forums.md) | [LN NAUG](../resources/forums.md) | [WIUG](../resources/forums.md)
-- 🏢 顾问：[Sama Consulting](../resources/consultants.md) | [PCG Services](../resources/consultants.md) | [润数信息](../resources/consultants.md) | [拓创数字](../resources/consultants.md)
-- 📝 博客：[FullOnBaan LN Playbook](../resources/blogs.md) | [Reinforce Tech](../resources/blogs.md) | [Crossroads RMC](../resources/blogs.md)
-- 🔧 工具：[LN DevTools (VS Code)](../resources/tools.md) | [LN Studio](../resources/tools.md) | [PMC](../resources/tools.md)
+**相关资源**：
+- [Infor M3 详细介绍](../by-product/m3.md)
+- [M3 专长顾问](../../resources/consultants.md) — Columbus Global, Lightning ERP, mashfrog, Xencore Global 等
+- [M3 开发工具](../../resources/tools.md) — XtendM3, H5 SDK, M3 API
 
 ---
 
-## Infor M3
+### CloudSuite Industrial（源自 SyteLine）
 
-### 产品定位
-
-面向流程制造商和分销商的 ERP，提供配方管理、批次追溯和混合模式生产支持。
-
-| 项目 | 说明 |
+| 项目 | 详情 |
 |------|------|
-| **目标客户** | 流程制造商和分销商 |
-| **制造类型** | 流程制造 |
-| **核心优势** | 配方管理、批次追溯、联副产品跟踪 |
-| **适用行业** | 食品饮料、化工、制药、时尚分销 |
+| **前身** | SyteLine / MAPICS |
+| **目标客户** | 中端市场（SMB）制造业 |
+| **核心行业** | 中小型离散制造、工业设备、机械加工、汽车零部件 |
+| **部署方式** | 云部署、本地部署 |
+| **关键优势** | 快速实施、性价比高、适合成长型制造企业 |
 
-### 核心功能
-
-- 配方和公式管理（版本控制）
-- 批生产调度、联产品和副产品跟踪
-- 效力和浓度管理、有效期管理（FEFO）
-- 批系谱和批次可追溯性
-
-📌 **详细页面**：[Infor M3](../by-product/m3.md)
-
-🔗 **相关资源**：
-- 💬 论坛：[M3 User Network (IMUN)](../resources/forums.md) | [M3UA UK](../resources/forums.md) | [M3UGA 北欧](../resources/forums.md)
-- 🏢 顾问：[Columbus Global](../resources/consultants.md) | [Lightning ERP](../resources/consultants.md) | [mashfrog Group](../resources/consultants.md) | [OTS Solutions](../resources/consultants.md)
-- 📝 博客：[Doppio Group](../resources/blogs.md) | [Netray Resources](../resources/blogs.md) | [XtendM3 文档](../resources/blogs.md)
-- 🔧 工具：[XtendM3](../resources/tools.md) | [M3 H5 SDK](../resources/tools.md) | [M3 Data Mover](../resources/tools.md)
+**相关资源**：
+- [CSI 详细介绍](../by-product/csi.md)
+- [CSI 专长顾问](../../resources/consultants.md) — Godlan, Decision Resources, Visual South, Guide Technologies
 
 ---
 
-## CloudSuite 系列
+### Infor FSM（源自 Lawson S3 / Intentia）
 
-除了上述核心 ERP 外，Infor 还提供以下 CloudSuite 产品：
+| 项目 | 详情 |
+|------|------|
+| **前身** | Lawson S3, Intentia Service Management |
+| **目标客户** | 服务型企业和现场服务组织 |
+| **核心行业** | 专业服务、现场服务管理、售后维修服务、公用事业 |
+| **技术栈** | Landmark Technology（4GL） |
+| **关键优势** | 服务合同管理、派工调度、移动现场服务、项目会计 |
+
+**相关资源**：
+- [FSM 专长顾问](../../resources/consultants.md) — Blue Eagle Consulting, RPI Consultants
+
+---
+
+### Infor SunSystems
+
+| 项目 | 详情 |
+|------|------|
+| **目标客户** | 多实体集团企业、非营利组织、国际机构 |
+| **核心场景** | 多公司/多币种财务核算、集团合并报表 |
+| **关键优势** | 敏活的多维分析架构、强大的多实体处理能力 |
+
+---
+
+## 专业领域产品
+
+Infor 除了核心 ERP 外，还拥有多个在特定领域处于市场领导地位的专业产品。
+
+### Infor EAM — 资产管理
+
+| 项目 | 详情 |
+|------|------|
+| **定位** | 企业资产管理（EAM）市场领导者 |
+| **应用场景** | 设备预防性/预测性维护、资产生命周期管理、工作单管理 |
+| **可用模式** | 可独立运行，也可通过 ION 与 ERP 集成 |
+| **目标行业** | 制造业、能源公用事业、交通运输、设施管理 |
+
+**相关资源**：
+- [EAM 专长顾问](../../resources/consultants.md) — Sama Consulting
+
+---
+
+### Infor WMS — 仓储管理
+
+| 项目 | 详情 |
+|------|------|
+| **定位** | 业界领先的仓储管理系统 |
+| **核心功能** | 入库/出库/库内作业、波次拣选、RFID 支持、劳动力管理、Yard Management |
+| **集成** | 与 Infor LN/M3/CSI 及第三方 TMS/ERP 集成 |
+
+**相关资源**：
+- [WMS 专长顾问](../../resources/consultants.md) — mashfrog Group, Cerca Technology, 润数信息
+
+---
+
+### Infor CRM / CPQ
 
 | 产品 | 说明 |
 |------|------|
-| CloudSuite Financials | 企业财务管理 |
-| CloudSuite HCM | 人力资本管理 |
-| CloudSuite Supply Management | 供应链管理 |
-| CloudSuite Distribution | 分销管理 |
+| **Infor CRM** | 销售自动化、营销活动管理、客户服务 |
+| **Infor CPQ** | 复杂产品的配置(Configuration)、定价(Pricing)、报价(Quoting)，与 ERP 无缝对接 |
+
+**相关资源**：
+- [CPQ 专长顾问](../../resources/consultants.md) — Decision Resources, Visual South
 
 ---
 
-## 产品选择决策矩阵
+### Infor PLM — 产品生命周期管理
 
-| 业务类型 | 推荐产品 | 理由 |
-|----------|----------|------|
-| **离散制造商（200-2,000 人）** | CloudSuite Industrial | 中端定位，功能完整且易实施 |
-| **离散制造商（500-10,000+ 人）** | Infor LN | 企业级需求，多站点管理 |
-| **流程制造商** | Infor M3 | 配方管理、批管理、批次追溯 |
-| **分销商** | Infor M3 | 库存管理、订单管理、内置 WMS |
-| **时尚分销** | Infor M3 | 多维度库存（颜色、尺码）、季节性管理 |
+| 版本 | 适用场景 |
+|------|----------|
+| **Discrete Edition** | 与 Infor LN 集成，面向离散制造的设计到制造流程 |
+| **Fashion Edition** | 与 Infor M3 集成，面向时尚行业的季节性产品开发 |
 
-### 核心区别
+**相关资源**：
+- [PLM 专长顾问](../../resources/consultants.md) — Tarento, mashfrog, PCG Services
 
-| 特性 | CloudSuite Industrial | Infor LN | Infor M3 |
-|------|----------------------|----------|----------|
-| **目标规模** | 200-2,000 人 | 500-10,000+ 人 | 中型到大型 |
-| **制造类型** | 离散制造 | 离散制造 | 流程制造 + 分销 |
-| **复杂度** | 中等 | 高 | 中到高 |
-| **核心优势** | CTO、易实施 | 多站点、企业级 | 配方、批次追溯 |
+---
 
-> **💡 需要帮助选择？** 参考 [顾问与实施公司](../resources/consultants.md) 获取专业咨询建议。
+### 其他专业产品
+
+| 产品 | 说明 |
+|------|------|
+| **Infor QMS** | 质量管理系统，支持 ISO 合规、SPC 统计过程控制 |
+| **Infor Factory Track** | 制造执行系统(MES)，车间数据采集、追溯、andon 管理 |
+| **Infor d/EPM** | 企业绩效管理，预算编制、财务规划与合并 |
+
+---
+
+## 供应链平台
+
+### Infor Nexus（源自 GT Nexus）
+
+| 项目 | 详情 |
+|------|------|
+| **前身** | GT Nexus |
+| **规模** | 连接全球 **94,000+** 组织 |
+| **定位** | 基于 SaaS 的全球供应链协同网络 |
+| **核心功能** | 物流可视化管理、订单协作、供应商协同、贸易合规、供应链金融 |
+| **目标用户** | 制造商、物流服务商(3PL)、零售商、供应商 |
+
+---
+
+## 分析与人工智能
+
+### Infor Birst — 云端商务智能
+
+| 项目 | 详情 |
+|------|------|
+| **定位** | 基于 SaaS 的现代 BI 和数据分析平台 |
+| **特点** | 内存计算数据模型、虚拟化管理、网络化分析（Networked BI）、嵌入式分析 |
+| **集成** | 与所有 Infor ERP 产品预构建连接器 |
+
+**相关资源**：[BI/AI 工具](../../resources/tools.md)
+
+### Infor AI（原 Coleman AI）
+
+| 项目 | 详情 |
+|------|------|
+| **定位** | Infor 人工智能平台 |
+| **能力** | 对话式 AI 助手、预测性分析模型、流程自动化、行业预置 AI 模型 |
+| **集成** | 内置于 Infor OS，可跨产品调用 |
+
+**相关资源**：[AI 工具与指南](../../resources/tools.md)
+
+### Infor Hoovers
+
+| 项目 | 详情 |
+|------|------|
+| **定位** | 商业情报和销售情报数据库 |
+| **用途** | 公司画像、联系人信息、竞争对手分析、潜在客户挖掘 |
+
+---
+
+## 📎 其他分类视角
+
+- **[按业务功能浏览 →](../by-function/index.md)** — 根据业务需求查找对应产品
+- **[按行业浏览 →](../by-industry/index.md)** — 根据您的行业定位推荐产品组合
+- **[按技术平台浏览 →](../by-platform/index.md)** — 了解底层技术架构和开发框架
 
 ---
 

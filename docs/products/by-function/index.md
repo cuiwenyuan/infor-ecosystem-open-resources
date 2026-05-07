@@ -1,150 +1,214 @@
 # 按业务功能分类
 
-> 本页面按**业务功能**分类展示 Infor 产品，并提供相关的第三方资源链接。
+> 按 Infor 生态系统中各产品所覆盖的业务功能领域进行分类，帮助您根据业务需求快速定位适合的产品和资源。
+>
+> **适用场景**：明确知道需要解决哪类业务问题（如财务管理、供应链、制造等），希望找到对应的 Infor 产品和第三方资源。
 
 ---
 
-## ERP 系统
+## 财务管理 (Financial Management)
 
-企业资源规划解决方案，管理财务、制造、供应链等核心业务流程。
+Infor 生态系统提供从基础核算到企业绩效管理的完整财务解决方案。
 
-### Infor LN
+### 核心 Infor 产品
 
-面向大型企业复杂离散制造需求的旗舰 ERP。
+| 产品 | 定位 | 特点 |
+|------|------|------|
+| **Infor LN** | 大型企业 ERP 财务模块 | 总账(GL)、应收应付(AR/AP)、固定资产、成本会计、多实体多币种 |
+| **Infor M3** | 流程制造财务模块 | 行业化财务流程，与制造深度集成 |
+| **CloudSuite Industrial** | 中端市场财务 | 适用于中小型制造企业的完整财务套件 |
+| **Infor FSM** | 服务行业财务 | 项目会计、收入确认、合同计费 |
+| **Infor SunSystems** | 多实体集团财务 | 多公司合并、跨国财务报告 |
 
-| 项目 | 说明 |
+### 第三方工具与增强
+
+| 工具/平台 | 说明 |
+|-----------|------|
+| **Birst (Infor BI)** | 云端商业智能，支持财务分析仪表板和预测性报表 |
+| **d/EPM** | 企业绩效管理，预算编制、合并报表、财务规划与分析(FP&A) |
+
+### 推荐资源
+
+- [顾问公司 — 财务模块专长](../../resources/consultants.md) — Sama Consulting、PCG Services 等提供 LN/M3 财务实施
+- [博客与教程](../../resources/blogs.md) — FullOnBaan、Reinforce Tech 提供财务模块实施经验
+- [Infor LN 产品页](../by-product/ln.md) — LN 财务模块详细说明
+- [工具与插件](../../resources/tools.md) — Birst 报表开发相关工具
+
+---
+
+## 供应链管理 (Supply Chain Management)
+
+Infor 在供应链领域拥有业界领先的 WMS 和全球供应链网络平台。
+
+### 核心 Infor 产品
+
+| 产品 | 覆盖范围 |
+|------|----------|
+| **Infor LN** | 采购管理、库存控制、供应商协同、质量管理 |
+| **Infor M3** | 需求计划、库存优化、分销管理 |
+| **CloudSuite Industrial** | 中端采购与库存管理 |
+| **Infor WMS** | 仓储管理系统（行业领先） |
+| **Infor Nexus** | 全球供应链网络平台（94,000+ 组织） |
+
+### 关键能力矩阵
+
+| 能力域 | 主要产品 | 说明 |
+|--------|----------|------|
+| **仓库管理 (WMS)** | Infor WMS | 业界领先，支持多仓、自动化集成 |
+| **运输管理 (TMS)** | Infor Nexus / ION | 运输执行、跟踪、费用结算 |
+| **采购管理 (Procurement)** | LN, M3, CSI | 从请购到付款全流程 |
+| **库存管理 (Inventory)** | LN, M3, WMS | 多级库存、批次/序列号跟踪 |
+| **计划与排产 (Planning)** | M3, LN APS | MRP、DRP、高级计划调度 |
+
+### 推荐资源
+
+- [顾问公司 — WMS/Nexus 专长](../../resources/consultants.md) — mashfrog (WMS)、Cerca Technology (WMS)
+- [Infor M3 产品页](../by-product/m3.md) — M3 供应链模块详情
+- [Infor LN 产品页](../by-product/ln.md) — LN 采购与库存管理
+
+---
+
+## 人力资本管理 (Human Capital Management)
+
+### 核心 Infor 产品
+
+| 产品 | 说明 |
 |------|------|
-| **目标客户** | 大型企业（500-10,000+ 员工） |
-| **制造类型** | 离散制造 |
-| **核心优势** | 多站点管理、复杂企业级功能 |
-| **核心行业** | 汽车、工业制造、电子、金属加工 |
+| **Infor HCM (原 Lawson)** | 企业级人力资本管理，覆盖核心 HR、薪酬、人才管理、劳动力管理 |
 
-📌 **详细页面**：[Infor LN](../by-product/ln.md)
+> **注意**：Infor HCM 源自 Lawson Software，在医疗保健、公共部门和教育行业有深厚积累。部分企业也会选择将其与专门的 HCM 解决方案搭配使用。
 
-🔗 **相关资源**：
-- 💬 论坛：[LN ERP Customer Community](../resources/forums.md) | [LN NAUG](../resources/forums.md) | [WIUG](../resources/forums.md)
-- 🏢 顾问：[Sama Consulting](../resources/consultants.md) | [PCG Services](../resources/consultants.md) | [润数信息](../resources/consultants.md)
-- 📝 博客：[FullOnBaan LN Playbook](../resources/blogs.md) | [Reinforce Tech](../resources/blogs.md) | [SamA Consulting](../resources/blogs.md)
-- 🔧 工具：[LN DevTools (VS Code)](../resources/tools.md) | [LN Studio](../resources/tools.md) | [PMC](../resources/tools.md)
+### 推荐资源
 
-### Infor M3
+- [顾问公司 — HCM/Lawson 专长](../../resources/consultants.md) — Blue Eagle Consulting、RPI Consultants
+- [培训与认证](../../resources/training.md) — HCM 相关认证路径
 
-面向流程制造商和分销商的云原生 ERP。
+---
 
-| 项目 | 说明 |
+## 客户关系管理 (CRM / Customer Experience)
+
+### 核心 Infor 产品
+
+| 产品 | 说明 |
 |------|------|
-| **目标客户** | 流程制造商和分销商 |
-| **制造类型** | 流程制造 |
-| **核心优势** | 配方管理、批次追溯、混合模式生产 |
-| **核心行业** | 食品饮料、化工、制药、时尚分销 |
+| **Infor CRM** | 客户关系管理，销售自动化、营销管理 |
+| **Infor CPQ** | 配置、定价、报价系统，支持复杂产品的销售配置 |
 
-📌 **详细页面**：[Infor M3](../by-product/m3.md)
+> **说明**：Infor CRM/CPQ 功能相比 Salesforce 或 Microsoft Dynamics 较为基础，通常作为 Infor ERP 生态内的补充方案，而非独立的 CRM 平台。对于深度 CRM 需求，常见做法是通过 ION 集成第三方 CRM。
 
-🔗 **相关资源**：
-- 💬 论坛：[M3 User Network (IMUN)](../resources/forums.md) | [M3 User Association UK](../resources/forums.md) | [M3UGA](../resources/forums.md)
-- 🏢 顾问：[Columbus Global](../resources/consultants.md) | [Lightning ERP](../resources/consultants.md) | [mashfrog Group](../resources/consultants.md)
-- 📝 博客：[Doppio Group](../resources/blogs.md) | [Netray Resources](../resources/blogs.md) | [XtendM3 文档](../resources/blogs.md)
-- 🔧 工具：[XtendM3](../resources/tools.md) | [M3 H5 SDK](../resources/tools.md) | [M3 Data Mover](../resources/tools.md)
+### 推荐资源
 
-### CloudSuite Industrial (SyteLine)
+- [顾问公司 — CPQ 专长](../../resources/consultants.md) — Decision Resources (CPQ 专家)、Visual South
+- [工具与插件](../../resources/tools.md) — CPQ 相关配置工具
 
-面向中端离散制造企业的 ERP，以易实施著称。
+---
 
-| 项目 | 说明 |
+## 制造 / 生产管理 (Manufacturing / Production)
+
+Infor 的核心竞争力所在，提供离散制造和流程制造的完整解决方案。
+
+### 核心 Infor 产品
+
+| 产品 | 制造类型 | 目标市场 |
+|------|----------|----------|
+| **Infor LN** | **离散制造** (Discrete) | 大型复杂制造企业 |
+| **Infor M3** | **流程制造** (Process) + 混合 | 食品饮料、化工、时尚等 |
+| **CloudSuite Industrial** | **离散制造** (Discrete) | 中端市场 (SMB) |
+
+### 离散制造 vs 流程制造对比
+
+| 维度 | 离散制造 (LN/CSI) | 流程制造 (M3) |
+|------|-------------------|---------------|
+| **典型行业** | 汽车、航空、电子、金属加工 | 食品饮料、化工制药、纺织服装 |
+| **生产模式** | BOM、工作订单、工序 | 配方(Recipe)、批处理、批次跟踪 |
+| **质量管控** | 序列号、检验单 | 批次属性、留样管理、合规追踪 |
+| **计划方式** | MRP、CTO/ETO | DRP、捕获式/基于属性的计划 |
+
+### 推荐资源
+
+- [Infor LN 产品页](../by-product/ln.md) — 离散制造详细说明
+- [Infor M3 产品页](../by-product/m3.md) — 流程制造详细说明
+- [CSI 产品页](../by-product/csi.md) — 中端离散制造方案
+- [顾问公司 — 制造专长](../../resources/consultants.md) — Godlan、DRI、PCG Services、润数信息 等
+- [博客与教程](../../resources/blogs.md) — FullOnBaan (LN 制造知识库)
+- [工具与插件](../../resources/tools.md) — Factory Track (MES)、PLM 工具
+
+---
+
+## 资产管理 (Asset Management)
+
+### 核心 Infor 产品
+
+| 产品 | 说明 |
 |------|------|
-| **目标客户** | 中端市场（200-2,000 名员工） |
-| **制造类型** | 离散制造 |
-| **核心优势** | 配置到订单（CTO）、易于实施 |
-| **核心行业** | 电子产品、工业设备、汽车组件、金属加工 |
+| **Infor EAM** | 企业资产管理系统的市场领导者，支持预防性维护、预测性维护、资产全生命周期管理 |
 
-📌 **详细页面**：[CloudSuite Industrial](../by-product/csi.md)
+Infor EAM 可以作为独立系统使用，也可以通过 ION 与 LN、M3 等ERP系统集成。
 
-🔗 **相关资源**：
-- 💬 论坛：[SyteLine User Group (UK)](../resources/forums.md) | [SUN](../resources/forums.md) | [TUG CSI Network](../resources/forums.md)
-- 🏢 顾问：[Godlan](../resources/consultants.md) | [Decision Resources](../resources/consultants.md) | [Visual South](../resources/consultants.md)
-- 📝 博客：[Datix CSI Blog](../resources/blogs.md) | [Visual South Training](../resources/blogs.md)
+### 推荐资源
+
+- [顾问公司 — EAM 专长](../../resources/consultants.md) — Sama Consulting 提供 EAM 实施
 
 ---
 
-## 人力资本管理 (HCM)
+## 项目管理 (Project Management)
 
-核心人力资源、薪资、人才管理和劳动力管理解决方案。
+### 核心 Infor 产品
 
-### Infor HCM
+| 产品 | 适用场景 |
+|------|----------|
+| **Infor LN (Project/ETO)** | 工程到订单 (Engineer-to-Order) 制造项目管理 |
+| **Infor FSM** | 服务行业项目管理和专业服务自动化 |
 
-- 核心 HR（员工主数据、组织结构、入职）
-- 人才管理（招聘、绩效、学习、继任计划）
-- 劳动力管理（时间跟踪、排班、缺勤管理）
-- 薪资管理（多国家薪资、税务计算）
+### 推荐资源
 
-🔗 **相关资源**：
-- 💬 论坛：[HCM-EMEA](../resources/forums.md) | [HCM/S3 Global HR](../resources/forums.md)
-- 📝 博客：[Integratek Blog](../resources/blogs.md)（含 HCM 内容） | [SamA Consulting](../resources/blogs.md)
-- 🔧 工具：[HCM Spreadsheet Designer](../resources/tools.md) | [Infor Landmark](../resources/tools.md)
+- [Infor LN 产品页](../by-product/ln.md) — ETO 项目制造模块
 
 ---
 
-## 企业资产管理 (EAM)
+## 分析与商业智能 (Analytics / BI)
 
-资产全生命周期管理，从采购到处置，优化资产性能和延长使用寿命。
+### 核心 Infor 产品
 
-### Infor EAM
+| 产品 | 说明 |
+|------|------|
+| **Infor Birst** | 云端 BI 平台，网络化分析，支持嵌入式分析 |
+| **Infor AI (Coleman)** | AI 平台，对话式 AI、预测分析、流程自动化 |
+| **Infor Hoovers** | 商业情报数据库，用于销售和市场分析 |
 
-- 资产注册表和层次结构
-- 维护工单管理（预防性、预测性）
-- 备件库存管理
-- 车队管理、安全和合规管理
+### 推荐资源
 
-🔗 **相关资源**：
-- 💬 论坛：[Infor Global Community EAM](../resources/forums.md)
-- 🏢 顾问：[Sama Consulting](../resources/consultants.md)
-- 📝 博客：[ERP Research EAM 指南](../resources/blogs.md) | [SamA Consulting](../resources/blogs.md)
-- 🔧 工具：[Infor EAM](../resources/tools.md) | [HxGN EAM](../resources/tools.md)
+- [工具与插件](../../resources/tools.md) — Birst 开发工具、AI 用户指南
 
 ---
 
-## 客户关系管理 (CRM)
+## 文档管理 (Document Management)
 
-客户管理、销售自动化、营销活动管理和客户服务。
+### 核心 Infor 产品
 
-### Infor CRM
-
-- 联系人和客户管理
-- 机会管理（销售管道）
-- 销售预测
-- 营销活动管理
-- 客户服务案例管理
-
-🔗 **相关资源**：
-- 💬 论坛：[Infor CRM User Group (ICUG)](../resources/forums.md)
+| 产品 | 说明 |
+|------|------|
+| **Infor IDM** | 文档管理系统，支持文档捕获、存储、检索和工作流驱动的文档审批 |
 
 ---
 
-## 专业解决方案
+## 其他功能领域
 
-### Infor CPQ（配置、定价、报价）
-
-🔗 **相关资源**：
-- 🏢 顾问：[Decision Resources](../resources/consultants.md) | [Visual South](../resources/consultants.md) | [润数信息](../resources/consultants.md)
-
-### Infor Factory Track（工厂跟踪）
-
-🔗 **相关资源**：
-- 🏢 顾问：[Sama Consulting](../resources/consultants.md) | [PCG Services](../resources/consultants.md) | [Tarento](../resources/consultants.md)
-
-### Infor SCM（供应链管理）
-
-🔗 **相关资源**：
-- 🔧 工具：[Infor SCM](../resources/tools.md) | [Infor WMS](../resources/tools.md) | [Price List Management](../resources/tools.md)
-
-### Infor PLM（产品生命周期管理）
-
-🔗 **相关资源**：
-- 🏢 顾问：[Tarento](../resources/consultants.md) | [mashfrog Group](../resources/consultants.md) | [PCG Services](../resources/consultants.md)
-- 🔧 工具：[Infor PLM for Discrete](../resources/tools.md) | [Infor PLM for Fashion](../resources/tools.md)
+| 功能域 | 涉及产品 |
+|--------|----------|
+| **质量管理 (QM/QMS)** | Infor QMS、LN Quality、M3 Quality |
+| **产品生命周期管理 (PLM)** | Infor PLM (Discrete Edition & Fashion Edition) |
+| **制造执行 (MES)** | Infor Factory Track |
+| **风险与合规** | Infor GRC（通过合作伙伴方案） |
 
 ---
 
-**💡 提示**：您也可以按 [产品线](by-product-line/)、[行业](by-industry/) 或 [技术平台](by-platform/) 浏览产品。
+## 📎 其他分类视角
+
+- **[按产品线浏览 →](../by-product-line/index.md)** — 以 Infor 产品线为主线查看
+- **[按行业浏览 →](../by-industry/index.md)** — 根据您的行业定位推荐产品组合
+- **[按技术平台浏览 →](../by-platform/index.md)** — 了解底层技术架构和开发框架
+
+---
 
 **最后更新**：2026-05-07

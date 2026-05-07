@@ -149,6 +149,8 @@
 | **Netray M3 API Toolkit** | M3 API 工具包开发实践指南，含 MI 程序、MvxAPI 模式、事务处理 | Netray | [查看指南](https://www.netray.co/resources/infor-m3-api-toolkit-development) |
 | **Fortude M3 Web SDK 开发** | 使用 M3 Web SDK & Odin 框架构建 Web 应用的专家教程 | Fortude | [查看教程](https://fortude.co/blog/how-to-build-web-applications-for-infor-m3-web-sdk-and-odin-framework/) |
 | **DocBits Infor RPA** | DocBits 提供的 Infor RPA 自动化指南和最佳实践 | DocBits | [查看文章](https://docbits.com/en/infor-rpa/) |
+| **Workik – AI Infor ERP Code Generator** | AI 代码生成器，免费的 AI 驱动 Infor ERP 代码生成器，支持工作流自动化。适用产品：CloudSuite, LN, Nexus。许可证：Free | Workik | [访问工具](https://workik.com/infor-erp-code-generator) |
+| **Crossroads RMC – RMCgen** | 定制开发工具，无需源代码的 LN/Baan 定制开发工具集，支持车间和仓库优化集成。适用产品：Infor LN, Baan。许可证：Commercial | Crossroads RMC | [访问工具](https://www.crossroadsrmc.com/Software/Infor-LN-Baan/Customization-Without-Source-Code) |
 
 ### 集成与中间件工具
 
@@ -166,6 +168,15 @@
 | **Crossroads RMC Tools** | Infor LX/LN/BPCS 实用技巧与工具（含 ION 集成简化、NextTrack 等） | Crossroads RMC | [访问网站](https://www.crossroadsrmc.com/Resources/Infor-ERP-Tips-News/) |
 | **Xencore Data Migration** | Xencore 数据迁移工具和服务，支持 Infor LN、M3 等 | Xencore Global | [了解详情](https://www.xencoreglobal.com/data-migration/) |
 | **Migration Labs Tools** | Migration Labs 数据迁移工具和快速跟踪方法 | Migration Labs | [了解详情](https://migration-labs.com/data-migration.html) |
+
+---
+
+### 云市场与培训工具
+
+| 工具名称 | 简介 | 提供方 | 链接 |
+|---------|------|---------|------|
+| **Infor on AWS Marketplace** | 云市场，AWS Marketplace 上的 Infor 解决方案。适用产品：CloudSuite 全线。许可证：Cloud | AWS | [访问市场](https://aws.amazon.com/marketplace/featured-seller/infor) |
+| **Koenig Solutions – Infor M3 Training** | 培训工具/平台，提供 Infor M3 培训课程，增强技术能力和运营效率。适用产品：Infor M3。许可证：Commercial | Koenig Solutions | [访问课程](https://www.koenig-solutions.com/infor-m3-training-course) |
 
 ---
 
@@ -198,6 +209,36 @@
 | **Infor Community** | Infor 官方社区，提供讨论、资源分享和问题解答 | 所有用户 | [访问社区](https://community.infor.com/) |
 | **Infor Knowledge Base** | Infor 知识库，提供技术文档、解决方案和常见问题解答 | 所有用户 | [访问知识库](https://support.infor.com/) |
 | **LawsonGuru.com** | Lawson/Infor 系统专业社区，提供博客、论坛和资源 | Lawson 用户 | [访问网站](http://www.lawsonguru.com/) |
+
+---
+
+## 🔗 第三方集成平台与连接器
+
+### 第三方集成平台
+
+| 工具名称 | 简介 | 适用产品 | 链接 |
+|---------|------|---------|------|
+| **Workato - Infor ERP Integration** | 预构建的 Infor ERP 连接器，支持工作流自动化，连接 Infor 与 1000+ 应用 | Infor ERP 全线 | [查看连接器](https://www.workato.com/integrations/inforerp) |
+| **Makini - Infor M3 Connector** | Infor M3 专用集成平台，支持快速 API 集成和自动化 | Infor M3 | [查看详情](https://www.makini.io/integrations/infor-erp-m3) |
+| **Novacura Flow** | Infor M3 低代码工作流和 MES 解决方案，支持车间现场数据采集 | Infor M3 | [访问官网](https://www.novacura.com/flow-for-infor/) |
+| **Infoview - InforPA MuleSoft Connector** | Infor RPA 的 MuleSoft 连接器，实现 Infor 与 MuleSoft 的无缝集成 | Infor RPA, MuleSoft | [查看详情](https://www.infoviewsystems.com/inforpa-connector-for-mulesoft/) |
+| **Xencore - E-commerce Integration** | Infor M3 与电商平台 API 集成方案，支持 B2B/B2C 电商对接 | Infor M3 | [访问官网](https://www.xencoreglobal.com/infor-erp-e-commerce-platforms/) |
+
+### M3 开发工具与测试
+
+| 工具名称 | 简介 | 适用产品 | 链接 |
+|---------|------|---------|------|
+| **XtendM3 Templates** | Infor 官方 XtendM3 模板库，包含实际使用案例和模板代码 | Infor M3 | [查看模板](https://infor-cloud.github.io/xtendm3/docs/examples/Templates) |
+| **XtendM3 Extension Examples** | Infor 官方 XtendM3 扩展示例代码库 | Infor M3 | [查看仓库](https://github.com/infor-cloud/xtendm3-extension-examples) |
+| **FORTEST - M3 测试自动化** | Fortude 开发的 M3 测试自动化平台，可在 Infor Marketplace 获取 | Infor M3 | [查看详情](https://market.infor.com/en-US/apps/436252/fortest/features) |
+| **M3 Data Mover** | Fortude 开发的 M3 数据迁移工具，支持多租户云环境快速数据导入 | Infor M3 | [了解详情](https://fortude.co/blog/move-data-to-infors-multi-tenant-cloud-faster-and-reliably-with-m3-data-import-tool-for-multi-tenant-mdi-mt/) |
+
+### LN 开发工具
+
+| 工具名称 | 简介 | 适用产品 | 链接 |
+|---------|------|---------|------|
+| **NewBaanBoard Archive (GitHub)** | BaanBoard 论坛历史存档，包含 20,000+ 讨论，是 Baan/LN 社区的宝贵历史资源 | Infor LN, Baan | [查看仓库](https://github.com/newbaanboard/baanboard) |
+| **FullOnBaan Knowledge Repository** | FullOnBaan.com 归档知识库，可搜索的 Baan/LN 技术问答 | Infor LN, Baan | [访问知识库](https://repo.fullonbaan.com/) |
 
 ---
 

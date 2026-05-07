@@ -54,4 +54,23 @@
 
 ---
 
+## 🎓 用户组与社区
+
+| 资源名称 | 简介 | 链接 |
+|---------|------|------|
+| **M3 User Association (M3UA) UK** | 英国 M3 用户协会，组织年度会议 | [访问](https://m3ua.org.uk/) |
+| **Infor Global Community** | 官方社区，含 M3 Customer & Partner Community | [访问](https://community.infor.com/) |
+| **ERPCommunity.com** | 免费 Infor 社区 | [访问](https://erpcommunity.com/groups/infor) |
+
+## 📝 博客与教程
+
+| 资源名称 | 简介 | 链接 |
+|---------|------|------|
+| **Columbus Global Insights** | M3 行业最佳实践和趋势分析 | [访问](https://www.columbusglobal.com/) |
+| **mashfrog Blog** | Infor M3/OS/WMS 技术博客 | [访问](https://www.mashfrog.com) |
+| **ERP Research UK** | 独立 Infor 合作伙伴评测 | [访问](https://www.erpresearch.com/en-gb/infor-partners-uk) |
+| **IT Works Recruitment** | 欧洲 ERP 人才招聘与行业洞察 | [访问](https://www.itworksrec.de/) |
+
+---
+
 > 更多顾问公司请查看 [顾问与实施公司](../resources/consultants.md)

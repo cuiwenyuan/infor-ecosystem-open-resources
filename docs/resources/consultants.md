@@ -2,7 +2,7 @@
 
 > Infor 生态中的专业顾问与实施公司，提供 ERP 实施、咨询、培训和技术支持服务。
 >
-> **最后更新**：2026-05-06 | **收录数量**：30+ 家公司
+> **最后更新**：2026-05-07 | **收录数量**：40+ 家公司
 
 ---
 
@@ -111,26 +111,28 @@
 
 ---
 
-### 8. Guide Technologies
+### 8. Guide Technologies 💎
 
 | 项目 | 详情 |
 |------|------|
-| **位置** | 美国 |
-| **官网** | （通过 Clutch 等平台可联系） |
-| **专长产品** | Infor ERP（全产品线） |
-| **行业** | 航空航天、汽车、工业设备、医疗保健、消费品 |
-| **服务** | 系统实施、升级、定制开发、培训 |
+| **位置** | 俄亥俄州，美国 |
+| **官网** | [guidetechnologies.com](https://guidetechnologies.com/) |
+| **专长产品** | Infor CloudSuite Industrial (SyteLine) |
+| **行业** | 制造业 |
+| **服务** | ERP 实施、配置、优化、终身客户支持 |
 
 ---
 
-### 9. RPI Consultants
+### 9. RPI Consultants 💎
 
 | 项目 | 详情 |
 |------|------|
-| **位置** | 美国 |
-| **专长产品** | Infor Lawson, Infor CloudSuite |
-| **行业** | 医疗保健、公共部门、零售、能源、非营利 |
-| **服务** | 系统实施、流程优化、自动化、系统维护 |
+| **位置** | 佛罗里达州，美国 |
+| **官网** | [rpic.com](https://www.rpic.com/) |
+| **专长产品** | Infor Lawson, Infor CloudSuite HCM, Infor FM |
+| **行业** | 医疗、公共部门、高等教育 |
+| **服务** | ERP 实施、升级、咨询、RPI Tech Connect 播客 |
+| **特色** | 运营 "RPI Tech Connect" 播客（Infor ERP 主题） |
 
 ---
 
@@ -142,6 +144,29 @@
 | **专长产品** | Infor 全产品线 |
 | **行业** | 跨行业 |
 | **服务** | 全面实施（规划到上线后优化）、定制集成、持续改进、知识转移 |
+
+---
+
+### 11. Nogalis
+
+| 项目 | 详情 |
+|------|------|
+| **位置** | 美国 |
+| **官网** | [nogalis.com](https://www.nogalis.com/) |
+| **专长产品** | Infor Lawson, S3 |
+| **行业** | 医疗、公共服务 |
+| **服务** | 数据归档、应用退役、S3 升级 |
+
+---
+
+### 12. SolutionX
+
+| 项目 | 详情 |
+|------|------|
+| **位置** | 美国 |
+| **官网** | [solutionsx.com](https://www.solutionsx.com/) |
+| **专长产品** | Infor Velocity Suite, CloudSuite |
+| **服务** | Infor Velocity Suite 虚拟活动、Velocity Toolkit 加速器 |
 
 ---
 
@@ -217,19 +242,37 @@
 
 ---
 
-## 🌍 亚太地区
-
-### 16. Tarento
+### 16. GlobalStar Consulting
 
 | 项目 | 详情 |
 |------|------|
-| **位置** | 印度（班加罗尔）、北欧（芬兰、挪威、瑞典）、美国 |
+| **位置** | 欧洲 |
+| **官网** | [globalstarconsulting.com](https://www.globalstarconsulting.com/) |
+| **专长产品** | Infor ERP, HCM, EFM, SCM |
+| **服务** | ERP 实施、升级、优化（自2000年起） |
+
+---
+### 17. IT Works Recruitment Europe
+
+| 项目 | 详情 |
+|------|------|
+| **位置** | 德国/欧洲 |
+| **官网** | [itworksrec.de](https://www.itworksrec.de/) |
+| **专长产品** | Infor ERP（多产品） |
+| **服务** | ERP 人才招聘与咨询 |
+
+---
+
+## 🌍 亚太地区
+
+### 16. Tarento 💎
+
+| 项目 | 详情 |
+|------|------|
+| **位置** | 印度班加罗尔 |
 | **官网** | [tarento.com](https://www.tarento.com/infor/) |
-| **专长产品** | Infor M3, Infor LN, Infor PLM, Infor Factory Track |
-| **行业** | 食品饮料、时尚、离散制造、流程制造 |
-| **荣誉** | Infor 领先交付合作伙伴 |
-| **服务** | M3 实施/推广、升级/迁移、应用支持（ASS & SAD）、PLM 集成、移动应用、IoT |
-| **特色** | Infor Centre of Excellence，自研即用技术组件 |
+| **专长产品** | Infor LN, M3, CloudSuite（本地和云端版本） |
+| **服务** | ERP 实施交付、技术顾问 |
 
 ---
 
@@ -264,12 +307,12 @@
 
 | 项目 | 详情 |
 |------|------|
-| **位置** | 亚太地区（澳大利亚等） |
+| **位置** | 亚太（新加坡、澳大利亚等） |
 | **官网** | [Infor Partner Finder](https://partners.infor.com) |
 | **专长产品** | Infor M3 |
 | **行业** | 跨行业 |
 | **荣誉** | Infor Delivery Partner |
-| **服务** | IT 现代化服务、流程优化、面向未来的业务流程 |
+| **服务** | IT 服务现代化、业务流程优化 |
 
 ---
 
@@ -282,6 +325,28 @@
 | **行业** | 跨行业 |
 | **经验** | 成立于 1977 年，5001-10000 名员工 |
 | **服务** | 企业应用开发 |
+
+---
+
+### 23. Genesis Software
+
+| 项目 | 详情 |
+|------|------|
+| **位置** | 印度新德里 |
+| **官网** | [genesissoftwares.co.in](https://genesissoftwares.co.in/) |
+| **专长产品** | Infor ERP（多产品） |
+| **服务** | 咨询和实施服务 |
+
+---
+### 24. GlobalBaan
+
+| 项目 | 详情 |
+|------|------|
+| **位置** | 全球 |
+| **官网** | [globalbaan.com](https://globalbaan.com/) |
+| **专长产品** | Infor LN, Baan |
+| **行业** | 大型企业和中小企业 |
+| **服务** | LN 实施、培训、托管服务 |
 
 ---
 
@@ -401,6 +466,30 @@
 | **官网** | [kalathasconsulting.com](https://kalathasconsulting.com) |
 | **专长产品** | Infor M3 |
 | **服务** | M3 API、ION 工作流、Business Engine 管理、高级报表 |
+
+---
+
+## 🌍 ERP 研究与评测平台
+
+### 31. ERP Research
+
+| 项目 | 详情 |
+|------|------|
+| **位置** | 英国/全球 |
+| **官网** | [erpresearch.com](https://www.erpresearch.com/) |
+| **专长产品** | Infor 全产品线 |
+| **服务** | 独立的 ERP 评测、供应商对比、合作伙伴目录 |
+| **特色** | 提供 Oracle vs Infor、SAP vs Infor 等对比分析 |
+
+---
+### 32. The CFO Club
+
+| 项目 | 详情 |
+|------|------|
+| **位置** | 全球 |
+| **官网** | [thecfoclub.com](https://thecfoclub.com/tools/infor-review/) |
+| **专长产品** | Infor Cloud ERP |
+| **服务** | Infor ERP 评测、优缺点分析、定价信息 |
 
 ---
 

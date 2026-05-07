@@ -39,6 +39,15 @@
 | **CloudSuite Industrial** | 中小企业离散制造 ERP（原 SyteLine） | [浏览](by-product/csi.md) |
 | **Infor OS** | Infor 操作系统平台 | [浏览](by-product/infor-os.md) |
 
+### 按产品分类浏览
+
+| 分类 | 描述 | 链接 |
+|------|------|------|
+| 🏭 **按业务功能** | 财务、供应链、制造、HCM、CRM、资产等 | [浏览](products/by-function/index.md) |
+| 📦 **按产品线** | LN, M3, CSI, FSM, EAM, WMS, Nexus 等 | [浏览](products/by-product-line/index.md) |
+| 🏗️ **按行业** | 制造、分销、医疗、酒店、公共等 | [浏览](products/by-industry/index.md) |
+| ⚙️ **按技术平台** | Infor OS, ION, Birst, AI, AWS 等 | [浏览](products/by-platform/index.md) |
+
 ### 按地区浏览
 
 | 地区 | 描述 | 链接 |
@@ -77,27 +86,27 @@
 <div class="stats-grid">
 
 <div class="stat-card">
-<div class="stat-number">130+</div>
+<div class="stat-number">200+</div>
 <div class="stat-label">收录资源总数</div>
 </div>
 
 <div class="stat-card">
-<div class="stat-number">20+</div>
+<div class="stat-number">24</div>
 <div class="stat-label">论坛/社区</div>
 </div>
 
 <div class="stat-card">
-<div class="stat-number">30+</div>
+<div class="stat-number">42</div>
 <div class="stat-label">顾问公司</div>
 </div>
 
 <div class="stat-card">
-<div class="stat-number">30+</div>
+<div class="stat-number">63</div>
 <div class="stat-label">博客/教程</div>
 </div>
 
 <div class="stat-card">
-<div class="stat-number">50+</div>
+<div class="stat-number">66+</div>
 <div class="stat-label">工具/插件</div>
 </div>
 
@@ -126,7 +135,23 @@
 
 ### 📅 项目动态
 
-#### 2026-05-07
+#### 2026-05-07（晚间）
+- 🏭 创建 4 个产品分类页面（按业务功能/产品线/行业/技术平台）
+- 💬 forums.md 新增 9 个论坛/社区（Reddit、CSDN、知乎、IMUN 亚太、WMS LATAM 等），总数 15→24
+- 📝 blogs.md 新增 7 个博客/教程（Fortude, Sama Integrations, Medium, 播客等），总数 56→63
+- 🔧 tools.md 新增 11 个工具/插件（Workato, Makini, Novacura, XtendM3 模板, FORTEST 等）
+- 🎯 资源总数突破 200+
+
+#### 2026-05-07（下午）
+- 🚀 Phase 2 启动：扩充资源条目至 170+
+- 🏢 新增 12 家顾问公司（RPI Consultants, Guide Technologies, Tarento, Genesis 等）
+- 📝 新增 19 个博客/教程资源（中文博客、视频频道、ERP 评测平台）
+- 💬 新增 6 个论坛/社区（M3UA, M3UGA, TheUserGroup, ERPCommunity 等）
+- 🔧 新增 5 个工具/插件（Workik AI, RMCgen, Infor Marketplace 等）
+- 🗺️ 丰富 4 个地区分类页面（添加博客、工具、培训资源链接）
+- 📋 mkdocs.yml 新增"产品分类"导航（按功能/产品线/行业/技术平台）
+
+#### 2026-05-07（上午）
 - 🎨 设计资源卡片样式（extra.css），覆盖论坛、顾问、博客、工具 4 类卡片
 - 📄 创建 GitHub Issue/PR 模板（资源提交、错误报告、问题咨询）
 - ✅ 完成产品介绍页面优化，新增 4 个 by-product 详细页面 + 4 个分类页面重写
@@ -163,6 +188,6 @@
 
 ---
 
-**最后更新**：2026-05-05  
+**最后更新**：2026-05-07  
 **维护者**：Infor 生态社区  
 **许可证**：[MIT](LICENSE) / [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)

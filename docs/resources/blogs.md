@@ -1,6 +1,6 @@
 # 博客与教程资源
 
-> 精选 Infor 生态相关的技术博客、教程、视频课程和问答社区，帮助顾问、开发者和用户持续学习。
+> 精选 Infor 生态相关的 63 个技术博客、教程、视频课程和问答社区，帮助顾问、开发者和用户持续学习。
 
 ---
 
@@ -17,10 +17,21 @@
 | **Crossroads RMC – Infor ERP Tips** | Infor LX/LN/BPCS 实用技巧与行业洞察，含 ION 集成简化、NextTrack 等工具介绍 | Infor LX, LN, BPCS | [访问网站](https://www.crossroadsrmc.com/Resources/Infor-ERP-Tips-News/) |
 | **Nogalis Blog** | Lawson/Infor 数据归档、应用退役、S3 升级专题，社区活跃 | Infor Lawson, S3 | [访问网站](https://www.nogalis.com/) |
 | **Doppio Group Insights** | CloudSuite 实施、M3 管理演进、XtendM3 定制开发实践 | Infor M3, CloudSuite | [访问网站](https://doppiogroup.com/insights/) |
+| **Sama Integrations Blog** | Infor ION 集成入门指南、BOD 消息处理最佳实践，适合 ION 集成开发者 | Infor ION, Infor OS | [访问网站](https://samaintegrations.com/a-beginners-guide-to-infor-ion-integrations/) |
+| **Fortude Blog** | M3 痛点分析（基于 Reddit 用户反馈）、M3 Data Mover 数据迁移工具、MCP Server for M3 AI 集成 | Infor M3 | [访问网站](https://fortude.co/blog/) |
 | **Netray Resources** | M3 API 工具包开发、M3 升级风险评估、食品饮料行业自动化专题 | Infor M3 | [访问网站](https://www.netray.co/resources/) |
 | **DCKAP Blog – Infor Integration** | Infor ERP 集成策略、中间件选型（ION vs MuleSoft）、分销商指南 | Infor OS/ION, 各类 Infor ERP | [访问网站](https://www.dckap.com/blog/infor-integration/) |
 | **ERP Research – Infor Guides** | Infor EAM 完整指南、CloudSuite 模块参考（2026版） | Infor EAM, CloudSuite | [访问网站](https://www.erpresearch.com/) |
 | **SamA Consulting Blog** | Infor LN 架构优化、ION 集成、WMS 仓库管理、EAM 资产管理、HCM 人力资本管理深度技术文章 | Infor LN, ION, WMS, EAM, HCM | [访问网站](https://samaconsultinginc.com/blogs/) |
+| **RPI Consultants – RPI Tech Connect Podcast** | Infor ERP 领域知名播客，讨论 ERP 动态、行业趋势和最佳实践 | Infor Lawson, CloudSuite, HCM | [访问网站](https://www.rpic.com/podcasts/) |
+| **Surety Systems – Infor Developer Portal Guide** | Infor Developer Portal 使用指南、API 集成最佳实践 | Infor OS, ION, CloudSuite | [访问网站](https://www.suretysystems.com/insights/infor-developer-portal/) |
+| **ERP Research – Vendor Comparisons** | 独立的 Infor ERP 评测分析，含 Oracle vs Infor、SAP vs Infor 对比 | Infor 全产品线 | [访问网站](https://www.erpresearch.com/) |
+
+### Medium 与技术社区博客
+
+| 资源名称 | 简介 | 涵盖产品 | 链接 |
+|---------|------|---------|------|
+| **XtendM3 Kick Start Guide (Medium)** | Medium 技术博客：Infor XtendM3 自定义 API 开发入门指南，适合多租户环境开发 | Infor M3 (XtendM3) | [阅读文章](https://sanyukta-888.medium.com/a-kick-start-guide-to-build-a-custom-api-with-infor-xtend-m3-in-a-multi-tenant-environment-55168ca55849) |
 
 ---
 
@@ -61,6 +72,16 @@
 
 ---
 
+## 🎥 视频教程与频道
+
+| 资源名称 | 简介 | 涵盖产品 | 链接 |
+|---------|------|---------|------|
+| **Infor 官方 – 教育门户视频教程** | Infor 官方教育门户提供的视频教程和培训材料 | Infor 全产品线 | [访问网站](https://eduportal.infor.com/education/Tutorials) |
+| **Infor POS – Training Videos** | 企业 POS 系统培训视频（Enterprise Manager, Quick/Full Service POS） | Infor POS | [访问网站](https://training.hpo.inforcloudsuite.com/) |
+| **Infor CloudSuite Manufacturing – Vidyard Hub** | CloudSuite Enterprise (LN) 现代化界面演示视频 | Infor CloudSuite Enterprise / LN | [访问网站](https://manufacturing-erp-videos-infor-ln-cloudsuite-manufacturing.hubs.vidyard.com/) |
+
+---
+
 ## 💬 社区与问答
 
 | 资源名称 | 简介 | 涵盖产品 | 链接 |
@@ -83,6 +104,28 @@
 | **知乎 – Infor ERP 系统实际操作教程** | Infor ERP（SyteLine）系统实际操作经验分享与学习路径建议 | CloudSuite Industrial / SyteLine | [访问文章](https://zhuanlan.zhihu.com/p/357605915) |
 | **CSDN – Infor SyteLine 工序外协流程** | Infor CloudSuite Industrial (SyteLine) 工序外协基本操作流程详解 | CloudSuite Industrial / SyteLine | [访问文章](https://blog.csdn.net/azdong/article/details/107005290) |
 | **简道云 – Infor ERP 详解** | Infor ERP 产品介绍、优势分析，含 SyteLine、LN、M3 对比 | 全产品线（中文） | [访问文章](https://www.jiandaoyun.com/nblog/112443/) |
+| **知乎 – Infor LN 工程师** | 从电气工程师转型为 Infor LN 工程师的经验分享 | Infor LN | [阅读文章](https://zhuanlan.zhihu.com/p/104421828) |
+
+---
+
+## 🇨🇳 中文技术博客
+
+| 资源名称 | 简介 | 涵盖产品 | 链接 |
+|---------|------|---------|------|
+| **葡萄城技术博客 – 活字格低代码 Infor 二次开发** | 使用活字格低代码平台进行 Infor ERP 二次开发的案例分享 | Infor ERP（通用） | [访问文章](https://www.grapecity.com.cn/blogs/huozige-infor-erp) |
+| **CSDN – Infor 二次开发专栏** | Infor ERP 二次开发的详细教程，含开发环境搭建、代码规范等 | Infor LN, MRP | [访问文章](https://download.csdn.net/blog/column/12787182/) |
+| **腾讯云开发者社区 – Infor LN 在线帮助** | Infor LN ERP 中文学习资源导航 | Infor LN | [访问文章](https://cloud.tencent.com/developer/article/1889346) |
+| **简道云 – Infor ERP 财务管理模块解析** | Infor ERP 财务管理模块功能和优势的中文解析 | Infor ERP | [访问文章](https://www.jiandaoyun.com/blog/article/1348878/) |
+
+---
+
+## 📊 ERP 评测与对比
+
+| 资源名称 | 简介 | 涵盖产品 | 链接 |
+|---------|------|---------|------|
+| **Gartner Peer Insights – Infor Reviews** | Gartner 官方 Infor ERP 用户评测平台，真实用户评价 | Infor Cloud ERP | [访问网站](https://www.gartner.com/reviews/market/cloud-erp-for-product-centric-enterprises/vendor/infor) |
+| **ITQlick – Infor ERP Review** | Infor ERP 详细评测，含优缺点、功能和定价分析 | Infor ERP | [访问网站](https://www.itqlick.com/infor-erp) |
+| **Software Review – Infor Cloud ERP** | Infor Cloud ERP 软件评测和替代方案对比 | Infor Cloud ERP | [访问网站](https://softwarereview.com/infor-cloud-erp) |
 
 ---
 
@@ -95,6 +138,49 @@
 | **Infor LN 在线帮助** | Infor LN 10.7 用户操作帮助文档 | [访问网站](https://docs.infor.com/ln/10.7/en-us/lnolh/default.html) |
 | **Infor Birst 分析文档** | Birst 商业智能平台数据建模与分析文档 | [访问网站](https://docs.infor.com/birst/2024.x/en-us/birstdataandmodels/IntroAndGetStart/Introduction.html) |
 | **Infor ION 开发指南** | Infor ION 12.x 开发指南（PDF） | [访问网站](https://support.infor.com/esknowbase/root/DLPublic/47748/ion_12.0.x_ionopdg_en-us.pdf) |
+
+---
+
+## 🎙️ 播客与行业媒体
+
+| 资源名称 | 简介 | 涵盖产品 | 链接 |
+|---------|------|---------|------|
+| **RPI Tech Connect Podcast** | Infor ERP 领域知名播客，讨论 ERP 动态、行业趋势和最佳实践 | Infor Lawson, CloudSuite, HCM | [访问网站](https://www.rpic.com/podcasts/) |
+| **Infor inPOWER Conference** | Infor 合作伙伴 Crossroads RMC 主办的年度大会报道 | Infor LX, LN, BPCS | [访问网站](https://www.crossroadsrmc.com/Resources/Infor-ERP-Tips-News/) |
+
+---
+
+## 🎙️ 播客与行业对话
+
+| 资源名称 | 简介 | 涵盖产品 | 链接 |
+|---------|------|---------|------|
+| **The ERP Advisor Podcast** | Soma Somasundaram（Infor 总裁兼 CTO）讨论 ERP 趋势和 AI 战略 | Infor 全产品线 | [收听播客](https://www.audible.com/podcast/Leaders-in-ERP-Soma-Somasundaram-President-CTO-Infor-The-ERP-Advisor-Podcast-Episode-114/B0F76MHPB4) |
+| **Panorama Consulting – Infor M3 Webinar** | Infor M3 制造业 ERP 产品概述和功能演示（录播网络研讨会） | Infor M3 | [观看录制](https://www.panorama-consulting.com/resource-center/on-demand-erp-webinars/manufacturing-erp-vendor-spotlight-infor-m3/) |
+| **Infor & KLAS Podcast** | KLAS Research 与 Infor 讨论客户体验改进和产品优化 | Infor Healthcare, CloudSuite | [收听播客](https://www.infor.com/resources/infor-klas-podcast) |
+
+---
+
+## 📊 ERP 评测与对比
+
+| 资源名称 | 简介 | 链接 |
+|---------|------|------|
+| **Gartner Peer Insights – Infor Reviews** | Gartner 官方 Infor ERP 用户评测平台，真实用户评价 | [访问网站](https://www.gartner.com/reviews/market/cloud-erp-for-product-centric-enterprises/vendor/infor) |
+| **The CFO Club – Infor Review** | Infor ERP 评测，含优缺点、功能和定价分析（2026版） | [访问网站](https://thecfoclub.com/tools/infor-review/) |
+| **ITQlick – Infor ERP Review** | Infor ERP 详细评测，含优缺点、功能和定价分析 | [访问网站](https://www.itqlick.com/infor-erp) |
+| **Software Review – Infor Cloud ERP** | Infor Cloud ERP 软件评测和替代方案对比 | [访问网站](https://softwarereview.com/infor-cloud-erp) |
+| **ERP Research – Oracle vs Infor** | 独立的 Oracle vs Infor ERP 对比分析 | [访问网站](https://www.erpresearch.com/compare/oracle-vs-infor) |
+
+---
+
+## 🛠️ 二次开发教程
+
+| 资源名称 | 简介 | 涵盖产品 | 链接 |
+|---------|------|---------|------|
+| **葡萄城技术博客 – 活字格低代码** | 使用活字格低代码平台进行 Infor ERP 二次开发的案例 | Infor ERP（通用） | [访问文章](https://www.grapecity.com.cn/blogs/huozige-infor-erp) |
+| **CSDN – Infor 二次开发专栏** | Infor ERP/MRP 二次开发的详细教程（含开发环境搭建、代码规范、版本控制、测试策略） | Infor LN, MRP | [访问文章](https://download.csdn.net/blog/column/12787182/) |
+| **CSDN – Infor 汽车制造二次开发** | 汽车行业 Infor ERP 定制开发专题 | Infor ERP（汽车行业） | [访问文章](https://download.csdn.net/blog/column/12787182/142907922) |
+| **Infor LN 应用开发文档（中文）** | Infor LN 官方中文开发工具文档 | Infor LN | [访问文档](https://docs.infor.com/ln/10.5/zh-cn/lnolh/help/docs/es_devtools.html) |
+| **Infor LN 应用开发文档（2024.x）** | Infor LN 最新版应用开发文档 | Infor LN | [访问文档](https://docs.infor.com/ln/2024.x/zh-cn/lnolh/ffog/fftoolstools_ff_application_development.html) |
 
 ---
 
@@ -119,10 +205,11 @@
 | 类型 | 资源 |
 |------|------|
 | **深度技术文章** | FullOnBaan Playbook（19篇）, Integratek（20篇）, SamA Blog |
-| **视频培训** | Infor U, Visual South, FullOnBaan 视频课程 |
+| **视频培训** | Infor U, Visual South, FullOnBaan 视频课程, Infor 教育门户 |
 | **开源/开发者工具** | Infor Cloud GitHub（13个仓库）, M3 H5 SDK, XtendM3 |
 | **社区问答** | Infor Community, LawsonGuru, LawsonTalk, M3 UGA |
-| **中文技术文章** | 腾讯云 CSDN 专栏, 知乎专栏, 简道云 |
+| **播客** | RPI Tech Connect |
+| **中文技术文章** | 腾讯云 CSDN 专栏, 知乎专栏, 简道云, 葡萄城 |
 | **官方文档** | Infor Documentation Central, LN 帮助, ION 开发指南 |
 
 ---
@@ -137,4 +224,4 @@
 
 ---
 
-*最后更新：2026-05-06*
+*最后更新：2026-05-07*

@@ -80,4 +80,30 @@
 
 ---
 
+## 📝 博客与教程
+
+| 资源名称 | 简介 | 链接 |
+|---------|------|------|
+| **RPI Tech Connect Podcast** | Infor ERP 领域知名播客 | [访问](https://www.rpic.com/podcasts/) |
+| **Visual South YouTube** | 大量 Infor VISUAL/LN 培训视频 | [访问](https://www.visualsouth.com/blog/infor-erp-training) |
+| **Crossroads RMC ERP Tips** | Infor LX/LN/BPCS 实用技巧 | [访问](https://www.crossroadsrmc.com/Resources/Infor-ERP-Tips-News/) |
+| **Decision Resources Blog** | CloudSuite Industrial 实施最佳实践 | [访问](https://www.decision.com/) |
+| **Godlan Blog** | SyteLine/CloudSuite Industrial 专栏 | [访问](https://godlan.com) |
+
+## 🎓 培训与认证
+
+| 资源名称 | 简介 | 链接 |
+|---------|------|------|
+| **Infor Education Portal** | 官方教育门户视频教程 | [访问](https://eduportal.infor.com/education/Tutorials) |
+| **Visual South Training** | LN/VISUAL 线上线下培训课程 | [访问](https://www.visualsouth.com/) |
+
+## 🔧 工具与插件
+
+| 资源名称 | 简介 | 链接 |
+|---------|------|------|
+| **Workik AI Code Generator** | 免费 AI Infor ERP 代码生成器 | [访问](https://workik.com/infor-erp-code-generator) |
+| **Infor Marketplace** | 官方应用市场 | [访问](https://marketplace.infor.com/en-US/home) |
+
+---
+
 > 更多顾问公司请查看 [顾问与实施公司](../resources/consultants.md)
