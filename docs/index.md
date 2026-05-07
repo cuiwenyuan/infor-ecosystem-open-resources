@@ -86,7 +86,7 @@
 <div class="stats-grid">
 
 <div class="stat-card">
-<div class="stat-number">200+</div>
+<div class="stat-number">202+</div>
 <div class="stat-label">收录资源总数</div>
 </div>
 
@@ -96,7 +96,7 @@
 </div>
 
 <div class="stat-card">
-<div class="stat-number">42</div>
+<div class="stat-number">44</div>
 <div class="stat-label">顾问公司</div>
 </div>
 
@@ -146,6 +146,9 @@
 - ✅ REQUIREMENTS.md 里程碑更新（Phase 1 已完成，Phase 2 进行中）
 - ✅ TODO.md 审核状态更新（consultants/blogs/tools 审核已完成）
 - 📝 blogs.md 新增 3 个资源分类：Stack Overflow 标签（baan/infor-ln）、Bilibili 视频资源（4个）、微信公众号/知识星球（4个），总数 63→66
+
+#### 2026-05-07（下午·续）
+- 🏢 consultants.md 新增 2 家中国资深顾问公司：梯升科技（合肥，新三板上市，Infor LN/QAD，300+客户）、领三咨询（上海，1995年创立于吉隆坡，80+客户），总数 42→44
 
 #### 2026-05-07（下午）
 - 🚀 Phase 2 启动：扩充资源条目至 170+

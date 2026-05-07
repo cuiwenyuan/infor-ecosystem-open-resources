@@ -2,7 +2,7 @@
 
 > Infor 生态中的专业顾问与实施公司，提供 ERP 实施、咨询、培训和技术支持服务。
 >
-> **最后更新**：2026-05-07 | **收录数量**：40+ 家公司
+> **最后更新**：2026-05-07 | **收录数量**：42+ 家公司
 
 ---
 
@@ -403,6 +403,37 @@
 
 ---
 
+### 25. 梯升科技发展（合肥）股份有限公司
+
+| 项目 | 详情 |
+|------|------|
+| **位置** | 合肥（总部）、底特律（创始） |
+| **官网** | [tsnt.com.cn](http://tsnt.com.cn) |
+| **专长产品** | Infor LN, QAD, Dynatrace |
+| **行业** | 汽车、装备制造、高科技电子、物流、航空航天、轨道交通、国防军工、生命科学 |
+| **荣誉** | 新三板挂牌上市（证券代码：837081）、高新技术企业、专精特新中小企业 |
+| **服务** | 信息化咨询与实施、ERP 实施（Infor LN / QAD）、MES、WMS、SRM/SCM、EAM 等企业级系统 |
+| **经验** | 1996 年成立于底特律，2000 年进入中国，300+ 客户，1500+ 项目，100+ 顾问；自研 TSnTSmart 实施方法论，中大型项目实施周期 4-5 个月 |
+| **典型客户** | 北京汽车、广汽乘用车、江淮汽车、陕汽控股、东风装备、惠达卫浴、兰州电机、韩拓科技 |
+| **联系方式** | 0551-65313693，合肥市高新区望江西路 800 号创新产业园 D2 栋 5 楼 |
+
+---
+
+### 26. 领三咨询（上海领三信息科技有限公司）
+
+| 项目 | 详情 |
+|------|------|
+| **位置** | 上海（中国大陆总部），吉隆坡（创始） |
+| **官网** | [leadsam.com](http://www.leadsam.com) |
+| **专长产品** | Infor LN |
+| **行业** | 项目型制造、离散型制造（航空航天、汽车、工业制造等） |
+| **服务** | Infor LN ERP 实施、咨询、支持、维护及发展；综合性 ERP 解决方案，覆盖供应链、客户关系、内部工作力、资产管理、产品生命周期、运营及业务流程管理 |
+| **经验** | 1995 年成立于马来西亚吉隆坡，30+ 年 Infor LN 产品经验；所有顾问均有 10 年以上经验；服务覆盖马来西亚、新加坡、印度尼西亚、日本、泰国、中国大陆等地区，80+ 家客户 |
+| **特色** | 团队核心成员自 1995 年起从事 Infor LN（Baan）产品实施，为 Infor LN 产品在华最资深顾问团队之一 |
+| **联系方式** | infor@leadsam.com，上海市闵行区紫星路 588 号 2 幢 13 层 231 室（200241） |
+
+---
+
 ## 🌍 跨区域 / 多国运营
 
 ### 25. Grant Thornton
@@ -497,7 +528,7 @@
 
 | Infor 产品 | 顾问公司 |
 |------------|----------|
-| **Infor LN** | Sama Consulting, PCG Services, NexGenTech, Xencore Global, Tarento, Coserve Solutions, 润数信息, 拓创数信 |
+| **Infor LN** | Sama Consulting, PCG Services, NexGenTech, Xencore Global, Tarento, Coserve Solutions, 润数信息, 拓创数信, 梯升科技, 领三咨询 |
 | **Infor M3** | Columbus Global, Lightning ERP, mashfrog, Xencore Global, MSC Group, Tarento, OTS Solutions, NestAscend, Kalathas Consulting |
 | **Infor CloudSuite Industrial (SyteLine)** | Godlan, Decision Resources, Visual South, PCG Services |
 | **Infor Lawson** | Blue Eagle Consulting, RPI Consultants |
