@@ -30,6 +30,13 @@ tmp/
 temp/
 *.tmp
 
+# WorkBuddy
+.codebuddy/
+
+# Installer files
+*.msi
+*.exe
+
 # Custom
 assets/images/consultants/*.png
 !assets/images/consultants/example-logo.png

@@ -29,7 +29,7 @@
 
 ### 电子邮件（可选）
 
-**邮箱**：your-email@example.com
+**邮箱**：troy.cui@qq.com
 
 **回复时间**：1-3 个工作日
 
