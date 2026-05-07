@@ -101,7 +101,7 @@
 </div>
 
 <div class="stat-card">
-<div class="stat-number">63</div>
+<div class="stat-number">66</div>
 <div class="stat-label">博客/教程</div>
 </div>
 
@@ -141,6 +141,11 @@
 - 📝 blogs.md 新增 7 个博客/教程（Fortude, Sama Integrations, Medium, 播客等），总数 56→63
 - 🔧 tools.md 新增 11 个工具/插件（Workato, Makini, Novacura, XtendM3 模板, FORTEST 等）
 - 🎯 资源总数突破 200+
+
+#### 2026-05-07（深夜）
+- ✅ REQUIREMENTS.md 里程碑更新（Phase 1 已完成，Phase 2 进行中）
+- ✅ TODO.md 审核状态更新（consultants/blogs/tools 审核已完成）
+- 📝 blogs.md 新增 3 个资源分类：Stack Overflow 标签（baan/infor-ln）、Bilibili 视频资源（4个）、微信公众号/知识星球（4个），总数 63→66
 
 #### 2026-05-07（下午）
 - 🚀 Phase 2 启动：扩充资源条目至 170+

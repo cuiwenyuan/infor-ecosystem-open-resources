@@ -1,6 +1,6 @@
 # 博客与教程资源
 
-> 精选 Infor 生态相关的 63 个技术博客、教程、视频课程和问答社区，帮助顾问、开发者和用户持续学习。
+> 精选 Infor 生态相关的 66 个技术博客、教程、视频课程和问答社区，帮助顾问、开发者和用户持续学习。
 
 ---
 
@@ -72,6 +72,32 @@
 
 ---
 
+## 🎬 Bilibili 视频资源
+
+| 资源名称 | 简介 | 涵盖产品 | 链接 |
+|---------|------|---------|------|
+| **B站 - 生产 ERP 系统学习教程** | B站合集频道，涵盖生产 ERP 系统学习视频，含模块操作演示 | 通用 ERP | [访问频道](https://space.bilibili.com/1323981389/channel/series) |
+| **B站 - ERP 系统从入门到精通** | 梁咏老师 5 天文员上岗实操教程，理论+实操，适合 ERP 初学者 | 通用 ERP | [观看课程](https://www.bilibili.com/cheese/play/ss60487) |
+| **B站 - ERP 仓库管理系统教程** | 7 天小白速成课，涵盖 ERP 仓储管理模块操作 | 通用 ERP | [观看课程](https://www.bilibili.com/cheese/play/ss33428) |
+| **B站 - ERP 管理大讲堂** | ERP 管理知识系列视频合集 | 通用 ERP | [访问频道](https://space.bilibili.com/692559687/channel/series) |
+
+> ⚠️ **说明**：截至 2026-05-07，Bilibili 上尚未发现专门针对 Infor LN/M3/CSI 的系列视频教程。以上为通用 ERP 学习资源，可帮助理解 ERP 基础概念和操作逻辑。如有发现 Infor 专题视频，欢迎提交 [Issue](https://github.com/cuiwenyuan/infor-ecosystem-open-resources/issues/new) 推荐。
+
+---
+
+## 📱 微信公众号与知识星球
+
+| 资源名称 | 简介 | 涵盖产品 | 链接 |
+|---------|------|---------|------|
+| **旺财学 Infor LN ERP（原 LN私房菜）** | 以 Infor LN ERP 为核心的信息化、数字化交流社群，分享 ERP 内部学习资料和使用经验，含行业大咖、IT 经理人、CIO 等嘉宾分享 | Infor LN, Baan | [访问社群](https://wx.zsxq.com/group/158585844512) |
+| **腾讯云 - 我走的窄道（旺财）** | 15年 Infor LN 经验的博主，分享 LN 架构解析、升级历程、ION Connect 等深度技术文章，文章同步发布于腾讯云开发者社区 | Infor LN, Baan | [阅读文章](https://cloud.tencent.com/developer/article/1395725) |
+| **腾讯云 - 写给年轻 Infor BaaN ERP LN 顾问的 23 条职业建议** | 为 Infor LN 顾问量身定制的职业发展指南，涵盖模块专精、业务理解、文档管理、英语学习等 | Infor LN, Baan | [阅读文章](https://cloud.tencent.com/developer/article/1395514) |
+| **抖音 - Infor 软件教程** | 抖音平台上的 Infor 软件安装与使用教程短视频 | Infor 全产品线 | [搜索查看](https://www.douyin.com/search/Infor%E8%BD%AF%E4%BB%B6%E6%80%8E%E4%B9%88%E5%AE%89%E8%A3%85) |
+
+> ⚠️ **说明**：微信公众号内容需在微信客户端内访问。以上为搜索到的与 Infor 相关的中文社群资源，欢迎补充更多。
+
+---
+
 ## 🎥 视频教程与频道
 
 | 资源名称 | 简介 | 涵盖产品 | 链接 |
@@ -90,6 +116,8 @@
 | **LawsonGuru.com** | 独立 Lawson/Infor 用户社区，含论坛、资源商店、职业讨论 | Infor Lawson, S3 | [访问网站](https://www.lawsonguru.com/) |
 | **LawsonTalk 论坛** | Lawson 系统管理、HR/工资单、财务（GL/AR/AP）专题讨论版 | Infor Lawson | [访问网站](https://lawsontalk.com/) |
 | **M3 UGA WorkOutLoud** | Infor M3 用户组社区，含 Doppio Group 等专业顾问入驻 | Infor M3 | [访问网站](https://m3uga.workoutloud.com/) |
+| **Stack Overflow - [baan]** | Stack Overflow 上 Baan ERP 标签，含 4 个技术问答 | Infor LN (Baan) | [浏览问答](https://stackoverflow.com/questions/tagged/baan) |
+| **Stack Overflow - [infor-ln]** | Stack Overflow 上 Infor LN 标签，含 5 个技术问答，覆盖 LN 开发与配置 | Infor LN | [浏览问答](https://stackoverflow.com/questions/tagged/infor-ln) |
 
 ---
 
@@ -225,3 +253,5 @@
 ---
 
 *最后更新：2026-05-07*
+
+*本分类收录资源数：66（持续收集中）*

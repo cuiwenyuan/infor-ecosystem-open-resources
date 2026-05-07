@@ -1138,6 +1138,7 @@ Infor Community 下的 Landmark 平台开发社区，讨论 Lawson/FSM/HCM 的 L
 - [x] CSDN Infor 技术博客专区 - 已完成 ✅
 - [x] 知乎 Infor ERP 话题 - 已完成 ✅
 - [ ] 腾讯云开发者社区 Infor 文章
+- [x] Stack Overflow Infor 相关标签（baan: 4题, infor-ln: 5题，已收录至 blogs.md）✅
 
 ### 如何贡献
 
