@@ -36,7 +36,8 @@ description: "Infor 生态第三方资源导航站首页，提供论坛、顾问
 | 🎓 **培训与认证** | 培训资源、认证指南 | [浏览](resources/training.md) |
 | 🎬 **视频与课程** | YouTube、Bilibili、Webinar 回放 | [浏览](resources/videos.md) |
 | 📖 **官方文档导航** | Infor Documentation 按产品分类入口 | [浏览](resources/official-docs.md) |
-| 💻 **LN 4GL 开发技巧** | DAL2 / Extension / Public Interfaces 实战 | [浏览](resources/ln-4gl-tips.md) |
+| 💻 **LN 开发系列** | 4GL 基础、DAL、Extension、PI、性能调优、实战集锦 | [浏览](resources/ln-4gl-tips.md) |
+| 📖 **Infor 术语表** | 产品/技术/行业术语中英文释义 | [浏览](resources/glossary.md) |
 | 📱 **微信公众号/社群** | 中文技术交流、知识星球 | [浏览](resources/wechat-communities.md) |
 
 ### 按 Infor 产品浏览
@@ -156,6 +157,10 @@ description: "Infor 生态第三方资源导航站首页，提供论坛、顾问
 ---
 
 ### 📅 项目动态
+
+#### 2026-05-08（下午·续）
+- 💻 **LN 开发系列**扩展为 6 页：DAL 完全指南、Extension 开发实战、Public Interfaces 速查、数据库与性能调优、二次开发实战集锦
+- 📖 新增 **Infor 术语表** 页面（50+ 术语中英文释义）
 
 #### 2026-05-08（下午）
 - 📦 新增 **Infor HCM** / **Infor EAM** / **Infor CRM** 产品独立页面（by-product/hcm.md、eam.md、crm.md）
