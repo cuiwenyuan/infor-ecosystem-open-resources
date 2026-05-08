@@ -34,6 +34,7 @@ description: "Infor 生态第三方资源导航站首页，提供论坛、顾问
 | 📝 **博客与教程** | 技术博客、视频教程、学习资源 | [浏览](resources/blogs.md) |
 | 🔧 **工具与插件** | 开发工具、第三方插件、实用工具 | [浏览](resources/tools.md) |
 | 🎓 **培训与认证** | 培训资源、认证指南 | [浏览](resources/training.md) |
+| 📱 **微信公众号/社群** | 中文技术交流、知识星球 | [浏览](resources/wechat-communities.md) |
 
 ### 按 Infor 产品浏览
 
@@ -78,6 +79,11 @@ description: "Infor 生态第三方资源导航站首页，提供论坛、顾问
 - 想交流经验？→ [论坛与社区](resources/forums.md)
 - 想推广你的服务？→ [提交公司信息](submission-guide.md)
 
+### 我是服务商 / 厂商
+
+- 想精准触达 Infor 用户？→ [广告合作方案](sponsorship.md)
+- 想提交工具/产品？→ [提交资源](submission-guide.md)
+
 ### 我是开发者
 
 - 寻找开发工具？→ [工具与插件](resources/tools.md)
@@ -118,6 +124,9 @@ description: "Infor 生态第三方资源导航站首页，提供论坛、顾问
 </div>
 
 > 最后更新：2026-05-07
+
+!!! tip "📢 广告合作"
+    本站面向 Infor 生态服务商提供精准推广服务（推荐位 / 招聘发布等），详见 [广告合作方案](sponsorship.md)。
 
 ---
 
@@ -203,5 +212,5 @@ description: "Infor 生态第三方资源导航站首页，提供论坛、顾问
 ---
 
 **最后更新**：2026-05-07  
-**维护者**：Infor 生态社区  
+**维护者**：崔文远 Troy Cui  
 **许可证**：[MIT](LICENSE) / [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)

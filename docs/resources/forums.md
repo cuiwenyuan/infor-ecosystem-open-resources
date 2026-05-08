@@ -1168,4 +1168,4 @@ Infor Community 下的 Landmark 平台开发社区，讨论 Lawson/FSM/HCM 的 L
 
 **本分类收录资源数**：24 （持续收集中）  
 **最后更新**：2026-05-07  
-**维护者**：Infor 生态社区
+**维护者**：崔文远 Troy Cui

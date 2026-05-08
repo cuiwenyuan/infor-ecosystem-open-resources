@@ -296,4 +296,4 @@ infor-ecosystem-open-resources/
 ---
 
 **最后更新**：2026-05-07  
-**维护者**：Infor 生态社区
+**维护者**：崔文远 Troy Cui
