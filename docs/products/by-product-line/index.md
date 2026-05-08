@@ -117,12 +117,32 @@ Infor 除了核心 ERP 外，还拥有多个在特定领域处于市场领导地
 
 | 项目 | 详情 |
 |------|------|
-| **定位** | 业界领先的仓储管理系统 |
-| **核心功能** | 入库/出库/库内作业、波次拣选、RFID 支持、劳动力管理、Yard Management |
-| **集成** | 与 Infor LN/M3/CSI 及第三方 TMS/ERP 集成 |
+| **定位** | 业界领先的云端仓储管理系统（Gartner WMS 魔力象限领导者，连续 8 年） |
+| **前身** | Provia Warehousing / Infor SCM WMS |
+| **目标客户** | 中大型分销商、制造商、第三方物流（3PL） |
+| **核心功能** | 入库/出库/库内作业、波次管理、AI 拣货路径优化、3D 可视化、语音处理、劳动力管理、3PL 计费、Yard Management |
+| **特色** | 内置 AI、3D 仓库可视化、多仓多货主、B2B/B2C/3PL 混合波次 |
+| **部署** | 云部署（Infor Industry Cloud Platform，多租户 SaaS） |
 
 **相关资源**：
-- [WMS 专长顾问](../../resources/consultants.md) — mashfrog Group, Cerca Technology, 润数信息
+- [Infor WMS 详细介绍](../../by-product/wms.md)
+- [WMS 专长顾问](../../resources/consultants.md) — mashfrog Group、Cerca Technology、润数信息、PCG Services
+
+---
+
+### Infor Factory Track — 制造执行（MES）
+
+| 项目 | 详情 |
+|------|------|
+| **定位** | 端到端的制造执行系统（MES）与仓储移动化解决方案 |
+| **目标客户** | 中大型离散与流程制造商 |
+| **核心功能** | 车间数据采集、批次追溯与谱系、时间与考勤管理（200+ 参数）、劳动力管理、条码处理、在线质量检测 |
+| **集成 ERP** | Infor LN、Infor M3（CloudSuite Industrial/SyteLine） |
+| **特色** | 从原材料接收到成品发运的全流程自动化、正反向追溯、降低合规风险 |
+
+**相关资源**：
+- [Infor Factory Track 详细介绍](../../by-product/factory-track.md)
+- [Factory Track 专长顾问](../../resources/consultants.md) — 润数信息、拓创数信、Sama Consulting、PCG Services、Tarento
 
 ---
 
@@ -155,7 +175,6 @@ Infor 除了核心 ERP 外，还拥有多个在特定领域处于市场领导地
 | 产品 | 说明 |
 |------|------|
 | **Infor QMS** | 质量管理系统，支持 ISO 合规、SPC 统计过程控制 |
-| **Infor Factory Track** | 制造执行系统(MES)，车间数据采集、追溯、andon 管理 |
 | **Infor d/EPM** | 企业绩效管理，预算编制、财务规划与合并 |
 
 ---
@@ -213,4 +232,4 @@ Infor 除了核心 ERP 外，还拥有多个在特定领域处于市场领导地
 
 ---
 
-**最后更新**：2026-05-07
+**最后更新**：2026-05-08

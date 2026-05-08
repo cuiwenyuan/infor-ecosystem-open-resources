@@ -43,6 +43,8 @@ description: "Infor 生态第三方资源导航站首页，提供论坛、顾问
 | **Infor LN** | 企业级离散制造 ERP | [浏览](by-product/ln.md) |
 | **Infor M3** | 流程制造 ERP | [浏览](by-product/m3.md) |
 | **CloudSuite Industrial** | 中小企业离散制造 ERP（原 SyteLine） | [浏览](by-product/csi.md) |
+| **Infor WMS** | 云端仓储管理系统（Gartner 领导者） | [浏览](by-product/wms.md) |
+| **Infor Factory Track** | 制造执行系统（MES） | [浏览](by-product/factory-track.md) |
 | **Infor OS** | Infor 操作系统平台 | [浏览](by-product/infor-os.md) |
 
 ### 按产品分类浏览
@@ -149,6 +151,10 @@ description: "Infor 生态第三方资源导航站首页，提供论坛、顾问
 
 ### 📅 项目动态
 
+#### 2026-05-08
+- 📦 新增 **Infor WMS** 和 **Infor Factory Track** 产品独立页面（by-product/wms.md、factory-track.md）
+- 🔗 更新导航结构和首页卡片，新增 WMS 和 Factory Track 入口
+
 #### 2026-05-07（晚间）
 - 🏭 创建 4 个产品分类页面（按业务功能/产品线/行业/技术平台）
 - 💬 forums.md 新增 9 个论坛/社区（Reddit、CSDN、知乎、IMUN 亚太、WMS LATAM 等），总数 15→24
@@ -211,6 +217,6 @@ description: "Infor 生态第三方资源导航站首页，提供论坛、顾问
 
 ---
 
-**最后更新**：2026-05-07  
+**最后更新**：2026-05-08  
 **维护者**：崔文远 Troy Cui  
 **许可证**：[MIT](LICENSE) / [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)

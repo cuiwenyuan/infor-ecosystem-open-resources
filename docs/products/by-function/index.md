@@ -59,7 +59,7 @@ Infor 在供应链领域拥有业界领先的 WMS 和全球供应链网络平台
 
 | 能力域 | 主要产品 | 说明 |
 |--------|----------|------|
-| **仓库管理 (WMS)** | Infor WMS | 业界领先，支持多仓、自动化集成 |
+| **仓库管理 (WMS)** | [Infor WMS](../../by-product/wms.md) | 业界领先，支持多仓、AI 拣货优化、3D 可视化、3PL |
 | **运输管理 (TMS)** | Infor Nexus / ION | 运输执行、跟踪、费用结算 |
 | **采购管理 (Procurement)** | LN, M3, CSI | 从请购到付款全流程 |
 | **库存管理 (Inventory)** | LN, M3, WMS | 多级库存、批次/序列号跟踪 |
@@ -68,6 +68,7 @@ Infor 在供应链领域拥有业界领先的 WMS 和全球供应链网络平台
 ### 推荐资源
 
 - [顾问公司 — WMS/Nexus 专长](../../resources/consultants.md) — mashfrog (WMS)、Cerca Technology (WMS)
+- [Infor WMS 产品页](../../by-product/wms.md) — WMS 仓储管理详细说明
 - [Infor M3 产品页](../by-product/m3.md) — M3 供应链模块详情
 - [Infor LN 产品页](../by-product/ln.md) — LN 采购与库存管理
 
@@ -136,7 +137,7 @@ Infor 的核心竞争力所在，提供离散制造和流程制造的完整解�
 - [CSI 产品页](../by-product/csi.md) — 中端离散制造方案
 - [顾问公司 — 制造专长](../../resources/consultants.md) — Godlan、DRI、PCG Services、润数信息 等
 - [博客与教程](../../resources/blogs.md) — FullOnBaan (LN 制造知识库)
-- [工具与插件](../../resources/tools.md) — Factory Track (MES)、PLM 工具
+- [工具与插件](../../resources/tools.md) — [Factory Track](../../by-product/factory-track.md) (MES)、PLM 工具
 
 ---
 
@@ -203,7 +204,7 @@ Infor EAM 可以作为独立系统使用，也可以通过 ION 与 LN、M3 等ER
 |--------|----------|
 | **质量管理 (QM/QMS)** | Infor QMS、LN Quality、M3 Quality |
 | **产品生命周期管理 (PLM)** | Infor PLM (Discrete Edition & Fashion Edition) |
-| **制造执行 (MES)** | Infor Factory Track |
+| **制造执行 (MES)** | [Infor Factory Track](../../by-product/factory-track.md) |
 | **风险与合规** | Infor GRC（通过合作伙伴方案） |
 
 ---
@@ -216,4 +217,4 @@ Infor EAM 可以作为独立系统使用，也可以通过 ION 与 LN、M3 等ER
 
 ---
 
-**最后更新**：2026-05-07
+**最后更新**：2026-05-08
