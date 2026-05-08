@@ -98,6 +98,13 @@ description: "Infor WMS 仓储管理系统资源导航，收录 WMS 相关的顾
 | 资源 | 说明 |
 |------|------|
 | [SamA Consulting Blog](resources/blogs.md) | Infor LN 架构优化、ION 集成、WMS 仓库管理深度技术文章 |
+| [Infor WMS CRB 二次开发教程](https://blog.csdn.net/gitblog_06727/article/details/147608013) | CSDN 教程：WMS CRB 二次开发环境搭建与核心概念（中文） |
+
+### 视频与课程
+
+| 资源 | 说明 |
+|------|------|
+| [Infor U Campus - WMS 课程](https://education.infor.com/) | Infor 官方学习平台，含 WMS 相关培训课程 |
 
 ### 工具与插件
 

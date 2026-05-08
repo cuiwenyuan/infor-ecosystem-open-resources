@@ -72,6 +72,8 @@ description: "Infor Factory Track MES 制造执行系统资源导航，收录 Fa
 | 资源 | 说明 |
 |------|------|
 | [Infor MES Community](resources/forums.md) | Infor 官方社区 MES 子社区，讨论车间管理与制造执行 |
+| [Infor Global Community](resources/forums.md) | Infor 官方社区，含 MES / Factory Track 讨论区 |
+| [LawsonGuru MES 板块](resources/forums.md) | 第三方专业社区，含 Factory Track / MES 实施讨论（英文） |
 
 ### 顾问与实施公司
 
@@ -87,9 +89,17 @@ description: "Infor Factory Track MES 制造执行系统资源导航，收录 Fa
 
 | 资源 | 说明 |
 |------|------|
-| [SamA Consulting Blog](resources/blogs.md) | Factory Track 综合技术概览与工厂效率优化 |
-| [Manufacturing Digital - MES at Infor](https://manufacturingdigital.com/smart-manufacturing/a-deep-dive-into-mes-functionality-at-infor) | Infor MES 负责人深度访谈：MES 与 ERP 在智能制造中的关系 |
-| [PCG Services - Infor MES 白皮书](https://pcgservices.com/wp-content/uploads/2023/03/Infor-Manufacturing-Execution-System.pdf) | Infor MES 功能与架构详解（PDF） |
+| [SamA：Factory Track 优化技巧](https://samaconsultinginc.com/blogs/getting-the-most-out-of-infor-factory-track-tips-and-tricks-for-optimizing-performance/) | 10+ 年 MES 实施经验，Factory Track 性能优化实战技巧 |
+| [SamA：Factory Track 综合技术概览](https://samaconsultinginc.com/blogs/maximizing-factory-efficiency-with-infor-factory-track-a-comprehensive-technical-overview/) | Factory Track 自动化、数据采集与 ERP 集成深度解析 |
+| [Manufacturing Digital：Infor MES 深度访谈](https://manufacturingdigital.com/smart-manufacturing/a-deep-dive-into-mes-functionality-at-infor) | Infor MES VP 访谈：MES 与 ERP 在智能制造中的关系 |
+| [PCG：Infor MES 白皮书](https://pcgservices.com/wp-content/uploads/2023/03/Infor-Manufacturing-Execution-System.pdf) | Infor MES 功能与架构详解（PDF 下载） |
+
+### 工具与插件
+
+| 工具 | 说明 |
+|------|------|
+| [PCG SmartFactory™](resources/consultants.md) | PCG 自研云端 MES 加速器，与 Factory Track 互补 |
+| [Infor MES](resources/tools.md) | Infor 官方 MES 解决方案入口 |
 
 ---
 
