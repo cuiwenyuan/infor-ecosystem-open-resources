@@ -4,7 +4,7 @@
 **项目阶段**：Phase 2 - 内容完善中
 **技术方案**：MkDocs + Material for MkDocs（已确定，非 Docusaurus）
 **完成度**：96%
-**最后更新**：2026-05-07
+**最后更新**：2026-05-08
 
 ---
 
@@ -126,8 +126,8 @@
 - [x] 创建 docs/overrides/main.html（JSON-LD 结构化数据）✅ 2026-05-07
 - [x] 优化 mkdocs.yml 全局 SEO（site_description、搜索配置）✅ 2026-05-07
 - [x] Sitemap.xml（Material 主题自动生成）✅ 2026-05-07
-- [ ] 提交到 Google Search Console
-- [ ] 提交到百度站长平台
+- [ ] 提交到 Google Search Console → 移至 Phase 3
+- [ ] 提交到百度站长平台 → 移至 Phase 3
 
 ---
 
@@ -144,18 +144,25 @@
 - [x] tools.md: 55+ → 66+（新增 Workato, Makini, Novacura, FORTEST 等）✅
 - [x] consultants.md: 30+ → 42（新增 12 家，含 Genesis, GlobalBaan）✅
 
-#### 2. 添加资源 Logo/截图
+#### 2. 网站品牌与体验优化
+- [x] 切换为 Infor 品牌红主题（#D81820）✅ 2026-05-08
+- [x] 新增广告合作与赞助方案页面（sponsorship.md）✅ 2026-05-08
+- [x] 新增微信公众号/社群页面（wechat-communities.md）✅ 2026-05-08
+- [x] 添加 Footer 底部导航链接 ✅ 2026-05-08
+- [x] 维护者信息更新为"崔文远 Troy Cui"（全站 13 处）✅ 2026-05-08
+
+#### 3. 添加资源 Logo/截图
 - [ ] 创建 `docs/assets/images/` 目录结构
 - [ ] 收集顾问公司 Logo
 - [ ] 收集论坛/网站截图
 - [ ] 优化图片（压缩、WebP 格式）
 
-#### 3. 完善分类页面
+#### 4. 完善分类页面
 - [x] 按产品分类 ✅（by-function, by-product-line, by-industry, by-platform 四个页面）
 - [x] 按地区分类 ✅（china.md, north-america.md, europe.md, asia-pacific.md）
 - [x] 交叉引用和标签系统 ✅
 
-#### 4. 社区反馈收集
+#### 5. 社区反馈收集
 - [ ] 添加 GitHub Discussions
 - [ ] 创建反馈表单（Google Forms / Typeform）
 - [ ] 定期审核资源（每季度）
@@ -187,6 +194,8 @@
 - [ ] Google Analytics 集成
 - [ ] 创建资源统计页面
 - [ ] 资源分布可视化（基于 Mermaid 或 Chart.js）
+- [ ] 提交到 Google Search Console
+- [ ] 提交到百度站长平台
 
 ---
 
@@ -325,6 +334,6 @@
 
 ---
 
-**任务清单版本**：v5.0（里程碑同步更新，审核状态已确认）
-**最后更新**：2026-05-07
+**任务清单版本**：v5.1（Phase 2 里程碑更新）
+**最后更新**：2026-05-08
 **维护者**：崔文远 Troy Cui
