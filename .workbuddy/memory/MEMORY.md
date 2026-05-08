@@ -77,3 +77,16 @@ InforIndex/
 ## Phase 1 剩余任务
 - 用户执行 git push 完成首次部署（见 DEPLOY.md）
 - 持续完善和补充资源条目
+
+## 常用头脑风暴引导语
+- "现在我们重新做些开放性的头脑风暴，我还需要做些什么来更加丰富网站所收集的围绕Infor的资源？" —— 用户经常用这句话触发对网站内容的全面审视和新方向规划
+
+## LN 4GL 代码规范（关键！）
+- LN 4GL 是大小写不敏感语言，但 Infor 官方文档约定**所有关键字全部小写**：`function` `if` `then` `else` `elif` `endif` `on case` `case` `endcase` `for` `to` `endfor` `while` `endwhile` `repeat` `until` `return` `raise error` `select` `from` `where` `group by` `having` `sum` `selectdo` `endselect` `before.section` `after.section`
+- 数据类型全部小写：`long` `double` `boolean` `string` `table` `domain`
+- 变量修饰符小写：`extern` `static` `const`
+- 预定义符号常量保持大写：`DALHOOKERROR` `DALNOSETPERM` `DALNOOBJPERM` `DAL_NEW` `DAL_UPDATE`
+- 预定义枚举保持大写：`db.FIND.BY.KEYS` `db.LOCK` `db.error.DBRECORDLOCKED`
+- 布尔值小写：`true` `false`
+- 字符串长度函数是 `len()` 不是 `strlen()`
+- `return` 写成函数调用形式 `return(value)`

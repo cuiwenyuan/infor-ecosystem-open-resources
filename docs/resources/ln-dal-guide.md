@@ -535,7 +535,8 @@ whinh215.item.update():
 | `DALNOSETPERM` | — | 无表级权限 | 检查用户权限配置 |
 | `DALNOOBJPERM` | — | 无记录级权限 | 检查记录级授权规则 |
 | `> 0` | — | `db.insert()` 或 `db.update()` 的错误码 | 检查字段约束、唯一键、外键引用 |
-| `-1` | — | 非标准返回值 | 检查 DAL 对象是否已正确初始化 |
+
+> ⚠️ **注意**：官方文档**未列出** `-1` 作为 `dal.save.object()` 的返回值。如果收到 `-1`，应检查：① `dal.change.object()` 或 `dal.new.object()` 的返回值；② DAL 对象名称是否正确；③ DAL 是否已正确初始化。
 
 ### 9.2 `db.bind()` 错误码
 

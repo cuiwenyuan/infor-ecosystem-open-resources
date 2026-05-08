@@ -56,7 +56,7 @@ string result(60)
 result = "Hello" & " " & "World"
 
 | 获取长度
-long char_count = len(s)              | 字符数
+long char_count = len(s)            | 字符数
 long byte_count = byte.len(s)         | 字节数（多字节安全）
 
 | 截取子串
@@ -122,7 +122,7 @@ until condition
 ### 2.2 DAL2 标准工作流（Insert）
 
 ```4gl
-#include "bic_dam.h"
+#include <bic_dam>
 
 function long insert_record()
 {
@@ -519,12 +519,48 @@ dal.save.object(dal.name)
 | **CSDN Infor 标签** | 中文技术文章合集 | [搜索 "Infor LN"](https://blog.csdn.net/) |
 | **知识星球** | 旺财学 Infor LN ERP 社群 | [加入](https://wx.zsxq.com/group/158585844512) |
 
-### 在线社区
+### 10.2 ODBC/JDBC SQL 参考
 
-| 社区 | 说明 | 链接 |
+LN 的 ODBC/JDBC 连接器使用独立的 SQL 方言（区别于 4GL 嵌入式 SQL），以下是常用速查。
+
+#### SQL 数据类型
+
+| SQL 类型 | 说明 | 对应 Infor ES 数据库类型 |
+|----------|------|---------------------------|
+| `integer` | 32 位有符号整数 | char, int, long, enum, bitset |
+| `real` | 近似数值（浮点数） | float, double |
+| `string` | 字符串 | string, multibyte string |
+| `date` | 日期 [0001-01-01 ~ 9999-12-31] | date |
+| `timestamp` | 时间戳（UTC） | time (UTC) |
+
+#### UTC 时间戳模式
+
+| 模式 | ByteCountOfUtc | BitCountOfUtc | 激活方式 |
+|------|-----------------|---------------|----------|
+| **Utc32**（默认） | 4 | 32 | 资源 "utc40" 未设置或设为 0 |
+| **Utc40** | 5 | 40 | 资源 "utc40" 设为非 0 值 |
+
+#### SQL 函数速查
+
+| 函数 | 说明 | 示例 |
 |------|------|------|
-| **Infor Community** | 官方社区（LN 开发板块） | [访问](https://www.infor.com/company/community) |
-| **LinkedIn** | Infor 用户群组 | [搜索 "Infor LN"] |
+| `SUBSTRING(src FROM start FOR len)` | 截取子字符串 | `SUBSTRING('abcdef' FROM 3 FOR 2)` → 'cd' |
+| `TRIM([[LEADING\|TRAILING\|BOTH] char FROM] src)` | 去除首尾字符 | `TRIM(' abc ')` |
+| `UPPER(s)` / `LOWER(s)` | 大小写转换 | |
+| `CURRENT_DATE` | 返回当前日期 | |
+| `CURRENT_TIMESTAMP` | 返回当前时间戳（UTC） | |
+| `EXTRACT(field FROM expr)` | 提取日期字段 | `EXTRACT(YEAR FROM CURRENT_DATE)` |
+| `COALESCE(e1, e2, ...)` | 返回第一个非 NULL 值 | `COALESCE(desc, 'N/A')` |
+| `CAST(expr AS type)` | 类型转换 | |
+| `ML_ONE_LANG(col[, lang])` | 返回单一语言值 | `ML_ONE_LANG(a.dscr)` |
+| `TEXT_CONTENT(col[, lang])` | 检索文本引用列内容 | |
+
+#### SQL 注释
+
+```sql
+-- 单行注释（两个连字符 + 空格）
+SELECT * FROM dbtst120  -- 从员工表查询
+```
 
 ---
 
