@@ -78,6 +78,14 @@ extra:
   # analytics:
   #   provider: google
   #   property: G-XXXXXXXXXX  # TODO: 替换为你的 Google Analytics ID
+  generator: false
+
+footer:
+  links:
+    - 联系我们: contact.md
+    - 广告合作: sponsorship.md
+    - 资源提交: submission-guide.md
+    - GitHub: https://github.com/cuiwenyuan/infor-ecosystem-open-resources
 
 extra_css:
   - assets/css/extra.css
@@ -89,6 +97,7 @@ nav:
   - 博客与教程: resources/blogs.md
   - 工具与插件: resources/tools.md
   - 培训与认证: resources/training.md
+  - 微信公众号/社群: resources/wechat-communities.md
   - 按地区浏览:
       - 北美: by-region/north-america.md
       - 欧洲: by-region/europe.md
@@ -109,3 +118,4 @@ nav:
       - 资源提交规范: submission-guide.md
       - 贡献指南: contributing.md
       - 联系我们: contact.md
+      - 广告合作: sponsorship.md
