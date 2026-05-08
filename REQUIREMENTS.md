@@ -230,6 +230,8 @@ mkdocs-sitemap>=1.0.0
 │   ├── Infor LN (by-product/ln.md)
 │   ├── Infor M3 (by-product/m3.md)
 │   ├── CloudSuite Industrial (by-product/csi.md)
+│   ├── Infor WMS (by-product/wms.md)
+│   ├── Infor Factory Track (by-product/factory-track.md)
 │   └── Infor OS (by-product/infor-os.md)
 ├── 按地区浏览 (by-region/)
 │   ├── 北美 (by-region/north-america.md)
@@ -294,6 +296,10 @@ mkdocs-sitemap>=1.0.0
 - [x] 新增微信公众号/社群页面 ✅（2026-05-08）
 - [x] 添加 Footer 底部导航链接 ✅（2026-05-08）
 - [x] 维护者信息更新为"崔文远 Troy Cui" ✅（2026-05-08）
+- [x] 创建 WMS 独立产品页 ✅（2026-05-08）
+- [x] 创建 Factory Track 独立产品页 ✅（2026-05-08）
+- [x] 丰富 WMS 第三方资源（+2 个资源）✅（2026-05-08）
+- [x] 丰富 Factory Track 第三方资源（+9 个资源）✅（2026-05-08）
 - [ ] 添加资源 Logo/截图
 - [ ] 社区反馈收集
 
@@ -333,6 +339,6 @@ mkdocs-sitemap>=1.0.0
 
 ---
 
-**文档版本**：v5.1（Phase 2 里程碑更新）
+**文档版本**：v5.2（Phase 2 产品页与资源丰富更新）
 **最后更新**：2026-05-08
 **维护者**：崔文远 Troy Cui

@@ -95,31 +95,39 @@
 
 ### 中优先级任务
 
-#### 6. 保留并优化产品介绍页面
-- [x] **保留现有产品介绍页面**（from previous work）✅ 2026-05-07
-- [x] **调整导航顺序**（放在第三方资源后面）✅ 已完成
-- [x] **简化产品介绍内容**（不作为重点）✅ 2026-05-07
-- [x] **添加相关第三方资源链接**（交叉引用）✅ 2026-05-07
-- [x] **创建 by-product 详细页面**（ln.md, m3.md, csi.md, infor-os.md）✅ 2026-05-07
+#### 6. 创建按产品独立详细页面
+- [x] **创建 `docs/by-product/ln.md`** ✅ 2026-05-07
+- [x] **创建 `docs/by-product/m3.md`** ✅ 2026-05-07
+- [x] **创建 `docs/by-product/csi.md`** ✅ 2026-05-07
+- [x] **创建 `docs/by-product/infor-os.md`** ✅ 2026-05-07
+- [x] **创建 `docs/by-product/wms.md`** ✅ 2026-05-08（产品概述、8大功能模块、第三方资源速查）
+- [x] **创建 `docs/by-product/factory-track.md`** ✅ 2026-05-08（产品概述、7大功能模块、第三方资源速查）
+- [x] **更新 mkdocs.yml 导航** ✅ 2026-05-08（新增 WMS 和 Factory Track 条目）
+- [x] **更新 `docs/index.md` 首页产品卡片** ✅ 2026-05-08
+- [x] **更新产品分类索引页** ✅ 2026-05-08（by-product-line、by-function、by-platform）
 
-#### 7. 设计资源卡片样式
+#### 7. 丰富产品页第三方资源
+- [x] **丰富 WMS 页面资源（+2）** ✅ 2026-05-08（CSDN CRB 教程、Infor U Campus 课程）
+- [x] **丰富 Factory Track 页面资源（+9）** ✅ 2026-05-08（3 论坛 + 4 博客 + 2 工具）
+
+#### 8. 设计资源卡片样式
 - [x] 论坛资源卡片 ✅ 2026-05-07
 - [x] 顾问公司卡片 ✅ 2026-05-07
 - [x] 博客资源卡片 ✅ 2026-05-07
 - [x] 更新 `docs/assets/css/extra.css` ✅ 2026-05-07
 
-#### 8. 创建资源提交规范
+#### 9. 创建资源提交规范
 - [x] 创建 `docs/submission-guide.md` ✅（已存在，内容完善）
 - [x] 更新 GitHub Issue 模板 ✅ 2026-05-07（resource-submission / bug-report / question）
 - [x] 更新 Pull Request 模板 ✅ 2026-05-07
 
 ### 低优先级任务
 
-#### 9. 优化搜索功能
+#### 11. 优化搜索功能
 - [x] 优化 MkDocs 搜索权重 ✅ 2026-05-07（配置 separator、min_search_length=1、prebuild_index=true）
 - [ ] 配置 Algolia DocSearch（可选，需申请审核）
 
-#### 10. SEO 优化
+#### 12. SEO 优化
 - [x] 创建 .nojekyll 文件 ✅ 2026-05-07
 - [x] 创建 robots.txt ✅ 2026-05-07
 - [x] 为所有 22 个 .md 页面添加 Frontmatter（title、description）✅ 2026-05-07
@@ -166,6 +174,13 @@
 - [ ] 添加 GitHub Discussions
 - [ ] 创建反馈表单（Google Forms / Typeform）
 - [ ] 定期审核资源（每季度）
+
+#### 6. 创建更多产品独立页
+- [x] WMS 独立产品页 ✅ 2026-05-08
+- [x] Factory Track 独立产品页 ✅ 2026-05-08
+- [ ] HCM 独立产品页（可选）
+- [ ] EAM 独立产品页（可选）
+- [ ] CRM 独立产品页（可选）
 
 ---
 
@@ -334,6 +349,6 @@
 
 ---
 
-**任务清单版本**：v5.1（Phase 2 里程碑更新）
+**任务清单版本**：v5.2（Phase 2 产品页与资源丰富更新）
 **最后更新**：2026-05-08
 **维护者**：崔文远 Troy Cui
