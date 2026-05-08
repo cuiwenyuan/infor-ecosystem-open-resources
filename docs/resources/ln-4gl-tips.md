@@ -32,40 +32,40 @@ description: "Infor LN 4GL/Baan 编程开发技巧汇总，涵盖 DAL2 开发、
 
 | 类型 | 说明 | 示例 |
 |------|------|------|
-| `LONG` | 整数，32 位有符号 | `LONG i = 0` |
-| `DOUBLE` | 浮点数，8 字节 IEEE 754 | `DOUBLE amount = 0.0` |
-| `BOOLEAN` | 布尔值 | `BOOLEAN flag = TRUE` |
-| `STRING` | 字符串（声明时指定长度） | `STRING name(30)` |
-| `TABLE` | 表格变量（数组/临时表） | `TABLE t_temp` |
-| `DOMAIN` | 域类型（引用数据字典） | `DOMAIN tcitem item_code` |
+| `long` | 整数，32 位有符号 | `long i = 0` |
+| `double` | 浮点数，8 字节 IEEE 754 | `double amount = 0.0` |
+| `boolean` | 布尔值 | `boolean flag = true` |
+| `string` | 字符串（声明时指定长度） | `string name(30)` |
+| `table` | 表格变量（数组/临时表） | `table t_temp` |
+| `domain` | 域类型（引用数据字典） | `domain tcitem item_code` |
 
 ### 1.2 变量修饰符
 
 ```4gl
-LONG g_counter                | 局部变量
-EXTERN LONG g_counter          | 外部（全局）变量，可被其他程序访问
-STATIC LONG last_value          | 静态变量，函数调用间保持值
-CONST LONG max_retries = 3     | 常量
+long g_counter                | 局部变量
+extern long g_counter         | 外部（全局）变量，可被其他程序访问
+static long last_value         | 静态变量，函数调用间保持值
+const long max_retries = 3    | 常量
 ```
 
 ### 1.3 字符串操作
 
 ```4gl
 | 拼接用 &（不是 +）
-STRING result(60)
+string result(60)
 result = "Hello" & " " & "World"
 
 | 获取长度
-LONG char_count = strlen(s)          | 字符数
-LONG byte_count = byte.len(s)        | 字节数（多字节安全）
+long char_count = len(s)              | 字符数
+long byte_count = byte.len(s)         | 字节数（多字节安全）
 
 | 截取子串
-STRING sub = s(1;5)                   | 从第1位取5个字符
+string sub = s(1;5)                   | 从第1位取5个字符
 
 | 去空格
 s = strip$(s)                         | 去首尾空格
-s = ltrim$(s)                        | 去左空格
-s = rtrim$(s)                        | 去右空格
+s = ltrim$(s)                         | 去左空格
+s = rtrim$(s)                         | 去右空格
 ```
 
 > ⚠️ **常见陷阱**：字符串拼接用 `&`，不是 `+`。`+` 用于数值加法，对字符串会尝试隐式类型转换导致意外结果。
@@ -73,35 +73,35 @@ s = rtrim$(s)                        | 去右空格
 ### 1.4 控制流
 
 ```4gl
-| IF-THEN-ELSE
-IF condition THEN
+| if-then-else
+if condition then
     | ...
-ELSE
+else
     | ...
-ENDIF
+endif
 
-| ON-CASE（推荐替代多层 IF-ELSE）
-ON CASE variable
-CASE 1:
+| on case（推荐替代多层 if-else）
+on case variable
+case 1:
     | ...
-CASE 2, 3:    | 支持多值
+case 2, 3:    | 支持多值
     | ...
-CASE DEFAULT:
+case default:
     | ...
-ENDCASE
+endcase
 
 | 循环
-FOR i = 1 TO 10
+for i = 1 to 10
     | ...
-ENDFOR
+endfor
 
-WHILE condition
+while condition
     | ...
-ENDWHILE
+endwhile
 
-REPEAT
+repeat
     | ...
-UNTIL condition
+until condition
 ```
 
 ---
@@ -124,75 +124,75 @@ UNTIL condition
 ```4gl
 #include "bic_dam.h"
 
-FUNCTION LONG insert_record()
+function long insert_record()
 {
-    LONG ret
-    STRING dal.name(20)
-    
+    long ret
+    string dal.name(20)
+
     dal.name = "twhinh215"
-    
+
     | Step 1: 开始新建
     ret = dal.new.object(dal.name)
-    IF ret <> 0 THEN
+    if ret <> 0 then
         message("dal.new.object failed: %d", ret)
-        RETURN ret
-    ENDIF
-    
+        return(ret)
+    endif
+
     | Step 2: 设置字段
     dal.set.field("whinh215.item", "ITM000123")
     dal.set.field("whinh215.cwar", "WH001")
     dal.set.field("whinh215.sqty", 100.0)
-    
+
     | Step 3: 保存
     ret = dal.save.object(dal.name)
-    IF ret <> 0 THEN
+    if ret <> 0 then
         | 错误处理
-        IF ret = DALHOOKERROR THEN
+        if ret = DALHOOKERROR then
             message("Hook blocked the save")
-        ENDIF
-        RETURN ret
-    ENDIF
-    
-    RETURN 0
+        endif
+        return(ret)
+    endif
+
+    return(0)
 }
 ```
 
 ### 2.3 DAL2 标准工作流（Update）
 
 ```4gl
-FUNCTION LONG update_record()
+function long update_record()
 {
-    LONG ret
-    STRING dal.name(20)
-    
+    long ret
+    string dal.name(20)
+
     dal.name = "twhinh215"
-    
+
     | Step 1: 加锁（重要！）
     twhinh215.item = "ITM000123"
     twhinh215.cwar = "WH001"
     ret = db.bind(twhinh215, db.FIND.BY.KEYS, db.LOCK)
-    IF ret <> 0 THEN
-        IF ret = db.error.DBRECORDLOCKED THEN
+    if ret <> 0 then
+        if ret = db.error.DBRECORDLOCKED then
             message("Record is locked by another user")
-        ENDIF
-        RETURN ret
-    ENDIF
-    
+        endif
+        return(ret)
+    endif
+
     | Step 2: 开始修改
     ret = dal.change.object(dal.name)
-    IF ret <> 0 THEN
+    if ret <> 0 then
         db.release(twhinh215)
-        RETURN ret
-    ENDIF
-    
+        return(ret)
+    endif
+
     | Step 3: 设置要修改的字段
     dal.set.field("whinh215.sqty", 200.0)
-    
+
     | Step 4: 保存
     ret = dal.save.object(dal.name)
     db.release(twhinh215)    | 别忘了释放锁！
-    
-    RETURN ret
+
+    return(ret)
 }
 ```
 
@@ -258,11 +258,11 @@ before.program:
 
 after.save.object:
     | 在 after.save.object Hook 中处理
-    IF action = DAL_NEW THEN
+    if action = DAL_NEW then
         | 新建后逻辑
-    ELIF action = DAL_UPDATE THEN
+    elif action = DAL_UPDATE then
         | 修改后逻辑
-    ENDIF
+    endif
 ```
 
 ---
@@ -322,13 +322,13 @@ domain tcmcs.s999m oMsg mb
 long oID
 
 ret = Common.ConvertAmount( 575, amount, "USD", 1, date.to.utc(), "EUR", converted.amount, oMsg, oID )
-IF ret = 0 THEN
+if ret = 0 then
     Exception.Delete(exception.id)
-ELSE
+else
     Exception.GetMessage( oID, 1, oMsg )
     message( "金额转换失败: " & oMsg )
-    RAISE error
-ENDIF
+    raise error
+endif
 ```
 
 ---
@@ -380,12 +380,12 @@ footer.1:           | 表尾
 
 ```4gl
 detail.1:
-    BEFORE.SECTION:
+    before.section:
         | 检查剩余行数，不足则分页
-        IF r.report.line.remaining() < 5 THEN
+        if r.report.line.remaining() < 5 then
             r.send.new.page()
-        ENDIF
-    AFTER.SECTION:
+        endif
+    after.section:
         | 每行后递增计数器
         line.count = line.count + 1
 ```
@@ -418,13 +418,13 @@ detail.1:
 
 ```4gl
 ret = SomePublicInterface( ..., oMsg, oID )
-IF ret = 0 THEN
+if ret = 0 then
     Exception.Delete(exception.id)
-ELSE
+else
     Exception.GetMessage( oID, 1, oMsg )
     message( "错误: " & oMsg )
-    RAISE error
-ENDIF
+    raise error
+endif
 ```
 
 ---
@@ -434,24 +434,24 @@ ENDIF
 ### 8.1 SQL 优化
 
 ```4gl
-| ❌ 不推荐：逐行查询
-SELECT twhinh215.*
-FROM twhinh215
-WHERE twhinh215.item = :item
-SELECTDO
+| 不推荐：逐行查询
+select twhinh215.*
+from twhinh215
+where twhinh215.item = :item
+selectdo
     | 逐行处理
-ENDSELECT
+endselect
 
-| ✅ 推荐：批量处理
-TABLE t_temp
-SELECT twhinh215.item, twhinh215.cwar, SUM(twhinh215.sqty):total
-FROM twhinh215
-WHERE twhinh215.item = :item
-GROUP BY twhinh215.item, twhinh215.cwar
-HAVING SUM(twhinh215.sqty) > 0
-SELECTDO
+| 推荐：批量处理
+table t_temp
+select twhinh215.item, twhinh215.cwar, sum(twhinh215.sqty):total
+from twhinh215
+where twhinh215.item = :item
+group by twhinh215.item, twhinh215.cwar
+having sum(twhinh215.sqty) > 0
+selectdo
     | 批量处理
-ENDSELECT
+endselect
 ```
 
 ### 8.2 避免常见性能陷阱
@@ -487,14 +487,14 @@ ENDSELECT
 ### 9.3 错误处理规范
 
 ```4gl
-| ✅ 推荐：完整的错误处理
+| 推荐：完整的错误处理
 ret = dal.save.object(dal.name)
-IF ret <> 0 THEN
+if ret <> 0 then
     | 具体错误处理
-    RETURN ret
-ENDIF
+    return(ret)
+endif
 
-| ❌ 不推荐：忽略返回值
+| 不推荐：忽略返回值
 dal.save.object(dal.name)
 ```
 
