@@ -63,6 +63,11 @@ InforIndex/
 - **导航结构**：第三方资源在前（导航第一组），产品介绍在后
 - **GitHub 信息**：用户名 `cuiwenyuan`，仓库名 `infor-ecosystem-open-resources`，在线地址 `https://cuiwenyuan.github.io/infor-ecosystem-open-resources/`
 
+## 用户偏好
+- **Git 命令格式**：每次完成变更后，需要 Git 提交时，直接输出可复制的 bash 命令让用户复制执行，**不要生成脚本文件（.sh）**
+- **Git push 触发时机**：用户说"推送完成了"、"给我 git push 命令"、"生成 git 命令"、"Git bash"、"GitHub 推送"、"git push"、"推送"等相关触发词，均视为需要生成 bash 命令
+- **Commit message**：使用中文描述，包含具体文件名和变更内容
+
 ## 注意事项
 - mkdocs.yml 中**不使用** `sitemap` 外部插件（Material 主题内置了 sitemap，外部插件会导致构建失败）
 - GitHub Actions 工作流已创建：`.github/workflows/deploy.yml`（push main 分支自动触发）

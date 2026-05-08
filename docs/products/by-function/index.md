@@ -86,6 +86,7 @@ Infor 在供应链领域拥有业界领先的 WMS 和全球供应链网络平台
 
 ### 推荐资源
 
+- [Infor HCM 详细介绍](../../by-product/hcm.md)
 - [顾问公司 — HCM/Lawson 专长](../../resources/consultants.md) — Blue Eagle Consulting、RPI Consultants
 - [培训与认证](../../resources/training.md) — HCM 相关认证路径
 
@@ -104,6 +105,7 @@ Infor 在供应链领域拥有业界领先的 WMS 和全球供应链网络平台
 
 ### 推荐资源
 
+- [Infor CRM 详细介绍](../../by-product/crm.md)
 - [顾问公司 — CPQ 专长](../../resources/consultants.md) — Decision Resources (CPQ 专家)、Visual South
 - [工具与插件](../../resources/tools.md) — CPQ 相关配置工具
 
@@ -153,6 +155,7 @@ Infor EAM 可以作为独立系统使用，也可以通过 ION 与 LN、M3 等ER
 
 ### 推荐资源
 
+- [Infor EAM 详细介绍](../../by-product/eam.md)
 - [顾问公司 — EAM 专长](../../resources/consultants.md) — Sama Consulting 提供 EAM 实施
 
 ---

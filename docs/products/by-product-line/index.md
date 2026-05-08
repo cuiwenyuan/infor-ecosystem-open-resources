@@ -104,11 +104,13 @@ Infor 除了核心 ERP 外，还拥有多个在特定领域处于市场领导地
 | 项目 | 详情 |
 |------|------|
 | **定位** | 企业资产管理（EAM）市场领导者 |
+| **现状** | 已出售给 Hexagon，现为 **HxGN EAM** |
 | **应用场景** | 设备预防性/预测性维护、资产生命周期管理、工作单管理 |
 | **可用模式** | 可独立运行，也可通过 ION 与 ERP 集成 |
 | **目标行业** | 制造业、能源公用事业、交通运输、设施管理 |
 
 **相关资源**：
+- [Infor EAM 详细介绍](../../by-product/eam.md)
 - [EAM 专长顾问](../../resources/consultants.md) — Sama Consulting
 
 ---
@@ -146,14 +148,30 @@ Infor 除了核心 ERP 外，还拥有多个在特定领域处于市场领导地
 
 ---
 
+### Infor HCM — 人力资本管理
+
+| 项目 | 详情 |
+|------|------|
+| **定位** | AI 驱动的云端人力资本管理（HCM）套件 |
+| **核心模块** | 人力资源与薪酬管理、人才管理、劳动力管理 |
+| **目标客户** | 中大型企业，前台员工密集型组织 |
+| **核心行业** | 制造、汽车、食品饮料、化工、医疗、酒店、公共服务 |
+| **部署方式** | 云部署（Infor Industry Cloud Platform） |
+
+**相关资源**：
+- [Infor HCM 详细介绍](../../by-product/hcm.md)
+
+---
+
 ### Infor CRM / CPQ
 
 | 产品 | 说明 |
 |------|------|
-| **Infor CRM** | 销售自动化、营销活动管理、客户服务 |
+| **Infor CRM** | 销售自动化、营销活动管理、客户服务（⚠️ 市场活跃度较低） |
 | **Infor CPQ** | 复杂产品的配置(Configuration)、定价(Pricing)、报价(Quoting)，与 ERP 无缝对接 |
 
 **相关资源**：
+- [Infor CRM 详细介绍](../../by-product/crm.md)
 - [CPQ 专长顾问](../../resources/consultants.md) — Decision Resources, Visual South
 
 ---

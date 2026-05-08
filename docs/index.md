@@ -34,6 +34,9 @@ description: "Infor 生态第三方资源导航站首页，提供论坛、顾问
 | 📝 **博客与教程** | 技术博客、视频教程、学习资源 | [浏览](resources/blogs.md) |
 | 🔧 **工具与插件** | 开发工具、第三方插件、实用工具 | [浏览](resources/tools.md) |
 | 🎓 **培训与认证** | 培训资源、认证指南 | [浏览](resources/training.md) |
+| 🎬 **视频与课程** | YouTube、Bilibili、Webinar 回放 | [浏览](resources/videos.md) |
+| 📖 **官方文档导航** | Infor Documentation 按产品分类入口 | [浏览](resources/official-docs.md) |
+| 💻 **LN 4GL 开发技巧** | DAL2 / Extension / Public Interfaces 实战 | [浏览](resources/ln-4gl-tips.md) |
 | 📱 **微信公众号/社群** | 中文技术交流、知识星球 | [浏览](resources/wechat-communities.md) |
 
 ### 按 Infor 产品浏览
@@ -45,6 +48,9 @@ description: "Infor 生态第三方资源导航站首页，提供论坛、顾问
 | **CloudSuite Industrial** | 中小企业离散制造 ERP（原 SyteLine） | [浏览](by-product/csi.md) |
 | **Infor WMS** | 云端仓储管理系统（Gartner 领导者） | [浏览](by-product/wms.md) |
 | **Infor Factory Track** | 制造执行系统（MES） | [浏览](by-product/factory-track.md) |
+| **Infor HCM** | 云端人力资本管理（AI 驱动） | [浏览](by-product/hcm.md) |
+| **Infor EAM** | 企业资产管理（现为 HxGN EAM） | [浏览](by-product/eam.md) |
+| **Infor CRM** | 客户关系管理（与 ERP 集成） | [浏览](by-product/crm.md) |
 | **Infor OS** | Infor 操作系统平台 | [浏览](by-product/infor-os.md) |
 
 ### 按产品分类浏览
@@ -150,6 +156,13 @@ description: "Infor 生态第三方资源导航站首页，提供论坛、顾问
 ---
 
 ### 📅 项目动态
+
+#### 2026-05-08（下午）
+- 📦 新增 **Infor HCM** / **Infor EAM** / **Infor CRM** 产品独立页面（by-product/hcm.md、eam.md、crm.md）
+- 🎬 新增 **视频与课程** 资源页（resources/videos.md），收录 YouTube / Bilibili / 官方视频
+- 📖 新增 **官方文档导航** 页（resources/official-docs.md），按产品分类整理 docs.infor.com 入口
+- 💻 新增 **LN 4GL 开发技巧** 页（resources/ln-4gl-tips.md），涵盖 DAL2 / Extension / Public Interfaces
+- 📱 微信公众号资源从 3 个扩充至 **10 个**（新增 e-works、选型宝、36氪企服点评等）
 
 #### 2026-05-08
 - 📦 新增 **Infor WMS** 和 **Infor Factory Track** 产品独立页面（by-product/wms.md、factory-track.md）

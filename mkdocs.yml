@@ -97,6 +97,9 @@ nav:
   - 博客与教程: resources/blogs.md
   - 工具与插件: resources/tools.md
   - 培训与认证: resources/training.md
+  - 视频与课程: resources/videos.md
+  - 官方文档导航: resources/official-docs.md
+  - LN 4GL 开发技巧: resources/ln-4gl-tips.md
   - 微信公众号/社群: resources/wechat-communities.md
   - 按地区浏览:
       - 北美: by-region/north-america.md
@@ -109,6 +112,9 @@ nav:
       - CloudSuite Industrial: by-product/csi.md
       - Infor WMS: by-product/wms.md
       - Infor Factory Track: by-product/factory-track.md
+      - Infor HCM: by-product/hcm.md
+      - Infor EAM: by-product/eam.md
+      - Infor CRM: by-product/crm.md
       - Infor OS: by-product/infor-os.md
   - 产品分类:
       - 按业务功能: products/by-function/index.md
