@@ -1,5 +1,5 @@
 ---
-title: "Infor FSM - Infor 生态第三方资源导航站"
+title: "Infor FSM - Infor 生态开放资源导航站"
 description: "Infor FSM（现场服务管理）资源导航，收录 FSM 相关的顾问公司、技术博客、实施工具和社区资源。"
 ---
 

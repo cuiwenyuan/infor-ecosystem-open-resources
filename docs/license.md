@@ -1,6 +1,6 @@
 # MIT License
 
-Copyright (c) 2026 Infor 生态第三方资源导航站
+Copyright (c) 2026 Infor 生态开放资源导航站
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

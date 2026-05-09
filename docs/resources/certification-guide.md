@@ -1,5 +1,5 @@
 ---
-title: "Infor 认证考试指南 - Infor 生态第三方资源导航站"
+title: "Infor 认证考试指南 - Infor 生态开放资源导航站"
 description: "Infor 官方认证（ICP/CPI）备考资源汇总，包含考试大纲、学习路径、经验分享和培训资源。"
 ---
 

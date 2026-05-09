@@ -1,5 +1,5 @@
 ---
-title: "视频与课程 - Infor 生态第三方资源导航站"
+title: "视频与课程 - Infor 生态开放资源导航站"
 description: "Infor 生态视频教程资源导航，收录 YouTube、Bilibili、Infor 官方等平台的 ERP 培训视频和在线课程。"
 ---
 

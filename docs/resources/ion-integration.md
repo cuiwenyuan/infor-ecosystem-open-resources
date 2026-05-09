@@ -1,5 +1,5 @@
 ---
-title: "ION BOD 集成开发指南 - Infor 生态第三方资源导航站"
+title: "ION BOD 集成开发指南 - Infor 生态开放资源导航站"
 description: "Infor ION 与 BOD（Business Object Document）集成开发资源汇总，包含教程、工具、最佳实践和社区讨论。"
 ---
 

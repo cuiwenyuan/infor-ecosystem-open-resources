@@ -1,5 +1,5 @@
 ---
-title: "Infor CRM - Infor 生态第三方资源导航站"
+title: "Infor CRM - Infor 生态开放资源导航站"
 description: "Infor CRM 客户关系管理资源导航，收录 CRM 相关的顾问公司、技术博客、实施工具和社区论坛。"
 ---
 

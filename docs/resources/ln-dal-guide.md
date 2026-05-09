@@ -1,5 +1,5 @@
 ---
-title: "LN DAL 完全指南 - Infor 生态第三方资源导航站"
+title: "LN DAL 完全指南 - Infor 生态开放资源导航站"
 description: "Infor LN DAL（Data Access Layer）完全指南，涵盖 DAL1 vs DAL2 深度对比、所有 Hook 函数详解、执行顺序、错误码速查和加锁机制。"
 ---
 

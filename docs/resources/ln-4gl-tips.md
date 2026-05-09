@@ -1,5 +1,5 @@
 ---
-title: "Infor LN 4GL 开发技巧 - Infor 生态第三方资源导航站"
+title: "Infor LN 4GL 开发技巧 - Infor 生态开放资源导航站"
 description: "Infor LN 4GL/Baan 编程开发技巧汇总，涵盖 DAL2 开发、Extension 机制、Public Interfaces 调用、Session/Report 开发等实战经验。"
 ---
 

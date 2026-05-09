@@ -1,5 +1,5 @@
 ---
-title: "LN Extension 开发实战 - Infor 生态第三方资源导航站"
+title: "LN Extension 开发实战 - Infor 生态开放资源导航站"
 description: "Infor LN Extension 扩展开发实战指南，涵盖 4 种 Extension 类型、DLL 创建流程、调试技巧、与 User Exit 对比和冲突排查。"
 ---
 

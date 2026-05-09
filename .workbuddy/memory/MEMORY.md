@@ -1,7 +1,7 @@
 # InforIndex 项目长期记忆
 
 ## 项目概要
-- **项目名称**：Infor 生态第三方资源导航站
+- **项目名称**：Infor 生态开放资源导航站
 - **项目路径**：`C:\Users\Administrator\Documents\InforIndex`
 - **技术栈**：MkDocs + Material for MkDocs（Python 3.13+）
 - **部署目标**：GitHub Pages

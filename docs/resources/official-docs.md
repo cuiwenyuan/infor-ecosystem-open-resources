@@ -1,5 +1,5 @@
 ---
-title: "官方文档导航 - Infor 生态第三方资源导航站"
+title: "官方文档导航 - Infor 生态开放资源导航站"
 description: "Infor 官方文档站点按产品分类整理，提供 LN、M3、WMS、HCM、ION 等产品的官方文档快速入口。"
 ---
 

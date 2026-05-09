@@ -1,5 +1,5 @@
 ---
-title: "Infor CPQ - Infor 生态第三方资源导航站"
+title: "Infor CPQ - Infor 生态开放资源导航站"
 description: "Infor CPQ（配置报价）资源导航，收录 CPQ 相关的顾问公司、技术博客、实施工具和集成方案。"
 ---
 

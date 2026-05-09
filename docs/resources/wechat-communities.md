@@ -1,5 +1,5 @@
 ---
-title: "微信公众号与社群 - Infor 生态第三方资源导航站"
+title: "微信公众号与社群 - Infor 生态开放资源导航站"
 description: "收集 Infor LN、M3、CloudSuite 等产品的微信公众号、知识星球及社群资源，为 Infor 用户和学习者提供中文技术交流渠道。"
 ---
 

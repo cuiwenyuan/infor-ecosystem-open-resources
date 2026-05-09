@@ -1,5 +1,5 @@
 ---
-title: "Infor Nexus - Infor 生态第三方资源导航站"
+title: "Infor Nexus - Infor 生态开放资源导航站"
 description: "Infor Nexus（供应链网络平台）资源导航，收录 Nexus GTMS、供应链协同、供应商门户相关的顾问公司、技术博客和集成工具。"
 ---
 

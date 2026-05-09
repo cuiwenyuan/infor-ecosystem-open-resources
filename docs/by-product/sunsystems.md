@@ -1,5 +1,5 @@
 ---
-title: "Infor SunSystems - Infor 生态第三方资源导航站"
+title: "Infor SunSystems - Infor 生态开放资源导航站"
 description: "Infor SunSystems 财务管理系统资源导航，收录 SunSystems 相关的顾问公司、技术博客、实施工具和用户社区。"
 ---
 

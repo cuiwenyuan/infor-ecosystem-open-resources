@@ -1,5 +1,5 @@
 ---
-title: "LN 二次开发实战集锦 - Infor 生态第三方资源导航站"
+title: "LN 二次开发实战集锦 - Infor 生态开放资源导航站"
 description: "Infor LN 二次开发实战技巧集锦，涵盖 Session/Report 开发模板、常用内置函数速查表、SSRS 报表集成和 UI 定制技巧。"
 ---
 

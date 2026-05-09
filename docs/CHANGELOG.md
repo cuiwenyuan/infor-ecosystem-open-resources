@@ -1,6 +1,6 @@
 # Changelog
 
-本页面记录 Infor 生态第三方资源导航站的重大更新。
+本页面记录 Infor 生态开放资源导航站的重大更新。
 
 ## 2026-05-09
 - 新建 4 个薄弱产品页面：`fsm.md`、`nexus.md`、`sunsystems.md`、`cpq.md`

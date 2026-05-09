@@ -1,5 +1,5 @@
 ---
-title: "Infor OS - Infor 生态第三方资源导航站"
+title: "Infor OS - Infor 生态开放资源导航站"
 description: "Infor OS 平台资源导航，收录 Infor OS、ION、Ming.le 等平台相关的技术文档、开发工具和社区资源。"
 ---
 

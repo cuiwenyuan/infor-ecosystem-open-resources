@@ -1,5 +1,5 @@
 ---
-title: "Infor 产品版本动态 - Infor 生态第三方资源导航站"
+title: "Infor 产品版本动态 - Infor 生态开放资源导航站"
 description: "追踪 Infor 各产品线版本更新、新功能和发布动态，帮助您了解产品演进路线。"
 ---
 

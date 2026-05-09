@@ -12,7 +12,7 @@
 1. 打开浏览器，访问 [https://github.com/new](https://github.com/new)
 2. 填写以下信息：
    - **Repository name**：`infor-ecosystem-open-resources`
-   - **Description**：`Infor 生态第三方资源导航站 - 论坛、顾问公司、博客、工具等资源链接导航`
+   - **Description**：`Infor 生态开放资源导航站 - 论坛、顾问公司、博客、工具等资源链接导航`
    - **Visibility**：选 `Public`（Public 仓库 GitHub Pages 免费）
 3. **滚动到页面底部**，找到 `Initialize this repository with:` 区域：
    - ❌ **不要勾选** `Add a README file`
@@ -49,7 +49,7 @@ git branch -M main
 git add .
 
 # 提交（首次提交）
-git commit -m "feat: 初始化 Infor 生态第三方资源导航站
+git commit -m "feat: 初始化 Infor 生态开放资源导航站
 
 - 论坛与社区资源（20+ 条目）
 - 顾问与实施公司（30+ 家）

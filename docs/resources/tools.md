@@ -1,5 +1,5 @@
 ---
-title: "工具与插件 - Infor 生态第三方资源导航站"
+title: "工具与插件 - Infor 生态开放资源导航站"
 description: "精选 Infor 生态系统相关的开发工具、插件、扩展和实用程序，涵盖 ION、LN、M3、IDM、WMS 等产品。"
 ---
 

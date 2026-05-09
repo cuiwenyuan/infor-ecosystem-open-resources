@@ -1,5 +1,5 @@
 ---
-title: "Infor 术语表 / Glossary - Infor 生态第三方资源导航站"
+title: "Infor 术语表 / Glossary - Infor 生态开放资源导航站"
 description: "Infor 生态术语表，收录 Infor 产品名称、技术概念、平台组件和行业术语的中英文释义，帮助用户快速理解 Infor 生态系统。"
 ---
 

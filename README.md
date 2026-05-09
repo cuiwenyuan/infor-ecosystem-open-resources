@@ -1,4 +1,4 @@
-# Infor 生态第三方资源导航站
+# Infor 生态开放资源导航站
 
 [![GitHub Pages](https://img.shields.io/badge/Deploy-GitHub%20Pages-blue)](https://cuiwenyuan.github.io/infor-ecosystem-open-resources/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
@@ -12,7 +12,7 @@
 ## 🎯 项目定位
 
 ### 核心定位
-**Infor 生态第三方资源导航站** - 专注于收集和整理 Infor 生态中的优质第三方资源。
+**Infor 生态开放资源导航站** - 专注于收集和整理 Infor 生态中的优质第三方资源。
 
 ### 双重定位
 1. **主要焦点**：第三方资源导航
@@ -35,7 +35,7 @@
 
 ## 📖 项目介绍
 
-本项目是一个 **Infor 生态第三方资源导航网站**，旨在为 Infor 用户、实施顾问、开发者和学习者提供高质量的第三方资源链接导航。
+本项目是一个 **Infor 生态开放资源导航网站**，旨在为 Infor 用户、实施顾问、开发者和学习者提供高质量的第三方资源链接导航。
 
 ### 🎯 目标用户
 

@@ -1,5 +1,5 @@
 ---
-title: "CloudSuite Industrial - Infor 生态第三方资源导航站"
+title: "CloudSuite Industrial - Infor 生态开放资源导航站"
 description: "CloudSuite Industrial（原 SyteLine）资源导航，收录 CSI 相关的顾问公司、技术博客和工具资源。"
 ---
 

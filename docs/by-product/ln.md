@@ -1,5 +1,5 @@
 ---
-title: "Infor LN - Infor 生态第三方资源导航站"
+title: "Infor LN - Infor 生态开放资源导航站"
 description: "Infor LN 资源导航，收录 LN 相关的顾问公司、技术博客、开发工具和社区论坛。"
 ---
 

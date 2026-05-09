@@ -1,5 +1,5 @@
 ---
-title: "LN Public Interfaces 速查 - Infor 生态第三方资源导航站"
+title: "LN Public Interfaces 速查 - Infor 生态开放资源导航站"
 description: "Infor LN Public Interfaces (PI) 速查手册，按 Common / BusinessPartner / Item / Sales / Purchase / Finance / Manufacturing 等模块分类列出所有 PI 函数及调用模板。"
 ---
 

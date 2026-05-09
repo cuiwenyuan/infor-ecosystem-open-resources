@@ -1,5 +1,5 @@
 ---
-title: "博客与教程 - Infor 生态第三方资源导航站"
+title: "博客与教程 - Infor 生态开放资源导航站"
 description: "精选 Infor 生态相关的技术博客、教程、视频课程和问答社区，涵盖 Infor LN、M3、CloudSuite 等产品。"
 ---
 

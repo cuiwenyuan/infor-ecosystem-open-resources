@@ -1,5 +1,5 @@
 ---
-title: "Infor Factory Track - Infor 生态第三方资源导航站"
+title: "Infor Factory Track - Infor 生态开放资源导航站"
 description: "Infor Factory Track MES 制造执行系统资源导航，收录 Factory Track 相关的顾问公司、技术博客、开发工具和社区论坛。"
 ---
 

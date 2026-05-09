@@ -1,5 +1,5 @@
 ---
-title: "论坛与社区 - Infor 生态第三方资源导航站"
+title: "论坛与社区 - Infor 生态开放资源导航站"
 description: "收录 Infor 生态中的官方社区、用户论坛、LinkedIn 群组、Reddit 板块等第三方讨论社区资源。"
 ---
 

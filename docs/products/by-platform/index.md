@@ -1,5 +1,5 @@
 ---
-title: "按技术平台分类 - Infor 生态第三方资源导航站"
+title: "按技术平台分类 - Infor 生态开放资源导航站"
 description: "按技术平台分类浏览 Infor 产品与资源，涵盖 Infor OS、ION、Birst、Coleman AI、AWS/Azure 云基础设施等。"
 ---
 

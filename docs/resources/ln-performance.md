@@ -1,5 +1,5 @@
 ---
-title: "LN 数据库与性能调优 - Infor 生态第三方资源导航站"
+title: "LN 数据库与性能调优 - Infor 生态开放资源导航站"
 description: "Infor LN 数据库与性能调优指南，涵盖 SQL vs Table.io 对比、索引策略、db.bind 详解、批量操作技巧和常见慢查询模式。"
 ---
 
