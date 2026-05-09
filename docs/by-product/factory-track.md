@@ -71,19 +71,19 @@ description: "Infor Factory Track MES 制造执行系统资源导航，收录 Fa
 
 | 资源 | 说明 |
 |------|------|
-| [Infor MES Community](resources/forums.md) | Infor 官方社区 MES 子社区，讨论车间管理与制造执行 |
-| [Infor Global Community](resources/forums.md) | Infor 官方社区，含 MES / Factory Track 讨论区 |
-| [LawsonGuru MES 板块](resources/forums.md) | 第三方专业社区，含 Factory Track / MES 实施讨论（英文） |
+| [Infor MES Community](../resources/forums.md) | Infor 官方社区 MES 子社区，讨论车间管理与制造执行 |
+| [Infor Global Community](../resources/forums.md) | Infor 官方社区，含 MES / Factory Track 讨论区 |
+| [LawsonGuru MES 板块](../resources/forums.md) | 第三方专业社区，含 Factory Track / MES 实施讨论（英文） |
 
 ### 顾问与实施公司
 
 | 公司 | 地区 | 说明 |
 |------|------|------|
-| [润数信息技术](resources/consultants.md) | 中国 | Infor 金牌代理商，WMS & Factory Track 实施，自研润数 MOM |
-| [拓创数信实业](resources/consultants.md) | 中国 | Infor LN + Factory Track PMC 制造解决方案 |
-| [Sama Consulting](resources/consultants.md) | 北美 | 15+ 年经验，LN & Factory Track 实施与升级 |
-| [PCG Services](resources/consultants.md) | 北美 | 2025 Infor 年度制造合作伙伴，自研 SmartFactory 云 MES |
-| [Tarento](resources/consultants.md) | 亚太 | Infor 领先交付合作伙伴，LN & Factory Track 实施 |
+| [润数信息技术](../resources/consultants.md) | 中国 | Infor 金牌代理商，WMS & Factory Track 实施，自研润数 MOM |
+| [拓创数信实业](../resources/consultants.md) | 中国 | Infor LN + Factory Track PMC 制造解决方案 |
+| [Sama Consulting](../resources/consultants.md) | 北美 | 15+ 年经验，LN & Factory Track 实施与升级 |
+| [PCG Services](../resources/consultants.md) | 北美 | 2025 Infor 年度制造合作伙伴，自研 SmartFactory 云 MES |
+| [Tarento](../resources/consultants.md) | 亚太 | Infor 领先交付合作伙伴，LN & Factory Track 实施 |
 
 ### 博客与教程
 
@@ -98,8 +98,8 @@ description: "Infor Factory Track MES 制造执行系统资源导航，收录 Fa
 
 | 工具 | 说明 |
 |------|------|
-| [PCG SmartFactory™](resources/consultants.md) | PCG 自研云端 MES 加速器，与 Factory Track 互补 |
-| [Infor MES](resources/tools.md) | Infor 官方 MES 解决方案入口 |
+| [PCG SmartFactory™](../resources/consultants.md) | PCG 自研云端 MES 加速器，与 Factory Track 互补 |
+| [Infor MES](../resources/tools.md) | Infor 官方 MES 解决方案入口 |
 
 ---
 

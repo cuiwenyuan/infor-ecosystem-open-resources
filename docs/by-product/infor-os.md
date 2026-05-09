@@ -50,23 +50,23 @@ description: "Infor OS 平台资源导航，收录 Infor OS、ION、Ming.le 等�
 
 | 资源 | 说明 |
 |------|------|
-| [FullOnBaan LN Playbook](resources/blogs.md) | ION 工作流、API Gateway、BOD 集成知识库 |
-| [Infor Developer Portal](resources/blogs.md) | 官方开发者门户（含 OS、ION、Ming.le API） |
-| [DCKAP Blog](resources/blogs.md) | ION vs MuleSoft 中间件选型、集成策略 |
-| [SamA Consulting Blog](resources/blogs.md) | ION 集成深度技术文章 |
+| [FullOnBaan LN Playbook](../resources/blogs.md) | ION 工作流、API Gateway、BOD 集成知识库 |
+| [Infor Developer Portal](../resources/blogs.md) | 官方开发者门户（含 OS、ION、Ming.le API） |
+| [DCKAP Blog](../resources/blogs.md) | ION vs MuleSoft 中间件选型、集成策略 |
+| [SamA Consulting Blog](../resources/blogs.md) | ION 集成深度技术文章 |
 
 ### 工具与插件
 
 | 工具 | 说明 |
 |------|------|
-| [ION API Gateway](resources/tools.md) | API 管理（策略配置、代理端点、安全控制） |
-| [ION BOD 处理工具](resources/tools.md) | BOD 消息处理指南（XML 映射、转换规则） |
-| [ION Development Guide](resources/tools.md) | ION 开发指南 |
-| [Infor CI/CD Utility](resources/tools.md) | Infor 云 CI/CD 部署工具 |
-| [Infor OS Portal](resources/tools.md) | OS 门户配置指南 |
-| [Infor IPA (iPaaS)](resources/tools.md) | Infor 流程自动化平台 |
-| [ION EDI Tools](resources/tools.md) | EDI 连接器和工具 |
-| [ION API SDK (Java)](resources/tools.md) | ION API Gateway Java SDK |
+| [ION API Gateway](../resources/tools.md) | API 管理（策略配置、代理端点、安全控制） |
+| [ION BOD 处理工具](../resources/tools.md) | BOD 消息处理指南（XML 映射、转换规则） |
+| [ION Development Guide](../resources/tools.md) | ION 开发指南 |
+| [Infor CI/CD Utility](../resources/tools.md) | Infor 云 CI/CD 部署工具 |
+| [Infor OS Portal](../resources/tools.md) | OS 门户配置指南 |
+| [Infor IPA (iPaaS)](../resources/tools.md) | Infor 流程自动化平台 |
+| [ION EDI Tools](../resources/tools.md) | EDI 连接器和工具 |
+| [ION API SDK (Java)](../resources/tools.md) | ION API Gateway Java SDK |
 
 ---
 

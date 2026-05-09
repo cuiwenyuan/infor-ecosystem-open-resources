@@ -33,7 +33,7 @@ Infor OS 是 Infor 所有云产品的统一云原生基础设施平台。
 | **Workflow Engine** | 跨应用的统一工作流引擎 |
 
 **相关资源**：
-- [Infor OS 产品页](../by-product/infor-os.md)
+- [Infor OS 产品页](../../by-product/infor-os.md)
 - [OS/ION 专长顾问](../../resources/consultants.md) — mashfrog, Sama Consulting
 
 ---

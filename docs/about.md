@@ -116,7 +116,7 @@ infor-ecosystem-open-resources/
 
 ### 代码许可证
 
-本项目代码使用 [MIT License](LICENSE) 开源。
+本项目代码使用 [MIT License](license.md) 开源。
 
 ### 内容许可证
 

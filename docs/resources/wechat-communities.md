@@ -7,7 +7,7 @@ description: "收集 Infor LN、M3、CloudSuite 等产品的微信公众号、�
 
 > 以下资源为 Infor ERP（LN / M3 / CloudSuite 等）相关的微信公众号、知识星球社群及其他中文技术交流平台。
 > 
-> 如您运营或了解相关公众号/社群，欢迎 [提交资源](submission-guide.md) 补充。
+> 如您运营或了解相关公众号/社群，欢迎 [提交资源](../submission-guide.md) 补充。
 
 ---
 
@@ -191,7 +191,7 @@ description: "收集 Infor LN、M3、CloudSuite 等产品的微信公众号、�
 !!! note "待补充"
     目前尚未收集到活跃的 Infor LN / M3 专属微信群或 QQ 群信息。
 
-    如您知道相关社群，欢迎 [提交资源](submission-guide.md) 帮助完善本页。
+    如您知道相关社群，欢迎 [提交资源](../submission-guide.md) 帮助完善本页。
 
 ---
 

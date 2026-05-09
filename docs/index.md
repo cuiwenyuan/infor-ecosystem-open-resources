@@ -152,7 +152,7 @@ description: "Infor 生态第三方资源导航站首页，提供论坛、顾问
 
 ### 贡献指南
 
-请阅读 [CONTRIBUTING.md](CONTRIBUTING.md) 了解详细的贡献流程和规范。
+请阅读 [CONTRIBUTING.md](contributing.md) 了解详细的贡献流程和规范。
 
 ---
 
@@ -237,4 +237,4 @@ description: "Infor 生态第三方资源导航站首页，提供论坛、顾问
 
 **最后更新**：2026-05-08  
 **维护者**：崔文远 Troy Cui  
-**许可证**：[MIT](LICENSE) / [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
+**许可证**：[MIT](license.md) / [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)

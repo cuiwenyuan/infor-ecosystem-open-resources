@@ -7,7 +7,7 @@ description: "收录全球 Infor 实施顾问与合作伙伴公司，按地区�
 
 > Infor 生态中的专业顾问与实施公司，提供 ERP 实施、咨询、培训和技术支持服务。
 >
-> **最后更新**：2026-05-07 | **收录数量**：46+ 家公司
+> **最后更新**：2026-05-09 | **收录数量**：55+ 家公司
 
 ---
 
@@ -16,7 +16,7 @@ description: "收录全球 Infor 实施顾问与合作伙伴公司，按地区�
 - 本页面按地区分类收录 Infor 生态中的第三方顾问与实施公司
 - 点击公司名称查看详细信息
 - 💎 = Infor 金牌合作伙伴
-- 🏆 = Inform 年度最佳合作伙伴奖获得者
+- 🏆 = Infor 年度最佳合作伙伴奖获得者
 - 每家公司的信息包含：公司名称、地区、专长产品、服务范围和联系方式
 
 ---
@@ -175,52 +175,91 @@ description: "收录全球 Infor 实施顾问与合作伙伴公司，按地区�
 
 ---
 
-## 🌍 欧洲地区
-
-### 11. Columbus Global 💎🏆
+### 13. RenaissanceTech
 
 | 项目 | 详情 |
 |------|------|
-| **位置** | 丹麦（总部），全球运营 |
-| **官网** | [columbusglobal.com](https://www.columbusglobal.com) |
-| **专长产品** | Infor M3 CloudSuite |
-| **行业** | 食品饮料、时尚、设备制造、分销、零售、生命科学 |
-| **荣誉** | Infor Gold Partner, Infor Channel Innovation Awards 获得者 |
-| **服务** | M3 实施与咨询、云迁移、运营托管（AMS）、平台培训与推广、可用性优化 |
-| **经验** | 300+ 认证专家，20+ 年经验，350+ 客户 |
+| **位置** | 北美 |
+| **官网** | [renaissancetech.com](https://renaissancetech.com/) |
+| **专长产品** | Infor CPQ |
+| **行业** | 制造业 |
+| **服务** | Infor CPQ 实施、配置优化、销售流程自动化、CPQ 与 ERP 集成 |
 
 ---
 
-### 12. Lightning ERP
+### 14. InforLogic
 
 | 项目 | 详情 |
 |------|------|
-| **位置** | 华沙，波兰（服务欧洲和美国） |
-| **官网** | [lightning-erp.com](https://www.lightning-erp.com) |
-| **专长产品** | Infor CloudSuite, Infor M3 |
-| **行业** | 家具制造、水产/食品、食品分销、玻璃制造 |
-| **服务** | CloudSuite 部署、系统支持、业务流程重设计、AI 与自动化 |
-| **经验** | 11 年经验，3 大洲，11 国实施经验 |
-| **特色** | 自研 NuTrain AI 平台、SyncWize 数据管理工具 |
-| **联系方式** | Contact@Lightning-ERP.com |
+| **位置** | 北美 |
+| **官网** | [inforlogic.com](https://inforlogic.com/) |
+| **专长产品** | Infor CPQ, SunSystems |
+| **行业** | 制造业 |
+| **服务** | Infor CPQ for Manufacturers 实施、SunSystems 集成、制造流程优化 |
 
 ---
 
-### 13. mashfrog Group
+### 15. Astral Consulting
 
 | 项目 | 详情 |
 |------|------|
-| **位置** | 罗马，意大利（服务欧洲和北美） |
-| **官网** | [mashfrog.com](https://www.mashfrog.com) |
-| **专长产品** | Infor M3 CloudSuite, Infor OS, Infor WMS, Infor PLM, Infor RPA |
-| **行业** | 分销、时尚、食品饮料、制造业 |
-| **荣誉** | Infor Global Alliance Partner（欧洲和北美） |
-| **服务** | M3/WMS 实施、AI/ML/RPA 集成、InforOS 服务、Leap 敏捷方法论 |
-| **特色** | 自研 Mashbridge（集成加速器）、Mashbots（自动化工具）、Top Employer 2026 |
+| **位置** | 北美 |
+| **官网** | [astral-consulting.com](https://astral-consulting.com/) |
+| **专长产品** | Infor Birst |
+| **行业** | 跨行业 |
+| **服务** | Birst 实施、数据分析、报表开发、可视化仪表板 |
 
 ---
 
-### 14. Xencore Global GmbH
+### 16. Inovium 💎
+
+| 项目 | 详情 |
+|------|------|
+| **位置** | 全球 |
+| **官网** | [inovium.com](https://www.inovium.com/) |
+| **专长产品** | Infor 全产品线（Alliance Partner） |
+| **行业** | 跨行业 |
+| **服务** | Alliance 级别实施与咨询、产品深度合作、客户成功管理 |
+
+---
+
+### 17. DCKAP
+
+| 项目 | 详情 |
+|------|------|
+| **位置** | 北美 |
+| **官网** | [dckap.com](https://www.dckap.com/) |
+| **专长产品** | Infor 集成解决方案 |
+| **行业** | 制造业、分销 |
+| **服务** | Infor ERP 与电商/CRM 集成、API 开发、数据同步 |
+
+---
+
+### 18. Netray
+
+| 项目 | 详情 |
+|------|------|
+| **位置** | 欧洲 |
+| **官网** | [netray.co](https://www.netray.co/) |
+| **专长产品** | Infor ION, BOD, Coleman AI |
+| **行业** | 跨行业 |
+| **服务** | ION/BOD 消息处理指南、Coleman AI 实施、技术博客资源、集成开发 |
+
+---
+
+### 19. Rockwell Consults
+
+| 项目 | 详情 |
+|------|------|
+| **位置** | 北美 |
+| **官网** | [rockwellconsults.com](https://rockwellconsults.com/) |
+| **专长产品** | Infor PLM |
+| **行业** | 制造业 |
+| **服务** | PLM 实施、产品生命周期管理咨询、工程数据管理 |
+
+---
+
+### 20. Xencore Global GmbH
 
 | 项目 | 详情 |
 |------|------|
@@ -234,7 +273,77 @@ description: "收录全球 Infor 实施顾问与合作伙伴公司，按地区�
 
 ---
 
-### 15. Maximum Solution Consulting (MSC) Group
+## 🌍 欧洲地区
+
+### 21. Finansys 💎
+
+| 项目 | 详情 |
+|------|------|
+| **位置** | 英国（伦敦） |
+| **官网** | [finansys.com](https://www.finansys.com/) |
+| **专长产品** | Infor SunSystems、SunSystems Cloud |
+| **行业** | 酒店、非营利、专业服务 |
+| **服务** | SunSystems 实施、财务转型、云迁移 |
+| **特色** | SunSystems 专精，持续更新 SunSystems Cloud 版本动态博客 |
+
+---
+
+### 22. ECL Group 💎
+
+| 项目 | 详情 |
+|------|------|
+| **位置** | 英国 |
+| **官网** | [eclgrp.com](https://www.eclgrp.com/) |
+| **专长产品** | Infor SunSystems Cloud |
+| **行业** | 酒店、非营利、专业服务 |
+| **服务** | SunSystems Cloud 实施、2025 年 10 月版本更新专题分析 |
+| **特色** | 深度跟踪 SunSystems Cloud 产品更新 |
+
+---
+
+### 23. Columbus Global 💎🏆
+
+| 项目 | 详情 |
+|------|------|
+| **位置** | 丹麦（总部），全球运营 |
+| **官网** | [columbusglobal.com](https://www.columbusglobal.com) |
+| **专长产品** | Infor M3 CloudSuite |
+| **行业** | 食品饮料、时尚、设备制造、分销、零售、生命科学 |
+| **荣誉** | Infor Gold Partner, Infor Channel Innovation Awards 获得者 |
+| **服务** | M3 实施与咨询、云迁移、运营托管（AMS）、平台培训与推广、可用性优化 |
+| **经验** | 300+ 认证专家，20+ 年经验，350+ 客户 |
+
+---
+
+### 24. Lightning ERP
+
+| 项目 | 详情 |
+|------|------|
+| **位置** | 华沙，波兰（服务欧洲和美国） |
+| **官网** | [lightning-erp.com](https://www.lightning-erp.com) |
+| **专长产品** | Infor CloudSuite, Infor M3 |
+| **行业** | 家具制造、水产/食品、食品分销、玻璃制造 |
+| **服务** | CloudSuite 部署、系统支持、业务流程重设计、AI 与自动化 |
+| **经验** | 11 年经验，3 大洲，11 国实施经验 |
+| **特色** | 自研 NuTrain AI 平台、SyncWize 数据管理工具 |
+
+---
+
+### 25. mashfrog Group
+
+| 项目 | 详情 |
+|------|------|
+| **位置** | 罗马，意大利（服务欧洲和北美） |
+| **官网** | [mashfrog.com](https://www.mashfrog.com) |
+| **专长产品** | Infor M3 CloudSuite, Infor OS, Infor WMS, Infor PLM, Infor RPA |
+| **行业** | 分销、时尚、食品饮料、制造业 |
+| **荣誉** | Infor Global Alliance Partner（欧洲和北美） |
+| **服务** | M3/WMS 实施、AI/ML/RPA 集成、InforOS 服务、Leap 敏捷方法论 |
+| **特色** | 自研 Mashbridge（集成加速器）、Mashbots（自动化工具）、Top Employer 2026 |
+
+---
+
+### 26. Maximum Solution Consulting (MSC) Group
 
 | 项目 | 详情 |
 |------|------|
@@ -247,17 +356,18 @@ description: "收录全球 Infor 实施顾问与合作伙伴公司，按地区�
 
 ---
 
-### 16. GlobalStar Consulting
+### 27. GlobalStar Consulting
 
 | 项目 | 详情 |
 |------|------|
 | **位置** | 欧洲 |
 | **官网** | [globalstarconsulting.com](https://www.globalstarconsulting.com/) |
 | **专长产品** | Infor ERP, HCM, EFM, SCM |
-| **服务** | ERP 实施、升级、优化（自2000年起） |
+| **服务** | ERP 实施、升级、优化（自 2000 年起） |
 
 ---
-### 17. IT Works Recruitment Europe
+
+### 28. IT Works Recruitment Europe
 
 | 项目 | 详情 |
 |------|------|
@@ -270,7 +380,7 @@ description: "收录全球 Infor 实施顾问与合作伙伴公司，按地区�
 
 ## 🌍 亚太地区
 
-### 16. Tarento 💎
+### 29. Tarento 💎
 
 | 项目 | 详情 |
 |------|------|
@@ -281,7 +391,7 @@ description: "收录全球 Infor 实施顾问与合作伙伴公司，按地区�
 
 ---
 
-### 17. Coserve Solutions
+### 30. Coserve Solutions
 
 | 项目 | 详情 |
 |------|------|
@@ -295,7 +405,7 @@ description: "收录全球 Infor 实施顾问与合作伙伴公司，按地区�
 
 ---
 
-### 18. OTS Solutions
+### 31. OTS Solutions
 
 | 项目 | 详情 |
 |------|------|
@@ -308,7 +418,7 @@ description: "收录全球 Infor 实施顾问与合作伙伴公司，按地区�
 
 ---
 
-### 19. NestAscend
+### 32. NestAscend
 
 | 项目 | 详情 |
 |------|------|
@@ -321,7 +431,7 @@ description: "收录全球 Infor 实施顾问与合作伙伴公司，按地区�
 
 ---
 
-### 20. Systems Limited
+### 33. Systems Limited
 
 | 项目 | 详情 |
 |------|------|
@@ -333,7 +443,7 @@ description: "收录全球 Infor 实施顾问与合作伙伴公司，按地区�
 
 ---
 
-### 23. Genesis Software
+### 34. Genesis Software
 
 | 项目 | 详情 |
 |------|------|
@@ -343,7 +453,8 @@ description: "收录全球 Infor 实施顾问与合作伙伴公司，按地区�
 | **服务** | 咨询和实施服务 |
 
 ---
-### 24. GlobalBaan
+
+### 35. GlobalBaan
 
 | 项目 | 详情 |
 |------|------|
@@ -357,7 +468,7 @@ description: "收录全球 Infor 实施顾问与合作伙伴公司，按地区�
 
 ## 🌍 中国地区
 
-### 21. 润数信息技术（上海）有限公司 💎
+### 36. 润数信息技术（上海）有限公司 💎
 
 | 项目 | 详情 |
 |------|------|
@@ -373,7 +484,7 @@ description: "收录全球 Infor 实施顾问与合作伙伴公司，按地区�
 
 ---
 
-### 22. 拓创数信实业（上海）有限公司
+### 37. 拓创数信实业（上海）有限公司
 
 | 项目 | 详情 |
 |------|------|
@@ -385,7 +496,7 @@ description: "收录全球 Infor 实施顾问与合作伙伴公司，按地区�
 
 ---
 
-### 23. 上海指北电脑有限公司
+### 38. 上海指北电脑有限公司
 
 | 项目 | 详情 |
 |------|------|
@@ -397,18 +508,7 @@ description: "收录全球 Infor 实施顾问与合作伙伴公司，按地区�
 
 ---
 
-### 24. Godlan, Inc.（中国业务） 💎🏆
-
-| 项目 | 详情 |
-|------|------|
-| **位置** | 全球（含中国市场） |
-| **官网** | [godlan.com](https://godlan.com) |
-| **专长产品** | Infor CloudSuite Industrial (SyteLine) |
-| **荣誉** | 2025 Infor 全球年度最佳合作伙伴，Circle of Excellence Award |
-
----
-
-### 25. 梯升科技发展（合肥）股份有限公司
+### 39. 梯升科技发展（合肥）股份有限公司
 
 | 项目 | 详情 |
 |------|------|
@@ -424,7 +524,7 @@ description: "收录全球 Infor 实施顾问与合作伙伴公司，按地区�
 
 ---
 
-### 26. 领三咨询（上海领三信息科技有限公司）
+### 40. 领三咨询（上海领三信息科技有限公司）
 
 | 项目 | 详情 |
 |------|------|
@@ -439,7 +539,7 @@ description: "收录全球 Infor 实施顾问与合作伙伴公司，按地区�
 
 ---
 
-### 27. 班睿信息科技有限公司
+### 41. 班睿信息科技有限公司
 
 | 项目 | 详情 |
 |------|------|
@@ -453,7 +553,7 @@ description: "收录全球 Infor 实施顾问与合作伙伴公司，按地区�
 
 ---
 
-### 28. 朝上数信科技（上海）有限公司
+### 42. 朝上数信科技（上海）有限公司
 
 | 项目 | 详情 |
 |------|------|
@@ -468,9 +568,20 @@ description: "收录全球 Infor 实施顾问与合作伙伴公司，按地区�
 
 ---
 
+### 43. Godlan, Inc.（中国业务）🏆
+
+| 项目 | 详情 |
+|------|------|
+| **位置** | 全球（含中国市场） |
+| **官网** | [godlan.com](https://godlan.com) |
+| **专长产品** | Infor CloudSuite Industrial (SyteLine) |
+| **荣誉** | 2025 Infor 全球年度最佳合作伙伴，Circle of Excellence Award |
+
+---
+
 ## 🌍 跨区域 / 多国运营
 
-### 25. Grant Thornton
+### 44. Grant Thornton
 
 | 项目 | 详情 |
 |------|------|
@@ -481,7 +592,7 @@ description: "收录全球 Infor 实施顾问与合作伙伴公司，按地区�
 
 ---
 
-### 26. Copley Consulting Group
+### 45. Copley Consulting Group
 
 | 项目 | 详情 |
 |------|------|
@@ -492,7 +603,7 @@ description: "收录全球 Infor 实施顾问与合作伙伴公司，按地区�
 
 ---
 
-### 27. Kinsey
+### 46. Kinsey
 
 | 项目 | 详情 |
 |------|------|
@@ -503,7 +614,7 @@ description: "收录全球 Infor 实施顾问与合作伙伴公司，按地区�
 
 ---
 
-### 28. Cerca Technology
+### 47. Cerca Technology
 
 | 项目 | 详情 |
 |------|------|
@@ -514,7 +625,7 @@ description: "收录全球 Infor 实施顾问与合作伙伴公司，按地区�
 
 ---
 
-### 29. Synergy Resources
+### 48. Synergy Resources
 
 | 项目 | 详情 |
 |------|------|
@@ -524,7 +635,7 @@ description: "收录全球 Infor 实施顾问与合作伙伴公司，按地区�
 
 ---
 
-### 30. Kalathas Consulting
+### 49. Kalathas Consulting
 
 | 项目 | 详情 |
 |------|------|
@@ -536,7 +647,7 @@ description: "收录全球 Infor 实施顾问与合作伙伴公司，按地区�
 
 ## 🌍 ERP 研究与评测平台
 
-### 31. ERP Research
+### 50. ERP Research
 
 | 项目 | 详情 |
 |------|------|
@@ -547,7 +658,8 @@ description: "收录全球 Infor 实施顾问与合作伙伴公司，按地区�
 | **特色** | 提供 Oracle vs Infor、SAP vs Infor 等对比分析 |
 
 ---
-### 32. The CFO Club
+
+### 51. The CFO Club
 
 | 项目 | 详情 |
 |------|------|
@@ -567,9 +679,14 @@ description: "收录全球 Infor 实施顾问与合作伙伴公司，按地区�
 | **Infor CloudSuite Industrial (SyteLine)** | Godlan, Decision Resources, Visual South, PCG Services, 朝上数信 |
 | **Infor Lawson** | Blue Eagle Consulting, RPI Consultants |
 | **Infor WMS** | mashfrog, Cerca Technology, 润数信息 |
-| **Infor 全产品线** | Alpha Apex Group, Guide Technologies, Grant Thornton, Copley Consulting, Kinsey |
-| **Infor PLM** | Tarento, mashfrog, PCG Services |
-| **Infor OS / ION** | mashfrog, Sama Consulting |
+| **Infor CPQ** | RenaissanceTech, InforLogic, Sama Consulting, PCG Services, Visual South, 润数信息 |
+| **Infor SunSystems** | Finansys, ECL Group, InforLogic |
+| **Infor PLM** | Tarento, mashfrog, PCG Services, Rockwell Consults |
+| **Infor ION / BOD** | mashfrog, Sama Consulting, Netray |
+| **Infor Birst** | Astral Consulting, Sama Consulting |
+| **Infor Coleman AI** | Netray |
+| **Infor 全产品线** | Alpha Apex Group, Guide Technologies, Grant Thornton, Copley Consulting, Kinsey, Inovium |
+| **Infor 集成** | DCKAP, mashfrog |
 
 ---
 

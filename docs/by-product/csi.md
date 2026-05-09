@@ -60,28 +60,28 @@ description: "CloudSuite Industrial（原 SyteLine）资源导航，收录 CSI �
 
 | 资源 | 说明 |
 |------|------|
-| [SyteLine User Group (UK)](resources/forums.md) | 英国 SyteLine 用户组 |
-| [SUN (Syteline User Network)](resources/forums.md) | SyteLine 用户网络 |
-| [TUG CSI Network](resources/forums.md) | CSI 用户组网络 |
-| [Infor Global Community](resources/forums.md) | Infor 官方社区 CloudSuite 板块 |
+| [SyteLine User Group (UK)](../resources/forums.md) | 英国 SyteLine 用户组 |
+| [SUN (Syteline User Network)](../resources/forums.md) | SyteLine 用户网络 |
+| [TUG CSI Network](../resources/forums.md) | CSI 用户组网络 |
+| [Infor Global Community](../resources/forums.md) | Infor 官方社区 CloudSuite 板块 |
 
 ### 顾问与实施公司
 
 | 公司 | 地区 | 说明 |
 |------|------|------|
-| [Godlan](resources/consultants.md) | 北美 | 全球最大 CSI 专项合作伙伴 |
-| [Decision Resources (DRI)](resources/consultants.md) | 北美 | 顶级 CSI 合作伙伴，40+ 年经验 |
-| [Visual South](resources/consultants.md) | 北美 | CSI、CPQ 实施 |
-| [PCG Services](resources/consultants.md) | 北美 | LN & CSI 实施与升级 |
+| [Godlan](../resources/consultants.md) | 北美 | 全球最大 CSI 专项合作伙伴 |
+| [Decision Resources (DRI)](../resources/consultants.md) | 北美 | 顶级 CSI 合作伙伴，40+ 年经验 |
+| [Visual South](../resources/consultants.md) | 北美 | CSI、CPQ 实施 |
+| [PCG Services](../resources/consultants.md) | 北美 | LN & CSI 实施与升级 |
 
 ### 博客与教程
 
 | 资源 | 说明 |
 |------|------|
-| [Datix CSI Blog](resources/blogs.md) | 18 篇 CSI 技术文章（数据加载、报表等） |
-| [Visual South Training Blog](resources/blogs.md) | CSI/Infor VISUAL 培训教程 |
-| [CSDN SyteLine 教程](resources/blogs.md) | 中文 SyteLine 学习笔记 |
-| [知乎 SyteLine 教程](resources/blogs.md) | 中文 SyteLine 介绍 |
+| [Datix CSI Blog](../resources/blogs.md) | 18 篇 CSI 技术文章（数据加载、报表等） |
+| [Visual South Training Blog](../resources/blogs.md) | CSI/Infor VISUAL 培训教程 |
+| [CSDN SyteLine 教程](../resources/blogs.md) | 中文 SyteLine 学习笔记 |
+| [知乎 SyteLine 教程](../resources/blogs.md) | 中文 SyteLine 介绍 |
 
 ---
 

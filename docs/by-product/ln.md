@@ -49,44 +49,44 @@ description: "Infor LN 资源导航，收录 LN 相关的顾问公司、技术�
 
 | 资源 | 说明 |
 |------|------|
-| [LN ERP Customer Community](resources/forums.md) | Infor 官方 LN 用户社区 |
-| [LN NAUG (北美用户组)](resources/forums.md) | 北美 LN 用户组，含知识库和年会 |
-| [WIUG (荷兰用户组)](resources/forums.md) | 荷兰 Infor 用户组（覆盖 LN、M3 等） |
-| [r/Infor](resources/forums.md) | Reddit 社区（英文讨论） |
+| [LN ERP Customer Community](../resources/forums.md) | Infor 官方 LN 用户社区 |
+| [LN NAUG (北美用户组)](../resources/forums.md) | 北美 LN 用户组，含知识库和年会 |
+| [WIUG (荷兰用户组)](../resources/forums.md) | 荷兰 Infor 用户组（覆盖 LN、M3 等） |
+| [r/Infor](../resources/forums.md) | Reddit 社区（英文讨论） |
 
 ### 顾问与实施公司
 
 | 公司 | 地区 | 说明 |
 |------|------|------|
-| [Sama Consulting](resources/consultants.md) | 北美 | LN 实施、架构优化、ION 集成 |
-| [PCG Services](resources/consultants.md) | 北美 | LN & CSI 实施与升级 |
-| [NexGen Technologies](resources/consultants.md) | 北美 | LN 实施与支持 |
-| [Xencore Global](resources/consultants.md) | 欧洲 | LN & M3 实施顾问 |
-| [Tarento](resources/consultants.md) | 亚太 | LN & M3 PLM & Factory Track |
-| [Coserve Solutions](resources/consultants.md) | 亚太 | LN & CloudSuite 实施 |
-| [润数信息](resources/consultants.md) | 中国 | LN、WMS、CPQ 实施 |
-| [拓创数字](resources/consultants.md) | 中国 | LN 实施与定制开发 |
+| [Sama Consulting](../resources/consultants.md) | 北美 | LN 实施、架构优化、ION 集成 |
+| [PCG Services](../resources/consultants.md) | 北美 | LN & CSI 实施与升级 |
+| [NexGen Technologies](../resources/consultants.md) | 北美 | LN 实施与支持 |
+| [Xencore Global](../resources/consultants.md) | 欧洲 | LN & M3 实施顾问 |
+| [Tarento](../resources/consultants.md) | 亚太 | LN & M3 PLM & Factory Track |
+| [Coserve Solutions](../resources/consultants.md) | 亚太 | LN & CloudSuite 实施 |
+| [润数信息](../resources/consultants.md) | 中国 | LN、WMS、CPQ 实施 |
+| [拓创数字](../resources/consultants.md) | 中国 | LN 实施与定制开发 |
 
 ### 博客与教程
 
 | 资源 | 说明 |
 |------|------|
-| [Reinforce Tech Blog](resources/blogs.md) | LN/LX/Baan 实施与运维实践 |
-| [FullOnBaan LN Playbook](resources/blogs.md) | LN/ION/Infor OS 知识库（4GL、DAL、BOD 等） |
-| [FullOnBaan 视频课程](resources/blogs.md) | LN 各模块视频培训（开发、管理、财务） |
-| [Crossroads RMC](resources/blogs.md) | LN 实用技巧与 ION 集成 |
-| [SamA Consulting Blog](resources/blogs.md) | LN 架构优化、ION、WMS、EAM、HCM 深度技术文章 |
-| [CSDN LN 教程](resources/blogs.md) | 中文 LN 学习笔记（腾讯云） |
+| [Reinforce Tech Blog](../resources/blogs.md) | LN/LX/Baan 实施与运维实践 |
+| [FullOnBaan LN Playbook](../resources/blogs.md) | LN/ION/Infor OS 知识库（4GL、DAL、BOD 等） |
+| [FullOnBaan 视频课程](../resources/blogs.md) | LN 各模块视频培训（开发、管理、财务） |
+| [Crossroads RMC](../resources/blogs.md) | LN 实用技巧与 ION 集成 |
+| [SamA Consulting Blog](../resources/blogs.md) | LN 架构优化、ION、WMS、EAM、HCM 深度技术文章 |
+| [CSDN LN 教程](../resources/blogs.md) | 中文 LN 学习笔记（腾讯云） |
 
 ### 工具与插件
 
 | 工具 | 说明 |
 |------|------|
-| [LN DevTools (VS Code)](resources/tools.md) | VS Code 扩展，浏览和管理 LN 构件 |
-| [LN Studio](resources/tools.md) | LN 官方应用开发工具 |
-| [PMC](resources/tools.md) | 产品维护和控制工具（功能包管理） |
-| [LN Reporting (SSRS)](resources/tools.md) | LN 报表开发工具 |
-| [ION BOD 处理工具](resources/tools.md) | ION BOD 消息处理指南 |
+| [LN DevTools (VS Code)](../resources/tools.md) | VS Code 扩展，浏览和管理 LN 构件 |
+| [LN Studio](../resources/tools.md) | LN 官方应用开发工具 |
+| [PMC](../resources/tools.md) | 产品维护和控制工具（功能包管理） |
+| [LN Reporting (SSRS)](../resources/tools.md) | LN 报表开发工具 |
+| [ION BOD 处理工具](../resources/tools.md) | ION BOD 消息处理指南 |
 
 ---
 

@@ -28,7 +28,7 @@ Infor 通过收购多家知名 ERP 厂商形成了多元化的产品线，每款
 **主要模块**：制造管理、供应链管理、财务管理、项目管理、质量管理
 
 **相关资源**：
-- [Infor LN 详细介绍](../by-product/ln.md)
+- [Infor LN 详细介绍](../../by-product/ln.md)
 - [LN 专长顾问](../../resources/consultants.md) — Sama Consulting, PCG Services, NexGen Technologies 等
 - [LN 博客与教程](../../resources/blogs.md) — FullOnBaan, Reinforce Tech
 - [LN 开发工具](../../resources/tools.md) — DevTools, Studio, PMC
@@ -48,7 +48,7 @@ Infor 通过收购多家知名 ERP 厂商形成了多元化的产品线，每款
 **主要模块**：制造（流程/混合）、供应链（分销/零售）、财务管理、时尚管理
 
 **相关资源**：
-- [Infor M3 详细介绍](../by-product/m3.md)
+- [Infor M3 详细介绍](../../by-product/m3.md)
 - [M3 专长顾问](../../resources/consultants.md) — Columbus Global, Lightning ERP, mashfrog, Xencore Global 等
 - [M3 开发工具](../../resources/tools.md) — XtendM3, H5 SDK, M3 API
 
@@ -65,7 +65,7 @@ Infor 通过收购多家知名 ERP 厂商形成了多元化的产品线，每款
 | **关键优势** | 快速实施、性价比高、适合成长型制造企业 |
 
 **相关资源**：
-- [CSI 详细介绍](../by-product/csi.md)
+- [CSI 详细介绍](../../by-product/csi.md)
 - [CSI 专长顾问](../../resources/consultants.md) — Godlan, Decision Resources, Visual South, Guide Technologies
 
 ---

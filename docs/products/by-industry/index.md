@@ -28,8 +28,8 @@ description: "按行业分类浏览 Infor 产品与资源，涵盖离散制造�
 | **工业设备制造** | CloudSuite Industrial | 中端市场的完整制造套件，快速上线 |
 
 **相关资源**：
-- [Infor LN 详细介绍](../by-product/ln.md)
-- [CSI 详细介绍](../by-product/csi.md)
+- [Infor LN 详细介绍](../../by-product/ln.md)
+- [CSI 详细介绍](../../by-product/csi.md)
 - [离散制造专长顾问](../../resources/consultants.md) — Godlan, DRI, PCG Services, NexGen, 润数信息, 拓创数字
 - [制造类博客](../../resources/blogs.md) — Reinforce Tech, FullOnBaan, SamA Consulting Blog
 - [制造工具集](../../resources/tools.md) — Factory Track (MES), PLM, DevTools
@@ -49,7 +49,7 @@ description: "按行业分类浏览 Infor 产品与资源，涵盖离散制造�
 | **包装 / 消费品** | Infor M3 | 品牌管理、促销管理、贸易促销优化 |
 
 **相关资源**：
-- [Infor M3 详细介绍](../by-product/m3.md)
+- [Infor M3 详细介绍](../../by-product/m3.md)
 - [流程制造专长顾问](../../resources/consultants.md) — Columbus Global, Lightning ERP, mashfrog, Xencore Global
 - [M3 开发工具](../../resources/tools.md) — XtendM3, M3 H5 SDK
 
@@ -68,7 +68,7 @@ description: "按行业分类浏览 Infor 产品与资源，涵盖离散制造�
 | **价格管理** | 客户价格矩阵、折扣结构、促销定价 |
 
 **相关资源**：
-- [M3 分销模块](../by-product/m3.md)
+- [M3 分销模块](../../by-product/m3.md)
 - [分销专长顾问](../../resources/consultants.md) — Columbus Global, Xencore Global
 
 ---
@@ -164,7 +164,7 @@ Infor 在多个服务垂直行业提供了行业专属的 CloudSuite 解决方�
 | **店铺运营** | POS 集成、门店库存、退货管理 |
 
 **相关资源**：
-- [M3 Fashion](../by-product/m3.md)
+- [M3 Fashion](../../by-product/m3.md)
 - [时尚行业专长顾问](../../resources/consultants.md) — Columbus Global, mashfrog, Xencore Global
 
 ---

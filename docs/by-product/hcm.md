@@ -61,7 +61,7 @@ description: "Infor HCM 人力资本管理系统资源导航，收录 HCM 相关
 | LinkedIn Infor HCM User Group | 用户群组 | [访问](https://www.linkedin.com) |
 
 ### 顾问与实施公司
-> 💡 如需添加 HCM 实施伙伴，请通过 [资源提交](contributing.md) 贡献。
+> 💡 如需添加 HCM 实施伙伴，请通过 [资源提交](../contributing.md) 贡献。
 
 ### 博客与教程
 | 名称 | 类型 | 链接 |

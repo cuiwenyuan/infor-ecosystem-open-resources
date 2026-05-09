@@ -48,8 +48,6 @@ plugins:
         - zh
         - en
       separator: '[\s\-\.,:!?;\(\)\[\]{}\u3000\u3001\u3002\uff0c\uff01\uff1b\uff1a\u201c\u201d\u2018\u2019]'
-      min_search_length: 1
-      prebuild_index: true
 
 markdown_extensions:
   - pymdownx.highlight:
@@ -80,12 +78,7 @@ extra:
   #   property: G-XXXXXXXXXX  # TODO: 替换为你的 Google Analytics ID
   generator: false
 
-footer:
-  links:
-    - 联系我们: contact.md
-    - 广告合作: sponsorship.md
-    - 资源提交: submission-guide.md
-    - GitHub: https://github.com/cuiwenyuan/infor-ecosystem-open-resources
+  # footer 自定义（通过 custom_dir 覆盖模板实现，此处配置已废弃）
 
 extra_css:
   - assets/css/extra.css
@@ -99,6 +92,11 @@ nav:
   - 培训与认证: resources/training.md
   - 视频与课程: resources/videos.md
   - 官方文档导航: resources/official-docs.md
+  - 客户案例: resources/case-studies.md
+  - ION BOD 集成: resources/ion-integration.md
+  - 版本动态: resources/release-notes.md
+  - 认证指南: resources/certification-guide.md
+  - 招聘求职: resources/jobs.md
   - LN 开发系列:
       - 4GL 语言基础: resources/ln-4gl-tips.md
       - DAL 完全指南: resources/ln-dal-guide.md
@@ -122,6 +120,10 @@ nav:
       - Infor HCM: by-product/hcm.md
       - Infor EAM: by-product/eam.md
       - Infor CRM: by-product/crm.md
+      - Infor FSM: by-product/fsm.md
+      - Infor Nexus: by-product/nexus.md
+      - Infor SunSystems: by-product/sunsystems.md
+      - Infor CPQ: by-product/cpq.md
       - Infor OS: by-product/infor-os.md
   - 产品分类:
       - 按业务功能: products/by-function/index.md

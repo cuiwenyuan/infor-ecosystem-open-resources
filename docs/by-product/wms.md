@@ -79,25 +79,25 @@ description: "Infor WMS 仓储管理系统资源导航，收录 WMS 相关的顾
 
 | 资源 | 说明 |
 |------|------|
-| [WMS User Group](resources/forums.md) | Infor 官方 WMS 用户组，提供会议和网络研讨会信息 |
-| [TUG - WMS Network](resources/forums.md) | 独立客户驱动的 WMS 专业社区网络（18 个网络之一） |
-| [WMS LATAM User Group](resources/forums.md) | 拉丁美洲 Infor WMS 用户组，西班牙语社区 |
-| [Infor 全球用户社区](resources/forums.md) | Infor 官方社区 WMS 讨论区 |
+| [WMS User Group](../resources/forums.md) | Infor 官方 WMS 用户组，提供会议和网络研讨会信息 |
+| [TUG - WMS Network](../resources/forums.md) | 独立客户驱动的 WMS 专业社区网络（18 个网络之一） |
+| [WMS LATAM User Group](../resources/forums.md) | 拉丁美洲 Infor WMS 用户组，西班牙语社区 |
+| [Infor 全球用户社区](../resources/forums.md) | Infor 官方社区 WMS 讨论区 |
 
 ### 顾问与实施公司
 
 | 公司 | 地区 | 说明 |
 |------|------|------|
-| [润数信息技术](resources/consultants.md) | 中国 | Infor 金牌代理商，WMS & Factory Track 实施，自研润数 MOM |
-| [mashfrog Group](resources/consultants.md) | 欧洲 | M3、WMS、OS、PLM、RPA 全栈实施 |
-| [Cerca Technology](resources/consultants.md) | 北美 | Infor WMS 专项实施服务 |
-| [PCG Services](resources/consultants.md) | 北美 | 2025 Infor 年度制造合作伙伴，WMS & MES & PLM 实施 |
+| [润数信息技术](../resources/consultants.md) | 中国 | Infor 金牌代理商，WMS & Factory Track 实施，自研润数 MOM |
+| [mashfrog Group](../resources/consultants.md) | 欧洲 | M3、WMS、OS、PLM、RPA 全栈实施 |
+| [Cerca Technology](../resources/consultants.md) | 北美 | Infor WMS 专项实施服务 |
+| [PCG Services](../resources/consultants.md) | 北美 | 2025 Infor 年度制造合作伙伴，WMS & MES & PLM 实施 |
 
 ### 博客与教程
 
 | 资源 | 说明 |
 |------|------|
-| [SamA Consulting Blog](resources/blogs.md) | Infor LN 架构优化、ION 集成、WMS 仓库管理深度技术文章 |
+| [SamA Consulting Blog](../resources/blogs.md) | Infor LN 架构优化、ION 集成、WMS 仓库管理深度技术文章 |
 | [Infor WMS CRB 二次开发教程](https://blog.csdn.net/gitblog_06727/article/details/147608013) | CSDN 教程：WMS CRB 二次开发环境搭建与核心概念（中文） |
 
 ### 视频与课程
@@ -110,7 +110,7 @@ description: "Infor WMS 仓储管理系统资源导航，收录 WMS 相关的顾
 
 | 工具 | 说明 |
 |------|------|
-| [Infor WMS](resources/tools.md) | 一级云仓库管理系统，内置 AI、3D 可视化、语音处理 |
+| [Infor WMS](../resources/tools.md) | 一级云仓库管理系统，内置 AI、3D 可视化、语音处理 |
 
 ---
 

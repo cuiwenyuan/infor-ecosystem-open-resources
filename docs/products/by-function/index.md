@@ -36,7 +36,7 @@ Infor 生态系统提供从基础核算到企业绩效管理的完整财务解�
 
 - [顾问公司 — 财务模块专长](../../resources/consultants.md) — Sama Consulting、PCG Services 等提供 LN/M3 财务实施
 - [博客与教程](../../resources/blogs.md) — FullOnBaan、Reinforce Tech 提供财务模块实施经验
-- [Infor LN 产品页](../by-product/ln.md) — LN 财务模块详细说明
+- [Infor LN 产品页](../../by-product/ln.md) — LN 财务模块详细说明
 - [工具与插件](../../resources/tools.md) — Birst 报表开发相关工具
 
 ---
@@ -69,8 +69,8 @@ Infor 在供应链领域拥有业界领先的 WMS 和全球供应链网络平台
 
 - [顾问公司 — WMS/Nexus 专长](../../resources/consultants.md) — mashfrog (WMS)、Cerca Technology (WMS)
 - [Infor WMS 产品页](../../by-product/wms.md) — WMS 仓储管理详细说明
-- [Infor M3 产品页](../by-product/m3.md) — M3 供应链模块详情
-- [Infor LN 产品页](../by-product/ln.md) — LN 采购与库存管理
+- [Infor M3 产品页](../../by-product/m3.md) — M3 供应链模块详情
+- [Infor LN 产品页](../../by-product/ln.md) — LN 采购与库存管理
 
 ---
 
@@ -134,9 +134,9 @@ Infor 的核心竞争力所在，提供离散制造和流程制造的完整解�
 
 ### 推荐资源
 
-- [Infor LN 产品页](../by-product/ln.md) — 离散制造详细说明
-- [Infor M3 产品页](../by-product/m3.md) — 流程制造详细说明
-- [CSI 产品页](../by-product/csi.md) — 中端离散制造方案
+- [Infor LN 产品页](../../by-product/ln.md) — 离散制造详细说明
+- [Infor M3 产品页](../../by-product/m3.md) — 流程制造详细说明
+- [CSI 产品页](../../by-product/csi.md) — 中端离散制造方案
 - [顾问公司 — 制造专长](../../resources/consultants.md) — Godlan、DRI、PCG Services、润数信息 等
 - [博客与教程](../../resources/blogs.md) — FullOnBaan (LN 制造知识库)
 - [工具与插件](../../resources/tools.md) — [Factory Track](../../by-product/factory-track.md) (MES)、PLM 工具
@@ -171,7 +171,7 @@ Infor EAM 可以作为独立系统使用，也可以通过 ION 与 LN、M3 等ER
 
 ### 推荐资源
 
-- [Infor LN 产品页](../by-product/ln.md) — ETO 项目制造模块
+- [Infor LN 产品页](../../by-product/ln.md) — ETO 项目制造模块
 
 ---
 
