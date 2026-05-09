@@ -85,18 +85,22 @@ extra_css:
 
 nav:
   - 首页: index.md
-  - 论坛与社区: resources/forums.md
-  - 顾问与实施公司: resources/consultants.md
-  - 博客与教程: resources/blogs.md
-  - 工具与插件: resources/tools.md
-  - 培训与认证: resources/training.md
-  - 视频与课程: resources/videos.md
-  - 官方文档导航: resources/official-docs.md
-  - 客户案例: resources/case-studies.md
-  - ION BOD 集成: resources/ion-integration.md
-  - 版本动态: resources/release-notes.md
-  - 认证指南: resources/certification-guide.md
-  - 招聘求职: resources/jobs.md
+  - 资源中心:
+      - 论坛与社区: resources/forums.md
+      - 顾问与实施公司: resources/consultants.md
+      - 博客与教程: resources/blogs.md
+      - 工具与插件: resources/tools.md
+      - 培训与认证: resources/training.md
+      - 微信公众号/社群: resources/wechat-communities.md
+  - 学习中心:
+      - 视频与课程: resources/videos.md
+      - 官方文档导航: resources/official-docs.md
+      - 客户案例: resources/case-studies.md
+      - ION BOD 集成: resources/ion-integration.md
+      - 版本动态: resources/release-notes.md
+      - 认证指南: resources/certification-guide.md
+      - 招聘求职: resources/jobs.md
+      - Infor 术语表: resources/glossary.md
   - LN 开发系列:
       - 4GL 语言基础: resources/ln-4gl-tips.md
       - DAL 完全指南: resources/ln-dal-guide.md
@@ -104,8 +108,6 @@ nav:
       - Public Interfaces 速查: resources/ln-pi-reference.md
       - 数据库与性能调优: resources/ln-performance.md
       - 二次开发实战集锦: resources/ln-dev-cookbook.md
-  - Infor 术语表: resources/glossary.md
-  - 微信公众号/社群: resources/wechat-communities.md
   - 按地区浏览:
       - 北美: by-region/north-america.md
       - 欧洲: by-region/europe.md
