@@ -129,12 +129,19 @@ nav:
       - Infor Birst: by-product/birst.md
       - Infor PLM: by-product/plm.md
       - Infor Supply Planning: by-product/supply-planning.md
+      - Infor YMS: by-product/yms.md
+      - Infor ION: by-product/ion.md
+      - Infor d/EPM: by-product/d-epm.md
+      - Infor QMS: by-product/qms.md
       - Infor OS: by-product/infor-os.md
   - 产品分类:
       - 按业务功能: products/by-function/index.md
       - 按产品线: products/by-product-line/index.md
       - 按行业: products/by-industry/index.md
       - 按技术平台: products/by-platform/index.md
+  - 竞品对比:
+      - Infor LN vs SAP S/4HANA: competitor/ln-vs-sap.md
+      - Infor M3 vs SAP S/4HANA: competitor/m3-vs-sap.md
   - 关于本项目:
       - 项目介绍: about.md
       - 资源提交规范: submission-guide.md

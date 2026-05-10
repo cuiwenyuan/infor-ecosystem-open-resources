@@ -221,6 +221,78 @@ Infor Supply Planning 是 Infor SCP（供应链计划）套件的核心组件，
 
 ---
 
+### Infor ION — 集成平台
+
+Infor ION 是 Infor 生态系统的核心集成中间件，以 BOD（Business Object Document）为标准消息格式，通过事件驱动架构连接 Infor 各产品及外部系统。
+
+| 组件 | 说明 |
+|------|------|
+| **ION Gateway / API Gateway** | API 管理、策略控制、代理端点、安全防护 |
+| **ION Connect** | 文档流（Document Flow）可视化编排，BOD 转换器 |
+| **ION Workflow** | 业务流程编排，支持人工审批节点 |
+| **ION Data Lake** | 数据湖服务，ETL 数据整合，Birst 数据源 |
+
+**BOD 体系**：Sync/Promise/Confirm/Process/CANCEL/GET 等操作类型，覆盖 SalesOrder、PurchaseOrder、Inventory、Invoice 等业务对象。
+
+**相关资源**：
+- [Infor ION 详细介绍](../../by-product/ion.md)
+- [ION 专长顾问](../../resources/consultants.md) — mashfrog, Sama Consulting, Netray
+- [ION 开发工具](../../resources/tools.md) — ION API SDK、BOD 处理指南
+
+---
+
+### Infor d/EPM — 企业绩效管理
+
+Infor d/EPM 是财务规划、预算编制、合并报表和财务分析平台，与 Infor LN、M3 等 ERP 深度集成。
+
+| 功能域 | 核心能力 |
+|--------|----------|
+| **预算编制** | 多版本预算建模、滚动预测（Rolling Forecast）、What-if 场景模拟 |
+| **财务合并** | 多实体抵消分录、多币种折算、IFRS/US GAAP 并行 |
+| **管理报表** | 利润中心 P&L、EBITDA 分析、责任中心会计 |
+| **合规** | SOX 合规支持、审计轨迹、版本控制 |
+
+**相关资源**：
+- [Infor d/EPM 详细介绍](../../by-product/d-epm.md)
+- [d/EPM 专长顾问](../../resources/consultants.md) — Sama Consulting, PCG Services, NexGen Technologies
+
+---
+
+### Infor QMS — 质量管理系统
+
+Infor QMS 提供完整的供应商质量管理、内部质量控制、审计管理和合规追踪，支持 ISO 9001、IATF 16949、FDA 21 CFR Part 11。
+
+| 功能域 | 核心能力 |
+|--------|----------|
+| **供应商质量管理** | 供应商审核、来料检验（AQL）、SCAR 跟踪、供应商评分卡 |
+| **内部质量控制** | 检验计划、NCR（不合格品）、CAPA（纠正预防措施）、8D 报告 |
+| **审计管理** | 审计计划、Checklist、审计发现跟踪、ISO/IATF/FDA 模板 |
+| **SPC** | 控制图（Xbar-R、P 图）、过程能力分析（Cp/Cpk）、实时报警 |
+
+**相关资源**：
+- [Infor QMS 详细介绍](../../by-product/qms.md)
+- [QMS 专长顾问](../../resources/consultants.md) — Sama Consulting, PCG Services, Godlan
+
+---
+
+### Infor YMS — 场院管理
+
+Infor YMS 是 Infor WMS 的重要补充，专注于仓库外围的场院管理——跟踪卡车、拖车的进出、排队和停靠。
+
+| 功能域 | 核心能力 |
+|--------|----------|
+| **场院预约** | 供应商/承运商在线预约、基于仓库产能的优化排程 |
+| **场院可视化** | 实时卡车/拖车跟踪、交互式场院地图、滞留监控报警 |
+| **门岗管理** | 电子签到、证件核验、安全检查、与门禁集成 |
+| **装卸口管理** | 装卸口状态监控、智能分配、与 WMS 联动 |
+| **运输商门户** | 自助预约、电子单据上传、停靠时长对账 |
+
+**相关资源**：
+- [Infor YMS 详细介绍](../../by-product/yms.md)
+- [YMS 专长顾问](../../resources/consultants.md) — mashfrog, Cerca Technology, 润数信息
+
+---
+
 ## 供应链平台
 
 ### Infor Nexus（源自 GT Nexus）
