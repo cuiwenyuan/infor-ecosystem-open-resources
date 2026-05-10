@@ -61,7 +61,7 @@ description: "Infor CRM 客户关系管理资源导航，收录 CRM 相关的顾
 ### 论坛与社区
 | 名称 | 类型 | 链接 |
 |------|------|------|
-| Infor Community - CRM 板块 | 官方社区（历史存档） | [访问](https://www.infor.com/company/community) |
+| Infor Community - CRM 板块 | 官方社区 | [访问](https://community.infor.com/) |
 | Customer FX 社区 | 第三方社区 | [访问](https://customerfx.com/) |
 
 ### 顾问与实施公司
@@ -73,7 +73,7 @@ description: "Infor CRM 客户关系管理资源导航，收录 CRM 相关的顾
 ### 博客与教程
 | 名称 | 类型 | 链接 |
 |------|------|------|
-| Customer FX - Infor CRM 博客 | 技术博客 | [访问](https://customerfx.com/blog/) |
+| Customer FX - Infor CRM 资源 | 技术文章 | [访问](https://customerfx.com/articles/InforCRM/) |
 | Taloflow - Infor CRM 指南 | 产品测评 | [访问](https://www.taloflow.ai/guides/products/inforcrm) |
 | G2 - Infor CRM 评测 | 用户评价 | [访问](https://www.g2.com/products/infor-customer-relationship-management-crm/features) |
 

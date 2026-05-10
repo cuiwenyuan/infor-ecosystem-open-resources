@@ -37,6 +37,9 @@ description: "Infor 生态视频教程资源导航，收录 YouTube、Bilibili�
 
 | 频道/来源 | 内容 | 语言 | 链接 |
 |----------|------|------|------|
+| **FullOnBaan** | Infor LN 专业培训 YouTube 频道，涵盖开发、管理、财务、制造、物流等模块，配套 200+ 电子书 | 英文 | [YouTube](https://www.youtube.com/channel/UCYT7snIHzheVwSx4M7DFuVA) |
+| **FullOnBaan 培训平台** | LN 开发/财务/制造/管理/ION/BOD 等 200+ 本电子书 + 视频课程，免费入门指南 | 英文 | [访问](https://training.fullonbaan.com/) |
+| **FullOnBaan 生态中心** | 资源库、招聘、认证、面试准备、实战手册等完整生态 | 英文 | [访问](https://home.fullonbaan.com/) |
 | **Visual South** | CloudSuite Industrial (SyteLine) 培训视频库，内容丰富 | 英文 | [YouTube](https://www.youtube.com/@VisualSouth) |
 | **CrossRoads ERP** | Infor LN / SyteLine 培训视频和操作指南 | 英文 | [YouTube](https://www.youtube.com/@CrossRoadsERP) |
 | **Customer FX** | Infor CRM SLX 培训视频（AI 洞察、营销自动化、仪表板） | 英文 | [访问](https://customerfx.com/) |
@@ -69,6 +72,10 @@ description: "Infor 生态视频教程资源导航，收录 YouTube、Bilibili�
 | 平台 | 课程内容 | 语言 | 链接 |
 |------|---------|------|------|
 | **Infor U Campus** | 官方认证课程（LN、M3、WMS、HCM、OS 等） | 多语言 | [访问](https://eduportal.infor.com/) |
+| **FullOnBaan 培训平台** | LN 开发/财务/制造/管理/ION/BOD 等 200+ 本电子书 + 视频课程，免费入门指南 | 英文 | [访问](https://training.fullonbaan.com/) |
+| **FullOnBaan 生态中心** | 资源库、招聘、认证、面试准备、实战手册完整生态 | 英文 | [访问](https://home.fullonbaan.com/) |
+| **GlobalBaan Solutions** | LN/M3 管理、开发、制造、财务、物流全模块培训，12年+ 经验，实战导向 | 英文 | [访问](https://globalbaan.com/) |
+| **IGM Guru** | Infor LN 在线认证课程（架构、财务管理、供应链管理、制造） | 英文 | [访问](https://www.igmguru.com/erp-training/infor-ln-training) |
 | **Maxmunus** | Infor CloudSuite 在线培训（LN、M3、HCM、FSM） | 英文 | [访问](https://www.maxmunus.com/page/infor-cloudsuite-training) |
 | **Koenig Solutions** | Infor M3 综合培训课程 | 英文 | [访问](https://www.koenig-solutions.com/infor-m3-training-course) |
 
@@ -97,6 +104,6 @@ description: "Infor 生态视频教程资源导航，收录 YouTube、Bilibili�
 
 ---
 
-*最后更新：2026-05-08*
+*最后更新：2026-05-10*
 
 > 💡 发现更多 Infor 视频资源？欢迎通过 [GitHub Issue](https://github.com/cuiwenyuan/infor-ecosystem-open-resources/issues/new) 提交推荐！

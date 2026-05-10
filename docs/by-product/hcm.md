@@ -57,7 +57,7 @@ description: "Infor HCM 人力资本管理系统资源导航，收录 HCM 相关
 ### 论坛与社区
 | 名称 | 类型 | 链接 |
 |------|------|------|
-| Infor Community - HCM 板块 | 官方社区 | [访问](https://www.infor.com/company/community) |
+| Infor Community - HCM 板块 | 官方社区 | [访问](https://community.infor.com/) |
 | LinkedIn Infor HCM User Group | 用户群组 | [访问](https://www.linkedin.com) |
 
 ### 顾问与实施公司
@@ -67,7 +67,7 @@ description: "Infor HCM 人力资本管理系统资源导航，收录 HCM 相关
 | 名称 | 类型 | 链接 |
 |------|------|------|
 | Surety Systems - Infor HCM 指南 | 教程 | [访问](https://www.suretysystems.com/insights/infor-hcm-your-complete-guide-to-streamlined-human-resources/) |
-| SamA Consulting - HCM CloudSuite 技术解析 | 技术博客 | [访问](https://samaconsultinginc.com/blogs/) |
+| SamA Consulting - HCM 技术解析 | 技术博客 | [访问](https://samaconsultinginc.com/) |
 
 ### 工具与插件
 | 名称 | 类型 | 链接 |

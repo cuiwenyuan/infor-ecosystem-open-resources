@@ -40,7 +40,7 @@ description: "了解 Infor 生态开放资源导航站的项目定位、核心�
 ### ❌ 不包含内容
 
 - Infor 官方产品文档（请访问 [Infor Documentation](https://docs.infor.com)）
-- Infor 官方培训课程（请访问 [Infor Learning Center](https://www.infor.com/company/education)）
+- Infor 官方培训课程（请访问 [Infor 客户成功 / 教育](https://www.infor.com/customer-success/education)）
 - 非法网站或资源
 - 纯广告/营销内容（无实质技术内容）
 - 与 Infor 生态无关的资源
@@ -130,7 +130,7 @@ infor-ecosystem-open-resources/
 
 - **Infor** 是 Infor Inc. 的注册商标
 - 本网站与 Infor Inc. 无官方关联
-- 使用 Infor 商标需遵守 [Infor 商标使用规范](https://www.infor.com/company/legal/trademarks)
+- 使用 Infor 商标需遵守 [Infor 使用条款](https://www.infor.com/company/legal/)
 
 ---
 
