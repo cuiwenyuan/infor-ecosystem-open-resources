@@ -158,6 +158,12 @@ description: "Infor 生态开放资源导航站首页，提供论坛、顾问公
 
 ### 📅 项目动态
 
+#### 2026-05-10
+- 📦 **新增 4 个产品独立页面**：d/EPM（预算与合并）、QMS（质量管理）、YMS（场地管理）、ION（集成平台）
+- 🔥 **新增竞品对比板块**：Infor LN vs SAP S/4HANA、Infor M3 vs SAP S/4HANA（定位、功能、TCO、选型建议）
+- 🔗 更新 mkdocs.yml 导航（按产品浏览 +17 页，新增"竞品对比"顶级板块）
+- 📊 更新 by-product-line 分类页（d/EPM、QMS、YMS、ION 从简略升级为完整章节）
+
 #### 2026-05-08（下午·续）
 - 💻 **LN 开发系列**扩展为 6 页：DAL 完全指南、Extension 开发实战、Public Interfaces 速查、数据库与性能调优、二次开发实战集锦
 - 📖 新增 **Infor 术语表** 页面（50+ 术语中英文释义）
@@ -235,6 +241,6 @@ description: "Infor 生态开放资源导航站首页，提供论坛、顾问公
 
 ---
 
-**最后更新**：2026-05-08  
+**最后更新**：2026-05-10  
 **维护者**：崔文远 Troy Cui  
 **许可证**：[MIT](license.md) / [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
