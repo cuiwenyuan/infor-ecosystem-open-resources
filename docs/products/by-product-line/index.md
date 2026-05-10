@@ -178,13 +178,37 @@ Infor 除了核心 ERP 外，还拥有多个在特定领域处于市场领导地
 
 ### Infor PLM — 产品生命周期管理
 
-| 版本 | 适用场景 |
-|------|----------|
-| **Discrete Edition** | 与 Infor LN 集成，面向离散制造的设计到制造流程 |
-| **Fashion Edition** | 与 Infor M3 集成，面向时尚行业的季节性产品开发 |
+Infor PLM 提供两个专属版本，分别面向离散制造和时尚行业，与对应的 Infor ERP 产品深度集成。
+
+| 版本 | 集成 ERP | 适用行业 |
+|------|-----------|----------|
+| **Discrete Edition** | Infor LN | 汽车、航空航天、电子、机械 |
+| **Fashion Edition** | Infor M3 | 时尚、服装、鞋帽、配饰 |
+
+**核心功能**：集中式 BOM 管理、CAD 文件集成、工程变更管理（ECR/ECO）、RoHS/REACH 合规管理
 
 **相关资源**：
-- [PLM 专长顾问](../../resources/consultants.md) — Tarento, mashfrog, PCG Services
+- [Infor PLM 详细介绍](../../by-product/plm.md)
+- [PLM 专长顾问](../../resources/consultants.md) — Tarento, mashfrog, PCG Services, Sama Consulting
+
+---
+
+### Infor Supply Planning — 供应链计划
+
+Infor Supply Planning 是 Infor SCP（供应链计划）套件的核心组件，覆盖需求计划、供应平衡、库存优化和 S&OP 全流程。
+
+| 功能域 | 核心能力 |
+|--------|----------|
+| **需求计划** | 多维度预测、机器学习模型、促销事件管理、协同需求计划（CPFR） |
+| **供应计划** | 主生产计划（MPS）、MRP、产能计划、多工厂协同、What-if 场景模拟 |
+| **库存优化** | 安全库存科学计算、ABC 分类策略、呆滞库存识别 |
+| **S&OP** | 销售-运营一体化协作、One-page 决策视图、财务集成 |
+
+**集成**：与 Infor LN、M3 深度集成，计划结果直接驱动 ERP 采购/生产订单。
+
+**相关资源**：
+- [Infor Supply Planning 详细介绍](../../by-product/supply-planning.md)
+- [Supply Planning 专长顾问](../../resources/consultants.md) — PCG Services, NexGen Technologies, Columbus Global
 
 ---
 
@@ -215,13 +239,18 @@ Infor 除了核心 ERP 外，还拥有多个在特定领域处于市场领导地
 
 ### Infor Birst — 云端商务智能
 
+Infor Birst 是基于 SaaS 的现代 BI 平台，以"网络化分析（Networked BI）"为核心特色，支持嵌入式分析和企业级数据可视化。
+
 | 项目 | 详情 |
 |------|------|
 | **定位** | 基于 SaaS 的现代 BI 和数据分析平台 |
-| **特点** | 内存计算数据模型、虚拟化管理、网络化分析（Networked BI）、嵌入式分析 |
+| **核心技术** | 内存计算、自动数据建模、语义层、可视化仪表板 |
+| **特色** | 网络化 BI（跨组织分析共享）、嵌入式分析（仪表板嵌入 ERP） |
 | **集成** | 与所有 Infor ERP 产品预构建连接器 |
 
-**相关资源**：[BI/AI 工具](../../resources/tools.md)
+**相关资源**：
+- [Infor Birst 详细介绍](../../by-product/birst.md)
+- [BI/AI 工具](../../resources/tools.md)
 
 ### Infor AI（原 Coleman AI）
 

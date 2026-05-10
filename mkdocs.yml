@@ -126,6 +126,9 @@ nav:
       - Infor Nexus: by-product/nexus.md
       - Infor SunSystems: by-product/sunsystems.md
       - Infor CPQ: by-product/cpq.md
+      - Infor Birst: by-product/birst.md
+      - Infor PLM: by-product/plm.md
+      - Infor Supply Planning: by-product/supply-planning.md
       - Infor OS: by-product/infor-os.md
   - 产品分类:
       - 按业务功能: products/by-function/index.md

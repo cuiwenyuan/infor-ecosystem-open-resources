@@ -106,7 +106,9 @@ BOD 是 ION 集成的核心通信协议，定义了标准的业务事件格式�
 | **自动数据精炼** | 自动化 ETL，减少手工数据准备 |
 | **多租户** | 支持大规模企业部署 |
 
-**相关资源**：[BI/AI 工具](../../resources/tools.md)
+**相关资源**：
+- [Infor Birst 详细介绍](../../by-product/birst.md)
+- [BI/AI 工具](../../resources/tools.md)
 
 ---
 

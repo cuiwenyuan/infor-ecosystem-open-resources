@@ -54,16 +54,14 @@ Infor 在供应链领域拥有业界领先的 WMS 和全球供应链网络平台
 | **CloudSuite Industrial** | 中端采购与库存管理 |
 | **Infor WMS** | 仓储管理系统（行业领先） |
 | **Infor Nexus** | 全球供应链网络平台（94,000+ 组织） |
+| **Infor Supply Planning** | 需求计划、供应计划、库存优化、S&OP |
 
 ### 关键能力矩阵
 
 | 能力域 | 主要产品 | 说明 |
 |--------|----------|------|
+| **计划与排产 (Planning)** | [Infor Supply Planning](../../by-product/supply-planning.md), M3, LN APS | 需求预测、主生产计划、MRP、S&OP |
 | **仓库管理 (WMS)** | [Infor WMS](../../by-product/wms.md) | 业界领先，支持多仓、AI 拣货优化、3D 可视化、3PL |
-| **运输管理 (TMS)** | Infor Nexus / ION | 运输执行、跟踪、费用结算 |
-| **采购管理 (Procurement)** | LN, M3, CSI | 从请购到付款全流程 |
-| **库存管理 (Inventory)** | LN, M3, WMS | 多级库存、批次/序列号跟踪 |
-| **计划与排产 (Planning)** | M3, LN APS | MRP、DRP、高级计划调度 |
 
 ### 推荐资源
 
@@ -187,6 +185,7 @@ Infor EAM 可以作为独立系统使用，也可以通过 ION 与 LN、M3 等ER
 
 ### 推荐资源
 
+- [Infor Birst 详细介绍](../../by-product/birst.md)
 - [工具与插件](../../resources/tools.md) — Birst 开发工具、AI 用户指南
 
 ---
