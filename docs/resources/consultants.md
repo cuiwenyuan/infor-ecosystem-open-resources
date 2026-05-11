@@ -7,7 +7,7 @@ description: "收录全球 Infor 实施顾问与合作伙伴公司，按地区�
 
 > Infor 生态中的专业顾问与实施公司，提供 ERP 实施、咨询、培训和技术支持服务。
 >
-> **最后更新**：2026-05-09 | **收录数量**：55+ 家公司
+> **最后更新**：2026-05-11 | **收录数量**：58+ 家公司
 
 ---
 
@@ -580,9 +580,50 @@ description: "收录全球 Infor 实施顾问与合作伙伴公司，按地区�
 
 ---
 
+### 44. [戎马信息技术（上海）有限公司](../consultants/戎马信息技术_上海_有限公司)
+
+| 项目 | 详情 |
+|------|------|
+| **位置** | 上海市松江区 |
+| **官网** | （暂无公开官网信息） |
+| **专长产品** | Infor LN, Infor APS |
+| **行业** | 制造业、企业信息化 |
+| **服务** | Infor LN 实施、APS 高级计划与排程、信息化&智能化系统解决方案 |
+| **经验** | 成立于2018年，提供完整企业管理软件解决方案 |
+
+---
+
+### 45. [沈阳创杰科技咨询服务有限公司](../consultants/沈阳创杰科技咨询服务有限公司)
+
+| 项目 | 详情 |
+|------|------|
+| **位置** | 沈阳市铁西区 |
+| **官网** | （暂无公开官网信息） |
+| **专长产品** | Infor ERP（多产品） |
+| **行业** | 离散制造业 |
+| **荣誉** | 美国 Infor 公司北方区授权合作伙伴 |
+| **服务** | ERP 咨询与实施、信息化管理类 ERP 软件开发、MES 系统开发与实施 |
+| **经验** | 成立于2007年，18+ 年企业信息化服务经验 |
+| **子公司** | 沈阳中科智造信息科技有限公司（MES 系统开发与实施） |
+
+---
+
+### 46. [亿真信息科技（珠海）有限公司](../consultants/亿真信息科技_珠海_有限公司)
+
+| 项目 | 详情 |
+|------|------|
+| **位置** | 珠海市金湾区 |
+| **官网** | （暂无公开官网信息） |
+| **专长产品** | Infor ERP（待确认具体产品） |
+| **行业** | 制造业、企业信息化 |
+| **服务** | Infor ERP 实施与咨询服务 |
+| **经验** | 成立于2020年，专注于企业信息化服务 |
+
+---
+
 ## 🌍 跨区域 / 多国运营
 
-### 44. [Grant Thornton](../consultants/Grant_Thornton)
+### 47. [Grant Thornton](../consultants/Grant_Thornton)
 
 | 项目 | 详情 |
 |------|------|
@@ -593,7 +634,7 @@ description: "收录全球 Infor 实施顾问与合作伙伴公司，按地区�
 
 ---
 
-### 45. [Copley Consulting Group](../consultants/Copley_Consulting_Group)
+### 48. [Copley Consulting Group](../consultants/Copley_Consulting_Group)
 
 | 项目 | 详情 |
 |------|------|
@@ -604,7 +645,7 @@ description: "收录全球 Infor 实施顾问与合作伙伴公司，按地区�
 
 ---
 
-### 46. [Kinsey](../consultants/Kinsey)
+### 49. [Kinsey](../consultants/Kinsey)
 
 | 项目 | 详情 |
 |------|------|
@@ -615,7 +656,7 @@ description: "收录全球 Infor 实施顾问与合作伙伴公司，按地区�
 
 ---
 
-### 47. [Cerca Technology](../consultants/Cerca_Technology)
+### 50. [Cerca Technology](../consultants/Cerca_Technology)
 
 | 项目 | 详情 |
 |------|------|
@@ -626,7 +667,7 @@ description: "收录全球 Infor 实施顾问与合作伙伴公司，按地区�
 
 ---
 
-### 48. [Synergy Resources](../consultants/Synergy_Resources)
+### 51. [Synergy Resources](../consultants/Synergy_Resources)
 
 | 项目 | 详情 |
 |------|------|
@@ -636,7 +677,7 @@ description: "收录全球 Infor 实施顾问与合作伙伴公司，按地区�
 
 ---
 
-### 49. [Kalathas Consulting](../consultants/Kalathas_Consulting)
+### 52. [Kalathas Consulting](../consultants/Kalathas_Consulting)
 
 | 项目 | 详情 |
 |------|------|
@@ -648,7 +689,7 @@ description: "收录全球 Infor 实施顾问与合作伙伴公司，按地区�
 
 ## 🌍 ERP 研究与评测平台
 
-### 50. [ERP Research](../consultants/ERP_Research)
+### 53. [ERP Research](../consultants/ERP_Research)
 
 | 项目 | 详情 |
 |------|------|
@@ -660,7 +701,7 @@ description: "收录全球 Infor 实施顾问与合作伙伴公司，按地区�
 
 ---
 
-### 51. [The CFO Club](../consultants/The_CFO_Club)
+### 54. [The CFO Club](../consultants/The_CFO_Club)
 
 | 项目 | 详情 |
 |------|------|
@@ -675,7 +716,7 @@ description: "收录全球 Infor 实施顾问与合作伙伴公司，按地区�
 
 | Infor 产品 | 顾问公司 |
 |------------|----------|
-| **Infor LN** | Sama Consulting, PCG Services, NexGenTech, Xencore Global, Tarento, Coserve Solutions, 润数信息, 拓创数信, 梯升科技, 领三咨询, 班睿信息, 朝上数信 |
+| **Infor LN** | Sama Consulting, PCG Services, NexGenTech, Xencore Global, Tarento, Coserve Solutions, 润数信息, 拓创数信, 梯升科技, 领三咨询, 班睿信息, 朝上数信, 戎马信息 |
 | **Infor M3** | Columbus Global, Lightning ERP, mashfrog, Xencore Global, MSC Group, Tarento, OTS Solutions, NestAscend, Kalathas Consulting |
 | **Infor CloudSuite Industrial (SyteLine)** | Godlan, Decision Resources, Visual South, PCG Services, 朝上数信 |
 | **Infor Lawson** | Blue Eagle Consulting, RPI Consultants |
@@ -686,7 +727,7 @@ description: "收录全球 Infor 实施顾问与合作伙伴公司，按地区�
 | **Infor ION / BOD** | mashfrog, Sama Consulting, Netray |
 | **Infor Birst** | Astral Consulting, Sama Consulting |
 | **Infor Coleman AI** | Netray |
-| **Infor 全产品线** | Alpha Apex Group, Guide Technologies, Grant Thornton, Copley Consulting, Kinsey, Inovium |
+| **Infor 全产品线** | Alpha Apex Group, Guide Technologies, Grant Thornton, Copley Consulting, Kinsey, Inovium, 沈阳创杰, 亿真信息 |
 | **Infor 集成** | DCKAP, mashfrog |
 
 ---
