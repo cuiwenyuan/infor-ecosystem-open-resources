@@ -14,10 +14,61 @@ description: "Infor LN 资源导航，收录 LN 相关的顾问公司、技术�
 | 项目 | 说明 |
 |------|------|
 | **产品类型** | ERP 系统 |
-| **前身** | Baan IV / Baan 5c / Baan LN |
+| **前身** | Baan IV / Baan 5c / SSA ERP LN 6.1 |
+| **历史名称** | Baan IV → Baan V → SSA ERP LN 6.1 → Infor ERP LN 6.1 → Infor LN 10.x |
 | **目标客户** | 大型企业（500-10,000+ 员工） |
 | **核心行业** | 汽车、工业制造、电子、金属加工 |
 | **部署方式** | 云部署（Infor OS/AWS）、本地部署 |
+
+---
+
+## 版本历史
+
+| 年份 | 版本 | 说明 |
+|------|------|------|
+| 1978 | Baan 公司成立 | Jan Baan 在荷兰创立 |
+| ~1980s | Triton 1.0 / 2.0 / 3.0 | Baan 早期版本代号 |
+| ~1990s | Baan IV (4.0) | 经典版本，国内仍有大量用户 |
+| ~1990s末 | Baan V (5.0 / 5.1 / 5.2) | 后续演进版本 |
+| 1995 | Baan IPO 上市 | 年销售增长 91%，威胁 SAP 市场地位 |
+| 1998前后 | 被 Invensys 收购 | 英国工业自动化集团 Invensys 收购 Baan |
+| 2003 | SSA ERP LN 6.1 | Invensys 以 $135M 出售 Baan 事业部给 SSA Global，产品更名 |
+| 2006 | Infor ERP LN 6.1 | Infor 收购 SSA Global，纳入 Infor 产品线 |
+| ~2008-2010 | LN 6.1 FP6 / FP7 | Feature Pack 增量更新 |
+| ~2013 | **Infor LN 10.3** | 版本号从 6.1 跳跃至 10.3（待核实具体年份） |
+| 2016年2月 | **Infor LN 10.4** | Installation Guide 标注日期 2016-02-29 |
+| 2016年6-8月 | **Infor LN 10.5** | 官方宣布 2016-06-30 全球发布 |
+| 2018年4月 | **Infor LN 10.6** | 新增项目调度工具、IFRS 财务能力 |
+| 2019年3月 | **Infor LN 10.7** | 官方博客标注 2019-03-08 发布 |
+| 2021年 | **Infor LN 10.8** | 云原生架构转型（另有来源记载 2023-03 CloudSuite 版发布，可能为持续更新机制） |
+
+> 版本号从 6.1 跳跃至 10.3 是 Infor 产品线的统一品牌策略，与 Infor OS、Infor ION 等产品的版本号对齐。
+
+---
+
+## 技术架构
+
+### 三层架构
+
+| 层级 | 说明 |
+|------|------|
+| **UI 层** | 用户界面驱动，终端用户操作入口 |
+| **VM 层（Bshell）** | 服务端虚拟机层（Baan Shell），处理业务逻辑 |
+| **Database 层** | 数据存储层，支持 SQL Server / Oracle 等 |
+
+### 核心概念
+
+| 概念 | 说明 |
+|------|------|
+| **Package**（2字母） | 功能模块分组，如 `tf`（财务）、`td`（分销）、`tp`（项目）、`cp`（计划）、`wh`（仓库） |
+| **Module**（3字母） | Package 下子功能，如 `tfacp`（应付）、`tfgld`（总账）、`tdsls`（销售）、`tdpur`（采购） |
+| **VRC** | Version-Release-Customer 版本控制框架，支持基础版/更新版/本地化/定制版四层结构 |
+
+### 程序脚本类型
+
+4GL / 4GL Event Sessions / DAL2 / DLL
+
+---
 
 ## 核心功能
 
@@ -98,6 +149,12 @@ description: "Infor LN 资源导航，收录 LN 相关的顾问公司、技术�
 
 ---
 
+## 历史背景
+
+Infor LN 的前身是荷兰 Baan 公司（1978年创立）开发的 Baan ERP，历经 Baan IV、Baan V 等版本。1998年 Baan 被英国 Invensys 收购，2003年 Invensys 将 Baan 事业部以 $135M 出售给 SSA Global，产品更名为 SSA ERP LN 6.1。2006年 Infor 收购 SSA Global，产品纳入 Infor 产品线并更名为 Infor ERP LN，后续演进为当前的 Infor LN 10.x 系列。国内用户习惯将 Infor LN 统称为"Baam"或"LN"。
+
+---
+
 ## 相关产品
 
 - [Infor M3](m3.md) — 流程制造版本
@@ -106,4 +163,4 @@ description: "Infor LN 资源导航，收录 LN 相关的顾问公司、技术�
 
 ---
 
-**最后更新**：2026-05-07
+**最后更新**：2026-05-11
