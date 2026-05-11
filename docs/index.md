@@ -169,15 +169,13 @@ description: "Infor 生态开放资源导航站首页，提供论坛、顾问公
   - Infor LN vs IFS Applications（纯制造 vs 项目制造+资产密集型）
   - Infor LN vs Epicor Kinetic（ETO 深度 vs 易用性）
   - Infor LN vs Odoo ERP（商业深度 vs 开源灵活性）
-- 🔗 更新 mkdocs.yml 导航，「竞品对比」板块从 2 页扩充至 **18 页**
-- 🆕 **新增 Infor Birst vs 7 款主流 BI 竞品对比页**：
-  - Infor Birst vs Microsoft Power BI（网络化 BI vs Microsoft 生态集成）
-  - Infor Birst vs Tableau（网络化 BI vs 数据可视化标杆）
-  - Infor Birst vs Qlik Sense（网络化 BI vs 关联引擎）
-  - Infor Birst vs Looker（网络化 BI vs LookML 语义层）
-  - Infor Birst vs SAP Analytics Cloud（嵌入式分析 vs BI+计划一体化）
-  - Infor Birst vs Oracle Analytics Cloud（嵌入式分析 vs Oracle 生态+AI）
-  - Infor Birst vs IBM Cognos Analytics（纯 SaaS vs AI 辅助分析+混合云）
+- 🔗 更新 mkdocs.yml 导航，「竞品对比」板块从 18 页扩充至 **23 页**
+- 🆕 **新增 5 个 Infor LN vs 中国ERP竞品对比页**：
+  - Infor LN vs 金蝶云·星瀚（国际高端制造ERP vs 大型企业EBC平台）
+  - Infor LN vs 用友U9 cloud（复杂制造 vs 数智制造创新平台）
+  - Infor LN vs 用友NC Cloud（复杂制造 vs 大型集团数字化平台）
+  - Infor LN vs 鼎捷T100（国际高端ERP vs 台资背景制造ERP）
+  - Infor LN vs 浪潮海岳GS Cloud（复杂制造 vs 国产大型智能ERP）
 
 #### 2026-05-10
 - 📦 **新增 4 个产品独立页面**：d/EPM（预算与合并）、QMS（质量管理）、YMS（场地管理）、ION（集成平台）

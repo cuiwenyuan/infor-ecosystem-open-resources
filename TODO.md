@@ -4,7 +4,7 @@
 **项目阶段**：Phase 2 - 内容完善中
 **技术方案**：MkDocs + Material for MkDocs（已确定，非 Docusaurus）
 **完成度**：99%（竞品对比核心已完成，剩余可选任务）
-**最后更新**：2026-05-11 v5.5
+**最后更新**：2026-05-11 v5.6
 
 ---
 
@@ -205,6 +205,11 @@
 - [x] **创建 Infor Birst vs SAP Analytics Cloud 对比页** ✅ 2026-05-11（嵌入式分析 vs BI+计划一体化）
 - [x] **创建 Infor Birst vs Oracle Analytics Cloud 对比页** ✅ 2026-05-11（嵌入式分析 vs Oracle 生态+AI）
 - [x] **创建 Infor Birst vs IBM Cognos Analytics 对比页** ✅ 2026-05-11（纯 SaaS vs AI 辅助分析+混合云）
+- [x] **创建 Infor LN vs 金蝶云·星瀚 对比页** ✅ 2026-05-11（高端制造ERP vs 大型企业EBC平台）
+- [x] **创建 Infor LN vs 用友U9 cloud 对比页** ✅ 2026-05-11（复杂制造 vs 数智制造创新平台）
+- [x] **创建 Infor LN vs 用友NC Cloud 对比页** ✅ 2026-05-11（复杂制造 vs 大型集团数字化平台）
+- [x] **创建 Infor LN vs 鼎捷T100 对比页** ✅ 2026-05-11（国际高端ERP vs 台资背景制造ERP）
+- [x] **创建 Infor LN vs 浪潮海岳GS Cloud 对比页** ✅ 2026-05-11（复杂制造 vs 国产大型智能ERP）
 - [ ] 创建 Infor WMS vs Blue Yonder 对比页（可选）
 - [ ] 创建 Infor M3 vs Oracle ERP Cloud 对比页（可选）
 
