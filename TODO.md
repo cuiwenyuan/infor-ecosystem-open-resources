@@ -210,6 +210,13 @@
 - [x] **创建 Infor LN vs 用友NC Cloud 对比页** ✅ 2026-05-11（复杂制造 vs 大型集团数字化平台）
 - [x] **创建 Infor LN vs 鼎捷T100 对比页** ✅ 2026-05-11（国际高端ERP vs 台资背景制造ERP）
 - [x] **创建 Infor LN vs 浪潮海岳GS Cloud 对比页** ✅ 2026-05-11（复杂制造 vs 国产大型智能ERP）
+- [x] **创建 Infor WMS vs Blue Yonder 对比页** ✅ 2026-05-11（WMS 领导者对标）
+- [x] **创建 Infor WMS vs Manhattan 对比页** ✅ 2026-05-11（云原生 WMS 对标）
+- [x] **创建 Infor WMS vs SAP EWM 对比页** ✅ 2026-05-11（WMS vs SAP 生态）
+- [x] **创建 Infor M3 vs Oracle ERP Cloud 对比页** ✅ 2026-05-11（流程制造 vs Oracle 全生态）
+- [x] **创建 Infor M3 vs Microsoft Dynamics 365 对比页** ✅ 2026-05-11（流程制造 vs Microsoft 生态）
+- [x] **创建 Infor HCM vs Workday 对比页** ✅ 2026-05-11（HCM vs HCM 领导者）
+- [x] **创建 Infor HCM vs SAP SuccessFactors 对比页** ✅ 2026-05-11（HCM vs SAP 生态）
 - [ ] 创建 Infor WMS vs Blue Yonder 对比页（可选）
 - [ ] 创建 Infor M3 vs Oracle ERP Cloud 对比页（可选）
 
@@ -380,6 +387,6 @@
 
 ---
 
-**任务清单版本**：v5.4（Phase 2 竞品对比板块扩充至9页）
+**任务清单版本**：v5.7（Phase 2 竞品对比板块扩充至 30 页）
 **最后更新**：2026-05-11
 **维护者**：崔文远 Troy Cui

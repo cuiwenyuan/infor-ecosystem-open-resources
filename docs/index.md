@@ -158,6 +158,18 @@ description: "Infor 生态开放资源导航站首页，提供论坛、顾问公
 
 ### 📅 项目动态
 
+#### 2026-05-11（续）
+- 🔥 **竞品对比板块继续扩充**：新增 7 个对比页面
+  - Infor WMS vs Blue Yonder（WMS 领导者对标）
+  - Infor WMS vs Manhattan Associates（云原生 WMS 对标）
+  - Infor WMS vs SAP EWM（WMS vs SAP 生态）
+  - Infor M3 vs Oracle ERP Cloud（流程制造 vs Oracle 全生态）
+  - Infor M3 vs Microsoft Dynamics 365（流程制造 vs Microsoft 生态）
+  - Infor HCM vs Workday（HCM vs HCM 领导者）
+  - Infor HCM vs SAP SuccessFactors（HCM vs SAP 生态）
+- 📁 **创建图片资源目录**：`docs/assets/images/`（consultants/products/tools/screenshots）
+- 📄 **更新 mkdocs.yml 导航**，「竞品对比」板块从 23 页扩充至 **30 页**（新增 WMS/M3/HCM 竞品对比子板块）
+
 #### 2026-05-11
 - 🔥 **竞品对比板块大幅扩充**：新增 9 个对比页面
   - Infor LN vs Infor M3（同门对比，适用场景辨析）
