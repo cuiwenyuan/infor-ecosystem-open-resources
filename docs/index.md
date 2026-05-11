@@ -36,10 +36,8 @@ description: "Infor 生态开放资源导航站首页，提供论坛、顾问公
 | 🎓 **培训与认证** | 培训资源、认证指南 | [浏览](resources/training.md) |
 | 🎬 **视频与课程** | YouTube、Bilibili、Webinar 回放 | [浏览](resources/videos.md) |
 | 📖 **官方文档导航** | Infor Documentation 按产品分类入口 | [浏览](resources/official-docs.md) |
-| 💻 **LN 开发系列** | 4GL 基础、DAL、Extension、PI、性能调优、实战集锦 | [浏览](resources/ln-4gl-tips.md) |
+| 💻 **开发者资源中心** | 4GL 代码库、API 开发、故障代码百科、LN 开发系列 | [浏览](developer/index.md) |
 | 📖 **Infor 术语表** | 产品/技术/行业术语中英文释义 | [浏览](resources/glossary.md) |
-| 💻 **开发者中心** | API 文档、代码示例、开源项目 | [浏览](developer/index.md) |
-| 🔧 **故障排查** | 错误代码速查、排查技巧 | [浏览](troubleshooting/index.md) |
 | 🇨🇳 **中国专区** | 中文资源、顾问、培训、社群 | [浏览](china/index.md) |
 | 📱 **微信公众号/社群** | 中文技术交流、知识星球 | [浏览](resources/wechat-communities.md) |
 
@@ -161,6 +159,12 @@ description: "Infor 生态开放资源导航站首页，提供论坛、顾问公
 ---
 
 ### 📅 项目动态
+
+#### 2026-05-11（续3）
+- 🔗 **顶部导航重构**：「开发者中心」+「故障排查」+「LN 开发系列」合并为「开发者资源中心」板块
+  - 减少顶部 Tab 数量，导航更紧凑
+  - 三个子板块保留独立侧边栏入口，不影响内容组织
+- 📄 更新首页「按资源类型浏览」表格，合并为「💻 开发者资源中心」单行入口
 
 #### 2026-05-11（续2）
 - 🔧 **新增「开发者资源中心」板块**：6 个页面上线
