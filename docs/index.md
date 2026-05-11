@@ -176,6 +176,7 @@ description: "Infor 生态开放资源导航站首页，提供论坛、顾问公
   - Infor LN vs 用友NC Cloud（复杂制造 vs 大型集团数字化平台）
   - Infor LN vs 鼎捷T100（国际高端ERP vs 台资背景制造ERP）
   - Infor LN vs 浪潮海岳GS Cloud（复杂制造 vs 国产大型智能ERP）
+- 📄 **更新 Infor ION 产品页**：补充「官方 BOD Schema 资源」章节，新增 schema.infor.com 官方 XSD 文件列表（9.0 版本，按操作类型分类）、版本目录说明和使用建议
 
 #### 2026-05-10
 - 📦 **新增 4 个产品独立页面**：d/EPM（预算与合并）、QMS（质量管理）、YMS（场地管理）、ION（集成平台）
