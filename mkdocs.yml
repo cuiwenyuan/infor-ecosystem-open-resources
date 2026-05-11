@@ -151,6 +151,13 @@ nav:
       - Infor LN vs IFS Applications: competitor/ln-vs-ifs.md
       - Infor LN vs Epicor Kinetic: competitor/ln-vs-epicor.md
       - Infor LN vs Odoo ERP: competitor/ln-vs-odoo.md
+      - Infor Birst vs Microsoft Power BI: competitor/birst-vs-powerbi.md
+      - Infor Birst vs Tableau: competitor/birst-vs-tableau.md
+      - Infor Birst vs Qlik Sense: competitor/birst-vs-qlik.md
+      - Infor Birst vs Looker: competitor/birst-vs-looker.md
+      - Infor Birst vs SAP Analytics Cloud: competitor/birst-vs-sap-analytics.md
+      - Infor Birst vs Oracle Analytics Cloud: competitor/birst-vs-oracle-analytics.md
+      - Infor Birst vs IBM Cognos Analytics: competitor/birst-vs-cognos.md
   - 关于本项目:
       - 项目介绍: about.md
       - 资源提交规范: submission-guide.md

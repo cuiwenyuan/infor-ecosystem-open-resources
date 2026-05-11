@@ -3,8 +3,8 @@
 ## 📊 当前状态
 **项目阶段**：Phase 2 - 内容完善中
 **技术方案**：MkDocs + Material for MkDocs（已确定，非 Docusaurus）
-**完成度**：99%
-**最后更新**：2026-05-11
+**完成度**：99%（竞品对比核心已完成，剩余可选任务）
+**最后更新**：2026-05-11 v5.5
 
 ---
 
@@ -198,6 +198,13 @@
 - [x] **创建 Infor LN vs IFS Applications 对比页** ✅ 2026-05-11（纯制造 vs 项目制造+资产密集型）
 - [x] **创建 Infor LN vs Epicor Kinetic 对比页** ✅ 2026-05-11（ETO 深度 vs 易用性）
 - [x] **创建 Infor LN vs Odoo ERP 对比页** ✅ 2026-05-11（商业深度 vs 开源灵活性）
+- [x] **创建 Infor Birst vs Microsoft Power BI 对比页** ✅ 2026-05-11（网络化 BI vs Microsoft 生态）
+- [x] **创建 Infor Birst vs Tableau 对比页** ✅ 2026-05-11（网络化 BI vs 数据可视化标杆）
+- [x] **创建 Infor Birst vs Qlik Sense 对比页** ✅ 2026-05-11（网络化 BI vs 关联引擎）
+- [x] **创建 Infor Birst vs Looker 对比页** ✅ 2026-05-11（网络化 BI vs LookML 语义层）
+- [x] **创建 Infor Birst vs SAP Analytics Cloud 对比页** ✅ 2026-05-11（嵌入式分析 vs BI+计划一体化）
+- [x] **创建 Infor Birst vs Oracle Analytics Cloud 对比页** ✅ 2026-05-11（嵌入式分析 vs Oracle 生态+AI）
+- [x] **创建 Infor Birst vs IBM Cognos Analytics 对比页** ✅ 2026-05-11（纯 SaaS vs AI 辅助分析+混合云）
 - [ ] 创建 Infor WMS vs Blue Yonder 对比页（可选）
 - [ ] 创建 Infor M3 vs Oracle ERP Cloud 对比页（可选）
 
