@@ -196,6 +196,8 @@
 - [x] **创建 Infor LN vs QAD 对比页** ✅ 2026-05-11（汽车供应链专项对比）
 - [x] **创建 Infor LN vs Sage X3 对比页** ✅ 2026-05-11（中大型 vs 中小型制造）
 - [x] **创建 Infor LN vs IFS Applications 对比页** ✅ 2026-05-11（纯制造 vs 项目制造+资产密集型）
+- [x] **创建 Infor LN vs Epicor Kinetic 对比页** ✅ 2026-05-11（ETO 深度 vs 易用性）
+- [x] **创建 Infor LN vs Odoo ERP 对比页** ✅ 2026-05-11（商业深度 vs 开源灵活性）
 - [ ] 创建 Infor WMS vs Blue Yonder 对比页（可选）
 - [ ] 创建 Infor M3 vs Oracle ERP Cloud 对比页（可选）
 

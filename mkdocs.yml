@@ -149,6 +149,8 @@ nav:
       - Infor LN vs QAD: competitor/ln-vs-qad.md
       - Infor LN vs Sage X3: competitor/ln-vs-sage.md
       - Infor LN vs IFS Applications: competitor/ln-vs-ifs.md
+      - Infor LN vs Epicor Kinetic: competitor/ln-vs-epicor.md
+      - Infor LN vs Odoo ERP: competitor/ln-vs-odoo.md
   - 关于本项目:
       - 项目介绍: about.md
       - 资源提交规范: submission-guide.md

@@ -159,7 +159,7 @@ description: "Infor 生态开放资源导航站首页，提供论坛、顾问公
 ### 📅 项目动态
 
 #### 2026-05-11
-- 🔥 **竞品对比板块大幅扩充**：新增 7 个对比页面
+- 🔥 **竞品对比板块大幅扩充**：新增 9 个对比页面
   - Infor LN vs Infor M3（同门对比，适用场景辨析）
   - Infor LN vs CloudSuite Industrial（企业级 vs 中小型离散制造）
   - Infor LN vs Microsoft Dynamics 365（制造深度 vs Microsoft 生态）
@@ -167,7 +167,9 @@ description: "Infor 生态开放资源导航站首页，提供论坛、顾问公
   - Infor LN vs QAD（汽车供应链专项对比）
   - Infor LN vs Sage X3（中大型 vs 中小型制造）
   - Infor LN vs IFS Applications（纯制造 vs 项目制造+资产密集型）
-- 🔗 更新 mkdocs.yml 导航，「竞品对比」板块从 2 页扩充至 9 页
+  - Infor LN vs Epicor Kinetic（ETO 深度 vs 易用性）
+  - Infor LN vs Odoo ERP（商业深度 vs 开源灵活性）
+- 🔗 更新 mkdocs.yml 导航，「竞品对比」板块从 2 页扩充至 **11 页**
 
 #### 2026-05-10
 - 📦 **新增 4 个产品独立页面**：d/EPM（预算与合并）、QMS（质量管理）、YMS（场地管理）、ION（集成平台）
