@@ -117,6 +117,7 @@ description: "Infor LN 资源导航，收录 LN 相关的顾问公司、技术�
 | [Coserve Solutions](../resources/consultants.md) | 亚太 | LN & CloudSuite 实施 |
 | [润数信息](../resources/consultants.md) | 中国 | LN、WMS、CPQ 实施 |
 | [拓创数字](../resources/consultants.md) | 中国 | LN 实施与定制开发 |
+| [梯升科技](../consultants/tisheng.md) | 中国 | LN/QAD 实施、新三板挂牌、300+ 客户 |
 
 ### 博客与教程
 

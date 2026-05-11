@@ -160,6 +160,13 @@ description: "Infor 生态开放资源导航站首页，提供论坛、顾问公
 
 ### 📅 项目动态
 
+#### 2026-05-11（续5）
+- 📄 **批量创建顾问公司独立页面**：51 家公司全部建立独立 `.md` 页面（`docs/consultants/` 目录）
+  - 每家公司页面包含：基本信息、专长产品、服务行业、核心服务、相关资源
+  - 已同步更新 `resources/consultants.md`，公司名改为指向独立页面的 Markdown 链接
+  - 梯升科技独立页面 `consultants/tisheng.md` 已创建，`by-product/ln.md` 已加入链接
+- 📄 清理临时脚本文件（`gen_consultant_pages.py`、`update_consultant_links.py`、`test_script.py`、`parse_consultants.py`）
+
 #### 2026-05-11（续4）
 - 📄 **更新 `by-product/ln.md`**：补充版本历史（Baan→SSA→Infor 完整演进时间线）和技术架构说明（三层架构、Package/Module/VRC 概念）
   - 新增「版本历史」章节：1978 Baan 创立 → 2021 Infor LN 10.8，含各版本发布年份
