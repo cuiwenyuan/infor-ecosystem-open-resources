@@ -3,8 +3,8 @@
 ## 📊 当前状态
 **项目阶段**：Phase 2 - 内容完善中
 **技术方案**：MkDocs + Material for MkDocs（已确定，非 Docusaurus）
-**完成度**：98%
-**最后更新**：2026-05-10
+**完成度**：99%
+**最后更新**：2026-05-11
 
 ---
 
@@ -189,8 +189,15 @@
 #### 7. 竞品对比页面（新增值内容）
 - [x] **创建 Infor LN vs SAP S/4HANA 对比页** ✅ 2026-05-10（离散制造场景、核心差异、TCO 对比、选型建议）
 - [x] **创建 Infor M3 vs SAP S/4HANA 对比页** ✅ 2026-05-10（流程制造/时尚行业、配方管理、合规、TCO 对比）
-- [ ] 创建 Infor LN vs Oracle ERP Cloud 对比页（可选）
+- [x] **创建 Infor LN vs Infor M3 对比页** ✅ 2026-05-11（同门对比，适用场景辨析）
+- [x] **创建 Infor LN vs CloudSuite Industrial 对比页** ✅ 2026-05-11（企业级 vs 中小型离散制造）
+- [x] **创建 Infor LN vs Microsoft Dynamics 365 对比页** ✅ 2026-05-11（制造深度 vs Microsoft 生态）
+- [x] **创建 Infor LN vs Oracle ERP Cloud 对比页** ✅ 2026-05-11（制造专家 vs Oracle 全生态）
+- [x] **创建 Infor LN vs QAD 对比页** ✅ 2026-05-11（汽车供应链专项对比）
+- [x] **创建 Infor LN vs Sage X3 对比页** ✅ 2026-05-11（中大型 vs 中小型制造）
+- [x] **创建 Infor LN vs IFS Applications 对比页** ✅ 2026-05-11（纯制造 vs 项目制造+资产密集型）
 - [ ] 创建 Infor WMS vs Blue Yonder 对比页（可选）
+- [ ] 创建 Infor M3 vs Oracle ERP Cloud 对比页（可选）
 
 ---
 
@@ -359,6 +366,6 @@
 
 ---
 
-**任务清单版本**：v5.3（Phase 2 产品页补全与竞品对比）
-**最后更新**：2026-05-10
+**任务清单版本**：v5.4（Phase 2 竞品对比板块扩充至9页）
+**最后更新**：2026-05-11
 **维护者**：崔文远 Troy Cui

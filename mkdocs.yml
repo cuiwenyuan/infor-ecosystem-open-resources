@@ -142,6 +142,13 @@ nav:
   - 竞品对比:
       - Infor LN vs SAP S/4HANA: competitor/ln-vs-sap.md
       - Infor M3 vs SAP S/4HANA: competitor/m3-vs-sap.md
+      - Infor LN vs Infor M3: competitor/ln-vs-m3.md
+      - Infor LN vs CloudSuite Industrial: competitor/ln-vs-csi.md
+      - Infor LN vs Microsoft Dynamics 365: competitor/ln-vs-dynamics.md
+      - Infor LN vs Oracle ERP Cloud: competitor/ln-vs-oracle.md
+      - Infor LN vs QAD: competitor/ln-vs-qad.md
+      - Infor LN vs Sage X3: competitor/ln-vs-sage.md
+      - Infor LN vs IFS Applications: competitor/ln-vs-ifs.md
   - 关于本项目:
       - 项目介绍: about.md
       - 资源提交规范: submission-guide.md
