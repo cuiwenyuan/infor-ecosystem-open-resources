@@ -59,7 +59,6 @@ Infor 官方资源（文档、社区、培训）主要为英文，对中文用�
 | **润数信息** | 上海 | LN, SyteLine, WMS, CPQ | [官网](https://www.runsyschina.com) |
 | **拓创数信** | 上海 | Infor LN | [官网](http://www.eiconsulting.cn) |
 | **上海指北电脑** | 上海 | Infor ERP | [官网](http://www.shcompass.com) |
-| **上海博科资讯** | 上海 | Infor ERP（多产品） | - |
 
 （[查看完整名录](consultants.md)）
 
