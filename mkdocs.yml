@@ -101,6 +101,20 @@ nav:
       - 认证指南: resources/certification-guide.md
       - 招聘求职: resources/jobs.md
       - Infor 术语表: resources/glossary.md
+  - 开发者中心:
+      - 资源总览: developer/index.md
+      - ION API 开发: developer/ion-api.md
+      - LN 4GL 代码库: developer/ln-4gl-snippets.md
+      - Extension 开发: developer/extensions.md
+      - 开源项目: developer/open-source.md
+      - Stack Overflow 精选: developer/so-qna.md
+  - 故障排查:
+      - 故障代码百科: troubleshooting/index.md
+      - LN/Baan 错误代码: troubleshooting/ln-error-codes.md
+      - M3/ION/WMS 错误代码: troubleshooting/m3-error-codes.md
+      - ION 集成错误: troubleshooting/ion-error-codes.md
+      - WMS 错误代码: troubleshooting/wms-error-codes.md
+      - 通用排查技巧: troubleshooting/general-tips.md
   - LN 开发系列:
       - 4GL 语言基础: resources/ln-4gl-tips.md
       - DAL 完全指南: resources/ln-dal-guide.md
@@ -173,6 +187,13 @@ nav:
       - HCM 竞品对比:
         - Infor HCM vs Workday: competitor/hcm-vs-workday.md
         - Infor HCM vs SAP SuccessFactors: competitor/hcm-vs-sap-successfactors.md
+  - 中国专区:
+      - 专区首页: china/index.md
+      - 顾问公司: china/consultants.md
+      - 中文培训: china/training.md
+      - 中文博客: china/blogs.md
+      - 微信社群: china/wechat-groups.md
+      - 客户案例: china/case-studies.md
   - 关于本项目:
       - 项目介绍: about.md
       - 资源提交规范: submission-guide.md

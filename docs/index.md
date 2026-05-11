@@ -38,6 +38,9 @@ description: "Infor 生态开放资源导航站首页，提供论坛、顾问公
 | 📖 **官方文档导航** | Infor Documentation 按产品分类入口 | [浏览](resources/official-docs.md) |
 | 💻 **LN 开发系列** | 4GL 基础、DAL、Extension、PI、性能调优、实战集锦 | [浏览](resources/ln-4gl-tips.md) |
 | 📖 **Infor 术语表** | 产品/技术/行业术语中英文释义 | [浏览](resources/glossary.md) |
+| 💻 **开发者中心** | API 文档、代码示例、开源项目 | [浏览](developer/index.md) |
+| 🔧 **故障排查** | 错误代码速查、排查技巧 | [浏览](troubleshooting/index.md) |
+| 🇨🇳 **中国专区** | 中文资源、顾问、培训、社群 | [浏览](china/index.md) |
 | 📱 **微信公众号/社群** | 中文技术交流、知识星球 | [浏览](resources/wechat-communities.md) |
 
 ### 按 Infor 产品浏览
@@ -71,6 +74,7 @@ description: "Infor 生态开放资源导航站首页，提供论坛、顾问公
 | 🌍 **欧洲** | 欧洲地区资源 | [浏览](by-region/europe.md) |
 | 🌏 **亚太** | 亚太地区资源 | [浏览](by-region/asia-pacific.md) |
 | 🇨🇳 **中国** | 中国地区资源 | [浏览](by-region/china.md) |
+| 🇨🇳 **中国专区** | 中文资源、顾问、培训、社群 | [浏览](china/index.md) |
 
 ---
 
@@ -132,7 +136,7 @@ description: "Infor 生态开放资源导航站首页，提供论坛、顾问公
 
 </div>
 
-> 最后更新：2026-05-07
+> 最后更新：2026-05-11
 
 !!! tip "📢 广告合作"
     本站面向 Infor 生态服务商提供精准推广服务（推荐位 / 招聘发布等），详见 [广告合作方案](sponsorship.md)。
@@ -157,6 +161,16 @@ description: "Infor 生态开放资源导航站首页，提供论坛、顾问公
 ---
 
 ### 📅 项目动态
+
+#### 2026-05-11（续2）
+- 🔧 **新增「开发者资源中心」板块**：6 个页面上线
+  - 资源总览、ION API 开发、LN 4GL 代码库、Extension 开发、开源项目、Stack Overflow 精选
+- 🔨 **新增「故障排查」板块**：6 个页面上线
+  - 故障代码百科、LN/Baan 错误代码、M3/ION/WMS 错误代码、ION 集成错误、通用排查技巧
+- 🇨🇳 **新增「中国专区」板块**：6 个页面上线
+  - 专区首页、顾问公司、中文培训、中文博客、微信社群、客户案例
+- 🔗 更新 mkdocs.yml 导航，「开发者中心 + 故障排查 + 中国专区」三大板块上线
+- 📊 更新首页统计数字，资源总数突破 **220+**
 
 #### 2026-05-11（续）
 - 🔥 **竞品对比板块继续扩充**：新增 7 个对比页面
