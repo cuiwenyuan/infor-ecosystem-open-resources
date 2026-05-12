@@ -108,7 +108,7 @@ description: "Infor 生态开放资源导航站首页，提供论坛、顾问公
 <div class="stats-grid">
 
 <div class="stat-card">
-<div class="stat-number">204+</div>
+<div class="stat-number">213+</div>
 <div class="stat-label">收录资源总数</div>
 </div>
 
@@ -118,7 +118,7 @@ description: "Infor 生态开放资源导航站首页，提供论坛、顾问公
 </div>
 
 <div class="stat-card">
-<div class="stat-number">46</div>
+<div class="stat-number">55</div>
 <div class="stat-label">顾问公司</div>
 </div>
 
@@ -159,6 +159,12 @@ description: "Infor 生态开放资源导航站首页，提供论坛、顾问公
 ---
 
 ### 📅 项目动态
+
+#### 2026-05-12
+- 🔧 **修复顾问公司页面链接问题**：确认所有55家顾问公司的独立页面都已生成并可访问
+  - 检查 `docs/consultants/` 目录，55家公司的.md文件均已创建
+  - 本地构建成功，`site/consultants/` 目录生成了对应的HTML页面
+  - Godlan_Inc 等页面链接已可正常访问
 
 #### 2026-05-11（续5）
 - 📄 **批量创建顾问公司独立页面**：51 家公司全部建立独立 `.md` 页面（`docs/consultants/` 目录）
@@ -312,6 +318,6 @@ description: "Infor 生态开放资源导航站首页，提供论坛、顾问公
 
 ---
 
-**最后更新**：2026-05-10  
+**最后更新**：2026-05-12  
 **维护者**：崔文远 Troy Cui  
 **许可证**：[MIT](license.md) / [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
