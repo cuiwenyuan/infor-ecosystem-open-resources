@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://cuiwenyuan.github.io/infor-ecosystem-open-resources/sitemap.xml

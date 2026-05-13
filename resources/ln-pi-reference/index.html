@@ -1,0 +1,7380 @@
+
+<!doctype html>
+<html lang="zh" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Infor LN Public Interfaces (PI) 速查手册，按 Common / BusinessPartner / Item / Sales / Purchase / Finance / Manufacturing 等模块分类列出所有 PI 函数及调用模板。">
+      
+      
+        <meta name="author" content="崔文远 Troy Cui">
+      
+      
+        <link rel="canonical" href="https://cuiwenyuan.github.io/infor-ecosystem-open-resources/resources/ln-pi-reference/">
+      
+      
+        <link rel="prev" href="../ln-extension-guide/">
+      
+      
+        <link rel="next" href="../ln-performance/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+    
+    
+      
+        <title>LN Public Interfaces 速查 - Infor 生态开放资源导航站 - Infor 生态开放资源导航站</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/css/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+
+<!-- JSON-LD Structured Data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Infor 生态开放资源导航站",
+  "url": "https://cuiwenyuan.github.io/infor-ecosystem-open-resources/",
+  "description": "Infor 生态开放资源导航 - 收录全球 Infor 论坛、顾问公司、技术博客、开发工具等优质资源，为 Infor 用户、实施顾问和开发者提供一站式资源导航。",
+  "author": {
+    "@type": "Organization",
+    "name": "崔文远 Troy Cui"
+  },
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://cuiwenyuan.github.io/infor-ecosystem-open-resources/search/?q={search_term_string}"
+    },
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Public Interfaces 速查",
+  "description": "Infor LN Public Interfaces (PI) 速查手册，按 Common / BusinessPartner / Item / Sales / Purchase / Finance / Manufacturing 等模块分类列出所有 PI 函数及调用模板。",
+  "url": "https://cuiwenyuan.github.io/infor-ecosystem-open-resources/resources/ln-pi-reference/"
+}
+</script>
+
+
+
+<!-- Preconnect to Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="custom">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#ln-public-interfaces" class="md-skip">
+          跳转至
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="页眉">
+    <a href="../.." title="Infor 生态开放资源导航站" class="md-header__button md-logo" aria-label="Infor 生态开放资源导航站" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18.68 12.32a4.49 4.49 0 0 0-6.36.01 4.49 4.49 0 0 0 0 6.36 4.51 4.51 0 0 0 5.57.63L21 22.39 22.39 21l-3.09-3.11c1.13-1.77.87-4.09-.62-5.57m-1.41 4.95c-.98.98-2.56.97-3.54 0-.97-.98-.97-2.56.01-3.54.97-.97 2.55-.97 3.53 0 .97.98.97 2.56 0 3.54M10.9 20.1a6.5 6.5 0 0 1-1.48-2.32C6.27 17.25 4 15.76 4 14v3c0 2.21 3.58 4 8 4-.4-.26-.77-.56-1.1-.9M4 9v3c0 1.68 2.07 3.12 5 3.7v-.2c0-.93.2-1.85.58-2.69C6.34 12.3 4 10.79 4 9m8-6C7.58 3 4 4.79 4 7c0 2 3 3.68 6.85 4h.05c1.2-1.26 2.86-2 4.6-2 .91 0 1.81.19 2.64.56A3.22 3.22 0 0 0 20 7c0-2.21-3.58-4-8-4"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Infor 生态开放资源导航站
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              LN Public Interfaces 速查 - Infor 生态开放资源导航站
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="custom"  aria-label="切换到深色模式"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="切换到深色模式" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6m0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4M7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="custom" data-md-color-accent="custom"  aria-label="切换到浅色模式"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="切换到浅色模式" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="搜索" placeholder="搜索" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="查找">
+        
+        <button type="reset" class="md-search__icon md-icon" title="清空当前内容" aria-label="清空当前内容" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            正在初始化搜索引擎
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/cuiwenyuan/infor-ecosystem-open-resources" title="前往仓库" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+  </div>
+  <div class="md-source__repository">
+    cuiwenyuan/infor-ecosystem-open-resources
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="标签" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  首页
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../forums/" class="md-tabs__link">
+          
+  
+  
+  资源中心
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../videos/" class="md-tabs__link">
+          
+  
+  
+  学习中心
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../../developer/" class="md-tabs__link">
+          
+  
+  
+  开发者资源中心
+
+        </a>
+      </li>
+    
+  
+
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../by-region/north-america/" class="md-tabs__link">
+          
+  
+  
+  按地区浏览
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../by-product/ln/" class="md-tabs__link">
+          
+  
+  
+  按产品浏览
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../products/by-function/" class="md-tabs__link">
+          
+  
+  
+  产品分类
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../competitor/ln-vs-sap/" class="md-tabs__link">
+          
+  
+  
+  竞品对比
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../china/" class="md-tabs__link">
+          
+  
+  
+  中国专区
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../about/" class="md-tabs__link">
+          
+  
+  
+  关于本项目
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="导航栏" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Infor 生态开放资源导航站" class="md-nav__button md-logo" aria-label="Infor 生态开放资源导航站" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18.68 12.32a4.49 4.49 0 0 0-6.36.01 4.49 4.49 0 0 0 0 6.36 4.51 4.51 0 0 0 5.57.63L21 22.39 22.39 21l-3.09-3.11c1.13-1.77.87-4.09-.62-5.57m-1.41 4.95c-.98.98-2.56.97-3.54 0-.97-.98-.97-2.56.01-3.54.97-.97 2.55-.97 3.53 0 .97.98.97 2.56 0 3.54M10.9 20.1a6.5 6.5 0 0 1-1.48-2.32C6.27 17.25 4 15.76 4 14v3c0 2.21 3.58 4 8 4-.4-.26-.77-.56-1.1-.9M4 9v3c0 1.68 2.07 3.12 5 3.7v-.2c0-.93.2-1.85.58-2.69C6.34 12.3 4 10.79 4 9m8-6C7.58 3 4 4.79 4 7c0 2 3 3.68 6.85 4h.05c1.2-1.26 2.86-2 4.6-2 .91 0 1.81.19 2.64.56A3.22 3.22 0 0 0 20 7c0-2.21-3.58-4-8-4"/></svg>
+
+    </a>
+    Infor 生态开放资源导航站
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/cuiwenyuan/infor-ecosystem-open-resources" title="前往仓库" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+  </div>
+  <div class="md-source__repository">
+    cuiwenyuan/infor-ecosystem-open-resources
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    首页
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    资源中心
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    资源中心
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../forums/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    论坛与社区
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../consultants/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    顾问与实施公司
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../blogs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    博客与教程
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tools/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    工具与插件
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../training/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    培训与认证
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../wechat-communities/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    微信公众号/社群
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    学习中心
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    学习中心
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../videos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    视频与课程
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../official-docs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    官方文档导航
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../case-studies/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    客户案例
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ion-integration/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ION BOD 集成
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../release-notes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    版本动态
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../certification-guide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    认证指南
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../jobs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    招聘求职
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../glossary/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Infor 术语表
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    开发者资源中心
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    开发者资源中心
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_1" id="__nav_4_1_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    开发者中心
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    开发者中心
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../developer/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    资源总览
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../developer/ion-api/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ION API 开发
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../developer/ln-4gl-snippets/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    LN 4GL 代码库
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../developer/extensions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Extension 开发
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../developer/open-source/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    开源项目
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../developer/so-qna/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Stack Overflow 精选
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_2" id="__nav_4_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    故障代码百科
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    故障代码百科
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../troubleshooting/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    故障代码百科首页
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../troubleshooting/ln-error-codes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    LN/Baan 错误代码
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../troubleshooting/m3-error-codes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    M3/ION/WMS 错误代码
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../troubleshooting/ion-error-codes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ION 集成错误
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../troubleshooting/wms-error-codes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    WMS 错误代码
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../troubleshooting/general-tips/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    通用排查技巧
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_4_3" id="__nav_4_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    LN 开发系列
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    LN 开发系列
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ln-4gl-tips/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    4GL 语言基础
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ln-dal-guide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    DAL 完全指南
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ln-extension-guide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Extension 开发实战
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Public Interfaces 速查
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Public Interfaces 速查
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        📋 目录
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pi" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        一、PI 调用基础
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="一、PI 调用基础">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#11" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.1 调用流程
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#12" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.2 参数规则
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#13-mb" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.3 mb 后缀说明
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#14" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.4 标准调用模板
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        二、异常处理模块
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#common" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        三、Common 通用模块
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="三、Common 通用模块">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        金额与数量转换
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        金额计算
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        编号与参数
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        地址与联系
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        打印
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#businesspartner" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        四、BusinessPartner 业务伙伴模块
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="四、BusinessPartner 业务伙伴模块">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        数据获取
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#session" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Session 启动
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        其他
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#item" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        五、Item 物料模块
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="五、Item 物料模块">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        数据获取
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_11" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        物料操作
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#session_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Session 启动
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sales" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        六、Sales 销售模块
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="六、Sales 销售模块">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_12" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        销售设置
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_13" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        销售报价
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_14" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        销售合同
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_15" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        销售计划
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_16" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        销售订单
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_17" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        销售订单行
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_18" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        销售订单变更请求
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_19" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        销售发票行
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#purchase" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        七、Purchase 采购模块
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="七、Purchase 采购模块">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_20" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        采购设置
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_21" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        采购申请
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_22" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        采购合同
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_23" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        采购询价
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_24" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        采购订单
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_25" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        采购计划
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pricing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        八、Pricing 定价模块
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#planning" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        九、Planning 计划模块
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#standard-costs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        十、Standard Costs 标准成本模块
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#manufacturing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        十一、Manufacturing 制造模块
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="十一、Manufacturing 制造模块">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#bom" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        BOM 与工艺路线
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#calendar" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        十二、Calendar 日历模块
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#warehouse" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        十三、Warehouse 仓储模块
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_26" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        十四、完整调用示例
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="十四、完整调用示例">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#141" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        14.1 销售订单审批
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#142" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        14.2 获取业务伙伴付款方数据
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#143" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        14.3 采购订单行释放到仓储
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ln-performance/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    数据库与性能调优
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ln-dev-cookbook/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    二次开发实战集锦
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    按地区浏览
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    按地区浏览
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../by-region/north-america/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    北美
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../by-region/europe/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    欧洲
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../by-region/asia-pacific/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    亚太
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../by-region/china/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    中国
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    按产品浏览
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    按产品浏览
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../by-product/ln/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Infor LN
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../by-product/m3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Infor M3
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../by-product/csi/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    CloudSuite Industrial
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../by-product/wms/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Infor WMS
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../by-product/factory-track/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Infor Factory Track
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../by-product/hcm/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Infor HCM
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../by-product/eam/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Infor EAM
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../by-product/crm/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Infor CRM
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../by-product/fsm/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Infor FSM
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../by-product/nexus/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Infor Nexus
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../by-product/sunsystems/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Infor SunSystems
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../by-product/cpq/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Infor CPQ
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../by-product/birst/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Infor Birst
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../by-product/plm/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Infor PLM
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../by-product/supply-planning/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Infor Supply Planning
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../by-product/yms/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Infor YMS
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../by-product/ion/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Infor ION
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../by-product/d-epm/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Infor d/EPM
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../by-product/qms/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Infor QMS
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../by-product/infor-os/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Infor OS
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    产品分类
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    产品分类
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../products/by-function/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    按业务功能
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../products/by-product-line/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    按产品线
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../products/by-industry/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    按行业
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../products/by-platform/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    按技术平台
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    竞品对比
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    竞品对比
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../competitor/ln-vs-sap/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Infor LN vs SAP S/4HANA
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../competitor/m3-vs-sap/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Infor M3 vs SAP S/4HANA
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../competitor/ln-vs-m3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Infor LN vs Infor M3
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../competitor/ln-vs-csi/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Infor LN vs CloudSuite Industrial
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../competitor/ln-vs-dynamics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Infor LN vs Microsoft Dynamics 365
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../competitor/ln-vs-oracle/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Infor LN vs Oracle ERP Cloud
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../competitor/ln-vs-qad/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Infor LN vs QAD
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../competitor/ln-vs-sage/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Infor LN vs Sage X3
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../competitor/ln-vs-ifs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Infor LN vs IFS Applications
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../competitor/ln-vs-epicor/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Infor LN vs Epicor Kinetic
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../competitor/ln-vs-odoo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Infor LN vs Odoo ERP
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../competitor/birst-vs-powerbi/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Infor Birst vs Microsoft Power BI
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../competitor/birst-vs-tableau/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Infor Birst vs Tableau
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../competitor/birst-vs-qlik/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Infor Birst vs Qlik Sense
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../competitor/birst-vs-looker/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Infor Birst vs Looker
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../competitor/birst-vs-sap-analytics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Infor Birst vs SAP Analytics Cloud
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../competitor/birst-vs-oracle-analytics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Infor Birst vs Oracle Analytics Cloud
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../competitor/birst-vs-cognos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Infor Birst vs IBM Cognos Analytics
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../competitor/ln-vs-kingdee-xinghan/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Infor LN vs 金蝶云·星瀚
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../competitor/ln-vs-yonyou-u9/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Infor LN vs 用友U9 cloud
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../competitor/ln-vs-yonyou-nc/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Infor LN vs 用友NC Cloud
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../competitor/ln-vs-digiwin-t100/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Infor LN vs 鼎捷T100
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../competitor/ln-vs-inspur-gs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Infor LN vs 浪潮海岳GS Cloud
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_8_24" >
+        
+          
+          <label class="md-nav__link" for="__nav_8_24" id="__nav_8_24_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    WMS 竞品对比
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_8_24_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8_24">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    WMS 竞品对比
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../competitor/wms-vs-blueyonder/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Infor WMS vs Blue Yonder
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../competitor/wms-vs-manhattan/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Infor WMS vs Manhattan
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../competitor/wms-vs-sap-ewm/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Infor WMS vs SAP EWM
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_8_25" >
+        
+          
+          <label class="md-nav__link" for="__nav_8_25" id="__nav_8_25_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    M3 竞品对比
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_8_25_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8_25">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    M3 竞品对比
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../competitor/m3-vs-oracle/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Infor M3 vs Oracle ERP Cloud
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../competitor/m3-vs-dynamics365/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Infor M3 vs Microsoft Dynamics 365
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_8_26" >
+        
+          
+          <label class="md-nav__link" for="__nav_8_26" id="__nav_8_26_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    HCM 竞品对比
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_8_26_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8_26">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    HCM 竞品对比
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../competitor/hcm-vs-workday/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Infor HCM vs Workday
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../competitor/hcm-vs-sap-successfactors/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Infor HCM vs SAP SuccessFactors
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_9" >
+        
+          
+          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    中国专区
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    中国专区
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../china/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    专区首页
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../china/consultants/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    顾问公司
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../china/training/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    中文培训
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../china/blogs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    中文博客
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../china/wechat-groups/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    微信社群
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../china/case-studies/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    客户案例
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_10" >
+        
+          
+          <label class="md-nav__link" for="__nav_10" id="__nav_10_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    关于本项目
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    关于本项目
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../about/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    项目介绍
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../submission-guide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    资源提交规范
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../contributing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    贡献指南
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../contact/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    联系我们
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sponsorship/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    广告合作
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        📋 目录
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pi" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        一、PI 调用基础
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="一、PI 调用基础">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#11" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.1 调用流程
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#12" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.2 参数规则
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#13-mb" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.3 mb 后缀说明
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#14" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.4 标准调用模板
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        二、异常处理模块
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#common" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        三、Common 通用模块
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="三、Common 通用模块">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        金额与数量转换
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        金额计算
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        编号与参数
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        地址与联系
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        打印
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#businesspartner" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        四、BusinessPartner 业务伙伴模块
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="四、BusinessPartner 业务伙伴模块">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        数据获取
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#session" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Session 启动
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        其他
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#item" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        五、Item 物料模块
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="五、Item 物料模块">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        数据获取
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_11" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        物料操作
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#session_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Session 启动
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sales" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        六、Sales 销售模块
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="六、Sales 销售模块">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_12" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        销售设置
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_13" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        销售报价
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_14" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        销售合同
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_15" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        销售计划
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_16" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        销售订单
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_17" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        销售订单行
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_18" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        销售订单变更请求
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_19" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        销售发票行
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#purchase" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        七、Purchase 采购模块
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="七、Purchase 采购模块">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_20" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        采购设置
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_21" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        采购申请
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_22" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        采购合同
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_23" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        采购询价
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_24" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        采购订单
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_25" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        采购计划
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pricing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        八、Pricing 定价模块
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#planning" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        九、Planning 计划模块
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#standard-costs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        十、Standard Costs 标准成本模块
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#manufacturing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        十一、Manufacturing 制造模块
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="十一、Manufacturing 制造模块">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#bom" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        BOM 与工艺路线
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#calendar" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        十二、Calendar 日历模块
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#warehouse" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        十三、Warehouse 仓储模块
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_26" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        十四、完整调用示例
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="十四、完整调用示例">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#141" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        14.1 销售订单审批
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#142" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        14.2 获取业务伙伴付款方数据
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#143" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        14.3 采购订单行释放到仓储
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+    <a href="https://github.com/cuiwenyuan/infor-ecosystem-open-resources/edit/main/docs/resources/ln-pi-reference.md" title="编辑此页" class="md-content__button md-icon" rel="edit">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"/></svg>
+    </a>
+  
+  
+    
+      
+    
+    <a href="https://github.com/cuiwenyuan/infor-ecosystem-open-resources/raw/main/docs/resources/ln-pi-reference.md" title="查看本页的源代码" class="md-content__button md-icon">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 18c.56 0 1 .44 1 1s-.44 1-1 1-1-.44-1-1 .44-1 1-1m0-3c-2.73 0-5.06 1.66-6 4 .94 2.34 3.27 4 6 4s5.06-1.66 6-4c-.94-2.34-3.27-4-6-4m0 6.5a2.5 2.5 0 0 1-2.5-2.5 2.5 2.5 0 0 1 2.5-2.5 2.5 2.5 0 0 1 2.5 2.5 2.5 2.5 0 0 1-2.5 2.5M9.27 20H6V4h7v5h5v4.07c.7.08 1.36.25 2 .49V8l-6-6H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h4.5a8.2 8.2 0 0 1-1.23-2"/></svg>
+    </a>
+  
+
+
+<h1 id="ln-public-interfaces">LN Public Interfaces 速查</h1>
+<blockquote>
+<p>Public Interfaces (PI) 是 LN 提供的标准业务功能方法，可在 Extension 中调用实现标准功能复用，<strong>升级不受影响</strong>。本手册基于 Infor LN 10.8 PI Reference Guide（2026 年 3 月版）整理。</p>
+<p><strong>前置阅读</strong>：<a href="../ln-4gl-tips/">LN 4GL 语言基础</a> | <a href="../ln-extension-guide/">LN Extension 开发实战</a></p>
+</blockquote>
+<hr />
+<h2 id="_1">📋 目录</h2>
+<ul>
+<li><a href="#一pi-调用基础">一、PI 调用基础</a></li>
+<li><a href="#二异常处理模块">二、异常处理模块</a></li>
+<li><a href="#三common-通用模块">三、Common 通用模块</a></li>
+<li><a href="#四businesspartner-业务伙伴模块">四、BusinessPartner 业务伙伴模块</a></li>
+<li><a href="#五item-物料模块">五、Item 物料模块</a></li>
+<li><a href="#六sales-销售模块">六、Sales 销售模块</a></li>
+<li><a href="#七purchase-采购模块">七、Purchase 采购模块</a></li>
+<li><a href="#八pricing-定价模块">八、Pricing 定价模块</a></li>
+<li><a href="#九planning-计划模块">九、Planning 计划模块</a></li>
+<li><a href="#十standard-costs-标准成本模块">十、Standard Costs 标准成本模块</a></li>
+<li><a href="#十一manufacturing-制造模块">十一、Manufacturing 制造模块</a></li>
+<li><a href="#十二calendar-日历模块">十二、Calendar 日历模块</a></li>
+<li><a href="#十三warehouse-仓储模块">十三、Warehouse 仓储模块</a></li>
+<li><a href="#十四完整调用示例">十四、完整调用示例</a></li>
+</ul>
+<hr />
+<h2 id="pi">一、PI 调用基础</h2>
+<h3 id="11">1.1 调用流程</h3>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>1. 在 declaration 段声明 extern 函数原型
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>2. 在函数/section 中调用 PI 函数
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>3. 检查返回值（0=成功）
+</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>4. 成功：Exception.Delete(exception.id)
+</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>   失败：Exception.GetMessage() + 处理异常
+</span></code></pre></div>
+<h3 id="12">1.2 参数规则</h3>
+<table>
+<thead>
+<tr>
+<th>参数类型</th>
+<th>说明</th>
+<th>示例</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>固定输入</strong></td>
+<td>必须按顺序传递</td>
+<td><code>domain tccmp iFinancialCompany</code></td>
+</tr>
+<tr>
+<td><strong>固定输出</strong></td>
+<td><code>ref</code> 引用传递</td>
+<td><code>ref domain tcamnt oTargetAmount</code></td>
+</tr>
+<tr>
+<td><strong>可变输入</strong></td>
+<td><code>"字段名"</code>, <code>值</code> 成对</td>
+<td><code>"cadr"</code>, l.tccom114.cadr`</td>
+</tr>
+<tr>
+<td><strong>可变输出</strong></td>
+<td><code>"字段名"</code>, <code>变量</code> 成对</td>
+<td><code>"ccnt"</code>, l.tccom114.ccnt`</td>
+</tr>
+</tbody>
+</table>
+<h3 id="13-mb">1.3 <code>mb</code> 后缀说明</h3>
+<p><code>mb</code> 后缀（如 <code>domain tcmcs.s999m oMsg mb</code>）表示该字符串参数允许返回多字节字符（中文、日文等）。</p>
+<h3 id="14">1.4 标准调用模板</h3>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>declaration:
+</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>    extern long SomeModule.SomeFunction(
+</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a>        domain tccmp iComp,
+</span><span id="__span-1-4"><a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a>        domain tcorno iOrder,
+</span><span id="__span-1-5"><a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a>        ref domain tcamnt oAmount,
+</span><span id="__span-1-6"><a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a>        ref domain tcmcs.s999m oExceptionMessage mb,
+</span><span id="__span-1-7"><a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a>        ref long oExceptionID )
+</span><span id="__span-1-8"><a id="__codelineno-1-8" name="__codelineno-1-8" href="#__codelineno-1-8"></a>
+</span><span id="__span-1-9"><a id="__codelineno-1-9" name="__codelineno-1-9" href="#__codelineno-1-9"></a>| 调用
+</span><span id="__span-1-10"><a id="__codelineno-1-10" name="__codelineno-1-10" href="#__codelineno-1-10"></a>long ret
+</span><span id="__span-1-11"><a id="__codelineno-1-11" name="__codelineno-1-11" href="#__codelineno-1-11"></a>domain tcmcs.s999m oMsg mb
+</span><span id="__span-1-12"><a id="__codelineno-1-12" name="__codelineno-1-12" href="#__codelineno-1-12"></a>long oID
+</span><span id="__span-1-13"><a id="__codelineno-1-13" name="__codelineno-1-13" href="#__codelineno-1-13"></a>
+</span><span id="__span-1-14"><a id="__codelineno-1-14" name="__codelineno-1-14" href="#__codelineno-1-14"></a>ret = SomeModule.SomeFunction(575, order.no, amount, oMsg, oID)
+</span><span id="__span-1-15"><a id="__codelineno-1-15" name="__codelineno-1-15" href="#__codelineno-1-15"></a>if ret = 0 then
+</span><span id="__span-1-16"><a id="__codelineno-1-16" name="__codelineno-1-16" href="#__codelineno-1-16"></a>    Exception.Delete(exception.id)
+</span><span id="__span-1-17"><a id="__codelineno-1-17" name="__codelineno-1-17" href="#__codelineno-1-17"></a>else
+</span><span id="__span-1-18"><a id="__codelineno-1-18" name="__codelineno-1-18" href="#__codelineno-1-18"></a>    Exception.GetMessage(oID, 1, oMsg)
+</span><span id="__span-1-19"><a id="__codelineno-1-19" name="__codelineno-1-19" href="#__codelineno-1-19"></a>    message(&quot;错误: &quot; &amp; oMsg)
+</span><span id="__span-1-20"><a id="__codelineno-1-20" name="__codelineno-1-20" href="#__codelineno-1-20"></a>    raise error
+</span><span id="__span-1-21"><a id="__codelineno-1-21" name="__codelineno-1-21" href="#__codelineno-1-21"></a>endif
+</span></code></pre></div>
+<hr />
+<h2 id="_2">二、异常处理模块</h2>
+<table>
+<thead>
+<tr>
+<th>函数</th>
+<th>说明</th>
+<th>DLL</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Exception.Delete(id)</code></td>
+<td>删除异常记录</td>
+<td>—</td>
+</tr>
+<tr>
+<td><code>Exception.GetMessage(id, seq, msg)</code></td>
+<td>获取异常消息（seq 从 1 开始）</td>
+<td>—</td>
+</tr>
+<tr>
+<td><code>Exception.NumberOfMessages(id)</code></td>
+<td>获取异常消息数量</td>
+<td>—</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="common">三、Common 通用模块</h2>
+<p><strong>DLL</strong>：<code>tcextcomapi</code></p>
+<h3 id="_3">金额与数量转换</h3>
+<table>
+<thead>
+<tr>
+<th>函数</th>
+<th>说明</th>
+<th>返回值</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Common.ConvertAmount(comp, amt, from.cur, rate.type, rate.date, to.cur, ref amt.out, ref msg, ref id)</code></td>
+<td>货币金额转换</td>
+<td>0=成功</td>
+</tr>
+<tr>
+<td><code>Common.ConvertQuantity(comp, qty, from.unit, item, to.unit, ref qty.out, ref msg, ref id)</code></td>
+<td>数量单位转换</td>
+<td>0=成功</td>
+</tr>
+<tr>
+<td><code>Common.ConvertPrice(comp, price, from.cur, from.unit, to.cur, to.unit, item, ref price.out, ref msg, ref id)</code></td>
+<td>价格转换（含币种和单位）</td>
+<td>0=成功</td>
+</tr>
+<tr>
+<td><code>Common.ConvertAmountToWords(comp, amt, cur, ref words, ref msg, ref id)</code></td>
+<td>金额转文字（如"壹佰贰拾叁元整"）</td>
+<td>0=成功</td>
+</tr>
+<tr>
+<td><code>Common.ConvertTime(from.unit, qty, to.unit, ref qty.out, ref msg, ref id)</code></td>
+<td>时间单位转换</td>
+<td>0=成功</td>
+</tr>
+<tr>
+<td><code>Common.ConvertISODurationToSeconds(duration, ref seconds, ref msg, ref id)</code></td>
+<td>ISO 8601 工期转秒数</td>
+<td>0=成功</td>
+</tr>
+<tr>
+<td><code>Common.ConvertLeadTimeToISODuration(comp, item, days, ref duration, ref msg, ref id)</code></td>
+<td>提前期天数转 ISO 工期</td>
+<td>0=成功</td>
+</tr>
+</tbody>
+</table>
+<h3 id="_4">金额计算</h3>
+<table>
+<thead>
+<tr>
+<th>函数</th>
+<th>说明</th>
+<th>返回值</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Common.RoundAmount(comp, amt, cur, ref rounded, ref msg, ref id)</code></td>
+<td>金额四舍五入</td>
+<td>0=成功</td>
+</tr>
+<tr>
+<td><code>Common.RoundQuantity(comp, qty, unit, item, ref rounded, ref msg, ref id)</code></td>
+<td>数量四舍五入</td>
+<td>0=成功</td>
+</tr>
+<tr>
+<td><code>Common.CalculateDiscountAmounts(comp, amt, disc.pct, cur, ref disc.amt, ref net.amt, ref msg, ref id)</code></td>
+<td>计算折扣金额</td>
+<td>0=成功</td>
+</tr>
+<tr>
+<td><code>Common.CalculateDueDates(comp, inv.date, terms, ref due.date, ref disc.date, ref msg, ref id)</code></td>
+<td>计算到期日和折扣日</td>
+<td>0=成功</td>
+</tr>
+</tbody>
+</table>
+<h3 id="_5">编号与参数</h3>
+<table>
+<thead>
+<tr>
+<th>函数</th>
+<th>说明</th>
+<th>返回值</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Common.GenerateFirstFreeNumber(comp, series, ref number, ref msg, ref id)</code></td>
+<td>生成首个自由编号</td>
+<td>0=成功</td>
+</tr>
+<tr>
+<td><code>Common.ValidateNumberGroupSeries(comp, group, ref msg, ref id)</code></td>
+<td>校验编号组</td>
+<td>0=成功</td>
+</tr>
+<tr>
+<td><code>Common.GetParameters(comp, param, ref value, ref msg, ref id)</code></td>
+<td>获取系统参数</td>
+<td>0=成功</td>
+</tr>
+<tr>
+<td><code>Common.GetAdditionalEntityInfo(comp, ref msg, ref id, ...)</code></td>
+<td>获取附加实体信息</td>
+<td>0=成功</td>
+</tr>
+<tr>
+<td><code>Common.GetFinancialCompanyOfEntity(entity, ref comp, ref msg, ref id)</code></td>
+<td>获取实体所属财务公司</td>
+<td>0=成功</td>
+</tr>
+<tr>
+<td><code>Common.GetCurrencyRates(comp, cur, rate.type, date, ref buy.rate, ref sell.rate, ref msg, ref id)</code></td>
+<td>获取汇率</td>
+<td>0=成功</td>
+</tr>
+<tr>
+<td><code>Common.GetConversionFactor(comp, item, from.unit, to.unit, date, ref factor, ref msg, ref id)</code></td>
+<td>获取转换系数</td>
+<td>0=成功</td>
+</tr>
+<tr>
+<td><code>Common.GetFormattedAddress(...)</code></td>
+<td>获取格式化地址字符串</td>
+<td>0=成功</td>
+</tr>
+<tr>
+<td><code>Common.GetISOCodeOfLNLanguage(lang, ref iso.code, ref msg, ref id)</code></td>
+<td>获取 LN 语言的 ISO 代码</td>
+<td>0=成功</td>
+</tr>
+<tr>
+<td><code>Common.UpdateApprovedConversionFactor(comp, item, from.unit, to.unit, factor, ref msg, ref id)</code></td>
+<td>更新已审批的转换系数</td>
+<td>0=成功</td>
+</tr>
+</tbody>
+</table>
+<h3 id="_6">地址与联系</h3>
+<table>
+<thead>
+<tr>
+<th>函数</th>
+<th>说明</th>
+<th>返回值</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Address.Create(comp, bpid, role, ref msg, ref id, ...)</code></td>
+<td>创建地址</td>
+<td>0=成功</td>
+</tr>
+<tr>
+<td><code>Address.StartDetail(comp, bpid, role, ...)</code></td>
+<td>启动地址明细 Session</td>
+<td>—</td>
+</tr>
+<tr>
+<td><code>Address.StartPrintByBusinessPartner(comp, bpid, ...)</code></td>
+<td>打印业务伙伴地址</td>
+<td>—</td>
+</tr>
+<tr>
+<td><code>Contact.StartOverview(comp, bpid, ...)</code></td>
+<td>启动联系人概览 Session</td>
+<td>—</td>
+</tr>
+<tr>
+<td><code>Warehouse.StartOverview(...)</code></td>
+<td>启动仓库概览 Session</td>
+<td>—</td>
+</tr>
+</tbody>
+</table>
+<h3 id="_7">打印</h3>
+<table>
+<thead>
+<tr>
+<th>函数</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Printing.CloseOpenReports()</code></td>
+<td>关闭所有打开的报表</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="businesspartner">四、BusinessPartner 业务伙伴模块</h2>
+<p><strong>DLL</strong>：<code>tcextcomapi</code></p>
+<h3 id="_8">数据获取</h3>
+<table>
+<thead>
+<tr>
+<th>函数</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>BusinessPartner.GetGeneralData(comp, bpid, dept, force, ref msg, ref id, ...)</code></td>
+<td>获取通用数据</td>
+</tr>
+<tr>
+<td><code>BusinessPartner.GetBuyFromData(comp, bpid, dept, force, ref msg, ref id, ...)</code></td>
+<td>获取采购方数据</td>
+</tr>
+<tr>
+<td><code>BusinessPartner.GetSoldToData(comp, bpid, dept, force, ref msg, ref id, ...)</code></td>
+<td>获取收货方数据</td>
+</tr>
+<tr>
+<td><code>BusinessPartner.GetShipToData(comp, bpid, dept, force, ref msg, ref id, ...)</code></td>
+<td>获取送达方数据</td>
+</tr>
+<tr>
+<td><code>BusinessPartner.GetShipFromData(comp, bpid, dept, force, ref msg, ref id, ...)</code></td>
+<td>获取发货方数据</td>
+</tr>
+<tr>
+<td><code>BusinessPartner.GetPayByData(comp, bpid, dept, force, ref msg, ref id, ...)</code></td>
+<td>获取付款方数据</td>
+</tr>
+<tr>
+<td><code>BusinessPartner.GetPayToData(comp, bpid, dept, force, ref msg, ref id, ...)</code></td>
+<td>获取收款方数据</td>
+</tr>
+<tr>
+<td><code>BusinessPartner.GetInvoiceToData(comp, bpid, dept, force, ref msg, ref id, ...)</code></td>
+<td>获取收票方数据</td>
+</tr>
+<tr>
+<td><code>BusinessPartner.GetInvoiceFromData(comp, bpid, dept, force, ref msg, ref id, ...)</code></td>
+<td>获取开票方数据</td>
+</tr>
+<tr>
+<td><code>BusinessPartner.GetCreditLimitAndBalances(comp, bpid, dept, force, ref msg, ref id, ...)</code></td>
+<td>获取信用额度和余额</td>
+</tr>
+<tr>
+<td><code>BusinessPartner.CheckOverdueInvoices(comp, bpid, ref msg, ref id)</code></td>
+<td>检查逾期发票</td>
+</tr>
+</tbody>
+</table>
+<h3 id="session">Session 启动</h3>
+<table>
+<thead>
+<tr>
+<th>函数</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>BusinessPartner.StartOverview(...)</code></td>
+<td>启动业务伙伴概览</td>
+</tr>
+<tr>
+<td><code>BusinessPartner.StartEasyEntry(...)</code></td>
+<td>启动简易录入</td>
+</tr>
+<tr>
+<td><code>BusinessPartner.StartMultiMain(...)</code></td>
+<td>启动多主数据</td>
+</tr>
+<tr>
+<td><code>BusinessPartner.StartDetail(...)</code></td>
+<td>启动业务伙伴明细</td>
+</tr>
+<tr>
+<td><code>BuyFromBusinessPartner.StartOverview(...)</code></td>
+<td>启动采购方概览</td>
+</tr>
+<tr>
+<td><code>InvoiceToBusinessPartner.StartDetail(...)</code></td>
+<td>启动收票方明细</td>
+</tr>
+</tbody>
+</table>
+<h3 id="_9">其他</h3>
+<table>
+<thead>
+<tr>
+<th>函数</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>HoldReasons.StartOverview(...)</code></td>
+<td>启动暂停原因概览</td>
+</tr>
+<tr>
+<td><code>BillingCycle.GetInvoicedate(comp, bpcyc, ref date, ref msg, ref id)</code></td>
+<td>获取开票日期</td>
+</tr>
+<tr>
+<td><code>Series.StartOverview(...)</code></td>
+<td>启动系列概览</td>
+</tr>
+<tr>
+<td><code>Task.StartMultiMain(...)</code></td>
+<td>启动任务多主数据</td>
+</tr>
+<tr>
+<td><code>Activities.StartOverview(...)</code></td>
+<td>启动活动概览</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="item">五、Item 物料模块</h2>
+<p><strong>DLL</strong>：<code>tcextibdapi</code></p>
+<h3 id="_10">数据获取</h3>
+<table>
+<thead>
+<tr>
+<th>函数</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Item.GetData(comp, item, force, ref msg, ref id, ...)</code></td>
+<td>获取物料通用数据</td>
+</tr>
+<tr>
+<td><code>Item.GetSalesData(comp, item, office, force, ref msg, ref id, ...)</code></td>
+<td>获取销售视图数据</td>
+</tr>
+<tr>
+<td><code>Item.GetPurchaseData(comp, item, office, force, ref msg, ref id, ...)</code></td>
+<td>获取采购视图数据</td>
+</tr>
+<tr>
+<td><code>Item.GetCostingData(comp, item, force, ref msg, ref id, ...)</code></td>
+<td>获取成本视图数据</td>
+</tr>
+<tr>
+<td><code>Item.GetProductionData(comp, item, site, force, ref msg, ref id, ...)</code></td>
+<td>获取生产视图数据</td>
+</tr>
+<tr>
+<td><code>Item.GetWarehousingData(comp, item, site, force, ref msg, ref id, ...)</code></td>
+<td>获取仓储视图数据</td>
+</tr>
+<tr>
+<td><code>Item.GetServiceData(comp, item, force, ref msg, ref id, ...)</code></td>
+<td>获取服务视图数据</td>
+</tr>
+<tr>
+<td><code>Item.GetOrderingData(comp, item, site, force, ref msg, ref id, ...)</code></td>
+<td>获取订购数据</td>
+</tr>
+<tr>
+<td><code>Item.GetSupplier(comp, item, ref msg, ref id, ...)</code></td>
+<td>获取供应商信息</td>
+</tr>
+<tr>
+<td><code>Item.GetRevision(comp, item, ref msg, ref id, ...)</code></td>
+<td>获取物料版本</td>
+</tr>
+<tr>
+<td><code>Item.GetLotSerialRegistration(comp, item, ref msg, ref id, ...)</code></td>
+<td>获取批号/序列号注册信息</td>
+</tr>
+<tr>
+<td><code>Item.GetPlanningTimeFenceDate(comp, item, site, ref date, ref msg, ref id)</code></td>
+<td>获取计划时界日期</td>
+</tr>
+<tr>
+<td><code>Item.ProjectPegAllowed(comp, item, ref allowed, ref msg, ref id)</code></td>
+<td>检查是否允许项目挂钩</td>
+</tr>
+</tbody>
+</table>
+<h3 id="_11">物料操作</h3>
+<table>
+<thead>
+<tr>
+<th>函数</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Item.Copy(comp, from.item, to.item, ref msg, ref id)</code></td>
+<td>复制物料</td>
+</tr>
+<tr>
+<td><code>Item.CopySiteData(comp, item, from.site, to.site, ref msg, ref id)</code></td>
+<td>复制站点数据</td>
+</tr>
+<tr>
+<td><code>Item.CreateSerialNumber(comp, item, ...)</code></td>
+<td>创建序列号</td>
+</tr>
+<tr>
+<td><code>Item.InsertSerialNumber(comp, item, serial, ...)</code></td>
+<td>插入序列号</td>
+</tr>
+<tr>
+<td><code>Item.ConvertItemToPlanItem(comp, item, ref plan.item, ref msg, ref id)</code></td>
+<td>物料转计划物料</td>
+</tr>
+<tr>
+<td><code>Item.ConvertPlanItemToItem(comp, plan.item, ref item, ref msg, ref id)</code></td>
+<td>计划物料转物料</td>
+</tr>
+</tbody>
+</table>
+<h3 id="session_1">Session 启动</h3>
+<table>
+<thead>
+<tr>
+<th>函数</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Item.StartDetail(comp, item)</code></td>
+<td>启动物料明细</td>
+</tr>
+<tr>
+<td><code>Item.StartCopy(comp, item)</code></td>
+<td>启动物料复制</td>
+</tr>
+<tr>
+<td><code>Item.StartMultiMain(...)</code></td>
+<td>启动物料多主数据</td>
+</tr>
+<tr>
+<td><code>Item.StartOverview(...)</code></td>
+<td>启动物料概览</td>
+</tr>
+<tr>
+<td><code>Item.StartWhereUsedComponent(comp, item)</code></td>
+<td>启动物料用途查询</td>
+</tr>
+<tr>
+<td><code>ItemBySite.StartDetail(...)</code></td>
+<td>启动站点物料明细</td>
+</tr>
+<tr>
+<td><code>ItemBySite.StartOverview(...)</code></td>
+<td>启动站点物料概览</td>
+</tr>
+<tr>
+<td><code>ItemPurchase.StartDetail(...)</code></td>
+<td>启动采购物料明细</td>
+</tr>
+<tr>
+<td><code>ItemPurchase.StartOverview(...)</code></td>
+<td>启动采购物料概览</td>
+</tr>
+<tr>
+<td><code>ItemPurchaseBySite.StartDetail(...)</code></td>
+<td>启动站点采购物料明细</td>
+</tr>
+<tr>
+<td><code>ItemPurchaseBusinessPartner.StartDetail(...)</code></td>
+<td>启动物料供应商明细</td>
+</tr>
+<tr>
+<td><code>ItemPurchaseBusinessPartner.StartOverview(...)</code></td>
+<td>启动物料供应商概览</td>
+</tr>
+<tr>
+<td><code>ItemPurchaseBusinessPartner.CalculateLeadTimes(...)</code></td>
+<td>计算供应商提前期</td>
+</tr>
+<tr>
+<td><code>ItemPurchaseBusinessPartner.GetSafetyTime(...)</code></td>
+<td>获取安全时间</td>
+</tr>
+<tr>
+<td><code>ItemSalesBusinessPartner.StartDetail(...)</code></td>
+<td>启动销售物料明细</td>
+</tr>
+<tr>
+<td><code>ItemSalesBusinessPartner.StartOverview(...)</code></td>
+<td>启动销售物料概览</td>
+</tr>
+<tr>
+<td><code>ItemSalesByOffice.StartOverview(...)</code></td>
+<td>启动办公室销售物料概览</td>
+</tr>
+<tr>
+<td><code>ItemPlanning.StartDetail(...)</code></td>
+<td>启动计划物料明细</td>
+</tr>
+<tr>
+<td><code>ItemPlanning.StartOverview(...)</code></td>
+<td>启动计划物料概览</td>
+</tr>
+<tr>
+<td><code>ItemSerial.CreateOrUpdate(...)</code></td>
+<td>创建或更新序列号</td>
+</tr>
+<tr>
+<td><code>ItemSerial.SetStatus(...)</code></td>
+<td>设置序列号状态</td>
+</tr>
+<tr>
+<td><code>LotAndSerialSet.StartOverview(...)</code></td>
+<td>启动批号/序列号集概览</td>
+</tr>
+<tr>
+<td><code>ItemsByManufacturerPartNumber.StartOverview(...)</code></td>
+<td>启动制造商零件号概览</td>
+</tr>
+<tr>
+<td><code>ItemByItemCodeSystem.StartOverview(...)</code></td>
+<td>启动物料编码系统概览</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="sales">六、Sales 销售模块</h2>
+<p><strong>DLL</strong>：<code>tdextslsapi</code></p>
+<h3 id="_12">销售设置</h3>
+<table>
+<thead>
+<tr>
+<th>函数</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Sales.GetOrderSettings(comp, office, ref msg, ref id, ...)</code></td>
+<td>获取销售订单设置</td>
+</tr>
+<tr>
+<td><code>Sales.GetGeneralSettings(comp, ref msg, ref id, ...)</code></td>
+<td>获取通用销售设置</td>
+</tr>
+<tr>
+<td><code>Sales.GetQuoteSettings(comp, office, ref msg, ref id, ...)</code></td>
+<td>获取报价设置</td>
+</tr>
+<tr>
+<td><code>Sales.GetContractSettings(comp, office, ref msg, ref id, ...)</code></td>
+<td>获取合同设置</td>
+</tr>
+<tr>
+<td><code>Sales.GetScheduleSettings(comp, ref msg, ref id, ...)</code></td>
+<td>获取计划设置</td>
+</tr>
+<tr>
+<td><code>Sales.CalculatePlannedDeliveryDate(comp, item, qty, date, office, ref del.date, ref msg, ref id)</code></td>
+<td>计算计划交货日期</td>
+</tr>
+<tr>
+<td><code>Sales.GenerateRetrobilledPriceChangeAdvices(...)</code></td>
+<td>生成追溯性价格变更通知</td>
+</tr>
+<tr>
+<td><code>Sales.StartProcessProFormaInvoices(...)</code></td>
+<td>启动形式发票处理</td>
+</tr>
+</tbody>
+</table>
+<h3 id="_13">销售报价</h3>
+<table>
+<thead>
+<tr>
+<th>函数</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>SalesQuote.Approve(comp, quno, ref msg, ref id)</code></td>
+<td>审批报价</td>
+</tr>
+<tr>
+<td><code>SalesQuote.Process(comp, quno, ref msg, ref id)</code></td>
+<td>处理报价（转为订单）</td>
+</tr>
+<tr>
+<td><code>SalesQuote.StartMultiMain(...)</code></td>
+<td>启动报价多主数据</td>
+</tr>
+<tr>
+<td><code>SalesQuotes.StartOverview(...)</code></td>
+<td>启动报价概览</td>
+</tr>
+<tr>
+<td><code>SalesQuoteLine.RecalculatePriceAndDiscounts(...)</code></td>
+<td>重新计算价格和折扣</td>
+</tr>
+<tr>
+<td><code>SalesQuoteLine.StartDetail(...)</code></td>
+<td>启动报价行明细</td>
+</tr>
+</tbody>
+</table>
+<h3 id="_14">销售合同</h3>
+<table>
+<thead>
+<tr>
+<th>函数</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>SalesContract.GetTotalAmounts(comp, ccon, ref msg, ref id, ...)</code></td>
+<td>获取合同总金额</td>
+</tr>
+<tr>
+<td><code>SalesContract.StartMultiMain(...)</code></td>
+<td>启动合同多主数据</td>
+</tr>
+<tr>
+<td><code>SalesContract.StartWorkbench(...)</code></td>
+<td>启动合同工作台</td>
+</tr>
+<tr>
+<td><code>SalesContracts.StartOverview(...)</code></td>
+<td>启动合同概览</td>
+</tr>
+</tbody>
+</table>
+<h3 id="_15">销售计划</h3>
+<table>
+<thead>
+<tr>
+<th>函数</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>SalesSchedule.GetForecastQuantity(...)</code></td>
+<td>获取预测数量</td>
+</tr>
+<tr>
+<td><code>SalesSchedule.StartMultiMain(...)</code></td>
+<td>启动销售计划多主数据</td>
+</tr>
+<tr>
+<td><code>SalesScheduleLine.Reprice(...)</code></td>
+<td>重新定价</td>
+</tr>
+<tr>
+<td><code>SalesScheduleLine.RecalculatePriceAndDiscounts(...)</code></td>
+<td>重新计算价格和折扣</td>
+</tr>
+</tbody>
+</table>
+<h3 id="_16">销售订单</h3>
+<table>
+<thead>
+<tr>
+<th>函数</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>SalesOrder.Approve(comp, orno, ref msg, ref id)</code></td>
+<td>审批销售订单</td>
+</tr>
+<tr>
+<td><code>SalesOrder.Block(comp, orno, hold, ref msg, ref id)</code></td>
+<td>阻塞/解阻销售订单</td>
+</tr>
+<tr>
+<td><code>SalesOrder.CalculateAmounts(comp, orno, ref msg, ref id)</code></td>
+<td>计算订单金额</td>
+</tr>
+<tr>
+<td><code>SalesOrder.CopyBOM(comp, from.order, to.order, ref msg, ref id)</code></td>
+<td>复制 BOM</td>
+</tr>
+<tr>
+<td><code>SalesOrder.CreditCheck(comp, orno, ref msg, ref id)</code></td>
+<td>信用检查</td>
+</tr>
+<tr>
+<td><code>SalesOrder.DetermineAdditionalCostLines(...)</code></td>
+<td>确定附加费用行</td>
+</tr>
+<tr>
+<td><code>SalesOrder.DetermineDefaultPurchaseOrderData(...)</code></td>
+<td>确定默认采购订单数据</td>
+</tr>
+<tr>
+<td><code>SalesOrder.FinalizeBlocking(comp, orno, ref msg, ref id)</code></td>
+<td>完成阻塞</td>
+</tr>
+<tr>
+<td><code>SalesOrder.GenerateStructure(...)</code></td>
+<td>生成订单结构</td>
+</tr>
+<tr>
+<td><code>SalesOrder.InitiateChangeRequest(comp, orno, ref msg, ref id)</code></td>
+<td>发起变更请求</td>
+</tr>
+<tr>
+<td><code>SalesOrder.RecalculatePriceAndDiscounts(comp, orno, ref msg, ref id)</code></td>
+<td>重新计算价格和折扣</td>
+</tr>
+<tr>
+<td><code>SalesOrder.ReleaseBlocking(comp, orno, ref msg, ref id)</code></td>
+<td>释放阻塞</td>
+</tr>
+<tr>
+<td><code>SalesOrder.Rush(comp, orno, ref msg, ref id)</code></td>
+<td>加急订单</td>
+</tr>
+<tr>
+<td><code>SalesOrder.StartIntakeWorkbench(...)</code></td>
+<td>启动录入工作台</td>
+</tr>
+<tr>
+<td><code>SalesOrder.StartMultiMain(...)</code></td>
+<td>启动订单多主数据</td>
+</tr>
+<tr>
+<td><code>SalesOrder.StartPrintAcknowledgement(...)</code></td>
+<td>打印订单确认</td>
+</tr>
+<tr>
+<td><code>SalesOrders.StartOverview(...)</code></td>
+<td>启动订单概览</td>
+</tr>
+</tbody>
+</table>
+<h3 id="_17">销售订单行</h3>
+<table>
+<thead>
+<tr>
+<th>函数</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>SalesOrderLine.Block(comp, orno, ponr, hold, ref msg, ref id)</code></td>
+<td>阻塞/解阻订单行</td>
+</tr>
+<tr>
+<td><code>SalesOrderLine.CalculateCostPriceByProject(...)</code></td>
+<td>按项目计算成本价格</td>
+</tr>
+<tr>
+<td><code>SalesOrderLine.Cancel(comp, orno, ponr, ref msg, ref id)</code></td>
+<td>取消订单行</td>
+</tr>
+<tr>
+<td><code>SalesOrderLine.ConfirmBackorderLine(...)</code></td>
+<td>确认欠交行</td>
+</tr>
+<tr>
+<td><code>SalesOrderLine.ConfirmSalesDelivery(...)</code></td>
+<td>确认销售交货</td>
+</tr>
+<tr>
+<td><code>SalesOrderLine.CopyFromOriginalInvoice(...)</code></td>
+<td>从原发票复制</td>
+</tr>
+<tr>
+<td><code>SalesOrderLine.CopyFromOriginalOrder(...)</code></td>
+<td>从原订单复制</td>
+</tr>
+<tr>
+<td><code>SalesOrderLine.CopyFromOriginalScheduleShipment(...)</code></td>
+<td>从原计划装运复制</td>
+</tr>
+<tr>
+<td><code>SalesOrderLine.CopyFromOriginalShipment(...)</code></td>
+<td>从原装运复制</td>
+</tr>
+<tr>
+<td><code>SalesOrderLine.CreateSalesDelivery(...)</code></td>
+<td>创建销售交货</td>
+</tr>
+<tr>
+<td><code>SalesOrderLine.ExecuteTradeComplianceCheck(...)</code></td>
+<td>执行贸易合规检查</td>
+</tr>
+<tr>
+<td><code>SalesOrderLine.GenerateProductionOrder(...)</code></td>
+<td>生成生产订单</td>
+</tr>
+<tr>
+<td><code>SalesOrderLine.GetStatusDescription(...)</code></td>
+<td>获取状态描述</td>
+</tr>
+<tr>
+<td><code>SalesOrderLine.LinkContract(...)</code></td>
+<td>关联合同</td>
+</tr>
+<tr>
+<td><code>SalesOrderLine.LinkOrUnlinkInstallationGroup(...)</code></td>
+<td>关联/取消安装组</td>
+</tr>
+<tr>
+<td><code>SalesOrderLine.RecalculatePriceAndDiscounts(...)</code></td>
+<td>重新计算价格和折扣</td>
+</tr>
+<tr>
+<td><code>SalesOrderLine.ReleaseBlocking(...)</code></td>
+<td>释放阻塞</td>
+</tr>
+<tr>
+<td><code>SalesOrderLine.ReleaseManualActivity(...)</code></td>
+<td>释放手工活动</td>
+</tr>
+<tr>
+<td><code>SalesOrderLine.ReleaseToWarehousing(...)</code></td>
+<td>释放到仓储</td>
+</tr>
+<tr>
+<td><code>SalesOrderLine.Split(...)</code></td>
+<td>拆分订单行</td>
+</tr>
+<tr>
+<td><code>SalesOrderLine.StartAutomaticProcessing(...)</code></td>
+<td>启动自动处理</td>
+</tr>
+<tr>
+<td><code>SalesOrderLine.StartDetail(...)</code></td>
+<td>启动订单行明细</td>
+</tr>
+</tbody>
+</table>
+<h3 id="_18">销售订单变更请求</h3>
+<table>
+<thead>
+<tr>
+<th>函数</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>SalesOrderChangeRequest.Approve(...)</code></td>
+<td>审批变更请求</td>
+</tr>
+<tr>
+<td><code>SalesOrderChangeRequest.Cancel(...)</code></td>
+<td>取消变更请求</td>
+</tr>
+<tr>
+<td><code>SalesOrderChangeRequest.Process(...)</code></td>
+<td>处理变更请求</td>
+</tr>
+</tbody>
+</table>
+<h3 id="_19">销售发票行</h3>
+<table>
+<thead>
+<tr>
+<th>函数</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>SalesOrderInvoiceLine.ChangePriceAndDiscounts(...)</code></td>
+<td>变更价格和折扣</td>
+</tr>
+<tr>
+<td><code>SalesOrderInvoiceLine.ReadInvoicingStatusDescription(...)</code></td>
+<td>读取开票状态</td>
+</tr>
+<tr>
+<td><code>SalesOrderInvoiceLine.ReleaseToInvoicing(...)</code></td>
+<td>释放到开票</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="purchase">七、Purchase 采购模块</h2>
+<p><strong>DLL</strong>：<code>tdextpurapi</code></p>
+<h3 id="_20">采购设置</h3>
+<table>
+<thead>
+<tr>
+<th>函数</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Purchase.GetOrderSettings(comp, office, ref msg, ref id, ...)</code></td>
+<td>获取采购订单设置</td>
+</tr>
+<tr>
+<td><code>Purchase.GetGeneralSettings(comp, ref msg, ref id, ...)</code></td>
+<td>获取通用采购设置</td>
+</tr>
+<tr>
+<td><code>Purchase.GetRequisitionSettings(comp, ref msg, ref id, ...)</code></td>
+<td>获取采购申请设置</td>
+</tr>
+<tr>
+<td><code>Purchase.GetRFQSettings(comp, ref msg, ref id, ...)</code></td>
+<td>获取询价设置</td>
+</tr>
+<tr>
+<td><code>Purchase.GetContractSettings(comp, office, ref msg, ref id, ...)</code></td>
+<td>获取采购合同设置</td>
+</tr>
+<tr>
+<td><code>Purchase.GetScheduleSettings(comp, ref msg, ref id, ...)</code></td>
+<td>获取采购计划设置</td>
+</tr>
+<tr>
+<td><code>Purchase.GenerateRetrobilledPriceChangeAdvices(...)</code></td>
+<td>生成追溯性价格变更通知</td>
+</tr>
+</tbody>
+</table>
+<h3 id="_21">采购申请</h3>
+<table>
+<thead>
+<tr>
+<th>函数</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>PurchaseRequisition.Submit(comp, ref msg, ref id)</code></td>
+<td>提交采购申请</td>
+</tr>
+<tr>
+<td><code>PurchaseRequisition.ApproveApprovalRecord(...)</code></td>
+<td>审批</td>
+</tr>
+<tr>
+<td><code>PurchaseRequisition.RejectApprovalRecord(...)</code></td>
+<td>驳回</td>
+</tr>
+<tr>
+<td><code>PurchaseRequisition.StartMultiMain(...)</code></td>
+<td>启动多主数据</td>
+</tr>
+<tr>
+<td><code>PurchaseRequisitionLine.ConvertToPurchaseOrder(...)</code></td>
+<td>转采购订单</td>
+</tr>
+<tr>
+<td><code>PurchaseRequisitionLine.ConvertToPurchaseRFQ(...)</code></td>
+<td>转询价单</td>
+</tr>
+<tr>
+<td><code>PurchaseRequisitionLine.StartDetail(...)</code></td>
+<td>启动申请行明细</td>
+</tr>
+</tbody>
+</table>
+<h3 id="_22">采购合同</h3>
+<table>
+<thead>
+<tr>
+<th>函数</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>PurchaseContract.Activate(...)</code></td>
+<td>激活合同</td>
+</tr>
+<tr>
+<td><code>PurchaseContract.Deactivate(...)</code></td>
+<td>停用合同</td>
+</tr>
+<tr>
+<td><code>PurchaseContract.Terminate(...)</code></td>
+<td>终止合同</td>
+</tr>
+<tr>
+<td><code>PurchaseContract.GetTotalAmounts(...)</code></td>
+<td>获取合同总金额</td>
+</tr>
+<tr>
+<td><code>PurchaseContract.StartWorkbench(...)</code></td>
+<td>启动合同工作台</td>
+</tr>
+<tr>
+<td><code>PurchaseContractLine.Activate(...)</code></td>
+<td>激活合同行</td>
+</tr>
+<tr>
+<td><code>PurchaseContractLine.Deactivate(...)</code></td>
+<td>停用合同行</td>
+</tr>
+<tr>
+<td><code>PurchaseContractLine.Terminate(...)</code></td>
+<td>终止合同行</td>
+</tr>
+<tr>
+<td><code>PurchaseContractLine.GetNetAmountOnPriceDate(...)</code></td>
+<td>获取价格日期的净额</td>
+</tr>
+</tbody>
+</table>
+<h3 id="_23">采购询价</h3>
+<table>
+<thead>
+<tr>
+<th>函数</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>RequestForQuote.PrintRequestForQuote(...)</code></td>
+<td>打印询价单</td>
+</tr>
+<tr>
+<td><code>RequestForQuote.StartCancel(...)</code></td>
+<td>启动取消</td>
+</tr>
+<tr>
+<td><code>RequestForQuoteResponse.Accept(...)</code></td>
+<td>接受报价</td>
+</tr>
+<tr>
+<td><code>RequestForQuoteResponse.Reject(...)</code></td>
+<td>拒绝报价</td>
+</tr>
+</tbody>
+</table>
+<h3 id="_24">采购订单</h3>
+<table>
+<thead>
+<tr>
+<th>函数</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>PurchaseOrder.InitiateChangeRequest(...)</code></td>
+<td>发起变更请求</td>
+</tr>
+<tr>
+<td><code>PurchaseOrder.PrintPurchaseOrder(...)</code></td>
+<td>打印采购订单</td>
+</tr>
+<tr>
+<td><code>PurchaseOrder.RecalculateLandedCosts(...)</code></td>
+<td>重新计算到岸成本</td>
+</tr>
+<tr>
+<td><code>PurchaseOrder.StartAutomaticProcessing(...)</code></td>
+<td>启动自动处理</td>
+</tr>
+<tr>
+<td><code>PurchaseOrder.StartIntakeWorkbench(...)</code></td>
+<td>启动录入工作台</td>
+</tr>
+<tr>
+<td><code>PurchaseOrder.StartMultiMain(...)</code></td>
+<td>启动多主数据</td>
+</tr>
+<tr>
+<td><code>PurchaseOrder.StartPrintReminders(...)</code></td>
+<td>打印催单</td>
+</tr>
+<tr>
+<td><code>PurchaseOrders.StartOverview(...)</code></td>
+<td>启动订单概览</td>
+</tr>
+<tr>
+<td><code>PurchaseOrderLine.Approve(...)</code></td>
+<td>审批订单行</td>
+</tr>
+<tr>
+<td><code>PurchaseOrderLine.CalculatePlannedReceiptDate(...)</code></td>
+<td>计算计划收货日期</td>
+</tr>
+<tr>
+<td><code>PurchaseOrderLine.Cancel(...)</code></td>
+<td>取消订单行</td>
+</tr>
+<tr>
+<td><code>PurchaseOrderLine.ConfirmPotentialBackorder(...)</code></td>
+<td>确认潜在欠交</td>
+</tr>
+<tr>
+<td><code>PurchaseOrderLine.GetCurrentActivity(...)</code></td>
+<td>获取当前活动</td>
+</tr>
+<tr>
+<td><code>PurchaseOrderLine.ReleaseToWarehousing(...)</code></td>
+<td>释放到仓储</td>
+</tr>
+<tr>
+<td><code>PurchaseOrderLine.Split(...)</code></td>
+<td>拆分订单行</td>
+</tr>
+<tr>
+<td><code>PurchaseOrderLines.StartOverview(...)</code></td>
+<td>启动订单行概览</td>
+</tr>
+<tr>
+<td><code>PurchaseOrderReceipt.Confirm(...)</code></td>
+<td>确认收货</td>
+</tr>
+<tr>
+<td><code>PurchaseOrderReceipt.ConfirmV2(...)</code></td>
+<td>确认收货（V2）</td>
+</tr>
+<tr>
+<td><code>PurchaseOrderReceipt.StartDetail(...)</code></td>
+<td>启动收货明细</td>
+</tr>
+<tr>
+<td><code>PurchasePayableReceipt.ChangePriceAndDiscountAfterReceipt(...)</code></td>
+<td>收货后变更价格和折扣</td>
+</tr>
+</tbody>
+</table>
+<h3 id="_25">采购计划</h3>
+<table>
+<thead>
+<tr>
+<th>函数</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>PurchaseSchedule.GenerateReleaseForPushAndPullForecast(...)</code></td>
+<td>生成推拉预测发布</td>
+</tr>
+<tr>
+<td><code>PurchaseSchedule.Regenerate(...)</code></td>
+<td>重新生成</td>
+</tr>
+<tr>
+<td><code>PurchaseSchedule.StartMultiMain(...)</code></td>
+<td>启动多主数据</td>
+</tr>
+<tr>
+<td><code>PurchaseSchedule.Terminate(...)</code></td>
+<td>终止</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="pricing">八、Pricing 定价模块</h2>
+<p><strong>DLL</strong>：<code>tdextprcap</code></p>
+<table>
+<thead>
+<tr>
+<th>函数</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Pricing.CalculateAmounts(...)</code></td>
+<td>计算定价金额</td>
+</tr>
+<tr>
+<td><code>Pricing.GetGeneralSettings(...)</code></td>
+<td>获取通用定价设置</td>
+</tr>
+<tr>
+<td><code>Pricing.GetPurchaseSettings(...)</code></td>
+<td>获取采购定价设置</td>
+</tr>
+<tr>
+<td><code>Pricing.GetSalesSettings(...)</code></td>
+<td>获取销售定价设置</td>
+</tr>
+<tr>
+<td><code>Pricing.GetServiceSettings(...)</code></td>
+<td>获取服务定价设置</td>
+</tr>
+<tr>
+<td><code>Pricing.RetrievePriceBookDataForItem(...)</code></td>
+<td>获取物料价格本数据</td>
+</tr>
+<tr>
+<td><code>Pricing.SimulatePurchasePrice(...)</code></td>
+<td>模拟采购价格</td>
+</tr>
+<tr>
+<td><code>Pricing.SimulateSalesPrice(...)</code></td>
+<td>模拟销售价格</td>
+</tr>
+<tr>
+<td><code>Pricing.SimulateServicePrice(...)</code></td>
+<td>模拟服务价格</td>
+</tr>
+<tr>
+<td><code>Pricing.SimulateTransferPrice(...)</code></td>
+<td>模拟转移价格</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="planning">九、Planning 计划模块</h2>
+<table>
+<thead>
+<tr>
+<th>函数</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>PlanItem.StartATPHandling(...)</code></td>
+<td>启动 ATP（可承诺量）处理</td>
+</tr>
+<tr>
+<td><code>ItemMasterPlan.Generate(...)</code></td>
+<td>生成物料主计划</td>
+</tr>
+<tr>
+<td><code>ItemMasterPlan.StartPlan(...)</code></td>
+<td>启动主计划</td>
+</tr>
+<tr>
+<td><code>ItemMasterPlan.Update(...)</code></td>
+<td>更新主计划</td>
+</tr>
+<tr>
+<td><code>ItemOrderPlan.Get(...)</code></td>
+<td>获取订单计划</td>
+</tr>
+<tr>
+<td><code>ItemOrderPlan.StartPlan(...)</code></td>
+<td>启动订单计划</td>
+</tr>
+<tr>
+<td><code>ItemOrderPlan.StartPlanForProject(...)</code></td>
+<td>启动项目订单计划</td>
+</tr>
+<tr>
+<td><code>ItemOrderPlan.StartPlanForProjectPeg(...)</code></td>
+<td>启动项目挂钩计划</td>
+</tr>
+<tr>
+<td><code>PlannedOrder.Replan(...)</code></td>
+<td>重计划</td>
+</tr>
+<tr>
+<td><code>PlannedOrder.StartMultiMain(...)</code></td>
+<td>启动多主数据</td>
+</tr>
+<tr>
+<td><code>PlannedOrders.StartGenerate(...)</code></td>
+<td>启动计划订单生成</td>
+</tr>
+<tr>
+<td><code>PlannedOrders.StartOverview(...)</code></td>
+<td>启动计划订单概览</td>
+</tr>
+<tr>
+<td><code>PlannedOrders.TransferOrderSet(...)</code></td>
+<td>转移订单集</td>
+</tr>
+<tr>
+<td><code>PlannedProductionOrder.Transfer(...)</code></td>
+<td>转移计划生产订单</td>
+</tr>
+<tr>
+<td><code>PlannedPurchaseOrder.Transfer(...)</code></td>
+<td>转移计划采购订单</td>
+</tr>
+<tr>
+<td><code>PlannedPeggingRelations.FindDemandForOrder(...)</code></td>
+<td>查找订单需求</td>
+</tr>
+<tr>
+<td><code>PlannedPeggingRelations.FindSupplyForOrder(...)</code></td>
+<td>查找订单供应</td>
+</tr>
+<tr>
+<td><code>ProductAvailability.GetWhenAvailableSchedule(...)</code></td>
+<td>获取可承诺量计划</td>
+</tr>
+<tr>
+<td><code>OrderPegging.StartSelect(...)</code></td>
+<td>启动挂钩选择</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="standard-costs">十、Standard Costs 标准成本模块</h2>
+<table>
+<thead>
+<tr>
+<th>函数</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>StandardCosts.Calculate(...)</code></td>
+<td>计算标准成本</td>
+</tr>
+<tr>
+<td><code>StandardCosts.CalculateAndGetStandardCost(...)</code></td>
+<td>计算并获取标准成本</td>
+</tr>
+<tr>
+<td><code>StandardCosts.CalculateForNewItem(...)</code></td>
+<td>为新物料计算标准成本</td>
+</tr>
+<tr>
+<td><code>StandardCosts.CalculateForSimulation(...)</code></td>
+<td>模拟计算标准成本</td>
+</tr>
+<tr>
+<td><code>StandardCosts.CalculateSingleItem(...)</code></td>
+<td>计算单个物料标准成本</td>
+</tr>
+<tr>
+<td><code>StandardCosts.Actualize(...)</code></td>
+<td>实际化标准成本</td>
+</tr>
+<tr>
+<td><code>StandardCosts.PrintMultilevelCostCalculation(...)</code></td>
+<td>打印多级成本计算</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="manufacturing">十一、Manufacturing 制造模块</h2>
+<h3 id="bom">BOM 与工艺路线</h3>
+<table>
+<thead>
+<tr>
+<th>函数</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>ProductionBillOfMaterial.ApproveRevision(...)</code></td>
+<td>审批生产 BOM 版本</td>
+</tr>
+<tr>
+<td><code>ProductionBillOfMaterial.CopyToJobShop(...)</code></td>
+<td>复制到车间</td>
+</tr>
+<tr>
+<td><code>ProductionBillOfMaterial.ExpireRevision(...)</code></td>
+<td>过期生产 BOM 版本</td>
+</tr>
+<tr>
+<td><code>ProductionBillOfMaterial.GenerateProductSubcontractingModel(...)</code></td>
+<td>生成产品外协模型</td>
+</tr>
+<tr>
+<td><code>ProductionBillOfMaterial.StartMultiMain(...)</code></td>
+<td>启动多主数据</td>
+</tr>
+<tr>
+<td><code>ProductionBillOfMaterial.ValidateRevision(...)</code></td>
+<td>验证 BOM 版本</td>
+</tr>
+<tr>
+<td><code>JobShopBillOfMaterial.ApproveRevision(...)</code></td>
+<td>审批车间 BOM 版本</td>
+</tr>
+<tr>
+<td><code>JobShopBillOfMaterial.Copy(...)</code></td>
+<td>复制</td>
+</tr>
+<tr>
+<td><code>JobShopBillOfMaterial.CreateNewRevision(...)</code></td>
+<td>创建新版本</td>
+</tr>
+<tr>
+<td><code>JobShopBillOfMaterial.ExpireRevision(...)</code></td>
+<td>过期版本</td>
+</tr>
+<tr>
+<td><code>JobShopBillOfMaterial.Explode(...)</code></td>
+<td>展开 BOM</td>
+</tr>
+<tr>
+<td><code>JobShopRouting.ApproveRevision(...)</code></td>
+<td>审批工艺路线版本</td>
+</tr>
+<tr>
+<td><code>JobShopRouting.Copy(...)</code></td>
+<td>复制</td>
+</tr>
+<tr>
+<td><code>JobShopRouting.CopyOperations(...)</code></td>
+<td>复制工序</td>
+</tr>
+<tr>
+<td><code>JobShopRouting.CreateNewRevision(...)</code></td>
+<td>创建新版本</td>
+</tr>
+<tr>
+<td><code>JobShopRouting.ExpireRevision(...)</code></td>
+<td>过期版本</td>
+</tr>
+<tr>
+<td><code>JobShopRouting.SetUseForCosting(...)</code></td>
+<td>设为成本计算用</td>
+</tr>
+<tr>
+<td><code>JobShopRouting.SetUseForPlanning(...)</code></td>
+<td>设为计划用</td>
+</tr>
+<tr>
+<td><code>ProductVariant.GenerateStructure(...)</code></td>
+<td>生成产品结构</td>
+</tr>
+<tr>
+<td><code>ProductVariant.StartConfigurator(...)</code></td>
+<td>启动配置器</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="calendar">十二、Calendar 日历模块</h2>
+<table>
+<thead>
+<tr>
+<th>函数</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Calendar.CalculateDaysFromHours(comp, calendar, hours, ref days, ref msg, ref id)</code></td>
+<td>工时转天数</td>
+</tr>
+<tr>
+<td><code>Calendar.GetPeriodCapacity(comp, cal.code, period, ref capacity, ref msg, ref id)</code></td>
+<td>获取期间产能</td>
+</tr>
+<tr>
+<td><code>Calendar.GetWorkingDays(comp, from.date, to.date, ref days, ref msg, ref id)</code></td>
+<td>获取工作日数</td>
+</tr>
+<tr>
+<td><code>Calendar.PlanLeadTimeBackward(comp, item, date, ref start.date, ref msg, ref id)</code></td>
+<td>反向排程</td>
+</tr>
+<tr>
+<td><code>Calendar.PlanLeadTimeForward(comp, item, date, ref end.date, ref msg, ref id)</code></td>
+<td>正向排程</td>
+</tr>
+<tr>
+<td><code>Calendar.StartUpdateWorkingHours(...)</code></td>
+<td>启动更新工作时间</td>
+</tr>
+<tr>
+<td><code>Calendar.UpdateWorkingHours(...)</code></td>
+<td>更新工作时间</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="warehouse">十三、Warehouse 仓储模块</h2>
+<table>
+<thead>
+<tr>
+<th>函数</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Warehouse.StartOverview(...)</code></td>
+<td>启动仓库概览</td>
+</tr>
+<tr>
+<td><code>ProductionWarehouseOrders.StartDetail(...)</code></td>
+<td>启动生产仓库订单明细</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="_26">十四、完整调用示例</h2>
+<h3 id="141">14.1 销售订单审批</h3>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>declaration:
+</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>    extern long SalesOrder.Approve(
+</span><span id="__span-2-3"><a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a>        domain tccmp iFinancialCompany,
+</span><span id="__span-2-4"><a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a>        domain tcorno iOrder,
+</span><span id="__span-2-5"><a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a>        ref domain tcmcs.s999m oExceptionMessage mb,
+</span><span id="__span-2-6"><a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a>        ref long oExceptionID )
+</span><span id="__span-2-7"><a id="__codelineno-2-7" name="__codelineno-2-7" href="#__codelineno-2-7"></a>
+</span><span id="__span-2-8"><a id="__codelineno-2-8" name="__codelineno-2-8" href="#__codelineno-2-8"></a>function long approve_sales_order(domain tcorno i.order)
+</span><span id="__span-2-9"><a id="__codelineno-2-9" name="__codelineno-2-9" href="#__codelineno-2-9"></a>{
+</span><span id="__span-2-10"><a id="__codelineno-2-10" name="__codelineno-2-10" href="#__codelineno-2-10"></a>    long ret
+</span><span id="__span-2-11"><a id="__codelineno-2-11" name="__codelineno-2-11" href="#__codelineno-2-11"></a>    domain tcmcs.s999m oMsg mb
+</span><span id="__span-2-12"><a id="__codelineno-2-12" name="__codelineno-2-12" href="#__codelineno-2-12"></a>    long oID
+</span><span id="__span-2-13"><a id="__codelineno-2-13" name="__codelineno-2-13" href="#__codelineno-2-13"></a>
+</span><span id="__span-2-14"><a id="__codelineno-2-14" name="__codelineno-2-14" href="#__codelineno-2-14"></a>    ret = SalesOrder.Approve(575, i.order, oMsg, oID)
+</span><span id="__span-2-15"><a id="__codelineno-2-15" name="__codelineno-2-15" href="#__codelineno-2-15"></a>    if ret = 0 then
+</span><span id="__span-2-16"><a id="__codelineno-2-16" name="__codelineno-2-16" href="#__codelineno-2-16"></a>        Exception.Delete(exception.id)
+</span><span id="__span-2-17"><a id="__codelineno-2-17" name="__codelineno-2-17" href="#__codelineno-2-17"></a>        message(&quot;订单 %s 审批成功&quot;, i.order)
+</span><span id="__span-2-18"><a id="__codelineno-2-18" name="__codelineno-2-18" href="#__codelineno-2-18"></a>    else
+</span><span id="__span-2-19"><a id="__codelineno-2-19" name="__codelineno-2-19" href="#__codelineno-2-19"></a>        Exception.GetMessage(oID, 1, oMsg)
+</span><span id="__span-2-20"><a id="__codelineno-2-20" name="__codelineno-2-20" href="#__codelineno-2-20"></a>        message(&quot;审批失败: &quot; &amp; oMsg)
+</span><span id="__span-2-21"><a id="__codelineno-2-21" name="__codelineno-2-21" href="#__codelineno-2-21"></a>        raise error
+</span><span id="__span-2-22"><a id="__codelineno-2-22" name="__codelineno-2-22" href="#__codelineno-2-22"></a>    endif
+</span><span id="__span-2-23"><a id="__codelineno-2-23" name="__codelineno-2-23" href="#__codelineno-2-23"></a>
+</span><span id="__span-2-24"><a id="__codelineno-2-24" name="__codelineno-2-24" href="#__codelineno-2-24"></a>    return(ret)
+</span><span id="__span-2-25"><a id="__codelineno-2-25" name="__codelineno-2-25" href="#__codelineno-2-25"></a>}
+</span></code></pre></div>
+<h3 id="142">14.2 获取业务伙伴付款方数据</h3>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>declaration:
+</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a>    extern long BusinessPartner.GetPayByData(
+</span><span id="__span-3-3"><a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a>        domain tccmp iFinancialCompany,
+</span><span id="__span-3-4"><a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a>        domain tccom.bpid iPayByBP,
+</span><span id="__span-3-5"><a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a>        domain tccwoc iDepartment,
+</span><span id="__span-3-6"><a id="__codelineno-3-6" name="__codelineno-3-6" href="#__codelineno-3-6"></a>        boolean iForceRead,
+</span><span id="__span-3-7"><a id="__codelineno-3-7" name="__codelineno-3-7" href="#__codelineno-3-7"></a>        ref domain tcmcs.s999m oExceptionMessage mb,
+</span><span id="__span-3-8"><a id="__codelineno-3-8" name="__codelineno-3-8" href="#__codelineno-3-8"></a>        ref long oExceptionID )
+</span><span id="__span-3-9"><a id="__codelineno-3-9" name="__codelineno-3-9" href="#__codelineno-3-9"></a>
+</span><span id="__span-3-10"><a id="__codelineno-3-10" name="__codelineno-3-10" href="#__codelineno-3-10"></a>function long get_pay_by_data()
+</span><span id="__span-3-11"><a id="__codelineno-3-11" name="__codelineno-3-11" href="#__codelineno-3-11"></a>{
+</span><span id="__span-3-12"><a id="__codelineno-3-12" name="__codelineno-3-12" href="#__codelineno-3-12"></a>    long ret
+</span><span id="__span-3-13"><a id="__codelineno-3-13" name="__codelineno-3-13" href="#__codelineno-3-13"></a>    domain tcmcs.s999m oMsg mb
+</span><span id="__span-3-14"><a id="__codelineno-3-14" name="__codelineno-3-14" href="#__codelineno-3-14"></a>    long oID
+</span><span id="__span-3-15"><a id="__codelineno-3-15" name="__codelineno-3-15" href="#__codelineno-3-15"></a>
+</span><span id="__span-3-16"><a id="__codelineno-3-16" name="__codelineno-3-16" href="#__codelineno-3-16"></a>    ret = BusinessPartner.GetPayByData(
+</span><span id="__span-3-17"><a id="__codelineno-3-17" name="__codelineno-3-17" href="#__codelineno-3-17"></a>        575,                       | 财务公司
+</span><span id="__span-3-18"><a id="__codelineno-3-18" name="__codelineno-3-18" href="#__codelineno-3-18"></a>        &quot;BP000001&quot;,                | 业务伙伴
+</span><span id="__span-3-19"><a id="__codelineno-3-19" name="__codelineno-3-19" href="#__codelineno-3-19"></a>        &quot;&quot;,                        | 部门
+</span><span id="__span-3-20"><a id="__codelineno-3-20" name="__codelineno-3-20" href="#__codelineno-3-20"></a>        true,                      | 强制读取
+</span><span id="__span-3-21"><a id="__codelineno-3-21" name="__codelineno-3-21" href="#__codelineno-3-21"></a>        oMsg, oID )
+</span><span id="__span-3-22"><a id="__codelineno-3-22" name="__codelineno-3-22" href="#__codelineno-3-22"></a>
+</span><span id="__span-3-23"><a id="__codelineno-3-23" name="__codelineno-3-23" href="#__codelineno-3-23"></a>    if ret = 0 then
+</span><span id="__span-3-24"><a id="__codelineno-3-24" name="__codelineno-3-24" href="#__codelineno-3-24"></a>        Exception.Delete(exception.id)
+</span><span id="__span-3-25"><a id="__codelineno-3-25" name="__codelineno-3-25" href="#__codelineno-3-25"></a>        | 数据已加载到 tccom114 表缓冲区
+</span><span id="__span-3-26"><a id="__codelineno-3-26" name="__codelineno-3-26" href="#__codelineno-3-26"></a>        message(&quot;地址: %s&quot;, tccom114.cadr)
+</span><span id="__span-3-27"><a id="__codelineno-3-27" name="__codelineno-3-27" href="#__codelineno-3-27"></a>    else
+</span><span id="__span-3-28"><a id="__codelineno-3-28" name="__codelineno-3-28" href="#__codelineno-3-28"></a>        Exception.GetMessage(oID, 1, oMsg)
+</span><span id="__span-3-29"><a id="__codelineno-3-29" name="__codelineno-3-29" href="#__codelineno-3-29"></a>        message(&quot;获取失败: &quot; &amp; oMsg)
+</span><span id="__span-3-30"><a id="__codelineno-3-30" name="__codelineno-3-30" href="#__codelineno-3-30"></a>    endif
+</span><span id="__span-3-31"><a id="__codelineno-3-31" name="__codelineno-3-31" href="#__codelineno-3-31"></a>
+</span><span id="__span-3-32"><a id="__codelineno-3-32" name="__codelineno-3-32" href="#__codelineno-3-32"></a>    return(ret)
+</span><span id="__span-3-33"><a id="__codelineno-3-33" name="__codelineno-3-33" href="#__codelineno-3-33"></a>}
+</span></code></pre></div>
+<h3 id="143">14.3 采购订单行释放到仓储</h3>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>declaration:
+</span><span id="__span-4-2"><a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a>    extern long PurchaseOrderLine.ReleaseToWarehousing(
+</span><span id="__span-4-3"><a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a>        domain tccmp iFinancialCompany,
+</span><span id="__span-4-4"><a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a>        domain tcorno iOrder,
+</span><span id="__span-4-5"><a id="__codelineno-4-5" name="__codelineno-4-5" href="#__codelineno-4-5"></a>        domain tcpono iPosition,
+</span><span id="__span-4-6"><a id="__codelineno-4-6" name="__codelineno-4-6" href="#__codelineno-4-6"></a>        domain tclot iLot,
+</span><span id="__span-4-7"><a id="__codelineno-4-7" name="__codelineno-4-7" href="#__codelineno-4-7"></a>        domain tcsern iSerial,
+</span><span id="__span-4-8"><a id="__codelineno-4-8" name="__codelineno-4-8" href="#__codelineno-4-8"></a>        ref domain tcmcs.s999m oExceptionMessage mb,
+</span><span id="__span-4-9"><a id="__codelineno-4-9" name="__codelineno-4-9" href="#__codelineno-4-9"></a>        ref long oExceptionID )
+</span><span id="__span-4-10"><a id="__codelineno-4-10" name="__codelineno-4-10" href="#__codelineno-4-10"></a>
+</span><span id="__span-4-11"><a id="__codelineno-4-11" name="__codelineno-4-11" href="#__codelineno-4-11"></a>function long release_to_warehouse()
+</span><span id="__span-4-12"><a id="__codelineno-4-12" name="__codelineno-4-12" href="#__codelineno-4-12"></a>{
+</span><span id="__span-4-13"><a id="__codelineno-4-13" name="__codelineno-4-13" href="#__codelineno-4-13"></a>    long ret
+</span><span id="__span-4-14"><a id="__codelineno-4-14" name="__codelineno-4-14" href="#__codelineno-4-14"></a>    domain tcmcs.s999m oMsg mb
+</span><span id="__span-4-15"><a id="__codelineno-4-15" name="__codelineno-4-15" href="#__codelineno-4-15"></a>    long oID
+</span><span id="__span-4-16"><a id="__codelineno-4-16" name="__codelineno-4-16" href="#__codelineno-4-16"></a>
+</span><span id="__span-4-17"><a id="__codelineno-4-17" name="__codelineno-4-17" href="#__codelineno-4-17"></a>    ret = PurchaseOrderLine.ReleaseToWarehousing(
+</span><span id="__span-4-18"><a id="__codelineno-4-18" name="__codelineno-4-18" href="#__codelineno-4-18"></a>        575,                       | 财务公司
+</span><span id="__span-4-19"><a id="__codelineno-4-19" name="__codelineno-4-19" href="#__codelineno-4-19"></a>        tdpor401.orno,              | 采购订单号
+</span><span id="__span-4-20"><a id="__codelineno-4-20" name="__codelineno-4-20" href="#__codelineno-4-20"></a>        tdpor401.pono,              | 订单行号
+</span><span id="__span-4-21"><a id="__codelineno-4-21" name="__codelineno-4-21" href="#__codelineno-4-21"></a>        &quot;&quot;,                        | 批号
+</span><span id="__span-4-22"><a id="__codelineno-4-22" name="__codelineno-4-22" href="#__codelineno-4-22"></a>        &quot;&quot;,                        | 序列号
+</span><span id="__span-4-23"><a id="__codelineno-4-23" name="__codelineno-4-23" href="#__codelineno-4-23"></a>        oMsg, oID )
+</span><span id="__span-4-24"><a id="__codelineno-4-24" name="__codelineno-4-24" href="#__codelineno-4-24"></a>
+</span><span id="__span-4-25"><a id="__codelineno-4-25" name="__codelineno-4-25" href="#__codelineno-4-25"></a>    if ret = 0 then
+</span><span id="__span-4-26"><a id="__codelineno-4-26" name="__codelineno-4-26" href="#__codelineno-4-26"></a>        Exception.Delete(exception.id)
+</span><span id="__span-4-27"><a id="__codelineno-4-27" name="__codelineno-4-27" href="#__codelineno-4-27"></a>        message(&quot;已释放到仓储&quot;)
+</span><span id="__span-4-28"><a id="__codelineno-4-28" name="__codelineno-4-28" href="#__codelineno-4-28"></a>    else
+</span><span id="__span-4-29"><a id="__codelineno-4-29" name="__codelineno-4-29" href="#__codelineno-4-29"></a>        Exception.GetMessage(oID, 1, oMsg)
+</span><span id="__span-4-30"><a id="__codelineno-4-30" name="__codelineno-4-30" href="#__codelineno-4-30"></a>        message(&quot;释放失败: &quot; &amp; oMsg)
+</span><span id="__span-4-31"><a id="__codelineno-4-31" name="__codelineno-4-31" href="#__codelineno-4-31"></a>    endif
+</span><span id="__span-4-32"><a id="__codelineno-4-32" name="__codelineno-4-32" href="#__codelineno-4-32"></a>
+</span><span id="__span-4-33"><a id="__codelineno-4-33" name="__codelineno-4-33" href="#__codelineno-4-33"></a>    return(ret)
+</span><span id="__span-4-34"><a id="__codelineno-4-34" name="__codelineno-4-34" href="#__codelineno-4-34"></a>}
+</span></code></pre></div>
+<hr />
+<p><em>最后更新：2026-05-08</em></p>
+<blockquote>
+<p><strong>参考资料</strong>：Infor LN 10.8 Public Interfaces &amp; Process Extensions Reference Guide (On-premises), March 25, 2026</p>
+<p>💡 如有 PI 函数遗漏或调用示例需要补充，欢迎通过 <a href="https://github.com/cuiwenyuan/infor-ecosystem-open-resources/issues/new">GitHub Issue</a> 反馈！</p>
+</blockquote>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  回到页面顶部
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright © 2026 崔文远 Troy Cui
+    </div>
+  
+  
+</div>
+      
+        
+<div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://github.com/cuiwenyuan" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://linkedin.com/" target="_blank" rel="noopener" title="linkedin.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3M135.4 416H69V202.2h66.5V416zM102.2 96a38.5 38.5 0 1 1 0 77 38.5 38.5 0 1 1 0-77m282.1 320h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.tabs", "navigation.sections", "navigation.expand", "navigation.top", "search.suggest", "search.highlight", "content.code.copy", "content.action.edit", "content.action.view"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>

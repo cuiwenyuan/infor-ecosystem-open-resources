@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+
+<!-- Extra head content for SEO -->
+{% block extrahead %}
+
+<!-- JSON-LD Structured Data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "{{ config.site_name }}",
+  "url": "{{ config.site_url }}",
+  "description": "{{ config.site_description }}",
+  "author": {
+    "@type": "Organization",
+    "name": "{{ config.site_author }}"
+  },
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "{{ config.site_url }}search/?q={search_term_string}"
+    },
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+
+{% if page and page.meta %}
+{% if page.meta.description %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "{{ page.title | default(config.site_name) }}",
+  "description": "{{ page.meta.description }}",
+  "url": "{{ page.canonical_url | default(config.site_url ~ page.url) }}"
+}
+</script>
+{% endif %}
+{% endif %}
+
+<!-- Preconnect to Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+{% endblock %}

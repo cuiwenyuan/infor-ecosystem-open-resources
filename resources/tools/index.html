@@ -1,0 +1,6272 @@
+
+<!doctype html>
+<html lang="zh" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="精选 Infor 生态系统相关的开发工具、插件、扩展和实用程序，涵盖 ION、LN、M3、IDM、WMS 等产品。">
+      
+      
+        <meta name="author" content="崔文远 Troy Cui">
+      
+      
+        <link rel="canonical" href="https://cuiwenyuan.github.io/infor-ecosystem-open-resources/resources/tools/">
+      
+      
+        <link rel="prev" href="../blogs/">
+      
+      
+        <link rel="next" href="../training/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+    
+    
+      
+        <title>工具与插件 - Infor 生态开放资源导航站 - Infor 生态开放资源导航站</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/css/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+
+<!-- JSON-LD Structured Data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Infor 生态开放资源导航站",
+  "url": "https://cuiwenyuan.github.io/infor-ecosystem-open-resources/",
+  "description": "Infor 生态开放资源导航 - 收录全球 Infor 论坛、顾问公司、技术博客、开发工具等优质资源，为 Infor 用户、实施顾问和开发者提供一站式资源导航。",
+  "author": {
+    "@type": "Organization",
+    "name": "崔文远 Troy Cui"
+  },
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://cuiwenyuan.github.io/infor-ecosystem-open-resources/search/?q={search_term_string}"
+    },
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "工具与插件",
+  "description": "精选 Infor 生态系统相关的开发工具、插件、扩展和实用程序，涵盖 ION、LN、M3、IDM、WMS 等产品。",
+  "url": "https://cuiwenyuan.github.io/infor-ecosystem-open-resources/resources/tools/"
+}
+</script>
+
+
+
+<!-- Preconnect to Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="custom">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#_1" class="md-skip">
+          跳转至
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="页眉">
+    <a href="../.." title="Infor 生态开放资源导航站" class="md-header__button md-logo" aria-label="Infor 生态开放资源导航站" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18.68 12.32a4.49 4.49 0 0 0-6.36.01 4.49 4.49 0 0 0 0 6.36 4.51 4.51 0 0 0 5.57.63L21 22.39 22.39 21l-3.09-3.11c1.13-1.77.87-4.09-.62-5.57m-1.41 4.95c-.98.98-2.56.97-3.54 0-.97-.98-.97-2.56.01-3.54.97-.97 2.55-.97 3.53 0 .97.98.97 2.56 0 3.54M10.9 20.1a6.5 6.5 0 0 1-1.48-2.32C6.27 17.25 4 15.76 4 14v3c0 2.21 3.58 4 8 4-.4-.26-.77-.56-1.1-.9M4 9v3c0 1.68 2.07 3.12 5 3.7v-.2c0-.93.2-1.85.58-2.69C6.34 12.3 4 10.79 4 9m8-6C7.58 3 4 4.79 4 7c0 2 3 3.68 6.85 4h.05c1.2-1.26 2.86-2 4.6-2 .91 0 1.81.19 2.64.56A3.22 3.22 0 0 0 20 7c0-2.21-3.58-4-8-4"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Infor 生态开放资源导航站
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              工具与插件 - Infor 生态开放资源导航站
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="custom"  aria-label="切换到深色模式"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="切换到深色模式" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6m0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4M7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="custom" data-md-color-accent="custom"  aria-label="切换到浅色模式"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="切换到浅色模式" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="搜索" placeholder="搜索" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="查找">
+        
+        <button type="reset" class="md-search__icon md-icon" title="清空当前内容" aria-label="清空当前内容" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            正在初始化搜索引擎
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/cuiwenyuan/infor-ecosystem-open-resources" title="前往仓库" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+  </div>
+  <div class="md-source__repository">
+    cuiwenyuan/infor-ecosystem-open-resources
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="标签" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  首页
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../forums/" class="md-tabs__link">
+          
+  
+  
+  资源中心
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../videos/" class="md-tabs__link">
+          
+  
+  
+  学习中心
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../developer/" class="md-tabs__link">
+          
+  
+  
+  开发者资源中心
+
+        </a>
+      </li>
+    
+  
+
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../by-region/north-america/" class="md-tabs__link">
+          
+  
+  
+  按地区浏览
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../by-product/ln/" class="md-tabs__link">
+          
+  
+  
+  按产品浏览
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../products/by-function/" class="md-tabs__link">
+          
+  
+  
+  产品分类
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../competitor/ln-vs-sap/" class="md-tabs__link">
+          
+  
+  
+  竞品对比
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../china/" class="md-tabs__link">
+          
+  
+  
+  中国专区
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../about/" class="md-tabs__link">
+          
+  
+  
+  关于本项目
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="导航栏" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Infor 生态开放资源导航站" class="md-nav__button md-logo" aria-label="Infor 生态开放资源导航站" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18.68 12.32a4.49 4.49 0 0 0-6.36.01 4.49 4.49 0 0 0 0 6.36 4.51 4.51 0 0 0 5.57.63L21 22.39 22.39 21l-3.09-3.11c1.13-1.77.87-4.09-.62-5.57m-1.41 4.95c-.98.98-2.56.97-3.54 0-.97-.98-.97-2.56.01-3.54.97-.97 2.55-.97 3.53 0 .97.98.97 2.56 0 3.54M10.9 20.1a6.5 6.5 0 0 1-1.48-2.32C6.27 17.25 4 15.76 4 14v3c0 2.21 3.58 4 8 4-.4-.26-.77-.56-1.1-.9M4 9v3c0 1.68 2.07 3.12 5 3.7v-.2c0-.93.2-1.85.58-2.69C6.34 12.3 4 10.79 4 9m8-6C7.58 3 4 4.79 4 7c0 2 3 3.68 6.85 4h.05c1.2-1.26 2.86-2 4.6-2 .91 0 1.81.19 2.64.56A3.22 3.22 0 0 0 20 7c0-2.21-3.58-4-8-4"/></svg>
+
+    </a>
+    Infor 生态开放资源导航站
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/cuiwenyuan/infor-ecosystem-open-resources" title="前往仓库" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+  </div>
+  <div class="md-source__repository">
+    cuiwenyuan/infor-ecosystem-open-resources
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    首页
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    资源中心
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    资源中心
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../forums/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    论坛与社区
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../consultants/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    顾问与实施公司
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../blogs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    博客与教程
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    工具与插件
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    工具与插件
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🛠️ 官方开发工具
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🛠️ 官方开发工具">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#infor-github" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Infor GitHub 开源项目
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ln" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        LN 开发工具
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ION 开发与集成工具
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🔌 官方功能平台与工具
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🔌 官方功能平台与工具">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ai" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        数据分析与 AI 工具
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        流程自动化工具
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        文档管理工具
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        报表与数据可视化工具
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🏢 行业解决方案工具
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🏢 行业解决方案工具">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        制造业工具
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        供应链管理工具
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        资产管理工具
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#crm" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        财务与 CRM 工具
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_11" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        医疗与政府行业工具
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_12" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🔄 数据迁移与集成工具
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#infor-marketplace" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🏪 Infor Marketplace 应用
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_13" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🌐 第三方工具与插件
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🌐 第三方工具与插件">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_14" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        开发与扩展工具
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_15" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        集成与中间件工具
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_16" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        实施与优化工具
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_17" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        云市场与培训工具
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_18" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        📚 学习与文档工具
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_19" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🔧 实用工具与资源
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🔧 实用工具与资源">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_20" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        配置与管理工具
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_21" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        社区与支持工具
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_22" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🔗 第三方集成平台与连接器
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🔗 第三方集成平台与连接器">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_23" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        第三方集成平台
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#m3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        M3 开发工具与测试
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ln_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        LN 开发工具
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_24" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        📊 工具分类索引
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="📊 工具分类索引">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_25" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        按产品分类
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_26" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        按功能分类
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_27" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        按用户角色分类
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_28" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🤝 贡献指南
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🤝 贡献指南">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_29" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        提交要求
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../training/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    培训与认证
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../wechat-communities/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    微信公众号/社群
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    学习中心
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    学习中心
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../videos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    视频与课程
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../official-docs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    官方文档导航
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../case-studies/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    客户案例
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ion-integration/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ION BOD 集成
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../release-notes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    版本动态
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../certification-guide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    认证指南
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../jobs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    招聘求职
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../glossary/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Infor 术语表
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    开发者资源中心
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    开发者资源中心
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_1" id="__nav_4_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    开发者中心
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    开发者中心
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../developer/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    资源总览
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../developer/ion-api/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ION API 开发
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../developer/ln-4gl-snippets/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    LN 4GL 代码库
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../developer/extensions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Extension 开发
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../developer/open-source/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    开源项目
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../developer/so-qna/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Stack Overflow 精选
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_2" id="__nav_4_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    故障代码百科
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    故障代码百科
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../troubleshooting/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    故障代码百科首页
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../troubleshooting/ln-error-codes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    LN/Baan 错误代码
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../troubleshooting/m3-error-codes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    M3/ION/WMS 错误代码
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../troubleshooting/ion-error-codes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ION 集成错误
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../troubleshooting/wms-error-codes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    WMS 错误代码
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../troubleshooting/general-tips/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    通用排查技巧
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_3" id="__nav_4_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    LN 开发系列
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    LN 开发系列
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ln-4gl-tips/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    4GL 语言基础
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ln-dal-guide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    DAL 完全指南
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ln-extension-guide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Extension 开发实战
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ln-pi-reference/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Public Interfaces 速查
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ln-performance/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    数据库与性能调优
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ln-dev-cookbook/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    二次开发实战集锦
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    按地区浏览
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    按地区浏览
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../by-region/north-america/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    北美
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../by-region/europe/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    欧洲
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../by-region/asia-pacific/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    亚太
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../by-region/china/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    中国
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    按产品浏览
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    按产品浏览
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../by-product/ln/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Infor LN
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../by-product/m3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Infor M3
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../by-product/csi/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    CloudSuite Industrial
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../by-product/wms/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Infor WMS
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../by-product/factory-track/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Infor Factory Track
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../by-product/hcm/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Infor HCM
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../by-product/eam/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Infor EAM
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../by-product/crm/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Infor CRM
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../by-product/fsm/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Infor FSM
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../by-product/nexus/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Infor Nexus
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../by-product/sunsystems/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Infor SunSystems
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../by-product/cpq/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Infor CPQ
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../by-product/birst/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Infor Birst
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../by-product/plm/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Infor PLM
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../by-product/supply-planning/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Infor Supply Planning
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../by-product/yms/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Infor YMS
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../by-product/ion/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Infor ION
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../by-product/d-epm/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Infor d/EPM
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../by-product/qms/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Infor QMS
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../by-product/infor-os/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Infor OS
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    产品分类
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    产品分类
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../products/by-function/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    按业务功能
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../products/by-product-line/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    按产品线
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../products/by-industry/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    按行业
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../products/by-platform/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    按技术平台
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    竞品对比
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    竞品对比
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../competitor/ln-vs-sap/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Infor LN vs SAP S/4HANA
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../competitor/m3-vs-sap/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Infor M3 vs SAP S/4HANA
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../competitor/ln-vs-m3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Infor LN vs Infor M3
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../competitor/ln-vs-csi/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Infor LN vs CloudSuite Industrial
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../competitor/ln-vs-dynamics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Infor LN vs Microsoft Dynamics 365
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../competitor/ln-vs-oracle/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Infor LN vs Oracle ERP Cloud
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../competitor/ln-vs-qad/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Infor LN vs QAD
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../competitor/ln-vs-sage/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Infor LN vs Sage X3
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../competitor/ln-vs-ifs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Infor LN vs IFS Applications
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../competitor/ln-vs-epicor/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Infor LN vs Epicor Kinetic
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../competitor/ln-vs-odoo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Infor LN vs Odoo ERP
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../competitor/birst-vs-powerbi/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Infor Birst vs Microsoft Power BI
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../competitor/birst-vs-tableau/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Infor Birst vs Tableau
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../competitor/birst-vs-qlik/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Infor Birst vs Qlik Sense
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../competitor/birst-vs-looker/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Infor Birst vs Looker
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../competitor/birst-vs-sap-analytics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Infor Birst vs SAP Analytics Cloud
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../competitor/birst-vs-oracle-analytics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Infor Birst vs Oracle Analytics Cloud
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../competitor/birst-vs-cognos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Infor Birst vs IBM Cognos Analytics
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../competitor/ln-vs-kingdee-xinghan/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Infor LN vs 金蝶云·星瀚
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../competitor/ln-vs-yonyou-u9/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Infor LN vs 用友U9 cloud
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../competitor/ln-vs-yonyou-nc/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Infor LN vs 用友NC Cloud
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../competitor/ln-vs-digiwin-t100/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Infor LN vs 鼎捷T100
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../competitor/ln-vs-inspur-gs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Infor LN vs 浪潮海岳GS Cloud
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_8_24" >
+        
+          
+          <label class="md-nav__link" for="__nav_8_24" id="__nav_8_24_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    WMS 竞品对比
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_8_24_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8_24">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    WMS 竞品对比
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../competitor/wms-vs-blueyonder/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Infor WMS vs Blue Yonder
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../competitor/wms-vs-manhattan/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Infor WMS vs Manhattan
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../competitor/wms-vs-sap-ewm/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Infor WMS vs SAP EWM
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_8_25" >
+        
+          
+          <label class="md-nav__link" for="__nav_8_25" id="__nav_8_25_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    M3 竞品对比
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_8_25_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8_25">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    M3 竞品对比
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../competitor/m3-vs-oracle/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Infor M3 vs Oracle ERP Cloud
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../competitor/m3-vs-dynamics365/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Infor M3 vs Microsoft Dynamics 365
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_8_26" >
+        
+          
+          <label class="md-nav__link" for="__nav_8_26" id="__nav_8_26_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    HCM 竞品对比
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_8_26_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8_26">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    HCM 竞品对比
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../competitor/hcm-vs-workday/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Infor HCM vs Workday
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../competitor/hcm-vs-sap-successfactors/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Infor HCM vs SAP SuccessFactors
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_9" >
+        
+          
+          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    中国专区
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    中国专区
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../china/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    专区首页
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../china/consultants/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    顾问公司
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../china/training/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    中文培训
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../china/blogs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    中文博客
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../china/wechat-groups/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    微信社群
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../china/case-studies/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    客户案例
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_10" >
+        
+          
+          <label class="md-nav__link" for="__nav_10" id="__nav_10_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    关于本项目
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    关于本项目
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../about/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    项目介绍
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../submission-guide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    资源提交规范
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../contributing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    贡献指南
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../contact/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    联系我们
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sponsorship/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    广告合作
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🛠️ 官方开发工具
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🛠️ 官方开发工具">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#infor-github" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Infor GitHub 开源项目
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ln" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        LN 开发工具
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ION 开发与集成工具
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🔌 官方功能平台与工具
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🔌 官方功能平台与工具">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ai" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        数据分析与 AI 工具
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        流程自动化工具
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        文档管理工具
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        报表与数据可视化工具
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🏢 行业解决方案工具
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🏢 行业解决方案工具">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        制造业工具
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        供应链管理工具
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        资产管理工具
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#crm" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        财务与 CRM 工具
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_11" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        医疗与政府行业工具
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_12" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🔄 数据迁移与集成工具
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#infor-marketplace" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🏪 Infor Marketplace 应用
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_13" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🌐 第三方工具与插件
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🌐 第三方工具与插件">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_14" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        开发与扩展工具
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_15" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        集成与中间件工具
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_16" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        实施与优化工具
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_17" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        云市场与培训工具
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_18" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        📚 学习与文档工具
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_19" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🔧 实用工具与资源
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🔧 实用工具与资源">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_20" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        配置与管理工具
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_21" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        社区与支持工具
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_22" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🔗 第三方集成平台与连接器
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🔗 第三方集成平台与连接器">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_23" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        第三方集成平台
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#m3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        M3 开发工具与测试
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ln_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        LN 开发工具
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_24" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        📊 工具分类索引
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="📊 工具分类索引">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_25" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        按产品分类
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_26" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        按功能分类
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_27" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        按用户角色分类
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_28" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🤝 贡献指南
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🤝 贡献指南">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_29" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        提交要求
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+    <a href="https://github.com/cuiwenyuan/infor-ecosystem-open-resources/edit/main/docs/resources/tools.md" title="编辑此页" class="md-content__button md-icon" rel="edit">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"/></svg>
+    </a>
+  
+  
+    
+      
+    
+    <a href="https://github.com/cuiwenyuan/infor-ecosystem-open-resources/raw/main/docs/resources/tools.md" title="查看本页的源代码" class="md-content__button md-icon">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 18c.56 0 1 .44 1 1s-.44 1-1 1-1-.44-1-1 .44-1 1-1m0-3c-2.73 0-5.06 1.66-6 4 .94 2.34 3.27 4 6 4s5.06-1.66 6-4c-.94-2.34-3.27-4-6-4m0 6.5a2.5 2.5 0 0 1-2.5-2.5 2.5 2.5 0 0 1 2.5-2.5 2.5 2.5 0 0 1 2.5 2.5 2.5 2.5 0 0 1-2.5 2.5M9.27 20H6V4h7v5h5v4.07c.7.08 1.36.25 2 .49V8l-6-6H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h4.5a8.2 8.2 0 0 1-1.23-2"/></svg>
+    </a>
+  
+
+
+<h1 id="_1">工具与插件资源</h1>
+<blockquote>
+<p>精选 Infor 生态系统相关的开发工具、插件、扩展和实用程序，帮助开发者、顾问和超级用户提升工作效率。</p>
+</blockquote>
+<hr />
+<h2 id="_2">🛠️ 官方开发工具</h2>
+<h3 id="infor-github">Infor GitHub 开源项目</h3>
+<table>
+<thead>
+<tr>
+<th>工具名称</th>
+<th>简介</th>
+<th>适用产品</th>
+<th>链接</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Infor Cloud GitHub</strong></td>
+<td>Infor 官方开源仓库集合，包含 M3 H5 SDK、XtendM3、ION API SDK 等13个公开项目</td>
+<td>Infor M3, ION, EAM</td>
+<td><a href="https://github.com/infor-cloud">访问仓库</a></td>
+</tr>
+<tr>
+<td><strong>M3 H5 SDK</strong></td>
+<td>Infor 官方 M3 HTML5 SDK，用于构建 M3 Web 扩展应用</td>
+<td>Infor M3</td>
+<td><a href="https://github.com/infor-cloud/m3-h5-sdk">访问仓库</a></td>
+</tr>
+<tr>
+<td><strong>XtendM3</strong></td>
+<td>Infor M3 云扩展开发框架，支持实时修改业务逻辑</td>
+<td>Infor M3</td>
+<td><a href="https://github.com/infor-cloud/xtendm3">访问仓库</a></td>
+</tr>
+<tr>
+<td><strong>ION API SDK (Java)</strong></td>
+<td>Infor ION API Gateway Java SDK，用于集成开发</td>
+<td>Infor ION</td>
+<td><a href="https://github.com/infor-cloud/ion-api-sdk">访问仓库</a></td>
+</tr>
+<tr>
+<td><strong>M3 Web SDK Examples</strong></td>
+<td>M3 Web SDK 示例和模板代码</td>
+<td>Infor M3</td>
+<td><a href="https://github.com/infor-cloud">访问仓库</a></td>
+</tr>
+</tbody>
+</table>
+<h3 id="ln">LN 开发工具</h3>
+<table>
+<thead>
+<tr>
+<th>工具名称</th>
+<th>简介</th>
+<th>适用版本</th>
+<th>链接</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Infor LN DevTools</strong></td>
+<td>VS Code 扩展，用于浏览、选择和管理 LN ERP 构件（表、Session、脚本等）</td>
+<td>Infor LN 10.7+</td>
+<td><a href="https://github.com/shubham225/infor-ln-devtools">访问仓库</a></td>
+</tr>
+<tr>
+<td><strong>LN Studio</strong></td>
+<td>Infor LN 官方应用开发工具，支持安装配置、基于活动的开发、调试工具等</td>
+<td>Infor LN 10.4+</td>
+<td><a href="https://docs.infor.com/ln/10.4/en-us/lnolh/docs/ln_10.4_devtoolsdg__en-us.pdf">官方文档</a></td>
+</tr>
+<tr>
+<td><strong>LN Development Tools Guide</strong></td>
+<td>LN 开发工具开发者指南，详细介绍如何开发和定制 LN 应用</td>
+<td>Infor LN</td>
+<td><a href="https://docs.infor.com/ln/10.4/en-us/lnolh/docs/ln_10.4_devtoolsdg__en-us.pdf">查看文档</a></td>
+</tr>
+<tr>
+<td><strong>PMC (Product Maintenance &amp; Control)</strong></td>
+<td>Infor 提供的产品维护和控制工具，用于管理功能性软件更新（功能包）和其他软件更新</td>
+<td>Infor LN</td>
+<td><a href="https://docs.infor.com/ln/2024.x/zh-cn/lnolh/default.html">查看文档</a></td>
+</tr>
+</tbody>
+</table>
+<h3 id="ion">ION 开发与集成工具</h3>
+<table>
+<thead>
+<tr>
+<th>工具名称</th>
+<th>简介</th>
+<th>适用产品</th>
+<th>链接</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>ION API Gateway</strong></td>
+<td>强大的 API 管理工具，提供策略配置、代理端点管理和安全控制</td>
+<td>Infor OS, ION</td>
+<td><a href="https://docs.infor.com/ionapi/2021-x/en-us/ionapiag_cloud/default.html">管理指南</a></td>
+</tr>
+<tr>
+<td><strong>ION BOD 处理工具</strong></td>
+<td>ION BOD 消息处理指南，含文档流配置、XML 映射、转换规则和错误处理</td>
+<td>Infor ION, LN, M3</td>
+<td><a href="https://www.netray.co/resources/infor-ion-bod-message-processing">查看指南</a></td>
+</tr>
+<tr>
+<td><strong>ION Development Guide</strong></td>
+<td>ION 开发指南，介绍如何为新应用采用 ION，解释 ION Registry 内容</td>
+<td>Infor ION</td>
+<td><a href="https://support.infor.com/esknowbase/root/DLPublic/47748/ion_12.0.x_ionopdg_en-us.pdf">查看文档</a></td>
+</tr>
+<tr>
+<td><strong>Infor OS Portal</strong></td>
+<td>Infor OS 门户（原 Ming.le），支持插件配置和应用集成</td>
+<td>Infor OS</td>
+<td><a href="https://docs.infor.com/lsf/10.0/en-us/lsfibmiolh/ilpxpcg/npv1491492732984.html">配置指南</a></td>
+</tr>
+<tr>
+<td><strong>Ming.le (已弃用)</strong></td>
+<td>Infor 社交化协同与业务流程管理平台，已被 Infor OS Portal 取代</td>
+<td>Infor OS (旧版)</td>
+<td><a href="https://www.infor.cn/resources/infor-mingle">了解详情</a></td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="_3">🔌 官方功能平台与工具</h2>
+<h3 id="ai">数据分析与 AI 工具</h3>
+<table>
+<thead>
+<tr>
+<th>工具名称</th>
+<th>简介</th>
+<th>适用产品</th>
+<th>链接</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Infor Birst</strong></td>
+<td>基于云的现代 BI 和数据分析平台，支持内存数据模型和虚拟化管理</td>
+<td>Infor 全系列产品</td>
+<td><a href="https://www.infor.com/platform/data-insights/birst-analytics">了解更多</a></td>
+</tr>
+<tr>
+<td><strong>Infor Coleman AI (现 Infor AI)</strong></td>
+<td>Infor 人工智能平台，支持构建、管理和部署 AI 预测模型，提供行业特定模型和可视化界面</td>
+<td>Infor OS</td>
+<td><a href="https://www.infor.com/resources/infor-coleman-ai-platform">数据表</a></td>
+</tr>
+<tr>
+<td><strong>Infor AI User Guide</strong></td>
+<td>Infor AI 用户指南（2025.x），介绍如何创建、管理和部署预测与规范性模型</td>
+<td>Infor AI</td>
+<td><a href="https://docs.infor.com/colemanai/2025.x/en-us/colemanaiug/default.html">查看文档</a></td>
+</tr>
+</tbody>
+</table>
+<h3 id="_4">流程自动化工具</h3>
+<table>
+<thead>
+<tr>
+<th>工具名称</th>
+<th>简介</th>
+<th>适用产品</th>
+<th>链接</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Infor RPA</strong></td>
+<td>Infor 机器人流程自动化平台，支持无代码构建 Bot，自动化重复性任务</td>
+<td>Infor OS</td>
+<td><a href="https://www.infor.com/platform/application-development/robotic-process-automation">了解更多</a></td>
+</tr>
+<tr>
+<td><strong>Infor RPA 教程</strong></td>
+<td>Infor Developer Portal 提供的 RPA 开发教程</td>
+<td>Infor RPA</td>
+<td><a href="https://developer.infor.com/tutorials/robotic-process-automation">查看教程</a></td>
+</tr>
+<tr>
+<td><strong>Infor IPA (iPaaS)</strong></td>
+<td>Infor 集成平台即服务，提供单一平台实现全部集成工具，支持流程协调、成本降低和弹性扩展</td>
+<td>Infor OS, ION</td>
+<td><a href="https://www.infor.cn/platform/ipaas">了解更多</a></td>
+</tr>
+</tbody>
+</table>
+<h3 id="_5">文档管理工具</h3>
+<table>
+<thead>
+<tr>
+<th>工具名称</th>
+<th>简介</th>
+<th>适用产品</th>
+<th>链接</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Infor IDM</strong></td>
+<td>Infor 智能文档管理解决方案，完全集成 ERP，存储、保护和跟踪企业文档，支持版本控制和治理</td>
+<td>Infor LN, M3, 等</td>
+<td><a href="https://www.infor.com/resources/infor-document-management">了解更多</a></td>
+</tr>
+<tr>
+<td><strong>Infor IDM 用户指南</strong></td>
+<td>Infor Document Management (IDM) Web 应用程序的最终用户使用说明</td>
+<td>Infor IDM</td>
+<td><a href="https://docs.infor.com/inforosltr/2023.x/en-us/useradminlib_onpremises/idmug/default.html">查看指南</a></td>
+</tr>
+</tbody>
+</table>
+<h3 id="_6">报表与数据可视化工具</h3>
+<table>
+<thead>
+<tr>
+<th>工具名称</th>
+<th>简介</th>
+<th>适用产品</th>
+<th>链接</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>SSRS for Infor LN</strong></td>
+<td>SQL Server Reporting Services 的 Infor LN 报告开发工具，支持报告服务器处理和呈现</td>
+<td>Infor LN</td>
+<td><a href="https://docs.infor.com/ln/10.7/zh-cn/lnolh/help/docs/es_reporting.html">查看文档</a></td>
+</tr>
+<tr>
+<td><strong>Infor LN Reporting</strong></td>
+<td>Infor LN 报告指南，介绍如何安装配置 Infor LN 打印服务，个性化 4GL 应用</td>
+<td>Infor LN</td>
+<td><a href="https://docs.infor.com/ln/10.7/zh-cn/lnolh/help/docs/es_reporting.html">查看文档</a></td>
+</tr>
+<tr>
+<td><strong>PCG Actualize Analytics</strong></td>
+<td>Infor 业务信息和报表分析工具，提供多种模板</td>
+<td>Infor ERP</td>
+<td><a href="https://infor-cloudsuite-business-intelligence-videos-infor-bi-erp.hubs.vidyard.com/watch/kPQvMgD2yAAJGAjnRqbdxD">观看视频</a></td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="_7">🏢 行业解决方案工具</h2>
+<h3 id="_8">制造业工具</h3>
+<table>
+<thead>
+<tr>
+<th>工具名称</th>
+<th>简介</th>
+<th>适用行业</th>
+<th>链接</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Infor LN</strong></td>
+<td>制造业 ERP 软件，提高组织透明度，优化业务流程，减少维护成本</td>
+<td>制造业</td>
+<td><a href="https://www.infor.cn/solutions/erp/ln">了解更多</a></td>
+</tr>
+<tr>
+<td><strong>Infor PLM for Discrete</strong></td>
+<td>离散制造业产品生命周期管理，提供从概念到退市的完整可见性</td>
+<td>离散制造</td>
+<td><a href="https://xibis.nl/wp-content/uploads/2025/07/1262_Xibis_Infor-PLM-for-Discrete_ENG.pdf">了解详情</a></td>
+</tr>
+<tr>
+<td><strong>Infor PLM for Fashion</strong></td>
+<td>时尚行业 PLM 软件，集中管理从设计、采购到生产的全流程</td>
+<td>时尚行业</td>
+<td><a href="https://www.infor.cn/solutions/scm/plm/fashion">了解更多</a></td>
+</tr>
+</tbody>
+</table>
+<h3 id="_9">供应链管理工具</h3>
+<table>
+<thead>
+<tr>
+<th>工具名称</th>
+<th>简介</th>
+<th>适用行业</th>
+<th>链接</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Infor SCM</strong></td>
+<td>基于 AI 的云供应链管理平台，支持计划、预测、生产调度、供应商协作、仓储和物流</td>
+<td>多行业</td>
+<td><a href="https://www.infor.com/solutions/scm">了解更多</a></td>
+</tr>
+<tr>
+<td><strong>Infor WMS</strong></td>
+<td>一级云仓库管理系统，内置 AI 功能、3D 可视化、语音处理和数据分析</td>
+<td>仓储物流</td>
+<td><a href="https://www.infor.com/solutions/scm/warehouse-management-system">了解更多</a></td>
+</tr>
+<tr>
+<td><strong>Infor SCM Planning</strong></td>
+<td>AI 驱动的供应链计划软件，支持应对意外情况、实时调整和性能优化</td>
+<td>供应链</td>
+<td><a href="https://www.infor.com/solutions/scm/planning">了解更多</a></td>
+</tr>
+</tbody>
+</table>
+<h3 id="_10">资产管理工具</h3>
+<table>
+<thead>
+<tr>
+<th>工具名称</th>
+<th>简介</th>
+<th>适用行业</th>
+<th>链接</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Infor EAM (现 HxGN EAM)</strong></td>
+<td>企业资产管理解决方案，现由 Hexagon 拥有，支持资产跟踪、维护操作数字化</td>
+<td>多行业</td>
+<td><a href="https://www.infor.com/products/eam">了解更多</a></td>
+</tr>
+<tr>
+<td><strong>HxGN EAM</strong></td>
+<td>Hexagon 的 SaaS 资产管理解决方案，解决关键资产性能挑战</td>
+<td>资产管理</td>
+<td><a href="https://hexagon.com/solutions/enterprise-asset-management">了解更多</a></td>
+</tr>
+</tbody>
+</table>
+<h3 id="crm">财务与 CRM 工具</h3>
+<table>
+<thead>
+<tr>
+<th>工具名称</th>
+<th>简介</th>
+<th>适用行业</th>
+<th>链接</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Infor FSCM</strong></td>
+<td>Infor 财务与供应链管理解决方案，提供 ERP、财务管理和会计解决方案</td>
+<td>服务业</td>
+<td><a href="https://www.infor.com/solutions/erp/financials">了解更多</a></td>
+</tr>
+<tr>
+<td><strong>Infor SunSystems Cloud</strong></td>
+<td>创新财务管理系统，简化会计并提升运营效率，支持统一账本和多币种</td>
+<td>财务</td>
+<td><a href="https://www.infor.com/solutions/erp/sunsystems">了解更多</a></td>
+</tr>
+<tr>
+<td><strong>Infor CRM</strong></td>
+<td>基于云的 CRM 应用，提供销售、客户服务、营销分析和报告功能</td>
+<td>多行业</td>
+<td><a href="https://www.infor.com/products/customer-experience-suite/crm">了解更多</a></td>
+</tr>
+<tr>
+<td><strong>Infor QMS</strong></td>
+<td>Infor 质量管理系统，集成 ERP，提供检验等全面质量管理功能</td>
+<td>制造业</td>
+<td><a href="https://www.erpresearch.com/en-us/infor-cloudsuite-quality-management-qms">了解更多</a></td>
+</tr>
+</tbody>
+</table>
+<h3 id="_11">医疗与政府行业工具</h3>
+<table>
+<thead>
+<tr>
+<th>工具名称</th>
+<th>简介</th>
+<th>适用行业</th>
+<th>链接</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Infor CloudSuite Healthcare</strong></td>
+<td>AI 驱动的医疗套件，统一临床、财务、供应链和运营数据</td>
+<td>医疗行业</td>
+<td><a href="https://www.erpresearch.com/en-us/infor-cloudsuite-for-healthcare">了解更多</a></td>
+</tr>
+<tr>
+<td><strong>Infor CloudSuite Public Sector</strong></td>
+<td>政府行业 ERP 云软件，提供整个企业的可见性（员工、居民、资源等）</td>
+<td>政府/公共部门</td>
+<td><a href="https://www.infor.cn/products/cloudsuite-public-sector">了解更多</a></td>
+</tr>
+<tr>
+<td><strong>Infor HCM Spreadsheet Designer</strong></td>
+<td>Infor HCM 电子表格设计器 Excel 插件，支持报表设计</td>
+<td>医疗行业</td>
+<td><a href="https://hcm-childrens-prd.inforcloudsuite.com/hcm/xmlhttp/landmark/ISDInstall.html">下载安装</a></td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="_12">🔄 数据迁移与集成工具</h2>
+<table>
+<thead>
+<tr>
+<th>工具名称</th>
+<th>简介</th>
+<th>适用场景</th>
+<th>链接</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>M3 Data Mover</strong></td>
+<td>Fortude 开发的快速、安全、可靠的数据迁移工具，支持从事务、主数据和其他数据从 Infor 和非 Infor 遗留系统迁移</td>
+<td>Infor M3</td>
+<td><a href="https://market.infor.com/en-US/apps/413844/m3-data-mover/support">Marketplace</a></td>
+</tr>
+<tr>
+<td><strong>M3 Data Import Tool (MDI-MT)</strong></td>
+<td>用于将大量 M3 数据迁移到 Infor 多租户云产品（如 CloudSuite）的工具</td>
+<td>Infor M3, CloudSuite</td>
+<td><a href="https://fortude.co/blog/move-data-to-infors-multi-tenant-cloud-faster-and-reliably-with-m3-data-import-tool-for-multi-tenant-mdi-mt/">了解详情</a></td>
+</tr>
+<tr>
+<td><strong>Infor EDI Exchange</strong></td>
+<td>Infor EDI 交换工具，支持通过 ION 处理 BOD 消息，与 EDI 经纪商集成</td>
+<td>Infor ION, EDI</td>
+<td><a href="https://blog.csdn.net/2401_85211680/article/details/139267958">了解详情</a></td>
+</tr>
+<tr>
+<td><strong>ION EDI Tools</strong></td>
+<td>使用 ION 工具替代传统 EDI 工具的方案，支持自定义 XML BOD 和 CSV 模板</td>
+<td>Infor ION</td>
+<td><a href="https://community.infor.com/discussion/20990/is-there-a-way-to-use-the-ion-tools-to-take-the-place-for-an-edi-tool">社区讨论</a></td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="infor-marketplace">🏪 Infor Marketplace 应用</h2>
+<table>
+<thead>
+<tr>
+<th>应用名称</th>
+<th>简介</th>
+<th>适用产品</th>
+<th>链接</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Infor CI/CD Utility for GitHub</strong></td>
+<td>Infor CI/CD 工具，提供 Infor OS ION 和 GitHub 环境之间的往返集成</td>
+<td>Infor OS, ION</td>
+<td><a href="https://marketplace.infor.com/en-US/apps/389934/cicd-utility-for-github">Marketplace</a></td>
+</tr>
+<tr>
+<td><strong>M3 Data Mover</strong></td>
+<td>Fortude 数据迁移工具（详见上方"数据迁移与集成工具"）</td>
+<td>Infor M3</td>
+<td><a href="https://market.infor.com/en-US/apps/413844/m3-data-mover/support">Marketplace</a></td>
+</tr>
+<tr>
+<td><strong>Price List Management</strong></td>
+<td>制造商和品牌的价格列表管理工作流简化工具，提升可见性和用户体验</td>
+<td>Infor SCM</td>
+<td><a href="https://market.infor.com/en-US/listing?cat=116285&amp;page=1&amp;locale=en-US">Marketplace</a></td>
+</tr>
+</tbody>
+</table>
+<p><strong>注</strong>：Infor Marketplace 提供 150+ 种解决方案，涵盖行业和多微垂直领域。访问 <a href="https://marketplace.infor.com/">Infor Marketplace</a> 浏览完整应用列表。</p>
+<hr />
+<h2 id="_13">🌐 第三方工具与插件</h2>
+<h3 id="_14">开发与扩展工具</h3>
+<table>
+<thead>
+<tr>
+<th>工具名称</th>
+<th>简介</th>
+<th>提供方</th>
+<th>链接</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>FullOnBaan 工具集</strong></td>
+<td>Infor LN / ION / Infor OS 知识库和工具，含 19 篇文章、视频课程和培训材料</td>
+<td>FullOnBaan</td>
+<td><a href="https://playbook.fullonbaan.com/">访问网站</a></td>
+</tr>
+<tr>
+<td><strong>Netray M3 API Toolkit</strong></td>
+<td>M3 API 工具包开发实践指南，含 MI 程序、MvxAPI 模式、事务处理</td>
+<td>Netray</td>
+<td><a href="https://www.netray.co/resources/infor-m3-api-toolkit-development">查看指南</a></td>
+</tr>
+<tr>
+<td><strong>Fortude M3 Web SDK 开发</strong></td>
+<td>使用 M3 Web SDK &amp; Odin 框架构建 Web 应用的专家教程</td>
+<td>Fortude</td>
+<td><a href="https://fortude.co/blog/how-to-build-web-applications-for-infor-m3-web-sdk-and-odin-framework/">查看教程</a></td>
+</tr>
+<tr>
+<td><strong>DocBits Infor RPA</strong></td>
+<td>DocBits 提供的 Infor RPA 自动化指南和最佳实践</td>
+<td>DocBits</td>
+<td><a href="https://docbits.com/en/infor-rpa/">查看文章</a></td>
+</tr>
+<tr>
+<td><strong>Workik – AI Infor ERP Code Generator</strong></td>
+<td>AI 代码生成器，免费的 AI 驱动 Infor ERP 代码生成器，支持工作流自动化。适用产品：CloudSuite, LN, Nexus。许可证：Free</td>
+<td>Workik</td>
+<td><a href="https://workik.com/infor-erp-code-generator">访问工具</a></td>
+</tr>
+<tr>
+<td><strong>Crossroads RMC – RMCgen</strong></td>
+<td>定制开发工具，无需源代码的 LN/Baan 定制开发工具集，支持车间和仓库优化集成。适用产品：Infor LN, Baan。许可证：Commercial</td>
+<td>Crossroads RMC</td>
+<td><a href="https://www.crossroadsrmc.com/Software/Infor-LN-Baan/Customization-Without-Source-Code">访问工具</a></td>
+</tr>
+</tbody>
+</table>
+<h3 id="_15">集成与中间件工具</h3>
+<table>
+<thead>
+<tr>
+<th>工具名称</th>
+<th>简介</th>
+<th>提供方</th>
+<th>链接</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>DCKAP Infor Integration</strong></td>
+<td>Infor ERP 集成策略、中间件选型（ION vs MuleSoft）指南</td>
+<td>DCKAP</td>
+<td><a href="https://www.dckap.com/blog/infor-integration/">查看文章</a></td>
+</tr>
+<tr>
+<td><strong>Integration Wizards ION</strong></td>
+<td>Infor ION API 集中框架和网关集成向导</td>
+<td>Integration Wizards</td>
+<td><a href="https://integrationwizards.com/infor_ion.html">了解详情</a></td>
+</tr>
+<tr>
+<td><strong>ClearSky ION Tools</strong></td>
+<td>ClearSky 提供的 Infor 平台技术咨询和 ION 集成工具</td>
+<td>ClearSky Consulting</td>
+<td><a href="https://www.clearskyerp.com/solutions/infor-platform-technology">了解详情</a></td>
+</tr>
+</tbody>
+</table>
+<h3 id="_16">实施与优化工具</h3>
+<table>
+<thead>
+<tr>
+<th>工具名称</th>
+<th>简介</th>
+<th>提供方</th>
+<th>链接</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Visual South BI 集成</strong></td>
+<td>Infor BI 模块和 Power BI 报告与分析集成指南</td>
+<td>Visual South</td>
+<td><a href="https://www.visualsouth.com/blog/infor-integrations">查看文章</a></td>
+</tr>
+<tr>
+<td><strong>Crossroads RMC Tools</strong></td>
+<td>Infor LX/LN/BPCS 实用技巧与工具（含 ION 集成简化、NextTrack 等）</td>
+<td>Crossroads RMC</td>
+<td><a href="https://www.crossroadsrmc.com/Resources/Infor-ERP-Tips-News/">访问网站</a></td>
+</tr>
+<tr>
+<td><strong>Xencore Data Migration</strong></td>
+<td>Xencore 数据迁移工具和服务，支持 Infor LN、M3 等</td>
+<td>Xencore Global</td>
+<td><a href="https://www.xencoreglobal.com/data-migration/">了解详情</a></td>
+</tr>
+<tr>
+<td><strong>Migration Labs Tools</strong></td>
+<td>Migration Labs 数据迁移工具和快速跟踪方法</td>
+<td>Migration Labs</td>
+<td><a href="https://migration-labs.com/data-migration.html">了解详情</a></td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="_17">云市场与培训工具</h3>
+<table>
+<thead>
+<tr>
+<th>工具名称</th>
+<th>简介</th>
+<th>提供方</th>
+<th>链接</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Infor on AWS Marketplace</strong></td>
+<td>云市场，AWS Marketplace 上的 Infor 解决方案。适用产品：CloudSuite 全线。许可证：Cloud</td>
+<td>AWS</td>
+<td><a href="https://aws.amazon.com/marketplace/featured-seller/infor">访问市场</a></td>
+</tr>
+<tr>
+<td><strong>Koenig Solutions – Infor M3 Training</strong></td>
+<td>培训工具/平台，提供 Infor M3 培训课程，增强技术能力和运营效率。适用产品：Infor M3。许可证：Commercial</td>
+<td>Koenig Solutions</td>
+<td><a href="https://www.koenig-solutions.com/infor-m3-training-course">访问课程</a></td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="_18">📚 学习与文档工具</h2>
+<table>
+<thead>
+<tr>
+<th>工具名称</th>
+<th>简介</th>
+<th>适用人群</th>
+<th>链接</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Infor Developer Portal</strong></td>
+<td>Infor 官方开发者门户，提供 API 文档、Tutorial、示例代码和工具资源</td>
+<td>开发者</td>
+<td><a href="https://developer.infor.com/">访问门户</a></td>
+</tr>
+<tr>
+<td><strong>Infor Documentation Central</strong></td>
+<td>Infor 官方文档中心，提供全系列产品的中文和英文文档</td>
+<td>所有用户</td>
+<td><a href="https://docs.infor.com/">访问文档</a></td>
+</tr>
+<tr>
+<td><strong>XtendM3 官方文档</strong></td>
+<td>Infor 官方 M3 云扩展开发框架文档，含快速入门、开发、测试全流程</td>
+<td>M3 开发者</td>
+<td><a href="https://infor-cloud.github.io/xtendm3/docs/documentation">查看文档</a></td>
+</tr>
+<tr>
+<td><strong>FullOnBaan Playbook</strong></td>
+<td>从业者编写的 Infor LN / ION / Infor OS 知识库（19篇文章）</td>
+<td>LN 开发者/顾问</td>
+<td><a href="https://playbook.fullonbaan.com/">访问网站</a></td>
+</tr>
+<tr>
+<td><strong>LN Session 开发指南</strong></td>
+<td>Infor LN Session 创建与修改教程，含表单设计、字段触发器、缩放 Session 等</td>
+<td>LN 开发者</td>
+<td><a href="https://www.netray.co/resources/infor-ln-session-creation-modification">查看教程</a></td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="_19">🔧 实用工具与资源</h2>
+<h3 id="_20">配置与管理工具</h3>
+<table>
+<thead>
+<tr>
+<th>工具名称</th>
+<th>简介</th>
+<th>适用产品</th>
+<th>链接</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Infor Configuration Console</strong></td>
+<td>用于创建定义的 Web 服务和配置系统用户的工具</td>
+<td>Infor Landmark</td>
+<td><a href="https://cfretty.github.io/assets/files/lmrk_2023.x_lmrkwsrg__en-us.pdf">查看文档</a></td>
+</tr>
+<tr>
+<td><strong>Infor Landmark Technology</strong></td>
+<td>Infor Landmark 技术平台，支持开发、运行和扩展基于 Landmark 平台的应用</td>
+<td>Infor FSCM, HCM</td>
+<td><a href="https://docs.infor.com/lmrk/2025.x/en-us/lmrkolh/default.html">查看文档</a></td>
+</tr>
+<tr>
+<td><strong>Infor Spreadsheet Designer</strong></td>
+<td>Infor HCM 电子表格设计器，Excel 插件形式提供</td>
+<td>Infor HCM</td>
+<td><a href="https://hcm-childrens-prd.inforcloudsuite.com/hcm/xmlhttp/landmark/ISDInstall.html">下载页面</a></td>
+</tr>
+</tbody>
+</table>
+<h3 id="_21">社区与支持工具</h3>
+<table>
+<thead>
+<tr>
+<th>工具名称</th>
+<th>简介</th>
+<th>适用人群</th>
+<th>链接</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Infor Community</strong></td>
+<td>Infor 官方社区，提供讨论、资源分享和问题解答</td>
+<td>所有用户</td>
+<td><a href="https://community.infor.com/">访问社区</a></td>
+</tr>
+<tr>
+<td><strong>Infor Knowledge Base</strong></td>
+<td>Infor 知识库，提供技术文档、解决方案和常见问题解答</td>
+<td>所有用户</td>
+<td><a href="https://support.infor.com/">访问知识库</a></td>
+</tr>
+<tr>
+<td><strong>LawsonGuru.com</strong></td>
+<td>Lawson/Infor 系统专业社区，提供博客、论坛和资源</td>
+<td>Lawson 用户</td>
+<td><a href="http://www.lawsonguru.com/">访问网站</a></td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="_22">🔗 第三方集成平台与连接器</h2>
+<h3 id="_23">第三方集成平台</h3>
+<table>
+<thead>
+<tr>
+<th>工具名称</th>
+<th>简介</th>
+<th>适用产品</th>
+<th>链接</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Workato - Infor ERP Integration</strong></td>
+<td>预构建的 Infor ERP 连接器，支持工作流自动化，连接 Infor 与 1000+ 应用</td>
+<td>Infor ERP 全线</td>
+<td><a href="https://www.workato.com/integrations/inforerp">查看连接器</a></td>
+</tr>
+<tr>
+<td><strong>Makini - Infor M3 Connector</strong></td>
+<td>Infor M3 专用集成平台，支持快速 API 集成和自动化</td>
+<td>Infor M3</td>
+<td><a href="https://www.makini.io/integrations/infor-erp-m3">查看详情</a></td>
+</tr>
+<tr>
+<td><strong>Novacura Flow</strong></td>
+<td>Infor M3 低代码工作流和 MES 解决方案，支持车间现场数据采集</td>
+<td>Infor M3</td>
+<td><a href="https://www.novacura.com/flow-for-infor/">访问官网</a></td>
+</tr>
+<tr>
+<td><strong>Infoview - InforPA MuleSoft Connector</strong></td>
+<td>Infor RPA 的 MuleSoft 连接器，实现 Infor 与 MuleSoft 的无缝集成</td>
+<td>Infor RPA, MuleSoft</td>
+<td><a href="https://www.infoviewsystems.com/inforpa-connector-for-mulesoft/">查看详情</a></td>
+</tr>
+<tr>
+<td><strong>Xencore - E-commerce Integration</strong></td>
+<td>Infor M3 与电商平台 API 集成方案，支持 B2B/B2C 电商对接</td>
+<td>Infor M3</td>
+<td><a href="https://www.xencoreglobal.com/infor-erp-e-commerce-platforms/">访问官网</a></td>
+</tr>
+</tbody>
+</table>
+<h3 id="m3">M3 开发工具与测试</h3>
+<table>
+<thead>
+<tr>
+<th>工具名称</th>
+<th>简介</th>
+<th>适用产品</th>
+<th>链接</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>XtendM3 Templates</strong></td>
+<td>Infor 官方 XtendM3 模板库，包含实际使用案例和模板代码</td>
+<td>Infor M3</td>
+<td><a href="https://infor-cloud.github.io/xtendm3/docs/examples/Templates">查看模板</a></td>
+</tr>
+<tr>
+<td><strong>XtendM3 Extension Examples</strong></td>
+<td>Infor 官方 XtendM3 扩展示例代码库</td>
+<td>Infor M3</td>
+<td><a href="https://github.com/infor-cloud/xtendm3-extension-examples">查看仓库</a></td>
+</tr>
+<tr>
+<td><strong>FORTEST - M3 测试自动化</strong></td>
+<td>Fortude 开发的 M3 测试自动化平台，可在 Infor Marketplace 获取</td>
+<td>Infor M3</td>
+<td><a href="https://market.infor.com/en-US/apps/436252/fortest/features">查看详情</a></td>
+</tr>
+<tr>
+<td><strong>M3 Data Mover</strong></td>
+<td>Fortude 开发的 M3 数据迁移工具，支持多租户云环境快速数据导入</td>
+<td>Infor M3</td>
+<td><a href="https://fortude.co/blog/move-data-to-infors-multi-tenant-cloud-faster-and-reliably-with-m3-data-import-tool-for-multi-tenant-mdi-mt/">了解详情</a></td>
+</tr>
+</tbody>
+</table>
+<h3 id="ln_1">LN 开发工具</h3>
+<table>
+<thead>
+<tr>
+<th>工具名称</th>
+<th>简介</th>
+<th>适用产品</th>
+<th>链接</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>NewBaanBoard Archive (GitHub)</strong></td>
+<td>BaanBoard 论坛历史存档，包含 20,000+ 讨论，是 Baan/LN 社区的宝贵历史资源</td>
+<td>Infor LN, Baan</td>
+<td><a href="https://github.com/newbaanboard/baanboard">查看仓库</a></td>
+</tr>
+<tr>
+<td><strong>FullOnBaan Knowledge Repository</strong></td>
+<td>FullOnBaan.com 归档知识库，可搜索的 Baan/LN 技术问答</td>
+<td>Infor LN, Baan</td>
+<td><a href="https://repo.fullonbaan.com/">访问知识库</a></td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="_24">📊 工具分类索引</h2>
+<h3 id="_25">按产品分类</h3>
+<ul>
+<li><strong>Infor LN</strong>：LN DevTools, LN Studio, PMC, LN Reporting (SSRS)</li>
+<li><strong>Infor M3</strong>：XtendM3, M3 H5 SDK, M3 Data Mover, M3 Data Import Tool</li>
+<li><strong>Infor ION</strong>：ION API Gateway, ION BOD Tools, ION Development Guide</li>
+<li><strong>Infor OS</strong>：Infor OS Portal, Infor RPA, Infor AI, Infor Marketplace</li>
+<li><strong>Infor SCM</strong>：Infor WMS, Infor SCM Planning, Infor PLM</li>
+</ul>
+<h3 id="_26">按功能分类</h3>
+<ul>
+<li><strong>开发工具</strong>：LN DevTools, LN Studio, XtendM3, M3 H5 SDK, ION API SDK</li>
+<li><strong>集成工具</strong>：ION API Gateway, ION BOD Tools, EDI Tools, Infor iPaaS</li>
+<li><strong>数据迁移</strong>：M3 Data Mover, M3 Data Import Tool, Xencore Data Migration</li>
+<li><strong>报表分析</strong>：Infor Birst, SSRS for LN, Infor AI, PCG Actualize Analytics</li>
+<li><strong>文档管理</strong>：Infor IDM, Infor Spreadsheet Designer</li>
+<li><strong>流程自动化</strong>：Infor RPA, Infor IPA (iPaaS)</li>
+</ul>
+<h3 id="_27">按用户角色分类</h3>
+<ul>
+<li><strong>开发者</strong>：LN DevTools, XtendM3, ION API SDK, Infor Developer Portal</li>
+<li><strong>顾问</strong>：FullOnBaan Playbook, Netray 资源, Crossroads RMC 工具</li>
+<li><strong>管理员</strong>：ION API Gateway, Infor IDM, Infor OS Portal, PMC</li>
+<li><strong>分析师</strong>：Infor Birst, SSRS, Infor AI, PCG Actualize Analytics</li>
+<li><strong>终端用户</strong>：Infor CRM, Infor HCM, Infor WMS, Infor LN</li>
+</ul>
+<hr />
+<h2 id="_28">🤝 贡献指南</h2>
+<p>如果您知道其他有用的 Infor 工具或插件，欢迎通过以下方式贡献：</p>
+<ol>
+<li><strong>提交 GitHub Issue</strong>：描述您想添加的工具</li>
+<li><strong>提交 Pull Request</strong>：直接修改此文件并提交 PR</li>
+<li><strong>社区讨论</strong>：在 Infor Community 分享您的发现</li>
+</ol>
+<h3 id="_29">提交要求</h3>
+<ul>
+<li>✅ 工具必须可公开访问（无需登录即可查看基本信息）</li>
+<li>✅ 工具必须与 Infor 生态相关</li>
+<li>✅ 信息必须真实、准确、完整</li>
+<li>✅ 链接必须有效（无 404 错误）</li>
+<li>❌ 纯广告/营销内容（无实质功能介绍）</li>
+<li>❌ 恶意软件或非法工具</li>
+</ul>
+<hr />
+<p><strong>最后更新</strong>：2026-05-07<br />
+<strong>维护者</strong>：崔文远 Troy Cui</p>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  回到页面顶部
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright © 2026 崔文远 Troy Cui
+    </div>
+  
+  
+</div>
+      
+        
+<div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://github.com/cuiwenyuan" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://linkedin.com/" target="_blank" rel="noopener" title="linkedin.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3M135.4 416H69V202.2h66.5V416zM102.2 96a38.5 38.5 0 1 1 0 77 38.5 38.5 0 1 1 0-77m282.1 320h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.tabs", "navigation.sections", "navigation.expand", "navigation.top", "search.suggest", "search.highlight", "content.code.copy", "content.action.edit", "content.action.view"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>
