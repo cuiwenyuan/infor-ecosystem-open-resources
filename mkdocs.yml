@@ -2,202 +2,71 @@ site_name: Infor 生态开放资源导航站
 site_description: Infor 生态开放资源导航 - 收录全球 Infor 论坛、顾问公司、技术博客、开发工具等优质资源，为 Infor 用户、实施顾问和开发者提供一站式资源导航。
 site_author: 崔文远 Troy Cui
 site_url: https://cuiwenyuan.github.io/infor-ecosystem-open-resources/
-
 repo_url: https://github.com/cuiwenyuan/infor-ecosystem-open-resources
 repo_name: cuiwenyuan/infor-ecosystem-open-resources
 edit_uri: edit/main/docs/
-
 copyright: Copyright © 2026 崔文远 Troy Cui
-
 theme:
   name: material
   language: zh
   custom_dir: docs/overrides
   palette:
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
-      primary: custom
-      accent: custom
-      toggle:
-        icon: material/toggle-switch-off-outline
-        name: 切换到深色模式
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      primary: custom
-      accent: custom
-      toggle:
-        icon: material/toggle-switch
-        name: 切换到浅色模式
+  - media: '(prefers-color-scheme: light)'
+    scheme: default
+    primary: custom
+    accent: custom
+    toggle:
+      icon: material/toggle-switch-off-outline
+      name: 切换到深色模式
+  - media: '(prefers-color-scheme: dark)'
+    scheme: slate
+    primary: custom
+    accent: custom
+    toggle:
+      icon: material/toggle-switch
+      name: 切换到浅色模式
   features:
-    - navigation.tabs
-    - navigation.sections
-    - navigation.expand
-    - navigation.top
-    - search.suggest
-    - search.highlight
-    - content.code.copy
-    - content.action.edit
-    - content.action.view
+  - navigation.tabs
+  - navigation.sections
+  - navigation.expand
+  - navigation.top
+  - search.suggest
+  - search.highlight
+  - content.code.copy
+  - content.action.edit
+  - content.action.view
   icon:
     logo: material/database-search
     repo: fontawesome/brands/github
-
 plugins:
-  - search:
-      lang:
-        - zh
-        - en
-      separator: '[\s\-\.,:!?;\(\)\[\]{}\u3000\u3001\u3002\uff0c\uff01\uff1b\uff1a\u201c\u201d\u2018\u2019]'
-
+- search:
+    lang:
+    - zh
+    - en
+    separator: '[\s\-\.,:!?;\(\)\[\]{}\u3000\u3001\u3002\uff0c\uff01\uff1b\uff1a\u201c\u201d\u2018\u2019]'
 markdown_extensions:
-  - pymdownx.highlight:
-      anchor_linenums: true
-      line_spans: __span
-      pygments_lang_class: true
-  - pymdownx.inlinehilite
-  - pymdownx.snippets
-  - pymdownx.superfences
-  - pymdownx.tabbed:
-      alternate_style: true
-  - admonition
-  - pymdownx.details
-  - attr_list
-  - md_in_html
-  - def_list
-  - footnotes
-  - tables
-
+- pymdownx.highlight:
+    anchor_linenums: true
+    line_spans: __span
+    pygments_lang_class: true
+- pymdownx.inlinehilite
+- pymdownx.snippets
+- pymdownx.superfences
+- pymdownx.tabbed:
+    alternate_style: true
+- admonition
+- pymdownx.details
+- attr_list
+- md_in_html
+- def_list
+- footnotes
+- tables
 extra:
   social:
-    - icon: fontawesome/brands/github
-      link: https://github.com/cuiwenyuan
-    - icon: fontawesome/brands/linkedin
-      link: https://linkedin.com/
-  # analytics:
-  #   provider: google
-  #   property: G-XXXXXXXXXX  # TODO: 替换为你的 Google Analytics ID
+  - icon: fontawesome/brands/github
+    link: https://github.com/cuiwenyuan
+  - icon: fontawesome/brands/linkedin
+    link: https://linkedin.com/
   generator: false
-
-  # footer 自定义（通过 custom_dir 覆盖模板实现，此处配置已废弃）
-
 extra_css:
-  - assets/css/extra.css
-
-nav:
-  - 首页: index.md
-  - 资源中心:
-      - 论坛与社区: resources/forums.md
-      - 顾问与实施公司: resources/consultants.md
-      - 博客与教程: resources/blogs.md
-      - 工具与插件: resources/tools.md
-      - 培训与认证: resources/training.md
-      - 微信公众号/社群: resources/wechat-communities.md
-  - 学习中心:
-      - 视频与课程: resources/videos.md
-      - 官方文档导航: resources/official-docs.md
-      - 客户案例: resources/case-studies.md
-      - ION BOD 集成: resources/ion-integration.md
-      - 版本动态: resources/release-notes.md
-      - 认证指南: resources/certification-guide.md
-      - 招聘求职: resources/jobs.md
-      - Infor 术语表: resources/glossary.md
-  - 开发者资源中心:
-      - 开发者中心:
-          - 资源总览: developer/index.md
-          - ION API 开发: developer/ion-api.md
-          - LN 4GL 代码库: developer/ln-4gl-snippets.md
-          - Extension 开发: developer/extensions.md
-          - 开源项目: developer/open-source.md
-          - Stack Overflow 精选: developer/so-qna.md
-      - 故障代码百科:
-          - 故障代码百科首页: troubleshooting/index.md
-          - LN/Baan 错误代码: troubleshooting/ln-error-codes.md
-          - M3/ION/WMS 错误代码: troubleshooting/m3-error-codes.md
-          - ION 集成错误: troubleshooting/ion-error-codes.md
-          - WMS 错误代码: troubleshooting/wms-error-codes.md
-          - 通用排查技巧: troubleshooting/general-tips.md
-      - LN 开发系列:
-          - 4GL 语言基础: resources/ln-4gl-tips.md
-          - DAL 完全指南: resources/ln-dal-guide.md
-          - Extension 开发实战: resources/ln-extension-guide.md
-          - Public Interfaces 速查: resources/ln-pi-reference.md
-          - 数据库与性能调优: resources/ln-performance.md
-          - 二次开发实战集锦: resources/ln-dev-cookbook.md
-  - 按地区浏览:
-      - 北美: by-region/north-america.md
-      - 欧洲: by-region/europe.md
-      - 亚太: by-region/asia-pacific.md
-      - 中国: by-region/china.md
-  - 按产品浏览:
-      - Infor LN: by-product/ln.md
-      - Infor M3: by-product/m3.md
-      - CloudSuite Industrial: by-product/csi.md
-      - Infor WMS: by-product/wms.md
-      - Infor Factory Track: by-product/factory-track.md
-      - Infor HCM: by-product/hcm.md
-      - Infor EAM: by-product/eam.md
-      - Infor CRM: by-product/crm.md
-      - Infor FSM: by-product/fsm.md
-      - Infor Nexus: by-product/nexus.md
-      - Infor SunSystems: by-product/sunsystems.md
-      - Infor CPQ: by-product/cpq.md
-      - Infor Birst: by-product/birst.md
-      - Infor PLM: by-product/plm.md
-      - Infor Supply Planning: by-product/supply-planning.md
-      - Infor YMS: by-product/yms.md
-      - Infor ION: by-product/ion.md
-      - Infor d/EPM: by-product/d-epm.md
-      - Infor QMS: by-product/qms.md
-      - Infor OS: by-product/infor-os.md
-  - 产品分类:
-      - 按业务功能: products/by-function/index.md
-      - 按产品线: products/by-product-line/index.md
-      - 按行业: products/by-industry/index.md
-      - 按技术平台: products/by-platform/index.md
-  - 竞品对比:
-      - Infor LN vs SAP S/4HANA: competitor/ln-vs-sap.md
-      - Infor M3 vs SAP S/4HANA: competitor/m3-vs-sap.md
-      - Infor LN vs Infor M3: competitor/ln-vs-m3.md
-      - Infor LN vs CloudSuite Industrial: competitor/ln-vs-csi.md
-      - Infor LN vs Microsoft Dynamics 365: competitor/ln-vs-dynamics.md
-      - Infor LN vs Oracle ERP Cloud: competitor/ln-vs-oracle.md
-      - Infor LN vs QAD: competitor/ln-vs-qad.md
-      - Infor LN vs Sage X3: competitor/ln-vs-sage.md
-      - Infor LN vs IFS Applications: competitor/ln-vs-ifs.md
-      - Infor LN vs Epicor Kinetic: competitor/ln-vs-epicor.md
-      - Infor LN vs Odoo ERP: competitor/ln-vs-odoo.md
-      - Infor Birst vs Microsoft Power BI: competitor/birst-vs-powerbi.md
-      - Infor Birst vs Tableau: competitor/birst-vs-tableau.md
-      - Infor Birst vs Qlik Sense: competitor/birst-vs-qlik.md
-      - Infor Birst vs Looker: competitor/birst-vs-looker.md
-      - Infor Birst vs SAP Analytics Cloud: competitor/birst-vs-sap-analytics.md
-      - Infor Birst vs Oracle Analytics Cloud: competitor/birst-vs-oracle-analytics.md
-      - Infor Birst vs IBM Cognos Analytics: competitor/birst-vs-cognos.md
-      - Infor LN vs 金蝶云·星瀚: competitor/ln-vs-kingdee-xinghan.md
-      - Infor LN vs 用友U9 cloud: competitor/ln-vs-yonyou-u9.md
-      - Infor LN vs 用友NC Cloud: competitor/ln-vs-yonyou-nc.md
-      - Infor LN vs 鼎捷T100: competitor/ln-vs-digiwin-t100.md
-      - Infor LN vs 浪潮海岳GS Cloud: competitor/ln-vs-inspur-gs.md
-      - WMS 竞品对比:
-        - Infor WMS vs Blue Yonder: competitor/wms-vs-blueyonder.md
-        - Infor WMS vs Manhattan: competitor/wms-vs-manhattan.md
-        - Infor WMS vs SAP EWM: competitor/wms-vs-sap-ewm.md
-      - M3 竞品对比:
-        - Infor M3 vs Oracle ERP Cloud: competitor/m3-vs-oracle.md
-        - Infor M3 vs Microsoft Dynamics 365: competitor/m3-vs-dynamics365.md
-      - HCM 竞品对比:
-        - Infor HCM vs Workday: competitor/hcm-vs-workday.md
-        - Infor HCM vs SAP SuccessFactors: competitor/hcm-vs-sap-successfactors.md
-  - 中国专区:
-      - 专区首页: china/index.md
-      - 顾问公司: china/consultants.md
-      - 中文培训: china/training.md
-      - 中文博客: china/blogs.md
-      - 微信社群: china/wechat-groups.md
-      - 客户案例: china/case-studies.md
-  - 关于本项目:
-      - 项目介绍: about.md
-      - 资源提交规范: submission-guide.md
-      - 贡献指南: contributing.md
-      - 联系我们: contact.md
-      - 广告合作: sponsorship.md
+- assets/css/extra.css
