@@ -26,7 +26,7 @@ description: "Infor ION API 开发资源汇总，包括 API Gateway 文档、SDK
 |---------|--------|------|
 | **schema.infor.com** | 官方 BOD Schema 资源站，XSD 文件下载（9.0 版本） | [访问](https://schema.infor.com/) |
 | **BOD 处理指南** | ION BOD 消息处理、XML 映射、转换规则、错误处理 | [查看指南](https://www.netray.co/resources/infor-ion-bod-message-processing) |
-| **ION BOD 集成详解** | Infor LN 产品页「官方 BOD Schema 资源」章节 | [查看](by-product/ln.md#官方-bod-schema-资源) |
+| **ION BOD 集成详解** | Infor LN 产品页「官方 BOD Schema 资源」章节 | [查看](../by-product/ln.md#官方-bod-schema-资源) |
 
 ---
 
@@ -77,6 +77,6 @@ description: "Infor ION API 开发资源汇总，包括 API Gateway 文档、SDK
 
 ---
 
-> 如果发现更多 ION API 开发资源，欢迎 [提交](submission-guide.md)！
+> 如果发现更多 ION API 开发资源，欢迎 [提交](../submission-guide.md)！
 
 **最后更新**：2026-05-11

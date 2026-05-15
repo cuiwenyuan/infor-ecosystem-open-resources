@@ -114,7 +114,7 @@ description: "Infor LN 与金蝶云·星瀚（Kingdee Cloud Xinghan）的深度�
 
 ## 相关资源
 
-- [Infor LN 产品页](../../by-product/ln.md)
+- [Infor LN 产品页](../by-product/ln.md)
 - [金蝶云·星瀚官网](https://www.kingdee.com/products/cosmic.html)
 - [Infor vs SAP S/4HANA 对比](ln-vs-sap.md)
 - [Infor vs Oracle ERP Cloud 对比](ln-vs-oracle.md)

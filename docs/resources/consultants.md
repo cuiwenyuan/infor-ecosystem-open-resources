@@ -23,7 +23,7 @@ description: "收录全球 Infor 实施顾问与合作伙伴公司，按地区�
 
 ## 🌍 北美地区
 
-### 1. [Godlan, Inc.](../consultants/Godlan_Inc) 💎🏆
+### 1. [Godlan, Inc.](../consultants/Godlan_Inc.md) 💎🏆
 
 | 项目 | 详情 |
 |------|------|
@@ -37,7 +37,7 @@ description: "收录全球 Infor 实施顾问与合作伙伴公司，按地区�
 
 ---
 
-### 2. [Decision Resources, Inc. (DRI](../consultants/Decision_Resources_Inc_DRI)) 💎
+### 2. [Decision Resources, Inc. (DRI](../consultants/Decision_Resources_Inc_DRI.md)) 💎
 
 | 项目 | 详情 |
 |------|------|
@@ -51,7 +51,7 @@ description: "收录全球 Infor 实施顾问与合作伙伴公司，按地区�
 
 ---
 
-### 3. [Visual South](../consultants/Visual_South) 💎
+### 3. [Visual South](../consultants/Visual_South.md) 💎
 
 | 项目 | 详情 |
 |------|------|
@@ -65,7 +65,7 @@ description: "收录全球 Infor 实施顾问与合作伙伴公司，按地区�
 
 ---
 
-### 4. [Sama Consulting Inc.](../consultants/Sama_Consulting_Inc)
+### 4. [Sama Consulting Inc.](../consultants/Sama_Consulting_Inc.md)
 
 | 项目 | 详情 |
 |------|------|
@@ -78,7 +78,7 @@ description: "收录全球 Infor 实施顾问与合作伙伴公司，按地区�
 
 ---
 
-### 5. [PCG Services (Providence Consulting Group](../consultants/PCG_Services_Providence_Consulting_Group)) 💎🏆
+### 5. [PCG Services (Providence Consulting Group](../consultants/PCG_Services_Providence_Consulting_Group.md)) 💎🏆
 
 | 项目 | 详情 |
 |------|------|
@@ -92,7 +92,7 @@ description: "收录全球 Infor 实施顾问与合作伙伴公司，按地区�
 
 ---
 
-### 6. [NexGen Technologies Inc.](../consultants/NexGen_Technologies_Inc)
+### 6. [NexGen Technologies Inc.](../consultants/NexGen_Technologies_Inc.md)
 
 | 项目 | 详情 |
 |------|------|
@@ -105,7 +105,7 @@ description: "收录全球 Infor 实施顾问与合作伙伴公司，按地区�
 
 ---
 
-### 7. [Blue Eagle Consulting](../consultants/Blue_Eagle_Consulting)
+### 7. [Blue Eagle Consulting](../consultants/Blue_Eagle_Consulting.md)
 
 | 项目 | 详情 |
 |------|------|
@@ -117,7 +117,7 @@ description: "收录全球 Infor 实施顾问与合作伙伴公司，按地区�
 
 ---
 
-### 8. [Guide Technologies](../consultants/Guide_Technologies) 💎
+### 8. [Guide Technologies](../consultants/Guide_Technologies.md) 💎
 
 | 项目 | 详情 |
 |------|------|
@@ -129,7 +129,7 @@ description: "收录全球 Infor 实施顾问与合作伙伴公司，按地区�
 
 ---
 
-### 9. [RPI Consultants](../consultants/RPI_Consultants) 💎
+### 9. [RPI Consultants](../consultants/RPI_Consultants.md) 💎
 
 | 项目 | 详情 |
 |------|------|
@@ -142,7 +142,7 @@ description: "收录全球 Infor 实施顾问与合作伙伴公司，按地区�
 
 ---
 
-### 10. [Alpha Apex Group](../consultants/Alpha_Apex_Group)
+### 10. [Alpha Apex Group](../consultants/Alpha_Apex_Group.md)
 
 | 项目 | 详情 |
 |------|------|
@@ -153,7 +153,7 @@ description: "收录全球 Infor 实施顾问与合作伙伴公司，按地区�
 
 ---
 
-### 11. [Nogalis](../consultants/Nogalis)
+### 11. [Nogalis](../consultants/Nogalis.md)
 
 | 项目 | 详情 |
 |------|------|
@@ -165,7 +165,7 @@ description: "收录全球 Infor 实施顾问与合作伙伴公司，按地区�
 
 ---
 
-### 12. [SolutionX](../consultants/SolutionX)
+### 12. [SolutionX](../consultants/SolutionX.md)
 
 | 项目 | 详情 |
 |------|------|
@@ -176,7 +176,7 @@ description: "收录全球 Infor 实施顾问与合作伙伴公司，按地区�
 
 ---
 
-### 13. [RenaissanceTech](../consultants/RenaissanceTech)
+### 13. [RenaissanceTech](../consultants/RenaissanceTech.md)
 
 | 项目 | 详情 |
 |------|------|
@@ -188,7 +188,7 @@ description: "收录全球 Infor 实施顾问与合作伙伴公司，按地区�
 
 ---
 
-### 14. [InforLogic](../consultants/InforLogic)
+### 14. [InforLogic](../consultants/InforLogic.md)
 
 | 项目 | 详情 |
 |------|------|
@@ -200,7 +200,7 @@ description: "收录全球 Infor 实施顾问与合作伙伴公司，按地区�
 
 ---
 
-### 15. [Astral Consulting](../consultants/Astral_Consulting)
+### 15. [Astral Consulting](../consultants/Astral_Consulting.md)
 
 | 项目 | 详情 |
 |------|------|
@@ -212,7 +212,7 @@ description: "收录全球 Infor 实施顾问与合作伙伴公司，按地区�
 
 ---
 
-### 16. [Inovium](../consultants/Inovium) 💎
+### 16. [Inovium](../consultants/Inovium.md) 💎
 
 | 项目 | 详情 |
 |------|------|
@@ -224,7 +224,7 @@ description: "收录全球 Infor 实施顾问与合作伙伴公司，按地区�
 
 ---
 
-### 17. [DCKAP](../consultants/DCKAP)
+### 17. [DCKAP](../consultants/DCKAP.md)
 
 | 项目 | 详情 |
 |------|------|
@@ -236,7 +236,7 @@ description: "收录全球 Infor 实施顾问与合作伙伴公司，按地区�
 
 ---
 
-### 18. [Netray](../consultants/Netray)
+### 18. [Netray](../consultants/Netray.md)
 
 | 项目 | 详情 |
 |------|------|
@@ -248,7 +248,7 @@ description: "收录全球 Infor 实施顾问与合作伙伴公司，按地区�
 
 ---
 
-### 19. [Rockwell Consults](../consultants/Rockwell_Consults)
+### 19. [Rockwell Consults](../consultants/Rockwell_Consults.md)
 
 | 项目 | 详情 |
 |------|------|
@@ -260,7 +260,7 @@ description: "收录全球 Infor 实施顾问与合作伙伴公司，按地区�
 
 ---
 
-### 20. [Xencore Global GmbH](../consultants/Xencore_Global_GmbH)
+### 20. [Xencore Global GmbH](../consultants/Xencore_Global_GmbH.md)
 
 | 项目 | 详情 |
 |------|------|
@@ -276,7 +276,7 @@ description: "收录全球 Infor 实施顾问与合作伙伴公司，按地区�
 
 ## 🌍 欧洲地区
 
-### 21. [Finansys](../consultants/Finansys) 💎
+### 21. [Finansys](../consultants/Finansys.md) 💎
 
 | 项目 | 详情 |
 |------|------|
@@ -289,7 +289,7 @@ description: "收录全球 Infor 实施顾问与合作伙伴公司，按地区�
 
 ---
 
-### 22. [ECL Group](../consultants/ECL_Group) 💎
+### 22. [ECL Group](../consultants/ECL_Group.md) 💎
 
 | 项目 | 详情 |
 |------|------|
@@ -302,7 +302,7 @@ description: "收录全球 Infor 实施顾问与合作伙伴公司，按地区�
 
 ---
 
-### 23. [Columbus Global](../consultants/Columbus_Global) 💎🏆
+### 23. [Columbus Global](../consultants/Columbus_Global.md) 💎🏆
 
 | 项目 | 详情 |
 |------|------|
@@ -316,7 +316,7 @@ description: "收录全球 Infor 实施顾问与合作伙伴公司，按地区�
 
 ---
 
-### 24. [Lightning ERP](../consultants/Lightning_ERP)
+### 24. [Lightning ERP](../consultants/Lightning_ERP.md)
 
 | 项目 | 详情 |
 |------|------|
@@ -330,7 +330,7 @@ description: "收录全球 Infor 实施顾问与合作伙伴公司，按地区�
 
 ---
 
-### 25. [mashfrog Group](../consultants/mashfrog_Group)
+### 25. [mashfrog Group](../consultants/mashfrog_Group.md)
 
 | 项目 | 详情 |
 |------|------|
@@ -344,7 +344,7 @@ description: "收录全球 Infor 实施顾问与合作伙伴公司，按地区�
 
 ---
 
-### 26. [Maximum Solution Consulting (MSC) Group](../consultants/Maximum_Solution_Consulting_MSC_Group)
+### 26. [Maximum Solution Consulting (MSC) Group](../consultants/Maximum_Solution_Consulting_MSC_Group.md)
 
 | 项目 | 详情 |
 |------|------|
@@ -357,7 +357,7 @@ description: "收录全球 Infor 实施顾问与合作伙伴公司，按地区�
 
 ---
 
-### 27. [GlobalStar Consulting](../consultants/GlobalStar_Consulting)
+### 27. [GlobalStar Consulting](../consultants/GlobalStar_Consulting.md)
 
 | 项目 | 详情 |
 |------|------|
@@ -368,7 +368,7 @@ description: "收录全球 Infor 实施顾问与合作伙伴公司，按地区�
 
 ---
 
-### 28. [IT Works Recruitment Europe](../consultants/IT_Works_Recruitment_Europe)
+### 28. [IT Works Recruitment Europe](../consultants/IT_Works_Recruitment_Europe.md)
 
 | 项目 | 详情 |
 |------|------|
@@ -381,7 +381,7 @@ description: "收录全球 Infor 实施顾问与合作伙伴公司，按地区�
 
 ## 🌍 亚太地区
 
-### 29. [Tarento](../consultants/Tarento) 💎
+### 29. [Tarento](../consultants/Tarento.md) 💎
 
 | 项目 | 详情 |
 |------|------|
@@ -392,7 +392,7 @@ description: "收录全球 Infor 实施顾问与合作伙伴公司，按地区�
 
 ---
 
-### 30. [Coserve Solutions](../consultants/Coserve_Solutions)
+### 30. [Coserve Solutions](../consultants/Coserve_Solutions.md)
 
 | 项目 | 详情 |
 |------|------|
@@ -406,7 +406,7 @@ description: "收录全球 Infor 实施顾问与合作伙伴公司，按地区�
 
 ---
 
-### 31. [OTS Solutions](../consultants/OTS_Solutions)
+### 31. [OTS Solutions](../consultants/OTS_Solutions.md)
 
 | 项目 | 详情 |
 |------|------|
@@ -419,7 +419,7 @@ description: "收录全球 Infor 实施顾问与合作伙伴公司，按地区�
 
 ---
 
-### 32. [NestAscend](../consultants/NestAscend)
+### 32. [NestAscend](../consultants/NestAscend.md)
 
 | 项目 | 详情 |
 |------|------|
@@ -432,7 +432,7 @@ description: "收录全球 Infor 实施顾问与合作伙伴公司，按地区�
 
 ---
 
-### 33. [Systems Limited](../consultants/Systems_Limited)
+### 33. [Systems Limited](../consultants/Systems_Limited.md)
 
 | 项目 | 详情 |
 |------|------|
@@ -444,7 +444,7 @@ description: "收录全球 Infor 实施顾问与合作伙伴公司，按地区�
 
 ---
 
-### 34. [Genesis Software](../consultants/Genesis_Software)
+### 34. [Genesis Software](../consultants/Genesis_Software.md)
 
 | 项目 | 详情 |
 |------|------|
@@ -455,7 +455,7 @@ description: "收录全球 Infor 实施顾问与合作伙伴公司，按地区�
 
 ---
 
-### 35. [GlobalBaan](../consultants/GlobalBaan)
+### 35. [GlobalBaan](../consultants/GlobalBaan.md)
 
 | 项目 | 详情 |
 |------|------|
@@ -469,7 +469,7 @@ description: "收录全球 Infor 实施顾问与合作伙伴公司，按地区�
 
 ## 🌍 中国地区
 
-### 36. [润数信息技术（上海）有限公司](../consultants/润数信息技术_上海_有限公司) 💎
+### 36. [润数信息技术（上海）有限公司](../consultants/润数信息技术_上海_有限公司.md) 💎
 
 | 项目 | 详情 |
 |------|------|
@@ -485,7 +485,7 @@ description: "收录全球 Infor 实施顾问与合作伙伴公司，按地区�
 
 ---
 
-### 37. [拓创数信实业（上海）有限公司](../consultants/拓创数信实业_上海_有限公司)
+### 37. [拓创数信实业（上海）有限公司](../consultants/拓创数信实业_上海_有限公司.md)
 
 | 项目 | 详情 |
 |------|------|
@@ -497,7 +497,7 @@ description: "收录全球 Infor 实施顾问与合作伙伴公司，按地区�
 
 ---
 
-### 38. [上海指北电脑有限公司](../consultants/上海指北电脑有限公司)
+### 38. [上海指北电脑有限公司](../consultants/上海指北电脑有限公司.md)
 
 | 项目 | 详情 |
 |------|------|
@@ -509,7 +509,7 @@ description: "收录全球 Infor 实施顾问与合作伙伴公司，按地区�
 
 ---
 
-### 39. [梯升科技发展（合肥）股份有限公司](../consultants/梯升科技发展_合肥_股份有限公司)
+### 39. [梯升科技发展（合肥）股份有限公司](../consultants/梯升科技发展_合肥_股份有限公司.md)
 
 | 项目 | 详情 |
 |------|------|
@@ -525,7 +525,7 @@ description: "收录全球 Infor 实施顾问与合作伙伴公司，按地区�
 
 ---
 
-### 40. [领三咨询（上海领三信息科技有限公司）](../consultants/领三咨询_上海领三信息科技有限公司_)
+### 40. [领三咨询（上海领三信息科技有限公司）](../consultants/领三咨询_上海领三信息科技有限公司_.md)
 
 | 项目 | 详情 |
 |------|------|
@@ -540,7 +540,7 @@ description: "收录全球 Infor 实施顾问与合作伙伴公司，按地区�
 
 ---
 
-### 41. [班睿信息科技有限公司](../consultants/班睿信息科技有限公司)
+### 41. [班睿信息科技有限公司](../consultants/班睿信息科技有限公司.md)
 
 | 项目 | 详情 |
 |------|------|
@@ -554,7 +554,7 @@ description: "收录全球 Infor 实施顾问与合作伙伴公司，按地区�
 
 ---
 
-### 42. [朝上数信科技（上海）有限公司](../consultants/朝上数信科技_上海_有限公司)
+### 42. [朝上数信科技（上海）有限公司](../consultants/朝上数信科技_上海_有限公司.md)
 
 | 项目 | 详情 |
 |------|------|
@@ -569,7 +569,7 @@ description: "收录全球 Infor 实施顾问与合作伙伴公司，按地区�
 
 ---
 
-### 43. [Godlan, Inc.（中国业务）](../consultants/Godlan_Inc_中国业务_)🏆
+### 43. [Godlan, Inc.（中国业务）](../consultants/Godlan_Inc_中国业务_.md)🏆
 
 | 项目 | 详情 |
 |------|------|
@@ -580,7 +580,7 @@ description: "收录全球 Infor 实施顾问与合作伙伴公司，按地区�
 
 ---
 
-### 44. [戎马信息技术（上海）有限公司](../consultants/戎马信息技术_上海_有限公司)
+### 44. [戎马信息技术（上海）有限公司](../consultants/戎马信息技术_上海_有限公司.md)
 
 | 项目 | 详情 |
 |------|------|
@@ -593,7 +593,7 @@ description: "收录全球 Infor 实施顾问与合作伙伴公司，按地区�
 
 ---
 
-### 45. [沈阳创杰科技咨询服务有限公司](../consultants/沈阳创杰科技咨询服务有限公司)
+### 45. [沈阳创杰科技咨询服务有限公司](../consultants/沈阳创杰科技咨询服务有限公司.md)
 
 | 项目 | 详情 |
 |------|------|
@@ -608,7 +608,7 @@ description: "收录全球 Infor 实施顾问与合作伙伴公司，按地区�
 
 ---
 
-### 46. [亿真信息科技（珠海）有限公司](../consultants/亿真信息科技_珠海_有限公司)
+### 46. [亿真信息科技（珠海）有限公司](../consultants/亿真信息科技_珠海_有限公司.md)
 
 | 项目 | 详情 |
 |------|------|
@@ -623,7 +623,7 @@ description: "收录全球 Infor 实施顾问与合作伙伴公司，按地区�
 
 ## 🌍 跨区域 / 多国运营
 
-### 47. [Grant Thornton](../consultants/Grant_Thornton)
+### 47. [Grant Thornton](../consultants/Grant_Thornton.md)
 
 | 项目 | 详情 |
 |------|------|
@@ -634,7 +634,7 @@ description: "收录全球 Infor 实施顾问与合作伙伴公司，按地区�
 
 ---
 
-### 48. [Copley Consulting Group](../consultants/Copley_Consulting_Group)
+### 48. [Copley Consulting Group](../consultants/Copley_Consulting_Group.md)
 
 | 项目 | 详情 |
 |------|------|
@@ -645,7 +645,7 @@ description: "收录全球 Infor 实施顾问与合作伙伴公司，按地区�
 
 ---
 
-### 49. [Kinsey](../consultants/Kinsey)
+### 49. [Kinsey](../consultants/Kinsey.md)
 
 | 项目 | 详情 |
 |------|------|
@@ -656,7 +656,7 @@ description: "收录全球 Infor 实施顾问与合作伙伴公司，按地区�
 
 ---
 
-### 50. [Cerca Technology](../consultants/Cerca_Technology)
+### 50. [Cerca Technology](../consultants/Cerca_Technology.md)
 
 | 项目 | 详情 |
 |------|------|
@@ -667,7 +667,7 @@ description: "收录全球 Infor 实施顾问与合作伙伴公司，按地区�
 
 ---
 
-### 51. [Synergy Resources](../consultants/Synergy_Resources)
+### 51. [Synergy Resources](../consultants/Synergy_Resources.md)
 
 | 项目 | 详情 |
 |------|------|
@@ -677,7 +677,7 @@ description: "收录全球 Infor 实施顾问与合作伙伴公司，按地区�
 
 ---
 
-### 52. [Kalathas Consulting](../consultants/Kalathas_Consulting)
+### 52. [Kalathas Consulting](../consultants/Kalathas_Consulting.md)
 
 | 项目 | 详情 |
 |------|------|
@@ -689,7 +689,7 @@ description: "收录全球 Infor 实施顾问与合作伙伴公司，按地区�
 
 ## 🌍 ERP 研究与评测平台
 
-### 53. [ERP Research](../consultants/ERP_Research)
+### 53. [ERP Research](../consultants/ERP_Research.md)
 
 | 项目 | 详情 |
 |------|------|
@@ -701,7 +701,7 @@ description: "收录全球 Infor 实施顾问与合作伙伴公司，按地区�
 
 ---
 
-### 54. [The CFO Club](../consultants/The_CFO_Club)
+### 54. [The CFO Club](../consultants/The_CFO_Club.md)
 
 | 项目 | 详情 |
 |------|------|

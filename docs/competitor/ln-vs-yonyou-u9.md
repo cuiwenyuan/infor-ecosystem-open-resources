@@ -118,7 +118,7 @@ description: "Infor LN 与用友U9 cloud的深度对比：国际高端离散制�
 
 ## 相关资源
 
-- [Infor LN 产品页](../../by-product/ln.md)
+- [Infor LN 产品页](../by-product/ln.md)
 - [用友U9 cloud 官网](http://yongyou.net.cn/products/u9cloud.html)
 - [Infor LN vs 金蝶云·星瀚 对比](ln-vs-kingdee-xinghan.md)
 - [Infor vs SAP S/4HANA 对比](ln-vs-sap.md)

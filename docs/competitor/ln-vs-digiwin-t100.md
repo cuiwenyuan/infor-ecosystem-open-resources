@@ -116,7 +116,7 @@ description: "Infor LN 与鼎捷T100的深度对比：国际高端离散制造ER
 
 ## 相关资源
 
-- [Infor LN 产品页](../../by-product/ln.md)
+- [Infor LN 产品页](../by-product/ln.md)
 - [鼎捷数智官网](https://www.digiwin.com/)
 - [Infor LN vs 金蝶云·星瀚 对比](ln-vs-kingdee-xinghan.md)
 - [Infor LN vs 用友U9 cloud 对比](ln-vs-yonyou-u9.md)

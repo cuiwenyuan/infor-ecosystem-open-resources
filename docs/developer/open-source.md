@@ -119,6 +119,6 @@ public class IonApiExample {
 
 ---
 
-> 如果发现更多 Infor 相关开源项目，欢迎 [提交](submission-guide.md)！
+> 如果发现更多 Infor 相关开源项目，欢迎 [提交](../submission-guide.md)！
 
 **最后更新**：2026-05-11

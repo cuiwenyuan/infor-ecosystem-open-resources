@@ -118,7 +118,7 @@ description: "Infor LN 与浪潮海岳GS Cloud的深度对比：国际高端离�
 
 ## 相关资源
 
-- [Infor LN 产品页](../../by-product/ln.md)
+- [Infor LN 产品页](../by-product/ln.md)
 - [浪潮海岳官网](https://www.inspur.com/lcjtww/2315499/2318933/2316107/index.html)
 - [Infor LN vs 金蝶云·星瀚 对比](ln-vs-kingdee-xinghan.md)
 - [Infor LN vs 用友NC Cloud 对比](ln-vs-yonyou-nc.md)

@@ -53,13 +53,13 @@ description: "Infor 开发者资源中心，聚合 ION API、LN 4GL 代码库、
 
 ## 相关页面
 
-- [工具与插件](resources/tools.md) - 开发工具和插件
-- [LN 开发系列](resources/ln-4gl-tips.md) - 4GL 基础、DAL、Extension
-- [ION BOD 集成](resources/ion-integration.md) - ION 集成指南
-- [官方文档导航](resources/official-docs.md) - Infor 官方文档入口
+- [工具与插件](../resources/tools.md) - 开发工具和插件
+- [LN 开发系列](../resources/ln-4gl-tips.md) - 4GL 基础、DAL、Extension
+- [ION BOD 集成](../resources/ion-integration.md) - ION 集成指南
+- [官方文档导航](../resources/official-docs.md) - Infor 官方文档入口
 
 ---
 
-> 欢迎贡献更多开发者资源！请查看 [资源提交规范](submission-guide.md) 了解如何提交。
+> 欢迎贡献更多开发者资源！请查看 [资源提交规范](../submission-guide.md) 了解如何提交。
 
 **最后更新**：2026-05-11

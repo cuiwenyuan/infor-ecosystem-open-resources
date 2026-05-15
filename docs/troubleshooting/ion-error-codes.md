@@ -199,7 +199,7 @@ curl -X GET https://your-tenant.infor.com/InforIONAPI/bod/status/{bod-id} \
 
 ## 相关资源
 
-- [ION API 开发](developer/ion-api.md) - ION API 开发资源
+- [ION API 开发](../developer/ion-api.md) - ION API 开发资源
 - [ION BOD 集成](../resources/ion-integration.md) - ION BOD 集成指南
 - [故障代码百科首页](../troubleshooting/index.md) - 按产品线浏览
 
