@@ -108,12 +108,12 @@ description: "Infor 生态开放资源导航站首页，提供论坛、顾问公
 <div class="stats-grid">
 
 <div class="stat-card">
-<div class="stat-number">213+</div>
+<div class="stat-number">240+</div>
 <div class="stat-label">收录资源总数</div>
 </div>
 
 <div class="stat-card">
-<div class="stat-number">24</div>
+<div class="stat-number">30</div>
 <div class="stat-label">论坛/社区</div>
 </div>
 
@@ -134,7 +134,7 @@ description: "Infor 生态开放资源导航站首页，提供论坛、顾问公
 
 </div>
 
-> 最后更新：2026-05-11
+> 最后更新：2026-05-17
 
 !!! tip "📢 广告合作"
     本站面向 Infor 生态服务商提供精准推广服务（推荐位 / 招聘发布等），详见 [广告合作方案](sponsorship.md)。
@@ -159,6 +159,13 @@ description: "Infor 生态开放资源导航站首页，提供论坛、顾问公
 ---
 
 ### 📅 项目动态
+
+#### 2026-05-17
+- 📊 **更新首页统计数字**：forum 24→30，资源总数 213+→240+
+  - forums.md 实际收录 30 个社区资源（含官方社区、独立用户组、Reddit 等）
+  - 顾问公司 55 家（已确认全部生成）
+  - 博客/教程 66 个，工具/插件 66+ 个（维持不变）
+  - 资源总数估算：30+66+66+20+55 = 240+
 
 #### 2026-05-12
 - 🔧 **修复顾问公司页面链接问题**：确认所有55家顾问公司的独立页面都已生成并可访问
