@@ -289,14 +289,18 @@ ERPcommunity.com 上的免费独立社区，汇聚各行各业的 Infor 人员�
 
 **类型**：客户驱动的社区网络
 
-**适用产品**：Infor A+、CloudSuite Distribution、FACTS、M3、SX.e、SX.enterprise 等
+**适用产品**：Infor A+、CloudSuite Distribution、CloudSuite Enterprise、FACTS、M3、SX.e、SX.enterprise 等
 
 **地区**：全球（主要北美）
 
 **语言**：英文
 
 **简介**：
-TUG（The User Group）社区论坛是自 1989 年以来受社区信任的 Infor 软件用户网络。提供 18 个专业网络，涵盖特定产品、行业和功能领域。
+TUG（The User Group）社区论坛是自 1989 年以来受社区信任的 Infor 软件用户网络，也是首个客户驱动的网络（original customer-powered network）。提供 18 个专业网络，涵盖特定产品、行业和功能领域。
+
+**官方口号**："Get the most from your Infor ERP—with help from people who actually use it."（充分释放您的 Infor ERP 价值——来自真实用户的帮助。）
+
+**完整描述**：Founded in 1989, TUG is the trusted community where Infor users and vetted partners come to connect, collaborate, and lead the future of their Infor investment.
 
 **链接**：
 - 官网：[theusergroup.org](https://www.theusergroup.org/)
@@ -351,14 +355,22 @@ TUG（The User Group）社区论坛是自 1989 年以来受社区信任的 Infor
 **联系方式**：
 - 会员计划：[Membership Plans](https://www.theusergroup.org/membership-plans)
 
+**合作伙伴级别**：
+- **Infor Diamond Partner（2025 年）** - Infor 作为 TUG 的钻石级合作伙伴
+- **Infor Diamond Partner（2026 年）** - Infor 继续作为 TUG 的钻石级合作伙伴
+
+> TUG 与 Infor 保持紧密合作关系，Infor 连续两年（2025、2026）作为其 Diamond Partner，体现了 TUG 在 Infor 生态中的权威地位。
+
 **特色**：
-- 自 1989 年以来受信任
+- 自 1989 年以来受信任（36+ 年历史）
+- **Infor Diamond Partner（2025 & 2026）**
 - 18 个专业网络
 - 快速响应（1 分钟内 10% 回复）
 - 会员公司用户数量无限制
 - 行业志愿者领导
+- Original customer-powered network
 
-**最后更新**：2026-05-06
+**最后更新**：2026-05-17
 
 ### LawsonGuru.com Forums
 
@@ -1166,6 +1178,6 @@ Infor Community 下的 Landmark 平台开发社区，讨论 Lawson/FSM/HCM 的 L
 
 ---
 
-**本分类收录资源数**：24 （持续收集中）  
-**最后更新**：2026-05-07  
+**本分类收录资源数**：30 （持续收集中）  
+**最后更新**：2026-05-17  
 **维护者**：崔文远 Troy Cui

@@ -167,6 +167,13 @@ description: "Infor 生态开放资源导航站首页，提供论坛、顾问公
   - 博客/教程 66 个，工具/插件 66+ 个（维持不变）
   - 资源总数估算：30+66+66+20+55 = 240+
 
+- 🔄 **更新 TUG (The User Group) 条目**：补充官方口号、Diamond Partner 信息（2025 & 2026）
+  - 新增"合作伙伴级别"字段，标注 Infor Diamond Partner 身份
+  - 丰富简介内容，加入官方口号（中英文）和完整描述
+  - 更新"特色"字段，加入 Diamond Partner 信息和"Original customer-powered network"
+  - 适用产品补充 "CloudSuite Enterprise"
+  - 更新最后更新日期：2026-05-06 → 2026-05-17
+
 #### 2026-05-12
 - 🔧 **修复顾问公司页面链接问题**：确认所有55家顾问公司的独立页面都已生成并可访问
   - 检查 `docs/consultants/` 目录，55家公司的.md文件均已创建
