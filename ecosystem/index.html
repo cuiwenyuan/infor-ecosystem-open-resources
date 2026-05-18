@@ -6648,36 +6648,35 @@
 <hr />
 <h2 id="infor-os">🏗️ Infor OS 核心平台架构</h2>
 <p>Infor OS (Operating System) 是 Infor 生态系统的核心平台，提供统一的技术基础、集成能力和用户体验。</p>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>graph TB
-</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>    A[Infor OS 核心平台] --&gt; B[ION 集成平台]
-</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>    A --&gt; C[IDM 身份管理]
-</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>    A --&gt; D[IFS 文件系统]
-</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>    A --&gt; E[Coleman AI]
-</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>    A --&gt; F[Birst BI]
-</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>    A --&gt; G[Mingle 门户]
-</span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>
-</span><span id="__span-0-9"><a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a>    B --&gt; H[Infor LN]
-</span><span id="__span-0-10"><a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a>    B --&gt; I[Infor M3]
-</span><span id="__span-0-11"><a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a>    B --&gt; J[Infor WMS]
-</span><span id="__span-0-12"><a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a>    B --&gt; K[Infor CRM]
-</span><span id="__span-0-13"><a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a>    B --&gt; L[Infor ERP]
-</span><span id="__span-0-14"><a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a>    B --&gt; M[Infor HCM]
-</span><span id="__span-0-15"><a id="__codelineno-0-15" name="__codelineno-0-15" href="#__codelineno-0-15"></a>    B --&gt; N[Infor EAM]
-</span><span id="__span-0-16"><a id="__codelineno-0-16" name="__codelineno-0-16" href="#__codelineno-0-16"></a>
-</span><span id="__span-0-17"><a id="__codelineno-0-17" name="__codelineno-0-17" href="#__codelineno-0-17"></a>    C --&gt; O[单点登录 SSO]
-</span><span id="__span-0-18"><a id="__codelineno-0-18" name="__codelineno-0-18" href="#__codelineno-0-18"></a>    D --&gt; P[文档管理]
-</span><span id="__span-0-19"><a id="__codelineno-0-19" name="__codelineno-0-19" href="#__codelineno-0-19"></a>    E --&gt; Q[智能助手]
-</span><span id="__span-0-20"><a id="__codelineno-0-20" name="__codelineno-0-20" href="#__codelineno-0-20"></a>    F --&gt; R[数据分析]
-</span><span id="__span-0-21"><a id="__codelineno-0-21" name="__codelineno-0-21" href="#__codelineno-0-21"></a>    G --&gt; S[统一工作台]
-</span><span id="__span-0-22"><a id="__codelineno-0-22" name="__codelineno-0-22" href="#__codelineno-0-22"></a>
-</span><span id="__span-0-23"><a id="__codelineno-0-23" name="__codelineno-0-23" href="#__codelineno-0-23"></a>    style A fill:#1a73e8,color:#fff
-</span><span id="__span-0-24"><a id="__codelineno-0-24" name="__codelineno-0-24" href="#__codelineno-0-24"></a>    style B fill:#34a853,color:#fff
-</span><span id="__span-0-25"><a id="__codelineno-0-25" name="__codelineno-0-25" href="#__codelineno-0-25"></a>    style C fill:#fbbc04,color:#000
-</span><span id="__span-0-26"><a id="__codelineno-0-26" name="__codelineno-0-26" href="#__codelineno-0-26"></a>    style D fill:#ea4335,color:#fff
-</span><span id="__span-0-27"><a id="__codelineno-0-27" name="__codelineno-0-27" href="#__codelineno-0-27"></a>    style E fill:#46bdc6,color:#fff
-</span><span id="__span-0-28"><a id="__codelineno-0-28" name="__codelineno-0-28" href="#__codelineno-0-28"></a>    style F fill:#7b61ff,color:#fff
-</span><span id="__span-0-29"><a id="__codelineno-0-29" name="__codelineno-0-29" href="#__codelineno-0-29"></a>    style G fill:#ff6d01,color:#fff
-</span></code></pre></div>
+<pre class="mermaid"><code>graph TB
+    A[Infor OS 核心平台] --&gt; B[ION 集成平台]
+    A --&gt; C[IDM 身份管理]
+    A --&gt; D[IFS 文件系统]
+    A --&gt; E[Coleman AI]
+    A --&gt; F[Birst BI]
+    A --&gt; G[Mingle 门户]
+
+    B --&gt; H[Infor LN]
+    B --&gt; I[Infor M3]
+    B --&gt; J[Infor WMS]
+    B --&gt; K[Infor CRM]
+    B --&gt; L[Infor ERP]
+    B --&gt; M[Infor HCM]
+    B --&gt; N[Infor EAM]
+
+    C --&gt; O[单点登录 SSO]
+    D --&gt; P[文档管理]
+    E --&gt; Q[智能助手]
+    F --&gt; R[数据分析]
+    G --&gt; S[统一工作台]
+
+    style A fill:#1a73e8,color:#fff
+    style B fill:#34a853,color:#fff
+    style C fill:#fbbc04,color:#000
+    style D fill:#ea4335,color:#fff
+    style E fill:#46bdc6,color:#fff
+    style F fill:#7b61ff,color:#fff
+    style G fill:#ff6d01,color:#fff</code></pre>
 <h3 id="_1">核心组件说明</h3>
 <table>
 <thead>
@@ -6728,22 +6727,21 @@
 <hr />
 <h2 id="ion">🔗 ION 集成架构</h2>
 <p>ION (Intelligent Open Network) 是 Infor 的集成中枢，通过标准化的 BOD (Business Object Document) 实现产品间的无缝集成。</p>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>sequenceDiagram
-</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>    participant LN as Infor LN
-</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a>    participant ION as ION 集成平台
-</span><span id="__span-1-4"><a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a>    participant WMS as Infor WMS
-</span><span id="__span-1-5"><a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a>    participant CRM as Infor CRM
-</span><span id="__span-1-6"><a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a>    participant Birst as Birst BI
-</span><span id="__span-1-7"><a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a>
-</span><span id="__span-1-8"><a id="__codelineno-1-8" name="__codelineno-1-8" href="#__codelineno-1-8"></a>    LN-&gt;&gt;ION: 发布 BOD (销售订单)
-</span><span id="__span-1-9"><a id="__codelineno-1-9" name="__codelineno-1-9" href="#__codelineno-1-9"></a>    ION-&gt;&gt;WMS: 订阅 BOD (出库通知)
-</span><span id="__span-1-10"><a id="__codelineno-1-10" name="__codelineno-1-10" href="#__codelineno-1-10"></a>    WMS-&gt;&gt;ION: 发布 BOD (发货确认)
-</span><span id="__span-1-11"><a id="__codelineno-1-11" name="__codelineno-1-11" href="#__codelineno-1-11"></a>    ION-&gt;&gt;CRM: 订阅 BOD (客户通知)
-</span><span id="__span-1-12"><a id="__codelineno-1-12" name="__codelineno-1-12" href="#__codelineno-1-12"></a>    CRM-&gt;&gt;ION: 发布 BOD (客户服务请求)
-</span><span id="__span-1-13"><a id="__codelineno-1-13" name="__codelineno-1-13" href="#__codelineno-1-13"></a>    ION-&gt;&gt;LN: 订阅 BOD (服务工单)
-</span><span id="__span-1-14"><a id="__codelineno-1-14" name="__codelineno-1-14" href="#__codelineno-1-14"></a>    LN-&gt;&gt;ION: 发布 BOD (财务凭证)
-</span><span id="__span-1-15"><a id="__codelineno-1-15" name="__codelineno-1-15" href="#__codelineno-1-15"></a>    ION-&gt;&gt;Birst: 订阅 BOD (实时分析)
-</span></code></pre></div>
+<pre class="mermaid"><code>sequenceDiagram
+    participant LN as Infor LN
+    participant ION as ION 集成平台
+    participant WMS as Infor WMS
+    participant CRM as Infor CRM
+    participant Birst as Birst BI
+
+    LN-&gt;&gt;ION: 发布 BOD (销售订单)
+    ION-&gt;&gt;WMS: 订阅 BOD (出库通知)
+    WMS-&gt;&gt;ION: 发布 BOD (发货确认)
+    ION-&gt;&gt;CRM: 订阅 BOD (客户通知)
+    CRM-&gt;&gt;ION: 发布 BOD (客户服务请求)
+    ION-&gt;&gt;LN: 订阅 BOD (服务工单)
+    LN-&gt;&gt;ION: 发布 BOD (财务凭证)
+    ION-&gt;&gt;Birst: 订阅 BOD (实时分析)</code></pre>
 <h3 id="bod">BOD 集成优势</h3>
 <ul>
 <li>✅ <strong>标准化</strong>：统一的 BOD 格式，减少定制开发</li>
@@ -6870,21 +6868,20 @@
 <h2 id="_3">🎯 典型解决方案组合</h2>
 <p>根据不同行业和场景，Infor 产品可以灵活组合形成完整的解决方案。</p>
 <h3 id="_4">🏭 制造业组合</h3>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>graph LR
-</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>    A[Infor LN] --&gt; B[Infor WMS]
-</span><span id="__span-2-3"><a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a>    A --&gt; C[Factory Track]
-</span><span id="__span-2-4"><a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a>    A --&gt; D[Birst]
-</span><span id="__span-2-5"><a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a>    B --&gt; D
-</span><span id="__span-2-6"><a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a>    C --&gt; D
-</span><span id="__span-2-7"><a id="__codelineno-2-7" name="__codelineno-2-7" href="#__codelineno-2-7"></a>    A --&gt; E[ION]
-</span><span id="__span-2-8"><a id="__codelineno-2-8" name="__codelineno-2-8" href="#__codelineno-2-8"></a>    E --&gt; F[供应商门户]
-</span><span id="__span-2-9"><a id="__codelineno-2-9" name="__codelineno-2-9" href="#__codelineno-2-9"></a>    E --&gt; G[客户门户]
-</span><span id="__span-2-10"><a id="__codelineno-2-10" name="__codelineno-2-10" href="#__codelineno-2-10"></a>
-</span><span id="__span-2-11"><a id="__codelineno-2-11" name="__codelineno-2-11" href="#__codelineno-2-11"></a>    style A fill:#1a73e8,color:#fff
-</span><span id="__span-2-12"><a id="__codelineno-2-12" name="__codelineno-2-12" href="#__codelineno-2-12"></a>    style B fill:#34a853,color:#fff
-</span><span id="__span-2-13"><a id="__codelineno-2-13" name="__codelineno-2-13" href="#__codelineno-2-13"></a>    style C fill:#fbbc04,color:#000
-</span><span id="__span-2-14"><a id="__codelineno-2-14" name="__codelineno-2-14" href="#__codelineno-2-14"></a>    style D fill:#7b61ff,color:#fff
-</span></code></pre></div>
+<pre class="mermaid"><code>graph LR
+    A[Infor LN] --&gt; B[Infor WMS]
+    A --&gt; C[Factory Track]
+    A --&gt; D[Birst]
+    B --&gt; D
+    C --&gt; D
+    A --&gt; E[ION]
+    E --&gt; F[供应商门户]
+    E --&gt; G[客户门户]
+
+    style A fill:#1a73e8,color:#fff
+    style B fill:#34a853,color:#fff
+    style C fill:#fbbc04,color:#000
+    style D fill:#7b61ff,color:#fff</code></pre>
 <p><strong>适用场景</strong>：
 - 离散制造（汽车、电子、机械）
 - 按单设计（ETO）企业
@@ -6896,21 +6893,20 @@
 - Birst 提供实时生产分析</p>
 <hr />
 <h3 id="_5">🛒 零售业组合</h3>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>graph LR
-</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a>    A[Infor M3] --&gt; B[Infor CRM]
-</span><span id="__span-3-3"><a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a>    A --&gt; C[Infor CPQ]
-</span><span id="__span-3-4"><a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a>    A --&gt; D[Birst]
-</span><span id="__span-3-5"><a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a>    B --&gt; D
-</span><span id="__span-3-6"><a id="__codelineno-3-6" name="__codelineno-3-6" href="#__codelineno-3-6"></a>    C --&gt; D
-</span><span id="__span-3-7"><a id="__codelineno-3-7" name="__codelineno-3-7" href="#__codelineno-3-7"></a>    A --&gt; E[ION]
-</span><span id="__span-3-8"><a id="__codelineno-3-8" name="__codelineno-3-8" href="#__codelineno-3-8"></a>    E --&gt; F[电商集成]
-</span><span id="__span-3-9"><a id="__codelineno-3-9" name="__codelineno-3-9" href="#__codelineno-3-9"></a>    E --&gt; G[POS 系统]
-</span><span id="__span-3-10"><a id="__codelineno-3-10" name="__codelineno-3-10" href="#__codelineno-3-10"></a>
-</span><span id="__span-3-11"><a id="__codelineno-3-11" name="__codelineno-3-11" href="#__codelineno-3-11"></a>    style A fill:#34a853,color:#fff
-</span><span id="__span-3-12"><a id="__codelineno-3-12" name="__codelineno-3-12" href="#__codelineno-3-12"></a>    style B fill:#ea4335,color:#fff
-</span><span id="__span-3-13"><a id="__codelineno-3-13" name="__codelineno-3-13" href="#__codelineno-3-13"></a>    style C fill:#fbbc04,color:#000
-</span><span id="__span-3-14"><a id="__codelineno-3-14" name="__codelineno-3-14" href="#__codelineno-3-14"></a>    style D fill:#7b61ff,color:#fff
-</span></code></pre></div>
+<pre class="mermaid"><code>graph LR
+    A[Infor M3] --&gt; B[Infor CRM]
+    A --&gt; C[Infor CPQ]
+    A --&gt; D[Birst]
+    B --&gt; D
+    C --&gt; D
+    A --&gt; E[ION]
+    E --&gt; F[电商集成]
+    E --&gt; G[POS 系统]
+
+    style A fill:#34a853,color:#fff
+    style B fill:#ea4335,color:#fff
+    style C fill:#fbbc04,color:#000
+    style D fill:#7b61ff,color:#fff</code></pre>
 <p><strong>适用场景</strong>：
 - 服装零售
 - 食品零售
@@ -6922,21 +6918,20 @@
 - Birst 分析销售和客户数据</p>
 <hr />
 <h3 id="_6">🚚 分销业组合</h3>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>graph LR
-</span><span id="__span-4-2"><a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a>    A[Infor M3] --&gt; B[Infor WMS]
-</span><span id="__span-4-3"><a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a>    A --&gt; C[Infor EAM]
-</span><span id="__span-4-4"><a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a>    A --&gt; D[Birst]
-</span><span id="__span-4-5"><a id="__codelineno-4-5" name="__codelineno-4-5" href="#__codelineno-4-5"></a>    B --&gt; D
-</span><span id="__span-4-6"><a id="__codelineno-4-6" name="__codelineno-4-6" href="#__codelineno-4-6"></a>    C --&gt; D
-</span><span id="__span-4-7"><a id="__codelineno-4-7" name="__codelineno-4-7" href="#__codelineno-4-7"></a>    A --&gt; E[ION]
-</span><span id="__span-4-8"><a id="__codelineno-4-8" name="__codelineno-4-8" href="#__codelineno-4-8"></a>    E --&gt; F[供应商协同]
-</span><span id="__span-4-9"><a id="__codelineno-4-9" name="__codelineno-4-9" href="#__codelineno-4-9"></a>    E --&gt; G[物流集成]
-</span><span id="__span-4-10"><a id="__codelineno-4-10" name="__codelineno-4-10" href="#__codelineno-4-10"></a>
-</span><span id="__span-4-11"><a id="__codelineno-4-11" name="__codelineno-4-11" href="#__codelineno-4-11"></a>    style A fill:#34a853,color:#fff
-</span><span id="__span-4-12"><a id="__codelineno-4-12" name="__codelineno-4-12" href="#__codelineno-4-12"></a>    style B fill:#1a73e8,color:#fff
-</span><span id="__span-4-13"><a id="__codelineno-4-13" name="__codelineno-4-13" href="#__codelineno-4-13"></a>    style C fill:#46bdc6,color:#fff
-</span><span id="__span-4-14"><a id="__codelineno-4-14" name="__codelineno-4-14" href="#__codelineno-4-14"></a>    style D fill:#7b61ff,color:#fff
-</span></code></pre></div>
+<pre class="mermaid"><code>graph LR
+    A[Infor M3] --&gt; B[Infor WMS]
+    A --&gt; C[Infor EAM]
+    A --&gt; D[Birst]
+    B --&gt; D
+    C --&gt; D
+    A --&gt; E[ION]
+    E --&gt; F[供应商协同]
+    E --&gt; G[物流集成]
+
+    style A fill:#34a853,color:#fff
+    style B fill:#1a73e8,color:#fff
+    style C fill:#46bdc6,color:#fff
+    style D fill:#7b61ff,color:#fff</code></pre>
 <p><strong>适用场景</strong>：
 - 批发分销
 - 医药分销
@@ -6948,21 +6943,20 @@
 - Birst 分析库存和供应链数据</p>
 <hr />
 <h3 id="_7">🏗️ 资产密集型行业组合</h3>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>graph LR
-</span><span id="__span-5-2"><a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a>    A[CloudSuite Industrial] --&gt; B[Infor EAM]
-</span><span id="__span-5-3"><a id="__codelineno-5-3" name="__codelineno-5-3" href="#__codelineno-5-3"></a>    A --&gt; C[Infor HCM]
-</span><span id="__span-5-4"><a id="__codelineno-5-4" name="__codelineno-5-4" href="#__codelineno-5-4"></a>    A --&gt; D[Birst]
-</span><span id="__span-5-5"><a id="__codelineno-5-5" name="__codelineno-5-5" href="#__codelineno-5-5"></a>    B --&gt; D
-</span><span id="__span-5-6"><a id="__codelineno-5-6" name="__codelineno-5-6" href="#__codelineno-5-6"></a>    C --&gt; D
-</span><span id="__span-5-7"><a id="__codelineno-5-7" name="__codelineno-5-7" href="#__codelineno-5-7"></a>    A --&gt; E[ION]
-</span><span id="__span-5-8"><a id="__codelineno-5-8" name="__codelineno-5-8" href="#__codelineno-5-8"></a>    E --&gt; F[IoT 集成]
-</span><span id="__span-5-9"><a id="__codelineno-5-9" name="__codelineno-5-9" href="#__codelineno-5-9"></a>    E --&gt; G[预测性维护]
-</span><span id="__span-5-10"><a id="__codelineno-5-10" name="__codelineno-5-10" href="#__codelineno-5-10"></a>
-</span><span id="__span-5-11"><a id="__codelineno-5-11" name="__codelineno-5-11" href="#__codelineno-5-11"></a>    style A fill:#ff6d01,color:#fff
-</span><span id="__span-5-12"><a id="__codelineno-5-12" name="__codelineno-5-12" href="#__codelineno-5-12"></a>    style B fill:#ea4335,color:#fff
-</span><span id="__span-5-13"><a id="__codelineno-5-13" name="__codelineno-5-13" href="#__codelineno-5-13"></a>    style C fill:#fbbc04,color:#000
-</span><span id="__span-5-14"><a id="__codelineno-5-14" name="__codelineno-5-14" href="#__codelineno-5-14"></a>    style D fill:#7b61ff,color:#fff
-</span></code></pre></div>
+<pre class="mermaid"><code>graph LR
+    A[CloudSuite Industrial] --&gt; B[Infor EAM]
+    A --&gt; C[Infor HCM]
+    A --&gt; D[Birst]
+    B --&gt; D
+    C --&gt; D
+    A --&gt; E[ION]
+    E --&gt; F[IoT 集成]
+    E --&gt; G[预测性维护]
+
+    style A fill:#ff6d01,color:#fff
+    style B fill:#ea4335,color:#fff
+    style C fill:#fbbc04,color:#000
+    style D fill:#7b61ff,color:#fff</code></pre>
 <p><strong>适用场景</strong>：
 - 公用事业
 - 石油天然气
@@ -6976,56 +6970,53 @@
 <h2 id="_8">🔄 端到端业务流程</h2>
 <p>Infor 产品通过 ION 实现端到端的业务流程集成。</p>
 <h3 id="order-to-cash">订单到现金 (Order to Cash)</h3>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>graph LR
-</span><span id="__span-6-2"><a id="__codelineno-6-2" name="__codelineno-6-2" href="#__codelineno-6-2"></a>    A[CRM: 客户询价] --&gt; B[CPQ: 产品配置]
-</span><span id="__span-6-3"><a id="__codelineno-6-3" name="__codelineno-6-3" href="#__codelineno-6-3"></a>    B --&gt; C[LN/M3: 销售订单]
-</span><span id="__span-6-4"><a id="__codelineno-6-4" name="__codelineno-6-4" href="#__codelineno-6-4"></a>    C --&gt; D[WMS: 出库发货]
-</span><span id="__span-6-5"><a id="__codelineno-6-5" name="__codelineno-6-5" href="#__codelineno-6-5"></a>    D --&gt; E[LN/M3: 开具发票]
-</span><span id="__span-6-6"><a id="__codelineno-6-6" name="__codelineno-6-6" href="#__codelineno-6-6"></a>    E --&gt; F[CRM: 客户付款]
-</span><span id="__span-6-7"><a id="__codelineno-6-7" name="__codelineno-6-7" href="#__codelineno-6-7"></a>    F --&gt; G[Birst: 营收分析]
-</span><span id="__span-6-8"><a id="__codelineno-6-8" name="__codelineno-6-8" href="#__codelineno-6-8"></a>
-</span><span id="__span-6-9"><a id="__codelineno-6-9" name="__codelineno-6-9" href="#__codelineno-6-9"></a>    style A fill:#ea4335,color:#fff
-</span><span id="__span-6-10"><a id="__codelineno-6-10" name="__codelineno-6-10" href="#__codelineno-6-10"></a>    style B fill:#fbbc04,color:#000
-</span><span id="__span-6-11"><a id="__codelineno-6-11" name="__codelineno-6-11" href="#__codelineno-6-11"></a>    style C fill:#1a73e8,color:#fff
-</span><span id="__span-6-12"><a id="__codelineno-6-12" name="__codelineno-6-12" href="#__codelineno-6-12"></a>    style D fill:#34a853,color:#fff
-</span><span id="__span-6-13"><a id="__codelineno-6-13" name="__codelineno-6-13" href="#__codelineno-6-13"></a>    style E fill:#1a73e8,color:#fff
-</span><span id="__span-6-14"><a id="__codelineno-6-14" name="__codelineno-6-14" href="#__codelineno-6-14"></a>    style F fill:#ea4335,color:#fff
-</span><span id="__span-6-15"><a id="__codelineno-6-15" name="__codelineno-6-15" href="#__codelineno-6-15"></a>    style G fill:#7b61ff,color:#fff
-</span></code></pre></div>
+<pre class="mermaid"><code>graph LR
+    A[CRM: 客户询价] --&gt; B[CPQ: 产品配置]
+    B --&gt; C[LN/M3: 销售订单]
+    C --&gt; D[WMS: 出库发货]
+    D --&gt; E[LN/M3: 开具发票]
+    E --&gt; F[CRM: 客户付款]
+    F --&gt; G[Birst: 营收分析]
+
+    style A fill:#ea4335,color:#fff
+    style B fill:#fbbc04,color:#000
+    style C fill:#1a73e8,color:#fff
+    style D fill:#34a853,color:#fff
+    style E fill:#1a73e8,color:#fff
+    style F fill:#ea4335,color:#fff
+    style G fill:#7b61ff,color:#fff</code></pre>
 <h3 id="procure-to-pay">采购到付款 (Procure to Pay)</h3>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-7-1"><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a>graph LR
-</span><span id="__span-7-2"><a id="__codelineno-7-2" name="__codelineno-7-2" href="#__codelineno-7-2"></a>    A[LN/M3: 采购申请] --&gt; B[LN/M3: 采购订单]
-</span><span id="__span-7-3"><a id="__codelineno-7-3" name="__codelineno-7-3" href="#__codelineno-7-3"></a>    B --&gt; C[供应商门户: 订单确认]
-</span><span id="__span-7-4"><a id="__codelineno-7-4" name="__codelineno-7-4" href="#__codelineno-7-4"></a>    C --&gt; D[WMS: 收货质检]
-</span><span id="__span-7-5"><a id="__codelineno-7-5" name="__codelineno-7-5" href="#__codelineno-7-5"></a>    D --&gt; E[LN/M3: 供应商发票]
-</span><span id="__span-7-6"><a id="__codelineno-7-6" name="__codelineno-7-6" href="#__codelineno-7-6"></a>    E --&gt; F[LN/M3: 付款审批]
-</span><span id="__span-7-7"><a id="__codelineno-7-7" name="__codelineno-7-7" href="#__codelineno-7-7"></a>    F --&gt; G[Birst: 采购分析]
-</span><span id="__span-7-8"><a id="__codelineno-7-8" name="__codelineno-7-8" href="#__codelineno-7-8"></a>
-</span><span id="__span-7-9"><a id="__codelineno-7-9" name="__codelineno-7-9" href="#__codelineno-7-9"></a>    style A fill:#1a73e8,color:#fff
-</span><span id="__span-7-10"><a id="__codelineno-7-10" name="__codelineno-7-10" href="#__codelineno-7-10"></a>    style B fill:#1a73e8,color:#fff
-</span><span id="__span-7-11"><a id="__codelineno-7-11" name="__codelineno-7-11" href="#__codelineno-7-11"></a>    style C fill:#46bdc6,color:#fff
-</span><span id="__span-7-12"><a id="__codelineno-7-12" name="__codelineno-7-12" href="#__codelineno-7-12"></a>    style D fill:#34a853,color:#fff
-</span><span id="__span-7-13"><a id="__codelineno-7-13" name="__codelineno-7-13" href="#__codelineno-7-13"></a>    style E fill:#1a73e8,color:#fff
-</span><span id="__span-7-14"><a id="__codelineno-7-14" name="__codelineno-7-14" href="#__codelineno-7-14"></a>    style F fill:#1a73e8,color:#fff
-</span><span id="__span-7-15"><a id="__codelineno-7-15" name="__codelineno-7-15" href="#__codelineno-7-15"></a>    style G fill:#7b61ff,color:#fff
-</span></code></pre></div>
+<pre class="mermaid"><code>graph LR
+    A[LN/M3: 采购申请] --&gt; B[LN/M3: 采购订单]
+    B --&gt; C[供应商门户: 订单确认]
+    C --&gt; D[WMS: 收货质检]
+    D --&gt; E[LN/M3: 供应商发票]
+    E --&gt; F[LN/M3: 付款审批]
+    F --&gt; G[Birst: 采购分析]
+
+    style A fill:#1a73e8,color:#fff
+    style B fill:#1a73e8,color:#fff
+    style C fill:#46bdc6,color:#fff
+    style D fill:#34a853,color:#fff
+    style E fill:#1a73e8,color:#fff
+    style F fill:#1a73e8,color:#fff
+    style G fill:#7b61ff,color:#fff</code></pre>
 <h3 id="produce-to-deliver">生产到交付 (Produce to Deliver)</h3>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-8-1"><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a>graph LR
-</span><span id="__span-8-2"><a id="__codelineno-8-2" name="__codelineno-8-2" href="#__codelineno-8-2"></a>    A[LN: 生产计划] --&gt; B[LN: 生产订单]
-</span><span id="__span-8-3"><a id="__codelineno-8-3" name="__codelineno-8-3" href="#__codelineno-8-3"></a>    B --&gt; C[Factory Track: 车间执行]
-</span><span id="__span-8-4"><a id="__codelineno-8-4" name="__codelineno-8-4" href="#__codelineno-8-4"></a>    C --&gt; D[LN: 完工入库]
-</span><span id="__span-8-5"><a id="__codelineno-8-5" name="__codelineno-8-5" href="#__codelineno-8-5"></a>    D --&gt; E[WMS: 拣货包装]
-</span><span id="__span-8-6"><a id="__codelineno-8-6" name="__codelineno-8-6" href="#__codelineno-8-6"></a>    E --&gt; F[WMS: 出库发货]
-</span><span id="__span-8-7"><a id="__codelineno-8-7" name="__codelineno-8-7" href="#__codelineno-8-7"></a>    F --&gt; G[Birst: 生产分析]
-</span><span id="__span-8-8"><a id="__codelineno-8-8" name="__codelineno-8-8" href="#__codelineno-8-8"></a>
-</span><span id="__span-8-9"><a id="__codelineno-8-9" name="__codelineno-8-9" href="#__codelineno-8-9"></a>    style A fill:#1a73e8,color:#fff
-</span><span id="__span-8-10"><a id="__codelineno-8-10" name="__codelineno-8-10" href="#__codelineno-8-10"></a>    style B fill:#1a73e8,color:#fff
-</span><span id="__span-8-11"><a id="__codelineno-8-11" name="__codelineno-8-11" href="#__codelineno-8-11"></a>    style C fill:#fbbc04,color:#000
-</span><span id="__span-8-12"><a id="__codelineno-8-12" name="__codelineno-8-12" href="#__codelineno-8-12"></a>    style D fill:#1a73e8,color:#fff
-</span><span id="__span-8-13"><a id="__codelineno-8-13" name="__codelineno-8-13" href="#__codelineno-8-13"></a>    style E fill:#34a853,color:#fff
-</span><span id="__span-8-14"><a id="__codelineno-8-14" name="__codelineno-8-14" href="#__codelineno-8-14"></a>    style F fill:#34a853,color:#fff
-</span><span id="__span-8-15"><a id="__codelineno-8-15" name="__codelineno-8-15" href="#__codelineno-8-15"></a>    style G fill:#7b61ff,color:#fff
-</span></code></pre></div>
+<pre class="mermaid"><code>graph LR
+    A[LN: 生产计划] --&gt; B[LN: 生产订单]
+    B --&gt; C[Factory Track: 车间执行]
+    C --&gt; D[LN: 完工入库]
+    D --&gt; E[WMS: 拣货包装]
+    E --&gt; F[WMS: 出库发货]
+    F --&gt; G[Birst: 生产分析]
+
+    style A fill:#1a73e8,color:#fff
+    style B fill:#1a73e8,color:#fff
+    style C fill:#fbbc04,color:#000
+    style D fill:#1a73e8,color:#fff
+    style E fill:#34a853,color:#fff
+    style F fill:#34a853,color:#fff
+    style G fill:#7b61ff,color:#fff</code></pre>
 <blockquote>
 <p>💡 <strong>提示</strong>：查看 <a href="data-flow/">端到端业务流程</a> 页面，了解更详细的流程图和数据流转说明。</p>
 </blockquote>
@@ -7144,6 +7135,8 @@
     
     
       <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+        <script src="https://unpkg.com/mermaid@10/dist/mermaid.min.js"></script>
       
     
   </body>

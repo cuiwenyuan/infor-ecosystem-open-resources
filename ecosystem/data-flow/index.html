@@ -6616,27 +6616,26 @@
 <hr />
 <h2 id="procure-to-pay-p2p">🛒 采购到付款 (Procure to Pay, P2P)</h2>
 <p>采购到付款流程涵盖从需求提出到供应商付款的完整循环。</p>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>graph LR
-</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>    A[需求提出] --&gt; B[采购申请]
-</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>    B --&gt; C[采购审批]
-</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>    C --&gt; D[采购订单]
-</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>    D --&gt; E[供应商确认]
-</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>    E --&gt; F[到货接收]
-</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>    F --&gt; G[质量检验]
-</span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>    G --&gt; H[入库上架]
-</span><span id="__span-0-9"><a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a>    H --&gt; I[供应商发票]
-</span><span id="__span-0-10"><a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a>    I --&gt; J[发票校验]
-</span><span id="__span-0-11"><a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a>    J --&gt; K[付款审批]
-</span><span id="__span-0-12"><a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a>    K --&gt; L[供应商付款]
-</span><span id="__span-0-13"><a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a>    L --&gt; M[数据分析]
-</span><span id="__span-0-14"><a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a>
-</span><span id="__span-0-15"><a id="__codelineno-0-15" name="__codelineno-0-15" href="#__codelineno-0-15"></a>    style A fill:#fbbc04,color:#000
-</span><span id="__span-0-16"><a id="__codelineno-0-16" name="__codelineno-0-16" href="#__codelineno-0-16"></a>    style D fill:#1a73e8,color:#fff
-</span><span id="__span-0-17"><a id="__codelineno-0-17" name="__codelineno-0-17" href="#__codelineno-0-17"></a>    style F fill:#34a853,color:#fff
-</span><span id="__span-0-18"><a id="__codelineno-0-18" name="__codelineno-0-18" href="#__codelineno-0-18"></a>    style I fill:#ea4335,color:#fff
-</span><span id="__span-0-19"><a id="__codelineno-0-19" name="__codelineno-0-19" href="#__codelineno-0-19"></a>    style L fill:#7b61ff,color:#fff
-</span><span id="__span-0-20"><a id="__codelineno-0-20" name="__codelineno-0-20" href="#__codelineno-0-20"></a>    style M fill:#46bdc6,color:#fff
-</span></code></pre></div>
+<pre class="mermaid"><code>graph LR
+    A[需求提出] --&gt; B[采购申请]
+    B --&gt; C[采购审批]
+    C --&gt; D[采购订单]
+    D --&gt; E[供应商确认]
+    E --&gt; F[到货接收]
+    F --&gt; G[质量检验]
+    G --&gt; H[入库上架]
+    H --&gt; I[供应商发票]
+    I --&gt; J[发票校验]
+    J --&gt; K[付款审批]
+    K --&gt; L[供应商付款]
+    L --&gt; M[数据分析]
+
+    style A fill:#fbbc04,color:#000
+    style D fill:#1a73e8,color:#fff
+    style F fill:#34a853,color:#fff
+    style I fill:#ea4335,color:#fff
+    style L fill:#7b61ff,color:#fff
+    style M fill:#46bdc6,color:#fff</code></pre>
 <h3 id="bod">涉及产品与 BOD</h3>
 <table>
 <thead>
@@ -6695,25 +6694,24 @@
 <hr />
 <h2 id="order-to-cash-o2c">💰 订单到现金 (Order to Cash, O2C)</h2>
 <p>订单到现金流程涵盖从客户询价到收到付款的完整循环。</p>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>graph LR
-</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>    A[客户询价] --&gt; B[报价单]
-</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a>    B --&gt; C[销售订单]
-</span><span id="__span-1-4"><a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a>    C --&gt; D[信用检查]
-</span><span id="__span-1-5"><a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a>    D --&gt; E[库存分配]
-</span><span id="__span-1-6"><a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a>    E --&gt; F[拣货]
-</span><span id="__span-1-7"><a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a>    F --&gt; G[包装]
-</span><span id="__span-1-8"><a id="__codelineno-1-8" name="__codelineno-1-8" href="#__codelineno-1-8"></a>    G --&gt; H[发货]
-</span><span id="__span-1-9"><a id="__codelineno-1-9" name="__codelineno-1-9" href="#__codelineno-1-9"></a>    H --&gt; I[开具发票]
-</span><span id="__span-1-10"><a id="__codelineno-1-10" name="__codelineno-1-10" href="#__codelineno-1-10"></a>    I --&gt; J[客户付款]
-</span><span id="__span-1-11"><a id="__codelineno-1-11" name="__codelineno-1-11" href="#__codelineno-1-11"></a>    J --&gt; K[收款核销]
-</span><span id="__span-1-12"><a id="__codelineno-1-12" name="__codelineno-1-12" href="#__codelineno-1-12"></a>    K --&gt; L[营收分析]
-</span><span id="__span-1-13"><a id="__codelineno-1-13" name="__codelineno-1-13" href="#__codelineno-1-13"></a>
-</span><span id="__span-1-14"><a id="__codelineno-1-14" name="__codelineno-1-14" href="#__codelineno-1-14"></a>    style A fill:#ea4335,color:#fff
-</span><span id="__span-1-15"><a id="__codelineno-1-15" name="__codelineno-1-15" href="#__codelineno-1-15"></a>    style C fill:#1a73e8,color:#fff
-</span><span id="__span-1-16"><a id="__codelineno-1-16" name="__codelineno-1-16" href="#__codelineno-1-16"></a>    style F fill:#34a853,color:#fff
-</span><span id="__span-1-17"><a id="__codelineno-1-17" name="__codelineno-1-17" href="#__codelineno-1-17"></a>    style I fill:#ea4335,color:#fff
-</span><span id="__span-1-18"><a id="__codelineno-1-18" name="__codelineno-1-18" href="#__codelineno-1-18"></a>    style L fill:#7b61ff,color:#fff
-</span></code></pre></div>
+<pre class="mermaid"><code>graph LR
+    A[客户询价] --&gt; B[报价单]
+    B --&gt; C[销售订单]
+    C --&gt; D[信用检查]
+    D --&gt; E[库存分配]
+    E --&gt; F[拣货]
+    F --&gt; G[包装]
+    G --&gt; H[发货]
+    H --&gt; I[开具发票]
+    I --&gt; J[客户付款]
+    J --&gt; K[收款核销]
+    K --&gt; L[营收分析]
+
+    style A fill:#ea4335,color:#fff
+    style C fill:#1a73e8,color:#fff
+    style F fill:#34a853,color:#fff
+    style I fill:#ea4335,color:#fff
+    style L fill:#7b61ff,color:#fff</code></pre>
 <h3 id="bod_1">涉及产品与 BOD</h3>
 <table>
 <thead>
@@ -6778,26 +6776,25 @@
 <hr />
 <h2 id="produce-to-deliver-p2d">🏭 生产到交付 (Produce to Deliver, P2D)</h2>
 <p>生产到交付流程涵盖从生产计划到产品交付给客户的完整循环。</p>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>graph LR
-</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>    A[需求预测] --&gt; B[生产计划]
-</span><span id="__span-2-3"><a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a>    B --&gt; C[物料需求计划]
-</span><span id="__span-2-4"><a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a>    C --&gt; D[生产订单]
-</span><span id="__span-2-5"><a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a>    D --&gt; E[领料]
-</span><span id="__span-2-6"><a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a>    E --&gt; F[生产执行]
-</span><span id="__span-2-7"><a id="__codelineno-2-7" name="__codelineno-2-7" href="#__codelineno-2-7"></a>    F --&gt; G[完工入库]
-</span><span id="__span-2-8"><a id="__codelineno-2-8" name="__codelineno-2-8" href="#__codelineno-2-8"></a>    G --&gt; H[拣货]
-</span><span id="__span-2-9"><a id="__codelineno-2-9" name="__codelineno-2-9" href="#__codelineno-2-9"></a>    H --&gt; I[包装]
-</span><span id="__span-2-10"><a id="__codelineno-2-10" name="__codelineno-2-10" href="#__codelineno-2-10"></a>    I --&gt; J[发货]
-</span><span id="__span-2-11"><a id="__codelineno-2-11" name="__codelineno-2-11" href="#__codelineno-2-11"></a>    J --&gt; K[客户签收]
-</span><span id="__span-2-12"><a id="__codelineno-2-12" name="__codelineno-2-12" href="#__codelineno-2-12"></a>    K --&gt; L[生产分析]
-</span><span id="__span-2-13"><a id="__codelineno-2-13" name="__codelineno-2-13" href="#__codelineno-2-13"></a>
-</span><span id="__span-2-14"><a id="__codelineno-2-14" name="__codelineno-2-14" href="#__codelineno-2-14"></a>    style A fill:#fbbc04,color:#000
-</span><span id="__span-2-15"><a id="__codelineno-2-15" name="__codelineno-2-15" href="#__codelineno-2-15"></a>    style D fill:#1a73e8,color:#fff
-</span><span id="__span-2-16"><a id="__codelineno-2-16" name="__codelineno-2-16" href="#__codelineno-2-16"></a>    style F fill:#fbbc04,color:#000
-</span><span id="__span-2-17"><a id="__codelineno-2-17" name="__codelineno-2-17" href="#__codelineno-2-17"></a>    style G fill:#34a853,color:#fff
-</span><span id="__span-2-18"><a id="__codelineno-2-18" name="__codelineno-2-18" href="#__codelineno-2-18"></a>    style J fill:#34a853,color:#fff
-</span><span id="__span-2-19"><a id="__codelineno-2-19" name="__codelineno-2-19" href="#__codelineno-2-19"></a>    style L fill:#7b61ff,color:#fff
-</span></code></pre></div>
+<pre class="mermaid"><code>graph LR
+    A[需求预测] --&gt; B[生产计划]
+    B --&gt; C[物料需求计划]
+    C --&gt; D[生产订单]
+    D --&gt; E[领料]
+    E --&gt; F[生产执行]
+    F --&gt; G[完工入库]
+    G --&gt; H[拣货]
+    H --&gt; I[包装]
+    I --&gt; J[发货]
+    J --&gt; K[客户签收]
+    K --&gt; L[生产分析]
+
+    style A fill:#fbbc04,color:#000
+    style D fill:#1a73e8,color:#fff
+    style F fill:#fbbc04,color:#000
+    style G fill:#34a853,color:#fff
+    style J fill:#34a853,color:#fff
+    style L fill:#7b61ff,color:#fff</code></pre>
 <h3 id="bod_2">涉及产品与 BOD</h3>
 <table>
 <thead>
@@ -6862,20 +6859,19 @@
 <hr />
 <h2 id="_2">🔄 跨流程数据集成</h2>
 <p>三个核心流程通过 <strong>ION</strong> 实现数据共享和协同。</p>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>graph TB
-</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a>    A[采购到付款 P2P] --&gt; D[ION 集成平台]
-</span><span id="__span-3-3"><a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a>    B[订单到现金 O2C] --&gt; D
-</span><span id="__span-3-4"><a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a>    C[生产到交付 P2D] --&gt; D
-</span><span id="__span-3-5"><a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a>
-</span><span id="__span-3-6"><a id="__codelineno-3-6" name="__codelineno-3-6" href="#__codelineno-3-6"></a>    D --&gt; E[Birst 数据分析]
-</span><span id="__span-3-7"><a id="__codelineno-3-7" name="__codelineno-3-7" href="#__codelineno-3-7"></a>    D --&gt; F[Infor OS]
-</span><span id="__span-3-8"><a id="__codelineno-3-8" name="__codelineno-3-8" href="#__codelineno-3-8"></a>    F --&gt; G[Coleman AI]
-</span><span id="__span-3-9"><a id="__codelineno-3-9" name="__codelineno-3-9" href="#__codelineno-3-9"></a>    F --&gt; H[统一工作台]
-</span><span id="__span-3-10"><a id="__codelineno-3-10" name="__codelineno-3-10" href="#__codelineno-3-10"></a>
-</span><span id="__span-3-11"><a id="__codelineno-3-11" name="__codelineno-3-11" href="#__codelineno-3-11"></a>    style D fill:#34a853,color:#fff
-</span><span id="__span-3-12"><a id="__codelineno-3-12" name="__codelineno-3-12" href="#__codelineno-3-12"></a>    style E fill:#7b61ff,color:#fff
-</span><span id="__span-3-13"><a id="__codelineno-3-13" name="__codelineno-3-13" href="#__codelineno-3-13"></a>    style F fill:#1a73e8,color:#fff
-</span></code></pre></div>
+<pre class="mermaid"><code>graph TB
+    A[采购到付款 P2P] --&gt; D[ION 集成平台]
+    B[订单到现金 O2C] --&gt; D
+    C[生产到交付 P2D] --&gt; D
+
+    D --&gt; E[Birst 数据分析]
+    D --&gt; F[Infor OS]
+    F --&gt; G[Coleman AI]
+    F --&gt; H[统一工作台]
+
+    style D fill:#34a853,color:#fff
+    style E fill:#7b61ff,color:#fff
+    style F fill:#1a73e8,color:#fff</code></pre>
 <h3 id="_3">数据共享示例</h3>
 <table>
 <thead>
@@ -6923,19 +6919,18 @@
 <h2 id="birst">📊 Birst 分析场景</h2>
 <p>端到端流程的数据最终汇集到 <strong>Birst</strong> 进行分析。</p>
 <h3 id="_4">典型分析主题</h3>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>graph LR
-</span><span id="__span-4-2"><a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a>    A[P2P 分析] --&gt; D[Birst 仪表板]
-</span><span id="__span-4-3"><a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a>    B[O2C 分析] --&gt; D
-</span><span id="__span-4-4"><a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a>    C[P2D 分析] --&gt; D
-</span><span id="__span-4-5"><a id="__codelineno-4-5" name="__codelineno-4-5" href="#__codelineno-4-5"></a>
-</span><span id="__span-4-6"><a id="__codelineno-4-6" name="__codelineno-4-6" href="#__codelineno-4-6"></a>    D --&gt; E[采购绩效]
-</span><span id="__span-4-7"><a id="__codelineno-4-7" name="__codelineno-4-7" href="#__codelineno-4-7"></a>    D --&gt; F[销售绩效]
-</span><span id="__span-4-8"><a id="__codelineno-4-8" name="__codelineno-4-8" href="#__codelineno-4-8"></a>    D --&gt; G[生产绩效]
-</span><span id="__span-4-9"><a id="__codelineno-4-9" name="__codelineno-4-9" href="#__codelineno-4-9"></a>    D --&gt; H[库存周转]
-</span><span id="__span-4-10"><a id="__codelineno-4-10" name="__codelineno-4-10" href="#__codelineno-4-10"></a>    D --&gt; I[现金流预测]
-</span><span id="__span-4-11"><a id="__codelineno-4-11" name="__codelineno-4-11" href="#__codelineno-4-11"></a>
-</span><span id="__span-4-12"><a id="__codelineno-4-12" name="__codelineno-4-12" href="#__codelineno-4-12"></a>    style D fill:#7b61ff,color:#fff
-</span></code></pre></div>
+<pre class="mermaid"><code>graph LR
+    A[P2P 分析] --&gt; D[Birst 仪表板]
+    B[O2C 分析] --&gt; D
+    C[P2D 分析] --&gt; D
+
+    D --&gt; E[采购绩效]
+    D --&gt; F[销售绩效]
+    D --&gt; G[生产绩效]
+    D --&gt; H[库存周转]
+    D --&gt; I[现金流预测]
+
+    style D fill:#7b61ff,color:#fff</code></pre>
 <table>
 <thead>
 <tr>
@@ -7097,6 +7092,8 @@
     
     
       <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+        <script src="https://unpkg.com/mermaid@10/dist/mermaid.min.js"></script>
       
     
   </body>

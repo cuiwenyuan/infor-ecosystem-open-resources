@@ -6776,20 +6776,19 @@
 <li>📊 <strong>可视化监控</strong>：ION Desk 提供集成流程监控和故障排查</li>
 <li>🌐 <strong>云端管理</strong>：无需本地部署集成中间件</li>
 </ul>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>graph TB
-</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>    A[产品 A] --&gt;|发布 BOD| B[ION 集成平台]
-</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>    B --&gt;|订阅 BOD| C[产品 B]
-</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>    B --&gt;|订阅 BOD| D[产品 C]
-</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>    B --&gt;|订阅 BOD| E[外部系统]
-</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>
-</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>    B --&gt; F[ION Desk]
-</span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>    F --&gt; G[监控仪表板]
-</span><span id="__span-0-9"><a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a>    F --&gt; H[错误处理]
-</span><span id="__span-0-10"><a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a>    F --&gt; I[日志记录]
-</span><span id="__span-0-11"><a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a>
-</span><span id="__span-0-12"><a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a>    style B fill:#34a853,color:#fff
-</span><span id="__span-0-13"><a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a>    style F fill:#1a73e8,color:#fff
-</span></code></pre></div>
+<pre class="mermaid"><code>graph TB
+    A[产品 A] --&gt;|发布 BOD| B[ION 集成平台]
+    B --&gt;|订阅 BOD| C[产品 B]
+    B --&gt;|订阅 BOD| D[产品 C]
+    B --&gt;|订阅 BOD| E[外部系统]
+
+    B --&gt; F[ION Desk]
+    F --&gt; G[监控仪表板]
+    F --&gt; H[错误处理]
+    F --&gt; I[日志记录]
+
+    style B fill:#34a853,color:#fff
+    style F fill:#1a73e8,color:#fff</code></pre>
 <hr />
 <h2 id="ion-desk">📊 ION Desk 简介</h2>
 <p>ION Desk 是 ION 的<strong>管理控制台</strong>，提供：</p>
@@ -6837,19 +6836,18 @@
 <h2 id="bod">📋 BOD 类型与结构</h2>
 <p>BOD (Business Object Document) 是 ION 的<strong>标准数据格式</strong>。</p>
 <h3 id="bod_1">BOD 三大类型</h3>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>graph LR
-</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>    A[BOD 类型] --&gt; B[Sync BOD]
-</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a>    A --&gt; C[Process BOD]
-</span><span id="__span-1-4"><a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a>    A --&gt; D[Response BOD]
-</span><span id="__span-1-5"><a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a>
-</span><span id="__span-1-6"><a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a>    B --&gt; E[同步主数据]
-</span><span id="__span-1-7"><a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a>    C --&gt; F[触发业务流程]
-</span><span id="__span-1-8"><a id="__codelineno-1-8" name="__codelineno-1-8" href="#__codelineno-1-8"></a>    D --&gt; G[返回处理结果]
-</span><span id="__span-1-9"><a id="__codelineno-1-9" name="__codelineno-1-9" href="#__codelineno-1-9"></a>
-</span><span id="__span-1-10"><a id="__codelineno-1-10" name="__codelineno-1-10" href="#__codelineno-1-10"></a>    style B fill:#34a853,color:#fff
-</span><span id="__span-1-11"><a id="__codelineno-1-11" name="__codelineno-1-11" href="#__codelineno-1-11"></a>    style C fill:#1a73e8,color:#fff
-</span><span id="__span-1-12"><a id="__codelineno-1-12" name="__codelineno-1-12" href="#__codelineno-1-12"></a>    style D fill:#fbbc04,color:#000
-</span></code></pre></div>
+<pre class="mermaid"><code>graph LR
+    A[BOD 类型] --&gt; B[Sync BOD]
+    A --&gt; C[Process BOD]
+    A --&gt; D[Response BOD]
+
+    B --&gt; E[同步主数据]
+    C --&gt; F[触发业务流程]
+    D --&gt; G[返回处理结果]
+
+    style B fill:#34a853,color:#fff
+    style C fill:#1a73e8,color:#fff
+    style D fill:#fbbc04,color:#000</code></pre>
 <h4 id="1-sync-bod-bod">1. Sync BOD（同步 BOD）</h4>
 <ul>
 <li><strong>用途</strong>：同步主数据（客户、物料、供应商等）</li>
@@ -6870,27 +6868,27 @@
 </ul>
 <hr />
 <h3 id="bod_2">BOD 结构示例</h3>
-<div class="language-xml highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="cm">&lt;!-- SyncCustomerMaster BOD 示例 --&gt;</span>
-</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="nt">&lt;SyncCustomerMaster&gt;</span>
-</span><span id="__span-2-3"><a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a><span class="w">  </span><span class="nt">&lt;ApplicationArea&gt;</span>
-</span><span id="__span-2-4"><a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a><span class="w">    </span><span class="nt">&lt;Sender&gt;</span>
-</span><span id="__span-2-5"><a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a><span class="w">      </span><span class="nt">&lt;LogicalID&gt;</span>Infor-LN<span class="nt">&lt;/LogicalID&gt;</span>
-</span><span id="__span-2-6"><a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a><span class="w">    </span><span class="nt">&lt;/Sender&gt;</span>
-</span><span id="__span-2-7"><a id="__codelineno-2-7" name="__codelineno-2-7" href="#__codelineno-2-7"></a><span class="w">    </span><span class="nt">&lt;CreationDateTime&gt;</span>2026-05-18T06:00:00Z<span class="nt">&lt;/CreationDateTime&gt;</span>
-</span><span id="__span-2-8"><a id="__codelineno-2-8" name="__codelineno-2-8" href="#__codelineno-2-8"></a><span class="w">  </span><span class="nt">&lt;/ApplicationArea&gt;</span>
-</span><span id="__span-2-9"><a id="__codelineno-2-9" name="__codelineno-2-9" href="#__codelineno-2-9"></a><span class="w">  </span><span class="nt">&lt;DataArea&gt;</span>
-</span><span id="__span-2-10"><a id="__codelineno-2-10" name="__codelineno-2-10" href="#__codelineno-2-10"></a><span class="w">    </span><span class="nt">&lt;Sync&gt;</span>
-</span><span id="__span-2-11"><a id="__codelineno-2-11" name="__codelineno-2-11" href="#__codelineno-2-11"></a><span class="w">      </span><span class="nt">&lt;TenantId&gt;</span>12345<span class="nt">&lt;/TenantId&gt;</span>
-</span><span id="__span-2-12"><a id="__codelineno-2-12" name="__codelineno-2-12" href="#__codelineno-2-12"></a><span class="w">      </span><span class="nt">&lt;CustomerMaster&gt;</span>
-</span><span id="__span-2-13"><a id="__codelineno-2-13" name="__codelineno-2-13" href="#__codelineno-2-13"></a><span class="w">        </span><span class="nt">&lt;CustomerPartyMaster&gt;</span>
-</span><span id="__span-2-14"><a id="__codelineno-2-14" name="__codelineno-2-14" href="#__codelineno-2-14"></a><span class="w">          </span><span class="nt">&lt;ID&gt;</span>10001<span class="nt">&lt;/ID&gt;</span>
-</span><span id="__span-2-15"><a id="__codelineno-2-15" name="__codelineno-2-15" href="#__codelineno-2-15"></a><span class="w">          </span><span class="nt">&lt;Name&gt;</span>ABC<span class="w"> </span>公司<span class="nt">&lt;/Name&gt;</span>
-</span><span id="__span-2-16"><a id="__codelineno-2-16" name="__codelineno-2-16" href="#__codelineno-2-16"></a><span class="w">          </span><span class="nt">&lt;CustomerTypeCode&gt;</span>EndCustomer<span class="nt">&lt;/CustomerTypeCode&gt;</span>
-</span><span id="__span-2-17"><a id="__codelineno-2-17" name="__codelineno-2-17" href="#__codelineno-2-17"></a><span class="w">        </span><span class="nt">&lt;/CustomerPartyMaster&gt;</span>
-</span><span id="__span-2-18"><a id="__codelineno-2-18" name="__codelineno-2-18" href="#__codelineno-2-18"></a><span class="w">      </span><span class="nt">&lt;/CustomerMaster&gt;</span>
-</span><span id="__span-2-19"><a id="__codelineno-2-19" name="__codelineno-2-19" href="#__codelineno-2-19"></a><span class="w">    </span><span class="nt">&lt;/Sync&gt;</span>
-</span><span id="__span-2-20"><a id="__codelineno-2-20" name="__codelineno-2-20" href="#__codelineno-2-20"></a><span class="w">  </span><span class="nt">&lt;/DataArea&gt;</span>
-</span><span id="__span-2-21"><a id="__codelineno-2-21" name="__codelineno-2-21" href="#__codelineno-2-21"></a><span class="nt">&lt;/SyncCustomerMaster&gt;</span>
+<div class="language-xml highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="cm">&lt;!-- SyncCustomerMaster BOD 示例 --&gt;</span>
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="nt">&lt;SyncCustomerMaster&gt;</span>
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="w">  </span><span class="nt">&lt;ApplicationArea&gt;</span>
+</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="w">    </span><span class="nt">&lt;Sender&gt;</span>
+</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="w">      </span><span class="nt">&lt;LogicalID&gt;</span>Infor-LN<span class="nt">&lt;/LogicalID&gt;</span>
+</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a><span class="w">    </span><span class="nt">&lt;/Sender&gt;</span>
+</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a><span class="w">    </span><span class="nt">&lt;CreationDateTime&gt;</span>2026-05-18T06:00:00Z<span class="nt">&lt;/CreationDateTime&gt;</span>
+</span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a><span class="w">  </span><span class="nt">&lt;/ApplicationArea&gt;</span>
+</span><span id="__span-0-9"><a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a><span class="w">  </span><span class="nt">&lt;DataArea&gt;</span>
+</span><span id="__span-0-10"><a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a><span class="w">    </span><span class="nt">&lt;Sync&gt;</span>
+</span><span id="__span-0-11"><a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a><span class="w">      </span><span class="nt">&lt;TenantId&gt;</span>12345<span class="nt">&lt;/TenantId&gt;</span>
+</span><span id="__span-0-12"><a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a><span class="w">      </span><span class="nt">&lt;CustomerMaster&gt;</span>
+</span><span id="__span-0-13"><a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a><span class="w">        </span><span class="nt">&lt;CustomerPartyMaster&gt;</span>
+</span><span id="__span-0-14"><a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a><span class="w">          </span><span class="nt">&lt;ID&gt;</span>10001<span class="nt">&lt;/ID&gt;</span>
+</span><span id="__span-0-15"><a id="__codelineno-0-15" name="__codelineno-0-15" href="#__codelineno-0-15"></a><span class="w">          </span><span class="nt">&lt;Name&gt;</span>ABC<span class="w"> </span>公司<span class="nt">&lt;/Name&gt;</span>
+</span><span id="__span-0-16"><a id="__codelineno-0-16" name="__codelineno-0-16" href="#__codelineno-0-16"></a><span class="w">          </span><span class="nt">&lt;CustomerTypeCode&gt;</span>EndCustomer<span class="nt">&lt;/CustomerTypeCode&gt;</span>
+</span><span id="__span-0-17"><a id="__codelineno-0-17" name="__codelineno-0-17" href="#__codelineno-0-17"></a><span class="w">        </span><span class="nt">&lt;/CustomerPartyMaster&gt;</span>
+</span><span id="__span-0-18"><a id="__codelineno-0-18" name="__codelineno-0-18" href="#__codelineno-0-18"></a><span class="w">      </span><span class="nt">&lt;/CustomerMaster&gt;</span>
+</span><span id="__span-0-19"><a id="__codelineno-0-19" name="__codelineno-0-19" href="#__codelineno-0-19"></a><span class="w">    </span><span class="nt">&lt;/Sync&gt;</span>
+</span><span id="__span-0-20"><a id="__codelineno-0-20" name="__codelineno-0-20" href="#__codelineno-0-20"></a><span class="w">  </span><span class="nt">&lt;/DataArea&gt;</span>
+</span><span id="__span-0-21"><a id="__codelineno-0-21" name="__codelineno-0-21" href="#__codelineno-0-21"></a><span class="nt">&lt;/SyncCustomerMaster&gt;</span>
 </span></code></pre></div>
 <blockquote>
 <p>📝 <strong>注意</strong>：实际 BOD 结构因产品版本和配置而异，请参考官方文档。</p>
@@ -6898,56 +6896,53 @@
 <hr />
 <h2 id="_3">🔄 常见集成场景</h2>
 <h3 id="1ln-wmserp">场景 1：LN → WMS（ERP 到仓储）</h3>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>sequenceDiagram
-</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a>    participant LN as Infor LN
-</span><span id="__span-3-3"><a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a>    participant ION as ION 平台
-</span><span id="__span-3-4"><a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a>    participant WMS as Infor WMS
-</span><span id="__span-3-5"><a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a>
-</span><span id="__span-3-6"><a id="__codelineno-3-6" name="__codelineno-3-6" href="#__codelineno-3-6"></a>    LN-&gt;&gt;ION: 发布 ProcessSalesOrder BOD
-</span><span id="__span-3-7"><a id="__codelineno-3-7" name="__codelineno-3-7" href="#__codelineno-3-7"></a>    ION-&gt;&gt;WMS: 订阅 ProcessSalesOrder BOD
-</span><span id="__span-3-8"><a id="__codelineno-3-8" name="__codelineno-3-8" href="#__codelineno-3-8"></a>    WMS-&gt;&gt;WMS: 创建出库任务
-</span><span id="__span-3-9"><a id="__codelineno-3-9" name="__codelineno-3-9" href="#__codelineno-3-9"></a>    WMS-&gt;&gt;ION: 发布 ProcessShipment BOD
-</span><span id="__span-3-10"><a id="__codelineno-3-10" name="__codelineno-3-10" href="#__codelineno-3-10"></a>    ION-&gt;&gt;LN: 订阅 ProcessShipment BOD
-</span><span id="__span-3-11"><a id="__codelineno-3-11" name="__codelineno-3-11" href="#__codelineno-3-11"></a>    LN-&gt;&gt;LN: 更新订单发货状态
-</span></code></pre></div>
+<pre class="mermaid"><code>sequenceDiagram
+    participant LN as Infor LN
+    participant ION as ION 平台
+    participant WMS as Infor WMS
+
+    LN-&gt;&gt;ION: 发布 ProcessSalesOrder BOD
+    ION-&gt;&gt;WMS: 订阅 ProcessSalesOrder BOD
+    WMS-&gt;&gt;WMS: 创建出库任务
+    WMS-&gt;&gt;ION: 发布 ProcessShipment BOD
+    ION-&gt;&gt;LN: 订阅 ProcessShipment BOD
+    LN-&gt;&gt;LN: 更新订单发货状态</code></pre>
 <p><strong>涉及 BOD</strong>：
 - <code>ProcessSalesOrder</code>（销售订单）
 - <code>ProcessShipment</code>（发货通知）
 - <code>SyncItemMaster</code>（物料主数据同步）</p>
 <hr />
 <h3 id="2m3-crmerp">场景 2：M3 → CRM（ERP 到客户管理）</h3>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>sequenceDiagram
-</span><span id="__span-4-2"><a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a>    participant M3 as Infor M3
-</span><span id="__span-4-3"><a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a>    participant ION as ION 平台
-</span><span id="__span-4-4"><a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a>    participant CRM as Infor CRM
-</span><span id="__span-4-5"><a id="__codelineno-4-5" name="__codelineno-4-5" href="#__codelineno-4-5"></a>
-</span><span id="__span-4-6"><a id="__codelineno-4-6" name="__codelineno-4-6" href="#__codelineno-4-6"></a>    M3-&gt;&gt;ION: 发布 SyncCustomerMaster BOD
-</span><span id="__span-4-7"><a id="__codelineno-4-7" name="__codelineno-4-7" href="#__codelineno-4-7"></a>    ION-&gt;&gt;CRM: 订阅 SyncCustomerMaster BOD
-</span><span id="__span-4-8"><a id="__codelineno-4-8" name="__codelineno-4-8" href="#__codelineno-4-8"></a>    CRM-&gt;&gt;CRM: 更新客户档案
-</span><span id="__span-4-9"><a id="__codelineno-4-9" name="__codelineno-4-9" href="#__codelineno-4-9"></a>
-</span><span id="__span-4-10"><a id="__codelineno-4-10" name="__codelineno-4-10" href="#__codelineno-4-10"></a>    CRM-&gt;&gt;ION: 发布 ProcessServiceRequest BOD
-</span><span id="__span-4-11"><a id="__codelineno-4-11" name="__codelineno-4-11" href="#__codelineno-4-11"></a>    ION-&gt;&gt;M3: 订阅 ProcessServiceRequest BOD
-</span><span id="__span-4-12"><a id="__codelineno-4-12" name="__codelineno-4-12" href="#__codelineno-4-12"></a>    M3-&gt;&gt;M3: 创建服务工单
-</span></code></pre></div>
+<pre class="mermaid"><code>sequenceDiagram
+    participant M3 as Infor M3
+    participant ION as ION 平台
+    participant CRM as Infor CRM
+
+    M3-&gt;&gt;ION: 发布 SyncCustomerMaster BOD
+    ION-&gt;&gt;CRM: 订阅 SyncCustomerMaster BOD
+    CRM-&gt;&gt;CRM: 更新客户档案
+
+    CRM-&gt;&gt;ION: 发布 ProcessServiceRequest BOD
+    ION-&gt;&gt;M3: 订阅 ProcessServiceRequest BOD
+    M3-&gt;&gt;M3: 创建服务工单</code></pre>
 <p><strong>涉及 BOD</strong>：
 - <code>SyncCustomerMaster</code>（客户主数据）
 - <code>ProcessServiceRequest</code>（服务请求）
 - <code>SyncSalesOrder</code>（销售订单同步）</p>
 <hr />
 <h3 id="3erp-birst">场景 3：ERP → Birst（数据到分析）</h3>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>graph LR
-</span><span id="__span-5-2"><a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a>    A[Infor LN] --&gt; B[ION 平台]
-</span><span id="__span-5-3"><a id="__codelineno-5-3" name="__codelineno-5-3" href="#__codelineno-5-3"></a>    C[Infor M3] --&gt; B
-</span><span id="__span-5-4"><a id="__codelineno-5-4" name="__codelineno-5-4" href="#__codelineno-5-4"></a>    D[Infor WMS] --&gt; B
-</span><span id="__span-5-5"><a id="__codelineno-5-5" name="__codelineno-5-5" href="#__codelineno-5-5"></a>
-</span><span id="__span-5-6"><a id="__codelineno-5-6" name="__codelineno-5-6" href="#__codelineno-5-6"></a>    B --&gt; E[Birst Data Store]
-</span><span id="__span-5-7"><a id="__codelineno-5-7" name="__codelineno-5-7" href="#__codelineno-5-7"></a>    E --&gt; F[Birst 分析模型]
-</span><span id="__span-5-8"><a id="__codelineno-5-8" name="__codelineno-5-8" href="#__codelineno-5-8"></a>    F --&gt; G[仪表板与报告]
-</span><span id="__span-5-9"><a id="__codelineno-5-9" name="__codelineno-5-9" href="#__codelineno-5-9"></a>
-</span><span id="__span-5-10"><a id="__codelineno-5-10" name="__codelineno-5-10" href="#__codelineno-5-10"></a>    style B fill:#34a853,color:#fff
-</span><span id="__span-5-11"><a id="__codelineno-5-11" name="__codelineno-5-11" href="#__codelineno-5-11"></a>    style E fill:#7b61ff,color:#fff
-</span><span id="__span-5-12"><a id="__codelineno-5-12" name="__codelineno-5-12" href="#__codelineno-5-12"></a>    style G fill:#7b61ff,color:#fff
-</span></code></pre></div>
+<pre class="mermaid"><code>graph LR
+    A[Infor LN] --&gt; B[ION 平台]
+    C[Infor M3] --&gt; B
+    D[Infor WMS] --&gt; B
+
+    B --&gt; E[Birst Data Store]
+    E --&gt; F[Birst 分析模型]
+    F --&gt; G[仪表板与报告]
+
+    style B fill:#34a853,color:#fff
+    style E fill:#7b61ff,color:#fff
+    style G fill:#7b61ff,color:#fff</code></pre>
 <p><strong>数据流</strong>：
 1. ION 收集各产品的业务数据 BOD
 2. Birst 定期从 ION 抽取数据
@@ -6955,18 +6950,17 @@
 <hr />
 <h2 id="_4">⚙️ 配置要点（概览级）</h2>
 <h3 id="ion_2">ION 集成配置步骤</h3>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>graph TB
-</span><span id="__span-6-2"><a id="__codelineno-6-2" name="__codelineno-6-2" href="#__codelineno-6-2"></a>    A[步骤 1: 创建 Connection] --&gt; B[步骤 2: 配置 BOD 映射]
-</span><span id="__span-6-3"><a id="__codelineno-6-3" name="__codelineno-6-3" href="#__codelineno-6-3"></a>    B --&gt; C[步骤 3: 激活订阅]
-</span><span id="__span-6-4"><a id="__codelineno-6-4" name="__codelineno-6-4" href="#__codelineno-6-4"></a>    C --&gt; D[步骤 4: 测试 BOD 流转]
-</span><span id="__span-6-5"><a id="__codelineno-6-5" name="__codelineno-6-5" href="#__codelineno-6-5"></a>    D --&gt; E[步骤 5: 监控与优化]
-</span><span id="__span-6-6"><a id="__codelineno-6-6" name="__codelineno-6-6" href="#__codelineno-6-6"></a>
-</span><span id="__span-6-7"><a id="__codelineno-6-7" name="__codelineno-6-7" href="#__codelineno-6-7"></a>    style A fill:#fbbc04,color:#000
-</span><span id="__span-6-8"><a id="__codelineno-6-8" name="__codelineno-6-8" href="#__codelineno-6-8"></a>    style B fill:#1a73e8,color:#fff
-</span><span id="__span-6-9"><a id="__codelineno-6-9" name="__codelineno-6-9" href="#__codelineno-6-9"></a>    style C fill:#34a853,color:#fff
-</span><span id="__span-6-10"><a id="__codelineno-6-10" name="__codelineno-6-10" href="#__codelineno-6-10"></a>    style D fill:#ea4335,color:#fff
-</span><span id="__span-6-11"><a id="__codelineno-6-11" name="__codelineno-6-11" href="#__codelineno-6-11"></a>    style E fill:#7b61ff,color:#fff
-</span></code></pre></div>
+<pre class="mermaid"><code>graph TB
+    A[步骤 1: 创建 Connection] --&gt; B[步骤 2: 配置 BOD 映射]
+    B --&gt; C[步骤 3: 激活订阅]
+    C --&gt; D[步骤 4: 测试 BOD 流转]
+    D --&gt; E[步骤 5: 监控与优化]
+
+    style A fill:#fbbc04,color:#000
+    style B fill:#1a73e8,color:#fff
+    style C fill:#34a853,color:#fff
+    style D fill:#ea4335,color:#fff
+    style E fill:#7b61ff,color:#fff</code></pre>
 <h4 id="1-connection">步骤 1：创建 Connection（连接）</h4>
 <ul>
 <li>在 ION Desk 中配置源系统和目标系统</li>
@@ -7099,6 +7093,8 @@
     
     
       <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+        <script src="https://unpkg.com/mermaid@10/dist/mermaid.min.js"></script>
       
     
   </body>

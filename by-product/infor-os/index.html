@@ -6594,21 +6594,20 @@
 </table>
 <hr />
 <h2 id="_7">平台架构</h2>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>graph TB
-</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>    A[Infor OS 平台&lt;br/&gt;基于 AWS] --&gt; B[ION API Gateway]
-</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>    A --&gt; C[Coleman AI / Infor AI]
-</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>    A --&gt; D[Birst Analytics]
-</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>    A --&gt; E[ION 集成中间件]
-</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>    A --&gt; F[Infor OS Portal]
-</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>    A --&gt; G[Document Management]
-</span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>
-</span><span id="__span-0-9"><a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a>    B --&gt; H[Infor LN]
-</span><span id="__span-0-10"><a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a>    B --&gt; I[Infor M3]
-</span><span id="__span-0-11"><a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a>    B --&gt; J[CloudSuite Industrial]
-</span><span id="__span-0-12"><a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a>
-</span><span id="__span-0-13"><a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a>    E --&gt; K[第三方系统]
-</span><span id="__span-0-14"><a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a>    E --&gt; L[银行/税务/电商]
-</span></code></pre></div>
+<pre class="mermaid"><code>graph TB
+    A[Infor OS 平台&lt;br/&gt;基于 AWS] --&gt; B[ION API Gateway]
+    A --&gt; C[Coleman AI / Infor AI]
+    A --&gt; D[Birst Analytics]
+    A --&gt; E[ION 集成中间件]
+    A --&gt; F[Infor OS Portal]
+    A --&gt; G[Document Management]
+
+    B --&gt; H[Infor LN]
+    B --&gt; I[Infor M3]
+    B --&gt; J[CloudSuite Industrial]
+
+    E --&gt; K[第三方系统]
+    E --&gt; L[银行/税务/电商]</code></pre>
 <hr />
 <h2 id="_8">相关产品</h2>
 <ul>
@@ -6706,6 +6705,8 @@
     
     
       <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+        <script src="https://unpkg.com/mermaid@10/dist/mermaid.min.js"></script>
       
     
   </body>
