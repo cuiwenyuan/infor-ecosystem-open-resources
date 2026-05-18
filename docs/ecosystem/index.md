@@ -320,7 +320,7 @@ graph LR
 
 - 🔍 **了解 ION 集成原理** → 阅读 [ION 集成解析](ion-integration.md)
 - 📊 **查看完整业务流程** → 阅读 [端到端业务流程](data-flow.md)
-- 🏢 **查看具体产品详情** → 访问 [按产品浏览](../by-product/index.md)
+- 🏢 **查看具体产品详情** → 访问 [按产品浏览](../by-product/ln.md)
 - 🎯 **寻找适合的方案** → 阅读 [解决方案对比](../competitor/ln-vs-sap.md)
 
 ---
