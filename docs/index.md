@@ -160,6 +160,12 @@ description: "Infor 生态开放资源导航站首页，提供论坛、顾问公
 
 ### 📅 项目动态
 
+#### 2026-05-19
+- 🔧 **修复 Mermaid 图表未渲染问题**：5个页面中的 Mermaid 代码块现在正确渲染为图表
+  - 更新 `mkdocs.yml`：`pymdownx.superfences` 添加 `custom_fences` 配置识别 `mermaid` 代码块
+  - 新增 `extra_javascript`：加载 Mermaid JS v10 库
+  - 影响页面：`ecosystem/index.md`、`ecosystem/ion-integration.md`、`ecosystem/data-flow.md`、`by-product/infor-os.md`、`troubleshooting/general-tips.md`
+
 #### 2026-05-18
 - 🌐 **新增 Infor 生态系统图谱板块**（学习中心下）
   - 创建主页面 `ecosystem/index.md`：Infor OS 核心架构图、产品关系矩阵、典型解决方案组合（制造业/零售业/分销业/资产密集型）
