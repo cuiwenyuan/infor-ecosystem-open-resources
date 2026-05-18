@@ -144,6 +144,10 @@ nav:
   - 认证指南: resources/certification-guide.md
   - 招聘求职: resources/jobs.md
   - Infor 术语表: resources/glossary.md
+  - 生态系统图谱:
+    - 生态系统图谱首页: ecosystem/index.md
+    - ION 集成解析: ecosystem/ion-integration.md
+    - 端到端业务流程: ecosystem/data-flow.md
 - 开发者资源中心:
   - 开发者中心:
     - 资源总览: developer/index.md
