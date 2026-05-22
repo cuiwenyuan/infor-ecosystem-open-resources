@@ -160,6 +160,14 @@ description: "Infor 生态开放资源导航站首页，提供论坛、顾问公
 
 ### 📅 项目动态
 
+#### 2026-05-23
+- 💻 **新增 VS Code 插件页面**：收录 Infor/Baan ERP 开发相关的 VS Code 扩展
+  - 创建 `developer/vscode-plugins.md`：收录 2 个插件
+    - **Infor LN Constraint Language Support**（perjesid1，Marketplace，258 安装）
+    - **Infor LN DevTools**（shubham225，GitHub，MIT 开源）
+  - 包含对比一览表、安装指南、注意事项
+  - 更新 `mkdocs.yml`：在"开发者中心"下添加"VS Code 插件"导航
+
 #### 2026-05-19
 - 🔧 **修复 Mermaid 图表未渲染问题**：5个页面中的 Mermaid 代码块现在正确渲染为图表
   - 更新 `mkdocs.yml`：`pymdownx.superfences` 添加 `custom_fences` 配置识别 `mermaid` 代码块

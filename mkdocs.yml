@@ -161,6 +161,7 @@ nav:
     - LN 4GL 代码库: developer/ln-4gl-snippets.md
     - Extension 开发: developer/extensions.md
     - 开源项目: developer/open-source.md
+    - VS Code 插件: developer/vscode-plugins.md
     - Stack Overflow 精选: developer/so-qna.md
   - 故障代码百科:
     - 故障代码百科首页: troubleshooting/index.md
