@@ -162,10 +162,11 @@ description: "Infor 生态开放资源导航站首页，提供论坛、顾问公
 
 #### 2026-05-23
 - 💻 **新增 VS Code 插件页面**：收录 Infor/Baan ERP 开发相关的 VS Code 扩展
-  - 创建 `developer/vscode-plugins.md`：收录 2 个插件
-    - **Infor LN Constraint Language Support**（perjesid1，Marketplace，258 安装）
-    - **Infor LN DevTools**（shubham225，GitHub，MIT 开源）
-  - 包含对比一览表、安装指南、注意事项
+  - 创建 `developer/vscode-plugins.md`：按分类收录 5 个插件
+  - **🔵 Infor 官方**：Infor OS BaaS SDK（InforBaaS，1,211 安装）
+  - **🟢 LN/Baan 开发**：Constraint Language Support（258）、bc Baan（2,309 🔥）、LN DevTools（GitHub）
+  - **🟠 ION 集成**：IMS Server V3（326）
+  - 包含分类结构、对比一览表、安装指南
   - 更新 `mkdocs.yml`：在"开发者中心"下添加"VS Code 插件"导航
 
 #### 2026-05-19

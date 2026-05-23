@@ -9,7 +9,36 @@ description: "收录 Infor/Baan ERP 开发相关的 Visual Studio Code 扩展和
 
 ---
 
-## 🧩 插件列表
+## 🔵 Infor 官方工具
+
+### Infor OS BaaS SDK
+
+**发布者**：[InforBaaS](https://marketplace.visualstudio.com/publishers/InforBaaS) 👑 **Infor 官方出品**
+**平台**：VS Code Marketplace
+**安装量**：1,211 | **评分**：★★★★★ (5.0)
+
+适用于 Infor OS 后端即服务（BaaS）的官方开发工具。需要 Infor CloudSuite™。
+
+**主要功能**：
+- ✅ 服务开发生命周期管理（创建、打开、构建、部署、删除服务）
+- ✅ OpenAPI 管理（创建、编辑、代码生成、Swagger 预览）
+- ✅ API 认证（登录/注销、令牌管理）
+- ✅ SDK 文档下载与查看
+- ✅ 本地运行时调试
+- ✅ 日志检索与设置自定义
+
+**适用场景**：Infor OS BaaS 服务开发与部署
+
+| 信息 | 内容 |
+|------|------|
+| **支持平台** | Infor CloudSuite / Infor OS |
+| **安装方式** | VS Code → 扩展 → 搜索 `Infor OS BaaS SDK` 或 `baascore` |
+| **许可证** | 免费 |
+| **Marketplace** | [安装链接](https://marketplace.visualstudio.com/items?itemName=InforBaaS.baascore) |
+
+---
+
+## 🟢 LN/Baan 开发工具
 
 ### Infor LN Constraint Language Support
 
@@ -33,6 +62,29 @@ description: "收录 Infor/Baan ERP 开发相关的 Visual Studio Code 扩展和
 | **安装方式** | VS Code → 扩展 → 搜索 `ln-constraint-language-support` |
 | **许可证** | 免费 |
 | **Marketplace** | [安装链接](https://marketplace.visualstudio.com/items?itemName=perjesid1.ln-constraint-language-support) |
+
+---
+
+### bc (Baan Language)
+
+**发布者**：[jeffersyuan](https://marketplace.visualstudio.com/publishers/jeffersyuan)
+**平台**：VS Code Marketplace
+**安装量**：**2,309** 🔥 最高安装量 | **评分**：★★★★★ (5.0, 5条评价)
+
+为 Baan/SSA 编程语言（Infor LN 前身）提供 VS Code 支持，加速 Baan 编程开发。
+
+**主要功能**：
+- ✅ Baan 语言语法高亮
+- ✅ 代码片段（Snippets）
+- ✅ 提升 Baan 编程效率
+
+| 信息 | 内容 |
+|------|------|
+| **支持语言** | Baan / SSA 4GL（.bc） |
+| **安装方式** | VS Code → 扩展 → 搜索 `Baan` 或 `jeffersyuan.baan` |
+| **许可证** | 免费 |
+| **⚠️ 注意** | 最后更新约 **2017年**，较新 VS Code 版本可能存在兼容性问题 |
+| **Marketplace** | [安装链接](https://marketplace.visualstudio.com/items?itemName=jeffersyuan.baan) |
 
 ---
 
@@ -62,18 +114,49 @@ description: "收录 Infor/Baan ERP 开发相关的 Visual Studio Code 扩展和
 
 ---
 
+## 🟠 ION 集成开发工具
+
+### IMS Server V3
+
+**发布者**：[gs-spago](https://marketplace.visualstudio.com/publishers/gs-spago)
+**平台**：VS Code Marketplace
+**安装量**：326 | **评分**：★★★★★ (5.0)
+
+Infor ION Messaging Service 服务端样板代码生成工具，帮助快速创建 IMS 服务器脚手架的代码片段集合。
+
+**主要功能**：
+- ✅ `!!ims` — 服务器样板代码
+- ✅ `!!pin` — Ping 端点路由
+- ✅ `!!pro` — Protocol 端点路由
+- ✅ `!!mmv3` — messageMultiPart 端点路由
+- ✅ `!!lis` — 应用监听器
+- ✅ `!!swag` — ION API Suite Swagger 文档
+
+**适用场景**：Infor ION Messaging Service 服务端开发
+
+| 信息 | 内容 |
+|------|------|
+| **依赖环境** | Node.js（需要 `express multiparty fs` 包） |
+| **安装方式** | VS Code → 扩展 → 搜索 `IMS Server V3` |
+| **许可证** | 免费 |
+| **Marketplace** | [安装链接](https://marketplace.visualstudio.com/items?itemName=gs-spago.imsserverv3) |
+
+---
+
 ## 📋 对比一览
 
-| 特性 | LN Constraint Language Support | LN DevTools |
-|------|-------------------------------|-------------|
-| 语法高亮 | ✅ 约束语言 | ✅ BaanC |
-| 代码片段 | ✅ | ⚠️ 部分 |
-| 组件浏览 | ❌ | ✅ |
-| 构件导入 | ❌ | ✅ |
-| IntelliSense | ❌ | ✅ 函数签名 |
-| Marketplace 已上架 | ✅ | ❌（仅 GitHub） |
-| 安装量 | 258 | 0（未上架） |
-| 适用版本 | 所有 LN 版本 | LN 10.7+ |
+| 特性 | BaaS SDK | bc (Baan) | Constraint Lang | LN DevTools | IMS Server V3 |
+|------|----------|-----------|-----------------|-------------|---------------|
+| **类型** | 🏢 官方工具 | 💡 语言支持 | 💡 语言支持 | 🛠️ 开发工具 | 💡 代码片段 |
+| **语法高亮** | ❌ | ✅ Baan | ✅ 约束语言 | ✅ BaanC | ❌ |
+| **代码片段** | ❌ | ✅ | ✅ | ⚠️ 部分 | ✅ 6个 |
+| **组件浏览** | ❌ | ❌ | ❌ | ✅ | ❌ |
+| **构件导入** | ❌ | ❌ | ❌ | ✅ | ❌ |
+| **API 管理** | ✅ OpenAPI | ❌ | ❌ | ❌ | ❌ |
+| **服务部署** | ✅ | ❌ | ❌ | ❌ | ❌ |
+| **Marketplace** | ✅ | ✅ | ✅ | ❌ GitHub | ✅ |
+| **安装量** | **1,211** | **2,309** 🔥 | **258** | **0**（未上架） | **326** |
+| **官方出品** | ✅ | ❌ | ❌ | ❌ | ❌ |
 
 ---
 
@@ -106,9 +189,11 @@ npm run package
 
 ## 📝 注意事项
 
-- **LN DevTools** 需要后端 Infor LN 环境的 API 支持，请确保已配置正确的连接信息
-- **LN Constraint Language Support** 开箱即用，无需额外配置
-- 以上插件均非 Infor 官方出品，使用时请自行评估风险
+- **Infor OS BaaS SDK**：需要 Infor CloudSuite 租户登录权限
+- **LN DevTools**：需要后端 Infor LN 环境的 API 连接
+- **IMS Server V3**：需要 Node.js 环境和相关 npm 包
+- **bc (Baan Language)**：最后更新约 2017 年，较新 VS Code 版本可能存在兼容性问题
+- 以上插件除 BaaS SDK 外均非 Infor 官方出品，使用时请自行评估风险
 
 ---
 
