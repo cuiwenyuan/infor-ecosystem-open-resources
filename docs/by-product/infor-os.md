@@ -39,7 +39,7 @@ description: "Infor OS 平台资源导航，收录 Infor OS、ION、Ming.le 等�
 
 | 组件 | 说明 |
 |------|------|
-| **Infor Coleman AI**（现 Infor AI） | 人工智能平台，预测与规范性模型 |
+| **Infor AI（原 Coleman AI）** | 人工智能平台，预测与规范性模型 |
 | **Birst Analytics** | 云端 BI 和数据分析平台 |
 
 ---
@@ -75,7 +75,7 @@ description: "Infor OS 平台资源导航，收录 Infor OS、ION、Ming.le 等�
 ```mermaid
 graph TB
     A[Infor OS 平台<br/>基于 AWS] --> B[ION API Gateway]
-    A --> C[Coleman AI / Infor AI]
+    A --> C[Infor AI]
     A --> D[Birst Analytics]
     A --> E[ION 集成中间件]
     A --> F[Infor OS Portal]

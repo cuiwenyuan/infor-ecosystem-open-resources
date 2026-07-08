@@ -52,7 +52,7 @@ description: "Infor 生态招聘与求职资源汇总，包含官方招聘页面
 |----------|----------|----------|
 | **LN 4GL 开发工程师** | 4GL、DAL2、Extension、PI | 各实施顾问公司 |
 | **M3 开发工程师** | M3 API、XtendM3、Lawson Smart Office | Columbus、Lightning ERP |
-| **Infor OS 开发工程师** | Coleman AI、Birst、ION | Infor 官方、Alliance Partners |
+| **Infor OS 开发工程师** | Infor AI（原 Coleman AI）、Birst、ION | Infor 官方、Alliance Partners |
 | **Birst BI 开发工程师** | Birst 建模、仪表板、ETL | Astral、RPI、Surety |
 
 ### 项目管理与业务分析
@@ -74,7 +74,7 @@ description: "Infor 生态招聘与求职资源汇总，包含官方招聘页面
 | **Infor ION / BOD** | ⭐⭐⭐⭐⭐ | 系统集成、API 开发 |
 | **Infor LN 4GL** | ⭐⭐⭐⭐⭐ | LN 二次开发、Extension |
 | **Infor M3 + XtendM3** | ⭐⭐⭐⭐ | M3 云迁移、定制开发 |
-| **Coleman AI** | ⭐⭐⭐⭐ | AI 驱动的分析与预测 |
+| **Infor AI（原 Coleman AI）** | ⭐⭐⭐⭐ | AI 驱动的分析与预测 |
 | **Infor Birst** | ⭐⭐⭐ | BI 报表、数据分析 |
 | **Infor WMS** | ⭐⭐⭐ | 仓库自动化、供应链优化 |
 | **CloudSuite Industrial** | ⭐⭐⭐ | 离散制造 ERP 实施 |
@@ -97,7 +97,7 @@ description: "Infor 生态招聘与求职资源汇总，包含官方招聘页面
 
 1. **复习产品基础**：Infor LN/M3 基础架构、主要模块
 2. **准备实施案例**：用 STAR 法则描述参与过的项目
-3. **了解最新动态**：Coleman AI、ION 新功能、CloudSuite 2025 更新
+3. **了解最新动态**：Infor AI（原 Coleman AI）、ION 新功能、CloudSuite 2025 更新
 4. **准备技术问题**：4GL 代码阅读、BOD 消息理解、SQL 查询
 
 ---

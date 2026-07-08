@@ -51,7 +51,7 @@ description: "Infor SunSystems 财务管理系统资源导航，收录 SunSystem
 - 更直观的用户界面
 - 移动端审批
 - 与 Infor OS 深度集成
-- AI 驱动的异常检测（Coleman AI）
+- AI 驱动的异常检测（Infor AI（原 Coleman AI））
 
 ---
 
@@ -106,7 +106,7 @@ description: "Infor SunSystems 财务管理系统资源导航，收录 SunSystem
 |---------|------|
 | **Infor LN / M3 / CSI** | 财务凭证自动过账（GL 接口）|
 | **Infor Birst** | 实时财务分析与仪表板 |
-| **Infor OS / Coleman AI** | 异常检测、智能财务助理 |
+| **Infor OS / Infor AI（原 Coleman AI）** | 异常检测、智能财务助理 |
 | **第三方 Payroll / 固定资产** | 通过 ION BOD 集成 |
 
 ---

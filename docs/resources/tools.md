@@ -49,7 +49,7 @@ description: "精选 Infor 生态系统相关的开发工具、插件、扩展�
 | 工具名称 | 简介 | 适用产品 | 链接 |
 |---------|------|---------|------|
 | **Infor Birst** | 基于云的现代 BI 和数据分析平台，支持内存数据模型和虚拟化管理 | Infor 全系列产品 | [了解更多](https://www.infor.com/platform/data-insights/birst-analytics) |
-| **Infor Coleman AI (现 Infor AI)** | Infor 人工智能平台，支持构建、管理和部署 AI 预测模型，提供行业特定模型和可视化界面 | Infor OS | [数据表](https://www.infor.com/resources/infor-coleman-ai-platform) |
+| **Infor AI（原 Coleman AI）** | Infor 人工智能平台，支持构建、管理和部署 AI 预测模型，提供行业特定模型和可视化界面 | Infor OS | [数据表](https://www.infor.com/resources/infor-coleman-ai-platform) |
 | **Infor AI User Guide** | Infor AI 用户指南（2025.x），介绍如何创建、管理和部署预测与规范性模型 | Infor AI | [查看文档](https://docs.infor.com/colemanai/2025.x/en-us/colemanaiug/default.html) |
 
 ### 流程自动化工具
@@ -99,7 +99,7 @@ description: "精选 Infor 生态系统相关的开发工具、插件、扩展�
 
 | 工具名称 | 简介 | 适用行业 | 链接 |
 |---------|------|---------|------|
-| **Infor EAM (现 HxGN EAM)** | 企业资产管理解决方案，现由 Hexagon 拥有，支持资产跟踪、维护操作数字化 | 多行业 | [了解更多](https://www.infor.com/products/eam) |
+| **Infor EAM (现 HxGN EAM)** | 企业资产管理解决方案，现由 Hexagon 拥有，支持资产跟踪、维护操作数字化 | 多行业 | [了解更多](https://www.infor.com/products/) |
 | **HxGN EAM** | Hexagon 的 SaaS 资产管理解决方案，解决关键资产性能挑战 | 资产管理 | [了解更多](https://hexagon.com/solutions/enterprise-asset-management) |
 
 ### 财务与 CRM 工具

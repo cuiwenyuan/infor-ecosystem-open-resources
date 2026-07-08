@@ -18,7 +18,7 @@ graph TB
     A[Infor OS 核心平台] --> B[ION 集成平台]
     A --> C[IDM 身份管理]
     A --> D[IFS 文件系统]
-    A --> E[Coleman AI]
+    A --> E[Infor AI]
     A --> F[Birst BI]
     A --> G[Mingle 门户]
     
@@ -53,7 +53,7 @@ graph TB
 | **ION** | Intelligent Open Network | 集成平台，通过 BOD 实现产品间数据流转 |
 | **IDM** | Identity Management | 身份与访问管理，支持 SSO 和权限控制 |
 | **IFS** | Infor File Storage | 统一文档管理系统 |
-| **Coleman** | Coleman AI | 人工智能助手，支持智能推荐和自动化 |
+| **Infor AI（原 Coleman AI）** | 人工智能助手，支持智能推荐和自动化 |
 | **Birst** | Birst BI | 云端 BI 平台，提供实时分析 |
 | **Mingle** | Mingle Portal | 统一用户工作台，集成所有应用 |
 

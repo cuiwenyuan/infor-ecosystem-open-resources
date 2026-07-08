@@ -17,7 +17,7 @@ description: "Infor CPQ（配置报价）资源导航，收录 CPQ 相关的顾�
 | **目标客户** | 复杂产品制造商（按订单配置/ETO/CTO）|
 | **核心行业** | 工业设备、汽车零部件、电子、家具、建筑产品 |
 | **部署方式** | 云部署（Infor OS）/ 本地部署 |
-| **技术平台** | Infor OS（内置 ION、Coleman AI）|
+| **技术平台** | Infor OS（内置 ION、Infor AI（原 Coleman AI））|
 | **集成产品** | Infor LN、M3、CSI、CRM |
 
 ---
@@ -78,7 +78,7 @@ description: "Infor CPQ（配置报价）资源导航，收录 CPQ 相关的顾�
 ### 工具与插件
 | 工具 | 说明 |
 |------|------|
-| [Infor CPQ 官方](https://www.infor.com/products/cpq) | 产品官网 |
+| [Infor CPQ 官方](https://www.infor.com/products/) | 产品官网 |
 | [Infor Marketplace - CPQ 扩展](https://marketplace.infor.com/) | CPQ 第三方插件与扩展 |
 | [ION 集成平台](../resources/tools.md) | CPQ 与 ERP/CRM 集成 |
 

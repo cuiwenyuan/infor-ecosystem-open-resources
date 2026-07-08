@@ -160,6 +160,21 @@ description: "Infor 生态开放资源导航站首页，提供论坛、顾问公
 
 ### 📅 项目动态
 
+#### 2026-07-08
+- 📰 **版本动态新增 CloudSuite 2026.04 大版本**：补齐站点停更期间（2026-04 发布、5 月对外公布）的 Infor 重大更新
+  - 新增「Infor CloudSuite 2026.04」专节：Infor Industry AI Agents + Agentic Orchestrator、原生 MCP 集成、Infor Velocity Suite（AI 用例包、WMS 拣货路径优化、CareFor 免费增强）
+  - Birst Visualizer Builder（GenAI 自然语言建图表）、ISM GenAI Image Recognition（现场拍照识别零件）
+  - 各产品线 2026.04 更新：Distribution（订单 360 视图、交叉转运控制）、Industrial/SyteLine（100+ 新功能）、Service Industries、WMS、Birst
+  - 更新「按产品浏览版本动态」表格（Infor AI / WMS / Birst 行补充 2026.04）
+- 🔄 **品牌名统一（Coleman AI → Infor AI）**：全站 56 处、约 30 个文件统一口径
+  - 标准写法：「Infor AI（原 Coleman AI）」；mermaid 图节点简写为「Infor AI」
+  - 在关键页面补充 2026 新命名：Industry AI Agents / Agentic Orchestrator / Velocity Suite
+  - 修正术语表创始人误写、mermaid 节点重复等 5 处瑕疵
+- 🔗 **死链巡检与修复**：运行死链检测脚本，修复确认的真实 404 链接（共 16 个文件、12 类 URL）
+  - infor.com 官方页改版导致的失效路径：`/company/legal`、`/products/cpq`、`/products/crm`、`/products/eam`、`/company/community`、`/customers`、`/training` 等，统一指向有效地址（`/products/`、`community.infor.com`、`/services/` 等）
+  - infor.cn 失效页（`/contact`、`/customers`）指向站点根；CSDN 旧搜索 URL 改为 `so.csdn.net`
+  - 反爬误报（403/超时/重定向环，如 customerfx、g2、linkedin、zhihu）未改动，站点本身存活
+
 #### 2026-05-23
 - 💻 **新增 VS Code 插件页面**：收录 Infor/Baan ERP 开发相关的 VS Code 扩展
   - 创建 `developer/vscode-plugins.md`：按分类收录 5 个插件

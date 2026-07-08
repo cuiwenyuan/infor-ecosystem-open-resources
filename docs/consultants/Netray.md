@@ -1,6 +1,6 @@
 ---
 title: "Netray - Infor 顾问公司详情"
-description: "Netray - Infor 生态实施顾问公司，专长 Infor ION, BOD, Coleman AI。"
+description: "Netray - Infor 生态实施顾问公司，专长 Infor ION, BOD, Infor AI（原 Coleman AI）。"
 ---
 
 # Netray
@@ -15,14 +15,14 @@ description: "Netray - Infor 生态实施顾问公司，专长 Infor ION, BOD, C
 |------|------|
 | **位置** | 欧洲 |
 | **官网** | [netray.co](https://www.netray.co/) |
-| **专长产品** | Infor ION, BOD, Coleman AI |
+| **专长产品** | Infor ION, BOD, Infor AI（原 Coleman AI） |
 | **行业** | 跨行业 |
 
 ---
 
 ## 专长产品
 
-- Infor ION, BOD, Coleman AI
+- Infor ION, BOD, Infor AI（原 Coleman AI）
 
 ---
 
@@ -35,7 +35,7 @@ description: "Netray - Infor 生态实施顾问公司，专长 Infor ION, BOD, C
 ## 核心服务
 
 - ION/BOD 消息处理指南
-- Coleman AI 实施
+- Infor AI（原 Coleman AI） 实施
 - 技术博客资源
 - 集成开发
 

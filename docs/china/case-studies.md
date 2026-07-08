@@ -59,8 +59,8 @@ description: "Infor 在中国地区的客户成功案例，包括华为、比亚
 
 | 资源名称 | 简介 | 链接 |
 |---------|------|------|
-| **Infor 客户成功案例** | 官方客户案例研究（英文） | [访问](https://www.infor.com/customers) |
-| **Infor 中国案例** | 中国地区客户案例（中文） | [访问](https://www.infor.cn/customers) |
+| **Infor 客户成功案例** | 官方客户案例研究（英文） | [访问](https://www.infor.com/) |
+| **Infor 中国案例** | 中国地区客户案例（中文） | [访问](https://www.infor.cn/) |
 | **华为云案例** | 华为云企业应用案例（含 Infor 生态） | [访问](https://www.huaweicloud.com/cases.html) |
 
 ---

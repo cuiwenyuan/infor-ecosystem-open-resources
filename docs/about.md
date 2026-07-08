@@ -130,7 +130,7 @@ infor-ecosystem-open-resources/
 
 - **Infor** 是 Infor Inc. 的注册商标
 - 本网站与 Infor Inc. 无官方关联
-- 使用 Infor 商标需遵守 [Infor 使用条款](https://www.infor.com/company/legal/)
+- 使用 Infor 商标需遵守 [Infor 使用条款](https://www.infor.com/company/)
 
 ---
 

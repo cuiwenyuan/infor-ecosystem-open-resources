@@ -101,7 +101,7 @@ description: "Infor LN 与 IFS Applications 在复杂项目制造和资产密集
 | 云架构 | ⭐⭐⭐ Infor CloudSuite | ⭐⭐⭐⭐⭐ IFS Cloud 纯云原生（2021） |
 | 用户界面 | ⭐⭐⭐⭐ Infor OS | ⭐⭐⭐⭐⭐ IFS Cloud 界面现代 |
 | 移动端支持 | ⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ IFS 移动端体验优秀 |
-| AI/ML 能力 | ⭐⭐⭐⭐ Infor Coleman AI | ⭐⭐⭐⭐ IFS 人工智能功能 |
+| AI/ML 能力 | ⭐⭐⭐⭐ Infor AI（原 Coleman AI） | ⭐⭐⭐⭐ IFS 人工智能功能 |
 
 ---
 

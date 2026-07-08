@@ -24,7 +24,7 @@ description: "Infor WMS 与 Blue Yonder（原 JDA）的全面对比分析，涵�
 |------|------------|-----------------|
 | **仓储深度** | ⭐⭐⭐⭐⭐ 行业模板深厚（消费品/零售/制造） | ⭐⭐⭐⭐ 通用性强，零售行业优势明显 |
 | **劳动力管理** | ⭐⭐⭐⭐ 集成 Infor HCM，车间级考勤与排班 | ⭐⭐⭐⭐⭐ 内置强大的劳动力管理模块（LMS） |
-| **AI/ML 能力** | ⭐⭐⭐ 基于 Infor OS + Coleman AI | ⭐⭐⭐⭐⭐ Luminate 平台，AI 预测与优化 |
+| **AI/ML 能力** | ⭐⭐⭐ 基于 Infor OS + Infor AI（原 Coleman AI） | ⭐⭐⭐⭐⭐ Luminate 平台，AI 预测与优化 |
 | **Infor 生态集成** | ⭐⭐⭐⭐⭐ 原生集成 LN/M3/CSI/SCM | ⭐⭐ 需要定制接口 |
 | **云原生程度** | ⭐⭐⭐⭐⭐ SaaS 优先，AWS 云原生 | ⭐⭐⭐⭐ 支持云部署，但部分客户仍在 on-prem |
 | **实施周期** | 6-12 个月（行业模板加速） | 9-15 个月（复杂度较高） |
@@ -61,7 +61,7 @@ description: "Infor WMS 与 Blue Yonder（原 JDA）的全面对比分析，涵�
 | **集成方式** | Infor ION（BOD）+ API | Web 服务 + API |
 | **数据库** | Oracle/SQL Server | Oracle/SQL Server |
 | **移动端** | Infor Motion App | 支持多种移动设备 |
-| **AI 平台** | Coleman AI | Luminate Platform |
+| **AI 平台** | Infor AI（原 Coleman AI） | Luminate Platform |
 
 ### 4. 行业适配
 
@@ -120,7 +120,7 @@ description: "Infor WMS 与 Blue Yonder（原 JDA）的全面对比分析，涵�
 ### Infor WMS 资源
 - [Infor WMS 官方产品页](https://www.infor.com/products/waretouse-management-system)
 - [Infor WMS 技术文档](https://docs.infor.com/)
-- [Infor WMS 社区论坛](https://www.infor.com/community)
+- [Infor WMS 社区论坛](https://community.infor.com/)
 
 ### Blue Yonder WMS 资源
 - [Blue Yonder 官方产品页](https://blueyonder.com/solutions/warehouse-management/)

@@ -62,7 +62,7 @@ description: "Infor EAM 企业资产管理资源导航，收录 EAM 相关的顾
 | 名称 | 类型 | 链接 |
 |------|------|------|
 | Hexagon Asset Management Community | 官方社区（继承 Infor EAM） | [访问](https://www.hexagon.com/solutions/asset-lifecycle-intelligence) |
-| Infor Community - EAM 存档 | 历史讨论 | [访问](https://www.infor.com/company/community) |
+| Infor Community - EAM 存档 | 历史讨论 | [访问](https://community.infor.com/) |
 
 ### 顾问与实施公司
 | 名称 | 地区 | 专长 | 链接 |
@@ -81,7 +81,7 @@ description: "Infor EAM 企业资产管理资源导航，收录 EAM 相关的顾
 ### 工具与插件
 | 名称 | 类型 | 链接 |
 |------|------|------|
-| HxGN EAM（原 Infor EAM） | 产品官网 | [访问](https://www.infor.com/products/eam) |
+| HxGN EAM（原 Infor EAM） | 产品官网 | [访问](https://www.infor.com/products/) |
 | Infor ION | EAM 与 ERP 集成 | [文档](https://docs.infor.com) |
 
 ---

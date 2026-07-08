@@ -50,7 +50,7 @@ description: "收录 Infor 客户成功案例、实施经验和标杆故事，�
 
 | 客户 | 使用产品 | 案例摘要 | 来源 |
 |------|---------|---------|------|
-| **Combilift** | Infor LN + Coleman AI | 使用 Coleman AI 改进零件建议准确性，提升首次修复率 | [Infor 官方案例](https://www.infor.cn/resources/improving-parts-accuracy-with-ai) |
+| **Combilift** | Infor LN + Infor AI（原 Coleman AI） | 使用 Infor AI（原 Coleman AI） 改进零件建议准确性，提升首次修复率 | [Infor 官方案例](https://www.infor.cn/resources/improving-parts-accuracy-with-ai) |
 | **知名汽车零部件厂商** | Infor LN | 多站点、多实体复杂制造管理 | [FeaturedCustomers](https://www.featuredcustomers.com/) |
 
 ### 食品饮料

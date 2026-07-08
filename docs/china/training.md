@@ -69,7 +69,7 @@ description: "Infor 中文培训资源，包括 CSDN、腾讯云、知乎、B站
 | 资源名称 | 简介 | 链接 |
 |---------|------|------|
 | **Infor 认证指南** | 官方认证路径和准备建议 | [查看](../resources/certification-guide.md) |
-| **Infor U Campus（中文）** | Infor 官方在线学习平台 | [访问](https://www.infor.com/training) |
+| **Infor U Campus（中文）** | Infor 官方在线学习平台 | [访问](https://www.infor.com/services/) |
 
 ---
 

@@ -27,7 +27,7 @@ description: "Infor M3 与 Microsoft Dynamics 365 的全面对比分析，涵盖
 | **多国/多地点** | ⭐⭐⭐⭐⭐ 原生支持 40+ 国家/地区本地化 | ⭐⭐⭐⭐ 支持，但配置复杂 |
 | **时尚/纺织行业** | ⭐⭐⭐⭐⭐ 行业深耕（Infor Fashion） | ⭐⭐⭐ 支持，但非专项 |
 | **云原生程度** | ⭐⭐⭐⭐⭐ SaaS 优先，AWS 云原生 | ⭐⭐⭐⭐⭐ Azure 云原生 |
-| **AI/ML 能力** | ⭐⭐⭐ 基于 Infor OS + Coleman AI | ⭐⭐⭐⭐⭐ Copilot（AI 助手） |
+| **AI/ML 能力** | ⭐⭐⭐ 基于 Infor OS + Infor AI（原 Coleman AI） | ⭐⭐⭐⭐⭐ Copilot（AI 助手） |
 | **实施周期** | 6-12 个月 | 6-12 个月 |
 | **典型客户** | 雀巢、百事、联合利华 | 微软、戴尔、惠普 |
 
@@ -70,7 +70,7 @@ description: "Infor M3 与 Microsoft Dynamics 365 的全面对比分析，涵盖
 | **部署方式** | SaaS（AWS）优先 | SaaS（Azure） |
 | **集成方式** | Infor ION（BOD）+ API | Dataverse + Power Platform |
 | **数据库** | Oracle | Azure SQL |
-| **AI 平台** | Coleman AI | Copilot（AI 助手） |
+| **AI 平台** | Infor AI（原 Coleman AI） | Copilot（AI 助手） |
 
 ---
 
@@ -119,7 +119,7 @@ description: "Infor M3 与 Microsoft Dynamics 365 的全面对比分析，涵盖
 ### Infor M3 资源
 - [Infor M3 官方产品页](https://www.infor.com/products/m3)
 - [Infor M3 技术文档](https://docs.infor.com/)
-- [Infor M3 社区论坛](https://www.infor.com/community)
+- [Infor M3 社区论坛](https://community.infor.com/)
 
 ### Microsoft D365 资源
 - [Microsoft D365 官方产品页](https://www.microsoft.com/dynamics365)

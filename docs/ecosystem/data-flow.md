@@ -143,7 +143,7 @@ graph TB
     
     D --> E[Birst 数据分析]
     D --> F[Infor OS]
-    F --> G[Coleman AI]
+    F --> G[Infor AI]
     F --> H[统一工作台]
     
     style D fill:#34a853,color:#fff

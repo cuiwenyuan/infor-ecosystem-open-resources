@@ -107,11 +107,11 @@ description: "Infor 在中国大陆、台湾地区、香港地区的办公室地
 ## 📧 其他联系方式
 
 ### 销售咨询
-- **在线表单**：[Infor 中国联系表单](https://www.infor.cn/contact)
+- **在线表单**：[Infor 中国联系表单](https://www.infor.cn/)
 
 ### 技术支持
 - **Infor Support Portal**：[https://www.infor.com/support](https://www.infor.com/support)
-- **Infor Community**：[https://www.infor.com/community](https://www.infor.com/community)
+- **Infor Community**：[https://community.infor.com/](https://community.infor.com/)
 
 ### 合作伙伴计划
 - **Infor Partner Network (IPN)**：[https://www.infor.cn/partners](https://www.infor.cn/partners)

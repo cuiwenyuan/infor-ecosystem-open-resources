@@ -27,7 +27,7 @@ description: "Infor HCM 与 SAP SuccessFactors 的全面对比分析，涵盖功
 | **易用性** | ⭐⭐⭐⭐⭐ 界面现代化，学习曲线较平缓 | ⭐⭐⭐ 界面复杂，学习曲线陡峭 |
 | **云原生程度** | ⭐⭐⭐⭐⭐ SaaS（AWS） | ⭐⭐⭐⭐ 支持云部署，但传统部署仍为主流 |
 | **实施周期** | 6-12 个月 | 12-18 个月 |
-| **AI/ML 能力** | ⭐⭐⭐ 基于 Infor OS + Coleman AI | ⭐⭐⭐⭐ SAP AI Business Services |
+| **AI/ML 能力** | ⭐⭐⭐ 基于 Infor OS + Infor AI（原 Coleman AI） | ⭐⭐⭐⭐ SAP AI Business Services |
 | **典型客户** | 丰田、空中客车、米其林 | 宝马、西门子、索尼 |
 
 ---
@@ -67,7 +67,7 @@ description: "Infor HCM 与 SAP SuccessFactors 的全面对比分析，涵盖功
 | **部署方式** | SaaS（AWS） | SaaS（SAP Cloud） |
 | **集成方式** | Infor ION（BOD）+ API | SAP PI/PO、OData、RFC |
 | **移动端** | Infor Motion App | SAP Fiori |
-| **AI 平台** | Coleman AI | SAP AI Business Services |
+| **AI 平台** | Infor AI（原 Coleman AI） | SAP AI Business Services |
 
 ---
 
@@ -117,7 +117,7 @@ description: "Infor HCM 与 SAP SuccessFactors 的全面对比分析，涵盖功
 ### Infor HCM 资源
 - [Infor HCM 官方产品页](https://www.infor.com/products/hcm)
 - [Infor HCM 技术文档](https://docs.infor.com/)
-- [Infor HCM 社区论坛](https://www.infor.com/community)
+- [Infor HCM 社区论坛](https://community.infor.com/)
 
 ### SAP SuccessFactors 资源
 - [SAP SuccessFactors 官方产品页](https://www.sap.com/products/human-experience-management.html)

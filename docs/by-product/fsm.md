@@ -18,7 +18,7 @@ description: "Infor FSM（现场服务管理）资源导航，收录 FSM 相关�
 | **目标客户** | 设备制造商、售后服务提供商、公用事业公司 |
 | **核心行业** | 制造业、医疗设备、工业设备、公用事业 |
 | **部署方式** | 云部署（Infor OS）/ 本地部署 |
-| **技术平台** | Infor OS（内置 ION、Coleman AI） |
+| **技术平台** | Infor OS（内置 ION、Infor AI（原 Coleman AI）） |
 
 ---
 
@@ -43,7 +43,7 @@ description: "Infor FSM（现场服务管理）资源导航，收录 FSM 相关�
 
 ### 集成与智能
 - 与 Infor LN/M3/CSI 集成（服务→销售订单）
-- Coleman AI 预测性维护建议
+- Infor AI（原 Coleman AI） 预测性维护建议
 - ION BOD 消息集成
 
 ---

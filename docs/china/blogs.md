@@ -23,8 +23,8 @@ description: "Infor 中文博客和社区资源，包括 CSDN、知乎、腾讯�
 
 | 博客名称 | 简介 | 链接 |
 |---------|-------|------|
-| **Infor 与 SAP 对比** | Infor LN vs SAP S/4HANA 对比分析 | [搜索](https://blog.csdn.net/search?q=Infor+ERP) |
-| **Infor WMS 教程** | WMS 仓储管理系统中文教程 | [搜索](https://blog.csdn.net/search?q=Infor+WMS) |
+| **Infor 与 SAP 对比** | Infor LN vs SAP S/4HANA 对比分析 | [搜索](https://so.csdn.net/so/search?q=Infor) |
+| **Infor WMS 教程** | WMS 仓储管理系统中文教程 | [搜索](https://so.csdn.net/so/search?q=Infor) |
 
 ---
 

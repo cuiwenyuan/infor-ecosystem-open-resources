@@ -29,7 +29,7 @@ description: "Infor 生态术语表，收录 Infor 产品名称、技术概念�
 |------|------|------|
 | **CloudSuite** | — | Infor 的云端 ERP 产品系列总称。基于 AWS 部署，采用多租户架构，包含 CloudSuite LN、CloudSuite M3、CloudSuite Industrial 等。 |
 | **CloudSuite Enterprise** | — | Infor 面向大型企业的综合 ERP 云套件，基于 Infor OS 平台，统一了 LN、M3 等核心产品。 |
-| **Coleman AI** | — | Infor 的企业级 AI 平台（以 Infor 创始人 Coleman 而命名），内嵌于 Infor OS，提供预测分析、智能自动化、自然语言处理等能力。 |
+| **Infor AI（原 Coleman AI）** | — | Infor 的企业级 AI 平台（名称源自 Coleman AI，2026 年起演进为 Infor AI / Industry AI Agents），内嵌于 Infor OS，提供预测分析、智能自动化、自然语言处理等能力。 |
 | **CTO** | Configure to Order | 按订单配置。制造模式之一，根据客户订单从预定义的选项中配置最终产品，区别于 MTO（按订单生产）和 MTS（按库存生产）。 |
 
 ## D

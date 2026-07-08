@@ -242,9 +242,9 @@ description: "收录全球 Infor 实施顾问与合作伙伴公司，按地区�
 |------|------|
 | **位置** | 欧洲 |
 | **官网** | [netray.co](https://www.netray.co/) |
-| **专长产品** | Infor ION, BOD, Coleman AI |
+| **专长产品** | Infor ION, BOD, Infor AI（原 Coleman AI） |
 | **行业** | 跨行业 |
-| **服务** | ION/BOD 消息处理指南、Coleman AI 实施、技术博客资源、集成开发 |
+| **服务** | ION/BOD 消息处理指南、Infor AI（原 Coleman AI） 实施、技术博客资源、集成开发 |
 
 ---
 
@@ -726,7 +726,7 @@ description: "收录全球 Infor 实施顾问与合作伙伴公司，按地区�
 | **Infor PLM** | Tarento, mashfrog, PCG Services, Rockwell Consults |
 | **Infor ION / BOD** | mashfrog, Sama Consulting, Netray |
 | **Infor Birst** | Astral Consulting, Sama Consulting |
-| **Infor Coleman AI** | Netray |
+| **Infor AI（原 Coleman AI）** | Netray |
 | **Infor 全产品线** | Alpha Apex Group, Guide Technologies, Grant Thornton, Copley Consulting, Kinsey, Inovium, 沈阳创杰, 亿真信息 |
 | **Infor 集成** | DCKAP, mashfrog |
 

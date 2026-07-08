@@ -24,7 +24,7 @@ description: "Infor WMS 与 Manhattan Associates WMS 的全面对比分析，涵
 |------|------------|------------------------|
 | **仓储深度** | ⭐⭐⭐⭐⭐ 行业模板深厚（消费品/零售/制造） | ⭐⭐⭐⭐⭐ 通用性强，复杂仓储场景卓越 |
 | **劳动力管理** | ⭐⭐⭐⭐ 集成 Infor HCM，车间级考勤与排班 | ⭐⭐⭐⭐⭐ 内置强大的劳动力管理（WM） |
-| **AI/ML 能力** | ⭐⭐⭐ 基于 Infor OS + Coleman AI | ⭐⭐⭐⭐⭐ Manhattan Active AI，预测与优化卓越 |
+| **AI/ML 能力** | ⭐⭐⭐ 基于 Infor OS + Infor AI（原 Coleman AI） | ⭐⭐⭐⭐⭐ Manhattan Active AI，预测与优化卓越 |
 | **Infor 生态集成** | ⭐⭐⭐⭐⭐ 原生集成 LN/M3/CSI/SCM | ⭐⭐ 需要定制接口 |
 | **云原生程度** | ⭐⭐⭐⭐⭐ SaaS 优先，AWS 云原生 | ⭐⭐⭐⭐⭐ 云原生微服务架构（Active 系列） |
 | **实施周期** | 6-12 个月（行业模板加速） | 9-15 个月（复杂度较高） |
@@ -61,7 +61,7 @@ description: "Infor WMS 与 Manhattan Associates WMS 的全面对比分析，涵
 | **集成方式** | Infor ION（BOD）+ API | API + Microservices |
 | **数据库** | Oracle/SQL Server | Oracle/SQL Server |
 | **移动端** | Infor Motion App | 支持多种移动设备 |
-| **AI 平台** | Coleman AI | Manhattan Active AI |
+| **AI 平台** | Infor AI（原 Coleman AI） | Manhattan Active AI |
 
 ### 4. 行业适配
 
@@ -120,7 +120,7 @@ description: "Infor WMS 与 Manhattan Associates WMS 的全面对比分析，涵
 ### Infor WMS 资源
 - [Infor WMS 官方产品页](https://www.infor.com/products/warehouse-management-system)
 - [Infor WMS 技术文档](https://docs.infor.com/)
-- [Infor WMS 社区论坛](https://www.infor.com/community)
+- [Infor WMS 社区论坛](https://community.infor.com/)
 
 ### Manhattan Active WMS 资源
 - [Manhattan Active WMS 官方产品页](https://www.manhattanassociates.com/en-us/solutions/warehouse-management)

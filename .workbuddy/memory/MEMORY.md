@@ -62,6 +62,7 @@ InforIndex/
 - **CSS 样式**：extra.css 使用 `.resource-card` 基础类，`.resource-tag--xxx` 标签变体
 - **导航结构**：第三方资源在前（导航第一组），产品介绍在后
 - **GitHub 信息**：用户名 `cuiwenyuan`，仓库名 `infor-ecosystem-open-resources`，在线地址 `https://cuiwenyuan.github.io/infor-ecosystem-open-resources/`
+- **品牌命名口径（2026-07-08 起）**：Infor AI 平台旧称 Coleman AI，2026 起演进为 **Infor Industry AI Agents / Agentic Orchestrator**，归入 **Infor Velocity Suite**。全站统一写法：「Infor AI（原 Coleman AI）」；mermaid 图节点简写「Infor AI」。新增内容勿再用纯「Coleman AI」。
 
 ## 用户偏好
 - **Git 命令格式**：每次完成变更后，需要 Git 提交时，直接输出可复制的 bash 命令让用户复制执行，**不要生成脚本文件（.sh）**

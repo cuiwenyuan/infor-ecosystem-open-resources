@@ -80,7 +80,7 @@ description: "Infor CRM 客户关系管理资源导航，收录 CRM 相关的顾
 ### 工具与插件
 | 名称 | 类型 | 链接 |
 |------|------|------|
-| Infor CRM SLX | 产品官网 | [访问](https://www.infor.com/products/crm) |
+| Infor CRM SLX | 产品官网 | [访问](https://www.infor.com/products/) |
 | Customer FX Webinar | 培训视频 | [访问](https://customerfx.com/) |
 
 ---

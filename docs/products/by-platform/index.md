@@ -1,6 +1,6 @@
 ---
 title: "按技术平台分类 - Infor 生态开放资源导航站"
-description: "按技术平台分类浏览 Infor 产品与资源，涵盖 Infor OS、ION、Birst、Coleman AI、AWS/Azure 云基础设施等。"
+description: "按技术平台分类浏览 Infor 产品与资源，涵盖 Infor OS、ION、Birst、Infor AI（原 Coleman AI）、AWS/Azure 云基础设施等。"
 ---
 
 # 按技术平台分类
@@ -29,7 +29,7 @@ Infor OS 是 Infor 所有云产品的统一云原生基础设施平台。
 | **Identity & Access Management** | 统一身份认证，支持 LDAP/SAML/OAuth |
 | **Document Management** | 全局文档服务，跨产品文档存储与搜索 |
 | **Data Lake** | 集中式数据湖，汇聚来自各 Infor 应用的数据 |
-| **AI Services** | 内置 Coleman AI 服务，可被所有上层应用调用 |
+| **AI Services** | 内置 Infor AI（原 Coleman AI） 服务，可被所有上层应用调用 |
 | **Workflow Engine** | 跨应用的统一工作流引擎 |
 
 **相关资源**：
@@ -72,7 +72,7 @@ BOD 是 ION 集成的核心通信协议，定义了标准的业务事件格式�
 
 | 项目 | 详情 |
 |------|------|
-| **原名** | Coleman AI Platform |
+| **原名** | Infor AI Platform（原 Coleman AI Platform） |
 | **现名** | Infor AI |
 | **定位** | 嵌入 Infor OS 的企业 AI 平台 |
 
@@ -86,7 +86,7 @@ BOD 是 ION 集成的核心通信协议，定义了标准的业务事件格式�
 | **行业预置模型** | 针对各行业的预训练模型（如制造质量预测、零售需求预测） |
 
 **相关资源**：
-- [AI 工具与指南](../../resources/tools.md) — Coleman AI User Guide、数据表
+- [AI 工具与指南](../../resources/tools.md) — Infor AI（原 Coleman AI） User Guide、数据表
 
 ---
 

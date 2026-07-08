@@ -26,7 +26,7 @@ description: "Infor M3 与 Oracle ERP Cloud 的全面对比分析，涵盖功能
 | **多国/多地点** | ⭐⭐⭐⭐⭐ 原生支持 40+ 国家/地区本地化 | ⭐⭐⭐⭐ 支持，但配置复杂 |
 | **时尚/纺织行业** | ⭐⭐⭐⭐⭐ 行业深耕（Infor Fashion） | ⭐⭐⭐ 支持，但非专项 |
 | **云原生程度** | ⭐⭐⭐⭐ SaaS 优先，AWS 云原生 | ⭐⭐⭐⭐⭐ Oracle Cloud 原生 |
-| **AI/ML 能力** | ⭐⭐⭐ 基于 Infor OS + Coleman AI | ⭐⭐⭐⭐⭐ Oracle AI，嵌入式智能 |
+| **AI/ML 能力** | ⭐⭐⭐ 基于 Infor OS + Infor AI（原 Coleman AI） | ⭐⭐⭐⭐⭐ Oracle AI，嵌入式智能 |
 | **Oracle 生态集成** | ⭐⭐ 需要定制接口 | ⭐⭐⭐⭐⭐ 原生集成 Oracle 全家桶 |
 | **实施周期** | 6-12 个月 | 12-18 个月 |
 | **典型客户** | 雀巢、百事、联合利华 | 亚马逊、联邦快递、丰田 |
@@ -70,7 +70,7 @@ description: "Infor M3 与 Oracle ERP Cloud 的全面对比分析，涵盖功能
 | **部署方式** | SaaS（AWS）优先 | SaaS（Oracle Cloud） |
 | **集成方式** | Infor ION（BOD）+ API | Oracle Integration Cloud |
 | **数据库** | Oracle | Oracle Autonomous Database |
-| **AI 平台** | Coleman AI | Oracle AI |
+| **AI 平台** | Infor AI（原 Coleman AI） | Oracle AI |
 
 ---
 
@@ -121,7 +121,7 @@ description: "Infor M3 与 Oracle ERP Cloud 的全面对比分析，涵盖功能
 ### Infor M3 资源
 - [Infor M3 官方产品页](https://www.infor.com/products/m3)
 - [Infor M3 技术文档](https://docs.infor.com/)
-- [Infor M3 社区论坛](https://www.infor.com/community)
+- [Infor M3 社区论坛](https://community.infor.com/)
 
 ### Oracle ERP Cloud 资源
 - [Oracle ERP Cloud 官方产品页](https://www.oracle.com/erp/)

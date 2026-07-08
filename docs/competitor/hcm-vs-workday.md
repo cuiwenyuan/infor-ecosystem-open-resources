@@ -26,7 +26,7 @@ description: "Infor HCM 与 Workday HCM 的全面对比分析，涵盖功能、�
 | **财务集成** | ⭐⭐⭐ 需要定制接口 | ⭐⭐⭐⭐⭐ 原生集成 Workday Financials |
 | **易用性** | ⭐⭐⭐⭐ 界面现代化 | ⭐⭐⭐⭐⭐ 界面极简，用户体验卓越 |
 | **云原生程度** | ⭐⭐⭐⭐ SaaS（AWS） | ⭐⭐⭐⭐⭐ 云原生 |
-| **AI/ML 能力** | ⭐⭐⭐ 基于 Infor OS + Coleman AI | ⭐⭐⭐⭐⭐ Workday Prism Analytics |
+| **AI/ML 能力** | ⭐⭐⭐ 基于 Infor OS + Infor AI（原 Coleman AI） | ⭐⭐⭐⭐⭐ Workday Prism Analytics |
 | **实施周期** | 6-12 个月 | 12-18 个月 |
 | **典型客户** | 丰田、空中客车、米其林 | 微软、亚马逊、摩根大通 |
 
@@ -67,7 +67,7 @@ description: "Infor HCM 与 Workday HCM 的全面对比分析，涵盖功能、�
 | **部署方式** | SaaS（AWS） | SaaS（Workday Cloud） |
 | **集成方式** | Infor ION（BOD）+ API | Workday Integration Cloud |
 | **移动端** | Infor Motion App | Workday Mobile App |
-| **AI 平台** | Coleman AI | Workday Prism Analytics |
+| **AI 平台** | Infor AI（原 Coleman AI） | Workday Prism Analytics |
 
 ---
 
@@ -117,7 +117,7 @@ description: "Infor HCM 与 Workday HCM 的全面对比分析，涵盖功能、�
 ### Infor HCM 资源
 - [Infor HCM 官方产品页](https://www.infor.com/products/hcm)
 - [Infor HCM 技术文档](https://docs.infor.com/)
-- [Infor HCM 社区论坛](https://www.infor.com/community)
+- [Infor HCM 社区论坛](https://community.infor.com/)
 
 ### Workday HCM 资源
 - [Workday HCM 官方产品页](https://www.workday.com/products/human-capital-management)

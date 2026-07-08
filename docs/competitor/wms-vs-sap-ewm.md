@@ -27,7 +27,7 @@ description: "Infor WMS 与 SAP EWM（Extended Warehouse Management）的全面�
 | **易用性** | ⭐⭐⭐⭐ 界面现代化，学习曲线较平缓 | ⭐⭐⭐ 界面复杂，学习曲线陡峭 |
 | **云原生程度** | ⭐⭐⭐⭐⭐ SaaS 优先，AWS 云原生 | ⭐⭐⭐ 支持云部署，但传统部署仍为主流 |
 | **实施周期** | 6-12 个月（行业模板加速） | 12-18 个月（复杂度高） |
-| **AI/ML 能力** | ⭐⭐⭐ 基于 Infor OS + Coleman AI | ⭐⭐⭐⭐ SAP AI Business Services |
+| **AI/ML 能力** | ⭐⭐⭐ 基于 Infor OS + Infor AI（原 Coleman AI） | ⭐⭐⭐⭐ SAP AI Business Services |
 | **典型客户** | 可口可乐、雀巢、宝洁 | 宝马、西门子、索尼 |
 
 ---
@@ -61,7 +61,7 @@ description: "Infor WMS 与 SAP EWM（Extended Warehouse Management）的全面�
 | **集成方式** | Infor ION（BOD）+ API | SAP PI/PO、OData、RFC |
 | **数据库** | Oracle/SQL Server | SAP HANA（推荐） |
 | **移动端** | Infor Motion App | SAP Fiori |
-| **AI 平台** | Coleman AI | SAP AI Business Services |
+| **AI 平台** | Infor AI（原 Coleman AI） | SAP AI Business Services |
 
 ### 4. 行业适配
 
@@ -120,7 +120,7 @@ description: "Infor WMS 与 SAP EWM（Extended Warehouse Management）的全面�
 ### Infor WMS 资源
 - [Infor WMS 官方产品页](https://www.infor.com/products/warehouse-management-system)
 - [Infor WMS 技术文档](https://docs.infor.com/)
-- [Infor WMS 社区论坛](https://www.infor.com/community)
+- [Infor WMS 社区论坛](https://community.infor.com/)
 
 ### SAP EWM 资源
 - [SAP EWM 官方产品页](https://www.sap.com/products/extended-warehouse-management.html)
