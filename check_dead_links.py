@@ -26,6 +26,8 @@ except ImportError:
 
 
 # ── 已知反爬域名（跳过检测，避免误报）──
+# 这些站点对无头检测返回 403 / 超时 / 重定向环，但本身存活，
+# 死链巡检时直接跳过，避免误报拖慢扫描。
 SKIP_DOMAINS = {
     "github.com",
     "stackoverflow.com",
@@ -33,6 +35,11 @@ SKIP_DOMAINS = {
     "www.douyin.com",
     "mp.weixin.qq.com",
     "wx.zsxq.com",
+    # 反爬误报域名（2026-07-08 补充）：社交 / 社区 / 评测类站点
+    "linkedin.com",       # LinkedIn 全站（含 www. 子域）拦截无头请求
+    "zhihu.com",          # 知乎 搜索 / 话题页
+    "g2.com",             # G2 用户评测聚合
+    "customerfx.com",     # Customer FX 社区 / 博客
 }
 
 
