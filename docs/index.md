@@ -160,6 +160,14 @@ description: "Infor 生态开放资源导航站首页，提供论坛、顾问公
 
 ### 📅 项目动态
 
+#### 2026-07-10
+- 💬 **论坛与社区页面更新**：`resources/forums.md` 增补与刷新
+  - 🆕 新增 **Infor Velocity Suite 官方社区**（community.infor.com/categories/velocity-suite），衔接 CloudSuite 2026.04 AI 大版本，产品管理团队直接驻场答疑
+  - 🆕 新增 **「社区洞察」** 小节：RPI Consultants《2026 State of the Infor Community Survey》五大结论（云迁移加速、AI 采用翻倍至 46%、报表灵活性、测试偏被动、培训需求 77%）
+  - 🔄 刷新 **WIUG / SWUG** 过期活动日期（2025→2026；WIUG 2026 会议 9/30–10/1 西雅图）
+  - 🆕 中国社区新增 **腾讯云开发者社区** 条目；「待补充资源」清单全部勾选完成
+  - 本分类收录资源数 30 → 32
+
 #### 2026-07-08
 - 📰 **版本动态新增 CloudSuite 2026.04 大版本**：补齐站点停更期间（2026-04 发布、5 月对外公布）的 Infor 重大更新
   - 新增「Infor CloudSuite 2026.04」专节：Infor Industry AI Agents + Agentic Orchestrator、原生 MCP 集成、Infor Velocity Suite（AI 用例包、WMS 拣货路径优化、CareFor 免费增强）

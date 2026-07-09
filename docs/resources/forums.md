@@ -76,6 +76,38 @@ Infor 官方用户社区，提供产品讨论、技术支持、最佳实践分�
 
 ---
 
+### Infor Velocity Suite 社区
+
+**类型**：官方子社区（AI 套件）
+
+**适用产品**：Infor Velocity Suite、Infor AI（原 Coleman AI）、Industry AI Agents
+
+**地区**：全球
+
+**语言**：英文
+
+**简介**：
+Infor Global Community 下专门针对 Velocity Suite（全包式行业 AI 套件）的官方讨论版块，2026 年新设。由 Infor 产品管理团队（Max Fisher、Mary Green 等）直接驻场，解答 Velocity Suite 的接入、使用、认证等问题。
+
+**链接**：
+- 官网：[Infor Velocity Suite Community](https://community.infor.com/categories/velocity-suite)
+- 欢迎帖：[Welcome to the Velocity Suite Forum](https://community.infor.com/discussion/35887/welcome-to-the-velocity-suite-forum)
+
+**主要讨论主题**：
+- Infor Industry AI Agents 与 Agentic Orchestrator 实践
+- RPA（机器人流程自动化）集成
+- FSM & HCM April 2026 Release 解读
+- Velocity Suite 认证与技术文档
+
+**特色**：
+- Infor 官方产品团队直接答疑
+- 与 CloudSuite 2026.04 AI 大版本同步推出
+- 需 Infor 客户账号登录
+
+**最后更新**：2026-07-10
+
+---
+
 ## 💬 独立用户组（北美地区）
 
 ### LN North America User Group (LN NAUG)
@@ -136,14 +168,15 @@ LN NAUG 是一个独立的 501(c)(6) 非营利协会，服务于 Infor LN 和 Ba
 - Infor Communities 讨论：[链接](https://community.infor.com/discussion/30959/western-infor-user-group-wiug-conference-sept-30-oct-1-2025/p1)
 
 **活动**：
-- **2025 年秋季会议**：2025年9月30日 - 10月1日，西雅图，华盛顿州
+- **2026 年秋季会议（Western Infor User Group Conference）**：2026年9月30日 - 10月1日，西雅图，华盛顿州
+- 活动页面：[WIUG 2026 Conference](https://community.infor.com/events/2286-western-infor-user-group-conference)
 
 **特色**：
 - 免费活动（由合作伙伴赞助）
 - 线下面对面交流
 - Infor 社区成员参与
 
-**最后更新**：2026-05-06
+**最后更新**：2026-07-10
 
 ### South West Infor User Group (SWUG)
 
@@ -159,17 +192,18 @@ LN NAUG 是一个独立的 501(c)(6) 非营利协会，服务于 Infor LN 和 Ba
 西南 Infor 用户组，定期举办大型线下活动，为 Infor 用户提供交流和学习的平台。
 
 **链接**：
-- 活动页面：[SWUG Mega Meeting 2025](https://lgug.workoutloud.com/Event/swug-mega-meeting-2025)
+- 活动页面：[SWUG Mega Meeting（Infor 活动页）](https://community.infor.com/events/2310-southwest-user-group)
 
 **活动**：
-- **2025 年大型会议**：2025年10月16-17日
+- **2025 年大型会议（往届）**：2025年10月16-17日
+- **2026 年秋季活动（SWUG Mega Meeting）**：2026 年秋季，具体日期见 [Infor 活动页](https://community.infor.com/events/2310-southwest-user-group)
 
 **特色**：
 - 大型线下活动
 - 用户交流和学习
 - 免费参与
 
-**最后更新**：2026-05-06
+**最后更新**：2026-07-10
 
 ---
 
@@ -1025,6 +1059,30 @@ Reddit 制造业社区，偶有 Infor ERP 选型、实施经验分享帖
 
 **最后更新**：2026-05-07
 
+### 腾讯云开发者社区
+
+**类型**：通用技术社区（中文）
+
+**适用产品**：通用（可检索 Infor 相关技术文章）
+
+**地区**：中国
+
+**语言**：中文
+
+**简介**：
+腾讯云开发者社区是腾讯云旗下的中文技术内容平台，涵盖云计算、数据库、ERP 实施等话题，可搜索到少量 Infor LN / CloudSuite 相关的技术分享与问答。
+
+**链接**：
+- 社区：[腾讯云开发者社区](https://cloud.tencent.com/developer)
+- 搜索：[Infor 相关文章](https://cloud.tencent.com/developer/search?q=Infor)
+
+**特色**：
+- 中文技术内容平台
+- 可检索 Infor 相关内容
+- 社区活跃度高
+
+**最后更新**：2026-07-10
+
 ### Infor HCM 社区
 
 **类型**：官方子社区
@@ -1142,6 +1200,42 @@ Infor Community 下的 Landmark 平台开发社区，讨论 Lawson/FSM/HCM 的 L
 
 ---
 
+## 📊 社区洞察
+
+### RPI Consultants《2026 State of the Infor Community Survey》
+
+**类型**：行业调研报告（第三方）
+
+**发布方**：RPI Consultants（Infor 白金合作伙伴）
+
+**发布时间**：2026 年 2 月
+
+**地区**：全球（Infor 生态客户调研）
+
+**语言**：英文
+
+**简介**：
+RPI Consultants 第三年度《Infor 社区现状调查》，基于 2025 年 12 月对 Infor 生态客户的问卷，揭示云迁移、AI 采用、报表、测试与培训五大趋势，反映社区处于拐点期。
+
+**链接**：
+- 报告解读：[2026 Infor Community Survey Takeaways](https://www.rpic.com/downloads/2026-infor-community-survey-results-takeaways/)
+- 信息图：[State of the Infor Community Infographic 2026 (PDF)](https://www.rpic.com/wp-content/uploads/2026/02/RPI-Infor-Community-Insights-Infographic-2026.pdf)
+
+**五大关键结论**：
+1. **云迁移加速**：财务与 HCM 系统的活跃迁移客户数约为去年两倍，Lawson S3 等遗留平台使用持续下降
+2. **AI 采用翻倍**：工作中使用 AI 的受访者从去年 20% 升至 **46%**，从好奇走向常态化执行
+3. **报表满意度取决于灵活性**：多数用户使用多种报表工具，工具越灵活满意度越高
+4. **测试偏被动**：42% 手动跑测试脚本，38% 等问题出现再修，半年度 CU 测试缺乏主动策略
+5. **培训需求高企**：**77%** 受访者希望更多培训机会（去年 63%），云功能扩张放大了培训缺口
+
+**价值**：
+- 了解 Infor 社区整体走向，辅助选型与路线图判断
+- 第三方视角，独立于 Infor 官方口径
+
+**最后更新**：2026-07-10
+
+---
+
 ## 📝 待补充资源
 
 ### 需要继续搜集的资源
@@ -1149,12 +1243,12 @@ Infor Community 下的 Landmark 平台开发社区，讨论 Lawson/FSM/HCM 的 L
 - [x] LinkedIn Infor 用户群组（部分已完成：M3 User Network、LN NAUG）
 - [x] Reddit Infor ERP 相关讨论 - 已完成 ✅
 - [x] Infor M3 User Group Americas (M3UGA) - 已完成 ✅
-- [ ] Infor CloudSuite 用户社区 - 详细信息
+- [x] Infor CloudSuite 用户社区 - 已通过 Infor Global Community + Velocity Suite 社区覆盖 ✅
 - [x] 中国地区 Infor 用户组或论坛 - 已完成 ✅
-- [ ] 其他地区性用户组（亚太、欧洲其他）
+- [x] 其他地区性用户组（亚太、欧洲其他）- 已补充 IMUN AP、WMS LATAM 等 ✅
 - [x] CSDN Infor 技术博客专区 - 已完成 ✅
 - [x] 知乎 Infor ERP 话题 - 已完成 ✅
-- [ ] 腾讯云开发者社区 Infor 文章
+- [x] 腾讯云开发者社区 Infor 文章 - 已新增条目 ✅
 - [x] Stack Overflow Infor 相关标签（baan: 4题, infor-ln: 5题，已收录至 blogs.md）✅
 
 ### 如何贡献
@@ -1178,6 +1272,6 @@ Infor Community 下的 Landmark 平台开发社区，讨论 Lawson/FSM/HCM 的 L
 
 ---
 
-**本分类收录资源数**：30 （持续收集中）  
-**最后更新**：2026-05-17  
+**本分类收录资源数**：32 （持续收集中）  
+**最后更新**：2026-07-10  
 **维护者**：崔文远 Troy Cui
