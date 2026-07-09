@@ -166,6 +166,12 @@
 - [x] 更新 mkdocs.yml 导航结构 ✅ 2026-05-11
 - [x] 更新首页「按资源类型浏览」表格 ✅ 2026-05-11
 
+#### 9. 开发者中心内容补充
+- [x] **创建 VS Code 插件页面**（`docs/developer/vscode-plugins.md`）✅ 2026-05-23
+- [x] 收录 5 个插件，分 3 类：Infor 官方工具（Infor OS BaaS SDK）、LN/Baan 开发（Constraint Language Support、bc (Baan)、LN DevTools）、ION 集成开发（IMS Server V3）
+- [x] 含对比一览表、安装指南、贡献入口
+- [x] 补充用户提供的 4 个插件链接（baascore / ln-constraint-language-support / imsserverv3 / jeffersyuan.baan）✅ 2026-05-23
+
 #### 3. 添加资源 Logo/截图
 - [ ] 创建 `docs/assets/images/` 目录结构
 - [ ] 收集顾问公司 Logo
@@ -395,5 +401,5 @@
 ---
 
 **任务清单版本**：v5.8（导航重构：三大板块合并为「开发者资源中心」）
-**最后更新**：2026-05-11
+**最后更新**：2026-07-10
 **维护者**：崔文远 Troy Cui
