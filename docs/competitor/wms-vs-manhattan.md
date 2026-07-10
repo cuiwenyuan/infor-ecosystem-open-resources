@@ -118,7 +118,7 @@ description: "Infor WMS 与 Manhattan Associates WMS 的全面对比分析，涵
 ## 🔗 相关资源
 
 ### Infor WMS 资源
-- [Infor WMS 官方产品页](https://www.infor.com/products/warehouse-management-system)
+- [Infor WMS 官方产品页](https://www.infor.com/products/infor-wms)
 - [Infor WMS 技术文档](https://docs.infor.com/)
 - [Infor WMS 社区论坛](https://community.infor.com/)
 

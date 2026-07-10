@@ -31,7 +31,7 @@ description: "收录 Infor 客户成功案例、实施经验和标杆故事，�
 |------|------|------|
 | **Infor 客户故事（中文）** | 官方中文案例集，按行业分类 | [访问](https://www.infor.cn/customer-stories) |
 | **Infor Customer Stories（英文）** | 全球客户成功案例 | [访问](https://www.infor.com/customer-stories) |
-| **Infor 客户评价** | 视频客户访谈 | [访问](https://www.infor.com/customer-stories/videos) |
+| **Infor 客户评价** | 视频客户访谈 | [访问](https://www.infor.com/customer-stories) |
 
 ### 第三方案例聚合
 
@@ -83,10 +83,10 @@ description: "收录 Infor 客户成功案例、实施经验和标杆故事，�
 
 | 资源 | 类型 | 链接 |
 |------|------|------|
-| **Infor LN 客户成功案例集** | 官方案例 PDF | [联系 Infor 获取](https://www.infor.com/company/contact) |
+| **Infor LN 客户成功案例集** | 官方案例 PDF | [联系 Infor 获取](https://www.infor.com/contact) |
 | **Infor M3 行业案例** | 食品饮料/时尚/分销 | [Infor 官方案例](https://www.infor.com/customer-stories) |
 | **Infor CloudSuite Industrial 客户评价** | G2 用户评价聚合 | [访问 G2](https://www.g2.com/products/infor-cloudsuite-industrial/reviews) |
-| **Infor WMS 客户案例** | 官方案例视频 | [Infor 官网](https://www.infor.com/products/wms) |
+| **Infor WMS 客户案例** | 官方案例视频 | [Infor 官网](https://www.infor.com/products/infor-wms) |
 
 ---
 

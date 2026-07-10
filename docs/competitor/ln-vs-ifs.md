@@ -146,7 +146,7 @@ description: "Infor LN 与 IFS Applications 在复杂项目制造和资产密集
 
 ## 6. 相关资源
 
-- [Infor LN 官方产品页](https://www.infor.com/products/erp-ln)
+- [Infor LN 官方产品页](https://www.infor.com/products/cloudsuite-industrial)
 - [IFS Applications 官方产品页](https://www.ifs.com/products/ifs-applications/)
 - [Infor LN 技术文档（Infor Support Portal）](https://support.infor.com)
 - [IFS 知识库（IFS Community）](https://community.ifs.com/)

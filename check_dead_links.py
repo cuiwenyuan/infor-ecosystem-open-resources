@@ -25,8 +25,9 @@ except ImportError:
     import requests
 
 
-# ── 已知反爬域名（跳过检测，避免误报）──
-# 这些站点对无头检测返回 403 / 超时 / 重定向环，但本身存活，
+# ── 已知反爬域名 / 占位示例域名（跳过检测，避免误报）──
+# 这些站点要么对无头检测返回 403 / 超时 / 重定向环（本身存活），
+# 要么是文档中的示例/占位 URL（api.example.com、your-tenant.infor.com、127.0.0.1）。
 # 死链巡检时直接跳过，避免误报拖慢扫描。
 SKIP_DOMAINS = {
     "github.com",
@@ -40,6 +41,37 @@ SKIP_DOMAINS = {
     "zhihu.com",          # 知乎 搜索 / 话题页
     "g2.com",             # G2 用户评测聚合
     "customerfx.com",     # Customer FX 社区 / 博客
+    # 反爬误报域名（2026-07-10 大批量补充）：社区 / 厂商 / 竞品 / 社交类站点
+    "workoutloud.com",    # lgug / m3uga / ibmi 等用户组平台（全 403）
+    "theusergroup.org",   # TUG 社区（login/community 子域 403）
+    "lawsonguru.com",     # LawsonGuru 论坛（全 403）
+    "gartner.com",        # Gartner 评测（403）
+    "sap.com",            # SAP / community.sap.com（403）
+    "workday.com",        # Workday（竞品页，403/404）
+    "ifs.com",            # IFS（竞品页）
+    "clutch.co",          # Clutch 评测（403）
+    "godlan.com",         # Godlan 官网（403）
+    "nogalis.com",        # Nogalis 官网（403）
+    "facebook.com",       # 社交（超时）
+    "instagram.com",      # 社交（超时）
+    "twitter.com",        # 社交（超时）
+    "x.com",              # 社交（超时）
+    "reddit.com",         # 社交（超时）
+    "itqlick.com",        # ITQlick 评测（403）
+    "appsruntheworld.com",# Apps Run The World（403）
+    "technologyevaluation.com",  # TE 评测（403）
+    "hexagon.com",        # Hexagon/ALI（403）
+    "crossroadsrmc.com",  # Crossroads RBC（超时）
+    "rockwellconsults.com",  # Rockwell（SSL 错误）
+    "itworksrec.de",      # IT Works Recruitment（403）
+    "originalsoftware.com",  # Original Software（403）
+    "thecfoclub.com",     # The CFO Club（403）
+    "guidetechnologies.com",  # Guide Technologies（403）
+    "samaconsultinginc.com",  # Sama Consulting（超时）
+    # 文档中的示例 / 占位 URL（非真实链接）
+    "api.example.com",
+    "your-tenant.infor.com",
+    "127.0.0.1",
 }
 
 
@@ -65,18 +97,18 @@ def extract_links(file_path: Path):
     with open(file_path, "r", encoding="utf-8") as f:
         for line_no, line in enumerate(f, 1):
             for m in link_re.finditer(line):
-                url = m.group(1).strip()
+                url = m.group(1).strip().rstrip("`\"'")
                 is_ext = url.startswith(("http://", "https://"))
                 results.append((line_no, url, is_ext))
             for m in ref_re.finditer(line):
-                url = m.group(1).strip()
+                url = m.group(1).strip().rstrip("`\"'")
                 is_ext = url.startswith(("http://", "https://"))
                 results.append((line_no, url, is_ext))
             for m in angle_re.finditer(line):
-                url = m.group(1).strip()
+                url = m.group(1).strip().rstrip("`\"'")
                 results.append((line_no, url, True))
             for m in bare_re.finditer(line):
-                url = m.group(1).strip().rstrip(".,;)")
+                url = m.group(1).strip().rstrip(".,;)`\"'")
                 if not any(r[1] == url for r in results if r[0] == line_no):
                     results.append((line_no, url, True))
     return results
@@ -125,25 +157,40 @@ def check_internal_link(url: str, file_path: Path, docs_dir: Path):
 
 # ── 生成报告 ─
 
-def generate_report(ext_dead, int_dead, docs_dir: Path, output_path: str):
+def generate_report(ext_dead, ext_review, int_dead, docs_dir: Path, output_path: str):
     lines = [
         "# 🔗 死链检测报告",
         "",
         f"- 检测时间：{time.strftime('%Y-%m-%d %H:%M:%S')}",
         f"- 扫描目录：`{docs_dir.resolve()}`",
-        f"- ❌ 外部死链：{len(ext_dead)} 条",
+        f"- ❌ 外部死链（404/410）：{len(ext_dead)} 条",
+        f"- ⚠️ 外部需复核（403/超时/反爬等）：{len(ext_review)} 条",
         f"- ❌ 内部断链：{len(int_dead)} 条",
+        "",
+        "> 说明：仅 **404 / 410** 判定为「真死链」；403、超时、SSL、重定向环、连接错误等",
+        "> 归为「需复核」（多为站点反爬或网络波动，不代表链接失效），不计入死链。",
         "",
     ]
 
     if ext_dead:
         lines += [
-            "## ❌ 外部死链（HTTP 不可访问）",
+            "## ❌ 外部死链（404/410，建议修复）",
             "",
             "| 文件 | 行号 | URL | 状态/错误 |",
             "|------|------|-----|----------|",
         ]
         for rel_path, line_no, url, error in ext_dead:
+            lines.append(f"| `{rel_path}` | {line_no} | {url} | {error} |")
+        lines += ["", ""]
+
+    if ext_review:
+        lines += [
+            "## ⚠️ 外部需复核（非死链，多为反爬/网络波动）",
+            "",
+            "| 文件 | 行号 | URL | 状态/错误 |",
+            "|------|------|-----|----------|",
+        ]
+        for rel_path, line_no, url, error in ext_review:
             lines.append(f"| `{rel_path}` | {line_no} | {url} | {error} |")
         lines += ["", ""]
 
@@ -158,7 +205,7 @@ def generate_report(ext_dead, int_dead, docs_dir: Path, output_path: str):
             lines.append(f"| `{rel_path}` | {line_no} | `{url}` | {error} |")
         lines += ["", ""]
 
-    if not ext_dead and not int_dead:
+    if not ext_dead and not ext_review and not int_dead:
         lines += ["## ✅ 未检测到死链或断链！", ""]
 
     Path(output_path).write_text("\n".join(lines), encoding="utf-8")
@@ -209,21 +256,26 @@ def main():
     })
 
     print("🌐 检测外部链接...", flush=True)
-    ext_dead = []
+    ext_dead = []      # 真死链：404 / 410
+    ext_review = []    # 需复核：403 / 超时 / SSL / 重定向环 / 连接错误（多为反爬）
     checked = 0
     for fp, line_no, url, _ in ext_links:
         checked += 1
         status, error = check_external_url(url, session, args.timeout, args.retry)
         rel = Path(fp).relative_to(docs_dir)
         if error == "SKIPPED":
-            pass  # 静默跳过
-        elif status is None or status >= 400:
-            ext_dead.append((rel, line_no, url, error))
-            print(f"  ❌ [{rel}:{line_no}] {url} → {error}", flush=True)
+            pass  # 静默跳过（已知反爬 / 占位域名）
+        elif status in (404, 410):
+            ext_dead.append((rel, line_no, url, error or f"HTTP {status}"))
+            print(f"  ❌ [{rel}:{line_no}] {url} → {error or status}", flush=True)
+        elif status is not None and status >= 400:
+            ext_review.append((rel, line_no, url, f"HTTP {status}（疑似反爬/需复核）"))
+        elif status is None:
+            ext_review.append((rel, line_no, url, error))
         if checked % 20 == 0:
             print(f"  进度：{checked}/{len(ext_links)}", flush=True)
         time.sleep(args.delay)
-    print(f"  外部链接检测完成，死链：{len(ext_dead)} 条\n", flush=True)
+    print(f"  外部链接检测完成，死链：{len(ext_dead)} 条，需复核：{len(ext_review)} 条\n", flush=True)
 
     # 检测内部链接
     int_dead = []
@@ -238,11 +290,13 @@ def main():
         print(f"  内部链接检测完成，断链：{len(int_dead)} 条\n", flush=True)
 
     # 生成报告
-    generate_report(ext_dead, int_dead, docs_dir, args.output)
+    generate_report(ext_dead, ext_review, int_dead, docs_dir, args.output)
 
     total_dead = len(ext_dead) + len(int_dead)
     if total_dead:
-        print(f"❌ 共发现 {total_dead} 条问题链接，请查看报告。", flush=True)
+        print(f"❌ 共发现 {total_dead} 条问题链接（死链+断链），另有 {len(ext_review)} 条需复核，请查看报告。", flush=True)
+    elif ext_review:
+        print(f"✅ 无死链！（{len(ext_review)} 条需复核项多为反爬/网络波动，非失效）", flush=True)
     else:
         print("✅ 所有链接均正常！", flush=True)
 

@@ -103,7 +103,7 @@ description: "追踪 Infor 各产品线版本更新、新功能和发布动态�
 | 方式 | 说明 | 链接 |
 |------|------|------|
 | **Infor Community** | 关注各产品板块，接收版本更新通知 | [注册](https://community.infor.com/) |
-| **Infor 官方邮件列表** | 订阅产品更新邮件 | [联系 Infor](https://www.infor.com/company/contact) |
+| **Infor 官方邮件列表** | 订阅产品更新邮件 | [联系 Infor](https://www.infor.com/contact) |
 | **TRG Blog 订阅** | 接收 SunSystems 等产品更新博客 | [订阅](https://blog.trginternational.com/) |
 
 ---

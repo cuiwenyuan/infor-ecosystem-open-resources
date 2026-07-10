@@ -140,8 +140,8 @@ description: "Infor 官方认证（ICP/CPI）备考资源汇总，包含考试�
 | 资源 | 类型 | 说明 | 链接 |
 |------|------|------|------|
 | **Infor Education** | 官方培训平台 | Infor 全产品线官方培训课程 | [访问](https://education.infor.com/) |
-| **Infor University** | 官方学习平台 | 视频课程、学习路径 | [访问](https://www.infor.com/products/education) |
-| **Infor Campus** | 校园合作 | 高校合作项目 | [访问](https://www.infor.com/products/education) |
+| **Infor University** | 官方学习平台 | 视频课程、学习路径 | [访问](https://www.infor.com/services) |
+| **Infor Campus** | 校园合作 | 高校合作项目 | [访问](https://www.infor.com/services) |
 | **Infor Developer Portal** | 开发者培训 | API、ION、BOD 开发培训 | [访问](https://developer.infor.com/) |
 
 ---

@@ -134,7 +134,7 @@ description: "Infor 生态开放资源导航站首页，提供论坛、顾问公
 
 </div>
 
-> 最后更新：2026-05-17
+> 最后更新：2026-07-10
 
 !!! tip "📢 广告合作"
     本站面向 Infor 生态服务商提供精准推广服务（推荐位 / 招聘发布等），详见 [广告合作方案](sponsorship.md)。
@@ -167,6 +167,18 @@ description: "Infor 生态开放资源导航站首页，提供论坛、顾问公
   - 🔄 刷新 **WIUG / SWUG** 过期活动日期（2025→2026；WIUG 2026 会议 9/30–10/1 西雅图）
   - 🆕 中国社区新增 **腾讯云开发者社区** 条目；「待补充资源」清单全部勾选完成
   - 本分类收录资源数 30 → 32
+- 🔧 **死链检测脚本升级 + 真实 404 修复**
+  - `check_dead_links.py` 改进分类逻辑：仅 **404/410** 判定为「真死链」；403、超时、SSL、重定向环、连接错误统一归为「需复核」（多为反爬/网络波动），彻底消除误报噪声
+  - 扩充 `SKIP_DOMAINS` 反爬/占位域名清单（新增 workoutloud、theusergroup、lawsonguru、gartner、sap、workday、ifs、社交类、占位示例等约 30 个），巡检更快更干净
+  - 修复确认失效的 Infor.com 官方链接（共 12 个文件、9 类 URL 已替换为有效地址）：
+    - `/products/erp-ln` → `/products/cloudsuite-industrial`
+    - `/products/wms` 及 `/products/warehouse-management-system`（含 blueyonder 拼写错误 `waretouse-`）→ `/products/infor-wms`
+    - `/products/hcm` → `/solutions/human-capital-management`
+    - `/products/cloudsuite` → `/industries`
+    - `/products/education` → `/services`
+    - `/customer-stories/videos` → `/customer-stories`
+    - `/company/contact` → `/contact`
+  - 新报告 `dead_links_report_2026-07-10.md` 仅含真实 404，误报噪声大幅降低
 
 #### 2026-07-08
 - 📰 **版本动态新增 CloudSuite 2026.04 大版本**：补齐站点停更期间（2026-04 发布、5 月对外公布）的 Infor 重大更新

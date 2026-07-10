@@ -115,7 +115,7 @@ description: "Infor HCM 与 Workday HCM 的全面对比分析，涵盖功能、�
 ## 🔗 相关资源
 
 ### Infor HCM 资源
-- [Infor HCM 官方产品页](https://www.infor.com/products/hcm)
+- [Infor HCM 官方产品页](https://www.infor.com/solutions/human-capital-management)
 - [Infor HCM 技术文档](https://docs.infor.com/)
 - [Infor HCM 社区论坛](https://community.infor.com/)
 

@@ -123,7 +123,7 @@ description: "Infor LN 与 QAD 在离散制造（特别是汽车供应链）场�
 
 ## 6. 相关资源
 
-- [Infor LN 官方产品页](https://www.infor.com/products/erp-ln)
+- [Infor LN 官方产品页](https://www.infor.com/products/cloudsuite-industrial)
 - [QAD Cloud ERP 官方产品页](https://www.qad.com/products/cloud-erp)
 - [Infor LN 技术文档（Infor Support Portal）](https://support.infor.com)
 - [QAD 用户社区](https://www.qad.com/community)

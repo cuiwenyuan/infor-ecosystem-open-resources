@@ -130,7 +130,7 @@ description: "Infor LN 与 Sage X3 在中小型离散制造场景下的客观对
 
 ## 6. 相关资源
 
-- [Infor LN 官方产品页](https://www.infor.com/products/erp-ln)
+- [Infor LN 官方产品页](https://www.infor.com/products/cloudsuite-industrial)
 - [Sage X3 官方产品页](https://www.sage.com/en-us/products/sage-x3/)
 - [Infor LN 技术文档（Infor Support Portal）](https://support.infor.com)
 - [Sage 知识库（Sage City）](https://www.sagecity.com/)

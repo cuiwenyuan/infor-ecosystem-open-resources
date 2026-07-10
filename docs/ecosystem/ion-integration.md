@@ -52,7 +52,7 @@ ION Desk 是 ION 的**管理控制台**，提供：
 
 ### 访问方式
 
-1. 登录 [Infor CloudSuite](https://www.infor.com/products/cloudsuite)
+1. 登录 [Infor CloudSuite](https://www.infor.com/industries)
 2. 打开 **ION Desk** 应用
 3. 使用 Infor OS 账号单点登录 (SSO)
 
