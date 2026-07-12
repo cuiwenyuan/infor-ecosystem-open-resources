@@ -160,6 +160,14 @@ description: "Infor 生态开放资源导航站首页，提供论坛、顾问公
 
 ### 📅 项目动态
 
+#### 2026-07-12
+- 📦 **新增开源库 Wangcaisoft.DotNet.BaanWindowsLib（Infor LN / Baan .NET 集成）**
+  - 收录 `cuiwenyuan/infor-bw-dotnet-baanlib`：.NET (C#) 开源库，封装 Baan/Infor LN 的 OLE 自动化对象（`Baan.Application.*`），以链式 API 调用 LN 4GL DLL 函数；多目标 .NET Framework 4.6.2+ 与 .NET 6/8/10（Windows），MIT 许可
+  - 归类：**开发者开源项目**（`developer/open-source.md`「LN 相关项目」）+ **LN 开发工具**（`resources/tools.md` 第三方 LN 开发工具）+ **Infor LN 产品页**（`by-product/ln.md` 工具与插件交叉引用）
+  - 同步更新上述三页「最后更新」日期为 2026-07-12
+  - ➕ 追加收录位置：**开发者资源中心首页主表**（`developer/index.md`「热门开发者资源 → LN 4GL 开发」）
+  - 🛠️ `developer/open-source.md` 新增「社区精选」区块：补充 NuGet 安装命令、适用场景与 README 指引
+
 #### 2026-07-10
 - 💬 **论坛与社区页面更新**：`resources/forums.md` 增补与刷新
   - 🆕 新增 **Infor Velocity Suite 官方社区**（community.infor.com/categories/velocity-suite），衔接 CloudSuite 2026.04 AI 大版本，产品管理团队直接驻场答疑

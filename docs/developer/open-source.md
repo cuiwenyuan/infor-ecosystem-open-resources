@@ -50,6 +50,7 @@ description: "Infor 官方和社区开源项目汇总，包括 GitHub 仓库、�
 | **maharhoshi/InforLN** | Infor ERP LN 相关代码和工具 | [GitHub](https://github.com/maharhoshi/InforLN) |
 | **pavanthota97/INFOR-LN** | Infor LN 开发示例 | [GitHub](https://github.com/pavanthota97/INFOR-LN) |
 | **shubham225/infor-ln-devtools** | VS Code 扩展（LN 构件管理） | [GitHub](https://github.com/shubham225/infor-ln-devtools) |
+| **cuiwenyuan/infor-bw-dotnet-baanlib** | .NET (C#) 开源库，封装 Baan/Infor LN 的 OLE 自动化对象（`Baan.Application.*`），以链式 API 调用 LN 4GL DLL 函数；多目标 .NET Framework 4.6.2+ 与 .NET 6/8/10（Windows），NuGet 包名 `Wangcaisoft.DotNet.BaanWindowsLib`，MIT 许可 | [GitHub](https://github.com/cuiwenyuan/infor-bw-dotnet-baanlib) |
 
 ### M3 相关项目
 
@@ -62,6 +63,24 @@ description: "Infor 官方和社区开源项目汇总，包括 GitHub 仓库、�
 | 项目 | 简介 | 链接 |
 |------|--------|------|
 | **ION API 客户端示例** | 社区贡献的 ION API 调用示例 | [GitHub 搜索](https://github.com/search?q=infor+ion+api&type=repositories) |
+
+### 📦 社区精选：Wangcaisoft.DotNet.BaanWindowsLib
+
+由本仓库维护者开源的 **.NET (C#) Infor LN / Baan 集成库**，封装 `Baan.Application.*` OLE 自动化对象，以链式 API 调用 LN 4GL DLL 函数；多目标 .NET Framework 4.6.2+ 与 .NET 6 / 8 / 10（Windows 平台），采用 MIT 许可。
+
+**安装（NuGet）**
+
+```bash
+dotnet add package Wangcaisoft.DotNet.BaanWindowsLib
+```
+
+**适用场景**
+
+- 在 .NET 程序中自动化登录 LN / Baan 并调用 4GL DLL 函数、读写表数据
+- 与现有 C# 业务系统集成（报表触发、数据同步、批量作业）
+- 替代旧版 `Baan.Application.*` COM 直接调用，获得强类型与链式 API 体验
+
+> 链式 API 的具体方法签名与示例以仓库 [README](https://github.com/cuiwenyuan/infor-bw-dotnet-baanlib) 为准（截至收录时 NuGet 包页尚未发布，包名已保留为 `Wangcaisoft.DotNet.BaanWindowsLib`）。
 
 ---
 
@@ -121,4 +140,4 @@ public class IonApiExample {
 
 > 如果发现更多 Infor 相关开源项目，欢迎 [提交](../submission-guide.md)！
 
-**最后更新**：2026-05-11
+**最后更新**：2026-07-12

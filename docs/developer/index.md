@@ -39,6 +39,7 @@ description: "Infor 开发者资源中心，聚合 ION API、LN 4GL 代码库、
 | **Infor LN DevTools (VS Code)** | VS Code 扩展，浏览/选择/管理 LN ERP 构件 | Infor LN 10.7+ | [GitHub](https://github.com/shubham225/infor-ln-devtools) |
 | **LN Studio** | Infor LN 官方应用开发工具 | Infor LN 10.4+ | [官方文档](https://docs.infor.com/ln/10.4/en-us/lnolh/docs/ln_10.4_devtoolsdg__en-us.pdf) |
 | **LN 4GL 开发指南** | DAL、Extension、Public Interfaces 开发详解 | Infor LN | [查看](https://docs.infor.com/ln/latest/en-us/lnesolh/lnstudextdg_cl/cover.html) |
+| **Wangcaisoft.DotNet.BaanWindowsLib** | .NET (C#) 开源库，OLE 自动化封装调用 LN 4GL DLL（链式 API） | Infor LN / Baan (Windows) | [GitHub](https://github.com/cuiwenyuan/infor-bw-dotnet-baanlib) |
 
 ### 🔧 Extension 开发（M3）
 
@@ -62,4 +63,4 @@ description: "Infor 开发者资源中心，聚合 ION API、LN 4GL 代码库、
 
 > 欢迎贡献更多开发者资源！请查看 [资源提交规范](../submission-guide.md) 了解如何提交。
 
-**最后更新**：2026-05-11
+**最后更新**：2026-07-12

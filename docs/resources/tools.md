@@ -244,6 +244,7 @@ description: "精选 Infor 生态系统相关的开发工具、插件、扩展�
 |---------|------|---------|------|
 | **NewBaanBoard Archive (GitHub)** | BaanBoard 论坛历史存档，包含 20,000+ 讨论，是 Baan/LN 社区的宝贵历史资源 | Infor LN, Baan | [查看仓库](https://github.com/newbaanboard/baanboard) |
 | **FullOnBaan Knowledge Repository** | FullOnBaan.com 归档知识库，可搜索的 Baan/LN 技术问答 | Infor LN, Baan | [访问知识库](https://repo.fullonbaan.com/) |
+| **Wangcaisoft.DotNet.BaanWindowsLib** | .NET (C#) 开源库，封装 Baan/Infor LN 的 OLE 自动化对象（`Baan.Application.*`），以链式 API 调用 LN 4GL DLL 函数，支持 .NET Framework 4.6.2+ 与 .NET 6/8/10（Windows），MIT 许可 | Infor LN, Baan | [访问仓库](https://github.com/cuiwenyuan/infor-bw-dotnet-baanlib) |
 
 ---
 
@@ -251,7 +252,7 @@ description: "精选 Infor 生态系统相关的开发工具、插件、扩展�
 
 ### 按产品分类
 
-- **Infor LN**：LN DevTools, LN Studio, PMC, LN Reporting (SSRS)
+- **Infor LN**：LN DevTools, LN Studio, PMC, LN Reporting (SSRS), Wangcaisoft.DotNet.BaanWindowsLib
 - **Infor M3**：XtendM3, M3 H5 SDK, M3 Data Mover, M3 Data Import Tool
 - **Infor ION**：ION API Gateway, ION BOD Tools, ION Development Guide
 - **Infor OS**：Infor OS Portal, Infor RPA, Infor AI, Infor Marketplace
@@ -295,5 +296,5 @@ description: "精选 Infor 生态系统相关的开发工具、插件、扩展�
 
 ---
 
-**最后更新**：2026-05-07  
+**最后更新**：2026-07-12 
 **维护者**：崔文远 Troy Cui
