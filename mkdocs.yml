@@ -184,6 +184,8 @@ nav:
   - 中国: by-region/china.md
 - 按产品浏览:
   - Infor LN: by-product/ln.md
+  - Infor LN 授权与 Product ID: by-product/ln-product-ids.md
+  - Infor LN 包代码速查: by-product/ln-package-codes.md
   - Infor M3: by-product/m3.md
   - CloudSuite Industrial: by-product/csi.md
   - Infor WMS: by-product/wms.md

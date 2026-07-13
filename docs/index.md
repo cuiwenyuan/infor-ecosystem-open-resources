@@ -134,7 +134,7 @@ description: "Infor 生态开放资源导航站首页，提供论坛、顾问公
 
 </div>
 
-> 最后更新：2026-07-10
+> 最后更新：2026-07-13
 
 !!! tip "📢 广告合作"
     本站面向 Infor 生态服务商提供精准推广服务（推荐位 / 招聘发布等），详见 [广告合作方案](sponsorship.md)。
@@ -159,6 +159,20 @@ description: "Infor 生态开放资源导航站首页，提供论坛、顾问公
 ---
 
 ### 📅 项目动态
+
+#### 2026-07-13
+- 🆕 **新增「Infor LN 授权与 Product ID」专页**（`by-product/ln-product-ids.md`）
+  - 纠正概念：**Product ID = SLM 中的 License 授权代码**（数字编号，如开发权限 `10146`），定义授权级别，而非包代码
+  - 整理 **16 个公开可查的 LN / Enterprise Server Product ID**（来源：Infor 官方 LN Studio 前提条件、ES 技术说明、SLM 维护许可说明），含产品/组件名、**授权类型**（Concurrent/Named/Server 等）、**分类**、描述与备注
+  - 内置**搜索框 + 分类筛选**（原生 JS，实时过滤 + 命中计数）；附授权类型说明、SLM 查询路径、编号规律观察，以及"License Product ID vs 包代码 vs 物料 Product Type"三种 Product 概念澄清
+  - 集成位置：导航「按产品浏览 → Infor LN 授权与 Product ID」；`by-product/ln.md` 工具与插件交叉引用同步改名
+- 🆕 **新增「Infor LN 包代码（Package Code）速查」专页**（`by-product/ln-package-codes.md`）
+  - 整理 LN 技术架构包代码的**编号规则**（包代码 / 表·域代码 / 会话代码 / 子系统代码）、**分类**、**描述**及与**模块 / 表 / 会话**的对应关系，含 36 条核心包代码
+  - 内置**搜索框 + 分类筛选**（原生 JS，实时过滤 + 命中计数）；附子系统代码对照（tccom0100s000）与"包代码 vs License Product ID vs 物料 Product Type"概念澄清
+  - 集成位置：导航「按产品浏览 → Infor LN 包代码速查」；`by-product/ln.md` 加交叉引用行；与授权页双向互链
+- 🔧 **扩充「Infor LN 包代码速查」页（ln-package-codes.md）**
+  - 新增**「根包」筛选维度**：在原"搜索 + 分类筛选"基础上，增加按根包（tc/td/ti/wh/tf/tp/cp/cisli/qm/ts/fm）下拉筛选，三种过滤可叠加
+  - 包代码从 36 条扩充至 **50+ 条**，新增质量 `qm`（qmptc 质量主数据/检验、qmncm 不合格品管理）、服务 `ts`（tsmdm 服务主数据、tssoc 服务订单、tsmsc 维护销售订单、tstdm 售后服务）、货运 `fm`、EDI `tdedi` 等根包与子包，并补充各包的真实典型会话代码（如 qmptc2220m000、tsmdm1100m100）
 
 #### 2026-07-12
 - 📦 **新增开源库 Wangcaisoft.DotNet.BaanWindowsLib（Infor LN / Baan .NET 集成）**

@@ -140,6 +140,8 @@ description: "Infor LN 资源导航，收录 LN 相关的顾问公司、技术�
 | [LN Reporting (SSRS)](../resources/tools.md) | LN 报表开发工具 |
 | [ION BOD 处理工具](../resources/tools.md) | ION BOD 消息处理指南 |
 | [Wangcaisoft.DotNet.BaanWindowsLib](../resources/tools.md) | .NET (C#) 开源库，封装 LN OLE 自动化对象，以链式 API 调用 4GL DLL 函数 |
+| [LN 授权与 Product ID 速查表](ln-product-ids.md) | SLM 中的 License Product ID（授权代码）对照，含授权类型、编号规律与搜索筛选 |
+| [LN 包代码（Package Code）速查表](ln-package-codes.md) | 技术架构包 / 表 / 会话前缀（如 tccom / tdpur）编号规则、分类与搜索筛选 |
 
 ---
 
@@ -165,4 +167,4 @@ Infor LN 的前身是荷兰 Baan 公司（1978年创立）开发的 Baan ERP，�
 
 ---
 
-**最后更新**：2026-07-12
+**最后更新**：2026-07-13
