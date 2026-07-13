@@ -776,6 +776,28 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
+  <a href="#2026-07-13" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2026-07-13
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2026-07-12" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2026-07-12
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#2026-07-10" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -4393,6 +4415,62 @@
   
   
     <li class="md-nav__item">
+      <a href="by-product/ln-product-ids/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Infor LN 授权与 Product ID
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="by-product/ln-package-codes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Infor LN 包代码速查
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="by-product/m3/" class="md-nav__link">
         
   
@@ -6860,6 +6938,28 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
+  <a href="#2026-07-13" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2026-07-13
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2026-07-12" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2026-07-12
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#2026-07-10" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -7464,7 +7564,7 @@
 </div>
 
 <blockquote>
-<p>最后更新：2026-05-17</p>
+<p>最后更新：2026-07-13</p>
 </blockquote>
 <div class="admonition tip">
 <p class="admonition-title">📢 广告合作</p>
@@ -7484,6 +7584,30 @@
 <p>请阅读 <a href="contributing/">CONTRIBUTING.md</a> 了解详细的贡献流程和规范。</p>
 <hr />
 <h3 id="_14">📅 项目动态</h3>
+<h4 id="2026-07-13">2026-07-13</h4>
+<ul>
+<li>🆕 <strong>新增「Infor LN 授权与 Product ID」专页</strong>（<code>by-product/ln-product-ids.md</code>）</li>
+<li>纠正概念：<strong>Product ID = SLM 中的 License 授权代码</strong>（数字编号，如开发权限 <code>10146</code>），定义授权级别，而非包代码</li>
+<li>整理 <strong>16 个公开可查的 LN / Enterprise Server Product ID</strong>（来源：Infor 官方 LN Studio 前提条件、ES 技术说明、SLM 维护许可说明），含产品/组件名、<strong>授权类型</strong>（Concurrent/Named/Server 等）、<strong>分类</strong>、描述与备注</li>
+<li>内置<strong>搜索框 + 分类筛选</strong>（原生 JS，实时过滤 + 命中计数）；附授权类型说明、SLM 查询路径、编号规律观察，以及"License Product ID vs 包代码 vs 物料 Product Type"三种 Product 概念澄清</li>
+<li>集成位置：导航「按产品浏览 → Infor LN 授权与 Product ID」；<code>by-product/ln.md</code> 工具与插件交叉引用同步改名</li>
+<li>🆕 <strong>新增「Infor LN 包代码（Package Code）速查」专页</strong>（<code>by-product/ln-package-codes.md</code>）</li>
+<li>整理 LN 技术架构包代码的<strong>编号规则</strong>（包代码 / 表·域代码 / 会话代码 / 子系统代码）、<strong>分类</strong>、<strong>描述</strong>及与<strong>模块 / 表 / 会话</strong>的对应关系，含 36 条核心包代码</li>
+<li>内置<strong>搜索框 + 分类筛选</strong>（原生 JS，实时过滤 + 命中计数）；附子系统代码对照（tccom0100s000）与"包代码 vs License Product ID vs 物料 Product Type"概念澄清</li>
+<li>集成位置：导航「按产品浏览 → Infor LN 包代码速查」；<code>by-product/ln.md</code> 加交叉引用行；与授权页双向互链</li>
+<li>🔧 <strong>扩充「Infor LN 包代码速查」页（ln-package-codes.md）</strong></li>
+<li>新增<strong>「根包」筛选维度</strong>：在原"搜索 + 分类筛选"基础上，增加按根包（tc/td/ti/wh/tf/tp/cp/cisli/qm/ts/fm）下拉筛选，三种过滤可叠加</li>
+<li>包代码从 36 条扩充至 <strong>50+ 条</strong>，新增质量 <code>qm</code>（qmptc 质量主数据/检验、qmncm 不合格品管理）、服务 <code>ts</code>（tsmdm 服务主数据、tssoc 服务订单、tsmsc 维护销售订单、tstdm 售后服务）、货运 <code>fm</code>、EDI <code>tdedi</code> 等根包与子包，并补充各包的真实典型会话代码（如 qmptc2220m000、tsmdm1100m100）</li>
+</ul>
+<h4 id="2026-07-12">2026-07-12</h4>
+<ul>
+<li>📦 <strong>新增开源库 Wangcaisoft.DotNet.BaanWindowsLib（Infor LN / Baan .NET 集成）</strong></li>
+<li>收录 <code>cuiwenyuan/infor-bw-dotnet-baanlib</code>：.NET (C#) 开源库，封装 Baan/Infor LN 的 OLE 自动化对象（<code>Baan.Application.*</code>），以链式 API 调用 LN 4GL DLL 函数；多目标 .NET Framework 4.6.2+ 与 .NET 6/8/10（Windows），MIT 许可</li>
+<li>归类：<strong>开发者开源项目</strong>（<code>developer/open-source.md</code>「LN 相关项目」）+ <strong>LN 开发工具</strong>（<code>resources/tools.md</code> 第三方 LN 开发工具）+ <strong>Infor LN 产品页</strong>（<code>by-product/ln.md</code> 工具与插件交叉引用）</li>
+<li>同步更新上述三页「最后更新」日期为 2026-07-12</li>
+<li>➕ 追加收录位置：<strong>开发者资源中心首页主表</strong>（<code>developer/index.md</code>「热门开发者资源 → LN 4GL 开发」）</li>
+<li>🛠️ <code>developer/open-source.md</code> 新增「社区精选」区块：补充 NuGet 安装命令、适用场景与 README 指引</li>
+</ul>
 <h4 id="2026-07-10">2026-07-10</h4>
 <ul>
 <li>💬 <strong>论坛与社区页面更新</strong>：<code>resources/forums.md</code> 增补与刷新</li>
@@ -7492,6 +7616,20 @@
 <li>🔄 刷新 <strong>WIUG / SWUG</strong> 过期活动日期（2025→2026；WIUG 2026 会议 9/30–10/1 西雅图）</li>
 <li>🆕 中国社区新增 <strong>腾讯云开发者社区</strong> 条目；「待补充资源」清单全部勾选完成</li>
 <li>本分类收录资源数 30 → 32</li>
+<li>🔧 <strong>死链检测脚本升级 + 真实 404 修复</strong></li>
+<li><code>check_dead_links.py</code> 改进分类逻辑：仅 <strong>404/410</strong> 判定为「真死链」；403、超时、SSL、重定向环、连接错误统一归为「需复核」（多为反爬/网络波动），彻底消除误报噪声</li>
+<li>扩充 <code>SKIP_DOMAINS</code> 反爬/占位域名清单（新增 workoutloud、theusergroup、lawsonguru、gartner、sap、workday、ifs、社交类、占位示例等约 30 个），巡检更快更干净</li>
+<li>修复确认失效的 Infor.com 官方链接（共 12 个文件、9 类 URL 已替换为有效地址）：<ul>
+<li><code>/products/erp-ln</code> → <code>/products/cloudsuite-industrial</code></li>
+<li><code>/products/wms</code> 及 <code>/products/warehouse-management-system</code>（含 blueyonder 拼写错误 <code>waretouse-</code>）→ <code>/products/infor-wms</code></li>
+<li><code>/products/hcm</code> → <code>/solutions/human-capital-management</code></li>
+<li><code>/products/cloudsuite</code> → <code>/industries</code></li>
+<li><code>/products/education</code> → <code>/services</code></li>
+<li><code>/customer-stories/videos</code> → <code>/customer-stories</code></li>
+<li><code>/company/contact</code> → <code>/contact</code></li>
+</ul>
+</li>
+<li>新报告 <code>dead_links_report_2026-07-10.md</code> 仅含真实 404，误报噪声大幅降低</li>
 </ul>
 <h4 id="2026-07-08">2026-07-08</h4>
 <ul>

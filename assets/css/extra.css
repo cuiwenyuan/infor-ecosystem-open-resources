@@ -657,3 +657,96 @@
   max-width: 600px;
   margin: 0 auto;
 }
+
+/* ---------------------------------------------------------------------------
+   21. LN Product ID 速查（搜索 / 筛选工具栏 + 表格）
+   --------------------------------------------------------------------------- */
+
+.pid-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.6rem;
+  margin: 1rem 0 1.2rem;
+  padding: 0.8rem 1rem;
+  background: var(--md-code-bg-color);
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 0.4rem;
+}
+
+.pid-input {
+  flex: 1 1 240px;
+  min-width: 200px;
+  padding: 0.5rem 0.8rem;
+  font-size: 0.9rem;
+  color: var(--md-default-fg-color);
+  background: var(--md-default-bg-color);
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 0.3rem;
+  outline: none;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.pid-input:focus {
+  border-color: var(--md-primary-fg-color);
+  box-shadow: 0 0 0 2px var(--md-accent-fg-color--transparent);
+}
+
+.pid-select {
+  padding: 0.5rem 0.8rem;
+  font-size: 0.9rem;
+  color: var(--md-default-fg-color);
+  background: var(--md-default-bg-color);
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 0.3rem;
+  cursor: pointer;
+}
+
+.pid-count {
+  font-size: 0.8rem;
+  color: var(--md-default-fg-color--light);
+  white-space: nowrap;
+}
+
+.pid-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.88rem;
+}
+
+.pid-table th,
+.pid-table td {
+  padding: 0.6rem 0.8rem;
+  border-bottom: 1px solid var(--md-default-fg-color--lightest);
+  text-align: left;
+  vertical-align: top;
+}
+
+.pid-table thead th {
+  background: var(--md-primary-fg-color);
+  color: var(--md-primary-bg-color);
+  font-weight: 600;
+}
+
+.pid-table tbody tr:nth-child(even) {
+  background: rgba(0, 0, 0, 0.02);
+}
+
+[data-md-color-scheme="slate"] .pid-table tbody tr:nth-child(even) {
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.pid-table tbody tr:hover {
+  background: rgba(var(--md-primary-fg-color--rgb), 0.04);
+}
+
+@media (max-width: 600px) {
+  .pid-table {
+    font-size: 0.8rem;
+  }
+
+  .pid-table th,
+  .pid-table td {
+    padding: 0.45rem 0.5rem;
+  }
+}
