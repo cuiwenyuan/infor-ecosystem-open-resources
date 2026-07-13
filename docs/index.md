@@ -173,6 +173,7 @@ description: "Infor 生态开放资源导航站首页，提供论坛、顾问公
 - 🔧 **扩充「Infor LN 包代码速查」页（ln-package-codes.md）**
   - 新增**「根包」筛选维度**：在原"搜索 + 分类筛选"基础上，增加按根包（tc/td/ti/wh/tf/tp/cp/cisli/qm/ts/fm）下拉筛选，三种过滤可叠加
   - 包代码从 36 条扩充至 **50+ 条**，新增质量 `qm`（qmptc 质量主数据/检验、qmncm 不合格品管理）、服务 `ts`（tsmdm 服务主数据、tssoc 服务订单、tsmsc 维护销售订单、tstdm 售后服务）、货运 `fm`、EDI `tdedi` 等根包与子包，并补充各包的真实典型会话代码（如 qmptc2220m000、tsmdm1100m100）
+- 📂 **导航结构调整**：将「按产品浏览」下两张 LN 专页（授权与 Product ID、包代码速查）从顶层导航移出，改为在 `by-product/ln.md` 顶部「📑 专题速查」小节以 2 个链接呈现，避免导航中 Infor LN 条目过多；两页仍与 LN 产品页双向互链、可经 LN 页触达
 
 #### 2026-07-12
 - 📦 **新增开源库 Wangcaisoft.DotNet.BaanWindowsLib（Infor LN / Baan .NET 集成）**
@@ -419,6 +420,6 @@ description: "Infor 生态开放资源导航站首页，提供论坛、顾问公
 
 ---
 
-**最后更新**：2026-05-12  
+**最后更新**：2026-07-13  
 **维护者**：崔文远 Troy Cui  
 **许可证**：[MIT](license.md) / [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)

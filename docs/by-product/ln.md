@@ -22,6 +22,15 @@ description: "Infor LN 资源导航，收录 LN 相关的顾问公司、技术�
 
 ---
 
+## 📑 专题速查
+
+为便于快速查阅 LN 内部编码与授权体系，本站整理了以下两张专题速查表（均支持搜索与筛选）：
+
+- [Infor LN 授权与 Product ID](ln-product-ids.md) — SLM（Solution License Manager）中的 License 授权代码对照，含授权类型、编号规律与检索筛选
+- [Infor LN 包代码（Package Code）速查](ln-package-codes.md) — LN 技术架构包代码编号规则与 50+ 包代码对照，支持搜索 / 分类 / 根包筛选
+
+---
+
 ## 版本历史
 
 | 年份 | 版本 | 说明 |
@@ -140,8 +149,6 @@ description: "Infor LN 资源导航，收录 LN 相关的顾问公司、技术�
 | [LN Reporting (SSRS)](../resources/tools.md) | LN 报表开发工具 |
 | [ION BOD 处理工具](../resources/tools.md) | ION BOD 消息处理指南 |
 | [Wangcaisoft.DotNet.BaanWindowsLib](../resources/tools.md) | .NET (C#) 开源库，封装 LN OLE 自动化对象，以链式 API 调用 4GL DLL 函数 |
-| [LN 授权与 Product ID 速查表](ln-product-ids.md) | SLM 中的 License Product ID（授权代码）对照，含授权类型、编号规律与搜索筛选 |
-| [LN 包代码（Package Code）速查表](ln-package-codes.md) | 技术架构包 / 表 / 会话前缀（如 tccom / tdpur）编号规则、分类与搜索筛选 |
 
 ---
 
