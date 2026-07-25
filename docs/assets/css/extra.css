@@ -750,3 +750,164 @@
     padding: 0.45rem 0.5rem;
   }
 }
+
+/* ---------------------------------------------------------------------------
+   22. Infor 热门搜索关键词（搜索 / 筛选 / 排序 / 响应式）
+   --------------------------------------------------------------------------- */
+
+.kw-wrap {
+  margin: 1rem 0 2rem;
+}
+
+.kw-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.6rem;
+  margin: 1rem 0 1.2rem;
+  padding: 0.8rem 1rem;
+  background: var(--md-code-bg-color);
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 0.4rem;
+}
+
+.kw-input {
+  flex: 1 1 240px;
+  min-width: 200px;
+  padding: 0.5rem 0.8rem;
+  font-size: 0.9rem;
+  color: var(--md-default-fg-color);
+  background: var(--md-default-bg-color);
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 0.3rem;
+  outline: none;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.kw-input:focus {
+  border-color: var(--md-primary-fg-color);
+  box-shadow: 0 0 0 2px var(--md-accent-fg-color--transparent);
+}
+
+.kw-select {
+  padding: 0.5rem 0.8rem;
+  font-size: 0.9rem;
+  color: var(--md-default-fg-color);
+  background: var(--md-default-bg-color);
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 0.3rem;
+  cursor: pointer;
+}
+
+.kw-count {
+  font-size: 0.8rem;
+  color: var(--md-default-fg-color--light);
+  white-space: nowrap;
+}
+
+.kw-scroll {
+  overflow-x: auto;
+}
+
+.kw-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.88rem;
+}
+
+.kw-table th,
+.kw-table td {
+  padding: 0.6rem 0.8rem;
+  border-bottom: 1px solid var(--md-default-fg-color--lightest);
+  text-align: left;
+  vertical-align: top;
+}
+
+.kw-table thead th {
+  background: var(--md-primary-fg-color);
+  color: var(--md-primary-bg-color);
+  font-weight: 600;
+}
+
+.kw-table tbody tr:nth-child(even) {
+  background: rgba(0, 0, 0, 0.02);
+}
+
+[data-md-color-scheme="slate"] .kw-table tbody tr:nth-child(even) {
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.kw-table tbody tr:hover {
+  background: rgba(var(--md-primary-fg-color--rgb), 0.04);
+}
+
+.kw-heat {
+  position: relative;
+  height: 14px;
+  background: var(--md-default-fg-color--lightest);
+  border-radius: 7px;
+  min-width: 60px;
+}
+
+.kw-heat-fill {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background: linear-gradient(90deg, var(--md-primary-fg-color--light), var(--md-primary-fg-color));
+  border-radius: 7px;
+}
+
+.kw-heat-num {
+  position: absolute;
+  right: 4px;
+  top: -2px;
+  font-size: 0.68rem;
+  color: var(--md-default-fg-color);
+  line-height: 14px;
+}
+
+.kw-tag {
+  display: inline-block;
+  padding: 0.1rem 0.5rem;
+  font-size: 0.72rem;
+  border-radius: 0.8rem;
+  background: var(--md-accent-fg-color--transparent);
+  color: var(--md-primary-fg-color);
+  border: 1px solid var(--md-primary-fg-color--transparent);
+  white-space: nowrap;
+}
+
+.kw-kw {
+  font-weight: 500;
+}
+
+.kw-int {
+  color: var(--md-primary-fg-color);
+  text-decoration: none;
+  font-size: 0.82rem;
+}
+
+.kw-int:hover {
+  text-decoration: underline;
+}
+
+.kw-ext {
+  font-size: 0.78rem;
+  margin-left: 2px;
+}
+
+@media (max-width: 600px) {
+  .kw-table {
+    font-size: 0.78rem;
+  }
+
+  .kw-table th,
+  .kw-table td {
+    padding: 0.45rem 0.5rem;
+  }
+
+  .kw-heat {
+    min-width: 42px;
+  }
+}
