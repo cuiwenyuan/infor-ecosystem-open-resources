@@ -66,6 +66,7 @@ description: "精选 Infor 生态系统相关的开发工具、插件、扩展�
 |---------|------|---------|------|
 | **Infor IDM** | Infor 智能文档管理解决方案，完全集成 ERP，存储、保护和跟踪企业文档，支持版本控制和治理 | Infor LN, M3, 等 | [了解更多](https://www.infor.com/resources/infor-document-management) |
 | **Infor IDM 用户指南** | Infor Document Management (IDM) Web 应用程序的最终用户使用说明 | Infor IDM | [查看指南](https://docs.infor.com/inforosltr/2023.x/en-us/useradminlib_onpremises/idmug/default.html) |
+| **Accure CloudSuite for M3 (ACS4M3) + Conversion Factory 2.0** | 面向 Infor M3 的云原生文档执行/输出管理平台（自 2020 年生产运行，覆盖 91 个市场、42 种语言、21 个输出渠道；Infor OEM 的 MRM 有 350+ 企业客户）；Conversion Factory 2.0（2026-04 发布）自动将 StreamServe/OpenText、IDM、MRM 模板与配置转为 ACS4M3 格式，AI 字段映射（AXML），历史需 10–16 周的工作缩短至数天 | Infor M3, CloudSuite | [新闻稿](https://www.mynewsdesk.com/accure/news/accure-adds-ai-powered-automation-and-conversion-factory-2-dot-0-to-accure-cloudsuite-for-infor-m3-cutting-legacy-migration-time-from-months-to-days-507573) |
 
 ### 报表与数据可视化工具
 
@@ -253,7 +254,7 @@ description: "精选 Infor 生态系统相关的开发工具、插件、扩展�
 ### 按产品分类
 
 - **Infor LN**：LN DevTools, LN Studio, PMC, LN Reporting (SSRS), Wangcaisoft.DotNet.BaanWindowsLib
-- **Infor M3**：XtendM3, M3 H5 SDK, M3 Data Mover, M3 Data Import Tool
+- **Infor M3**：XtendM3, M3 H5 SDK, M3 Data Mover, M3 Data Import Tool, Accure ACS4M3
 - **Infor ION**：ION API Gateway, ION BOD Tools, ION Development Guide
 - **Infor OS**：Infor OS Portal, Infor RPA, Infor AI, Infor Marketplace
 - **Infor SCM**：Infor WMS, Infor SCM Planning, Infor PLM
@@ -296,5 +297,5 @@ description: "精选 Infor 生态系统相关的开发工具、插件、扩展�
 
 ---
 
-**最后更新**：2026-07-12 
+**最后更新**：2026-10-08 
 **维护者**：崔文远 Troy Cui

@@ -51,6 +51,15 @@ description: "Infor Birst 云端商务智能平台资源导航，收录 Birst �
 
 ---
 
+## 2026 年要点（持续更新）
+
+- **CloudSuite 2026.10（2026-10 发布）**：
+  - **Birst Dashboard Builder**：用自然语言提示生成完整仪表板（KPI、可视化、筛选与布局），让业务用户无需技术背景即可构建分析
+  - **Birst Analytics Agent**：用企业数据回答问题、解释绩效驱动因素，并给出可立即执行的可视化洞察
+- 作为 Infor Velocity Suite 的"网络化 BI"底座，持续与 LN/M3/WMS/HCM 等嵌入式分析集成（详见 [Infor OS / Velocity Suite](infor-os.md) 与 [版本动态](../resources/release-notes.md)）
+
+---
+
 ## 与 Infor 生态集成
 
 | Infor 产品 | 集成方式 |
@@ -60,7 +69,7 @@ description: "Infor Birst 云端商务智能平台资源导航，收录 Birst �
 | [Infor WMS](wms.md) | 仓库运营 KPI 仪表板，劳动力效率分析 |
 | [Infor HCM](hcm.md) | 人力资源分析，员工绩效和薪酬分析 |
 | Infor OS | 统一身份认证，数据湖集成 |
-| Infor AI (Coleman) | AI 驱动的预测性分析模型 |
+| Infor AI（原 Coleman AI）/ Velocity Suite | 行业智能体 + GenAI 知识中枢，与 Birst 互补 |
 
 ---
 
@@ -107,10 +116,10 @@ description: "Infor Birst 云端商务智能平台资源导航，收录 Birst �
 
 ## 相关产品
 
-- [Infor AI (Coleman)](infor-os.md) — AI 预测分析，可与 Birst 结合使用
+- [Infor AI（原 Coleman AI）/ Velocity Suite](infor-os.md) — 行业智能体 + GenAI 知识中枢，可与 Birst 结合使用
 - [Infor OS](infor-os.md) — 统一平台，Birst 数据湖和运行基础
 - [Infor d/EPM](../products/by-product-line/index.md#其他专业产品) — 企业绩效管理，与 Birst 互补
 
 ---
 
-**最后更新**：2026-05-10
+**最后更新**：2026-10-08

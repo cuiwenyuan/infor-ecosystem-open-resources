@@ -19,6 +19,19 @@ description: "CloudSuite Industrial（原 SyteLine）资源导航，收录 CSI �
 | **核心行业** | 电子产品、工业设备、汽车组件、金属加工 |
 | **部署方式** | 云部署（Infor OS/AWS） |
 
+## 2026 年要点（持续更新）
+
+- **CloudSuite Industrial（CSI）October 2026 发布**：
+  - **GenAI Assistant**：用自然语言识别采购单/客户订单/发货/作业订单的延误原因并给出建议步骤，可直接邮件分享
+  - **预防性维护洞察**：分析服务历史与维护趋势，识别高故障风险设备
+  - **Enterprise Quality Hub**：整合纠正措施、客户投诉、校准计划、不合格品报告至单一视图
+  - **Financial Reporting**：预建仪表板、KPI、财务报表、自助分析与 CSI 事务下钻
+  - **APS 增强**：采购物料安全时间、按作业/工序确定物料需求时点、多工厂计划支持
+  - **IDS（Infor Design System）现代化**：多数表单重建（early adopter 计划），更一致的设计与图标、可个性化屏幕
+- **发布节奏**：CloudSuite 平台按月增强（2026.04 → 2026.07 GA → 2026.10）；详见 [版本动态](../resources/release-notes.md) 与 [Infor OS / Velocity Suite](infor-os.md)
+
+---
+
 ## 核心功能
 
 ### 制造管理
@@ -101,4 +114,4 @@ description: "CloudSuite Industrial（原 SyteLine）资源导航，收录 CSI �
 
 ---
 
-**最后更新**：2026-05-07
+**最后更新**：2026-10-08

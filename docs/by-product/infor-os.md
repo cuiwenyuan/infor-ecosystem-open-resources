@@ -35,12 +35,24 @@ description: "Infor OS 平台资源导航，收录 Infor OS、ION、Ming.le 等�
 | **Infor OS Portal** | 统一门户（取代 Ming.le），支持插件配置和应用集成 |
 | **Ming.le**（已弃用） | 旧版社交协作平台，已被 OS Portal 取代 |
 
-### AI 与分析
+### AI 与分析（Infor Velocity Suite）
 
-| 组件 | 说明 |
-|------|------|
-| **Infor AI（原 Coleman AI）** | 人工智能平台，预测与规范性模型 |
-| **Birst Analytics** | 云端 BI 和数据分析平台 |
+> 💡 2026 起，原 **Coleman AI** 能力演进为 **Infor Industry AI Agents** 与 **Infor Agentic Orchestrator**，统一归入 **Infor Velocity Suite**（与每个 CloudSuite 搭配的 AI 加速器）。全站仍用「Infor AI（原 Coleman AI）」作为历史桥接口径。
+
+| 组件 / 能力 | 说明 | 状态 |
+|------|------|------|
+| **Infor Velocity Suite** | Infor 的 AI 加速器，把 Industry AI Agents、流程挖掘、自动化、治理与行业专家打包为统一方案；按年订阅（不限用量），附一年 CareFor 托管服务 | 已发布 |
+| **Infor Industry AI Agents** | 面向行业的角色化智能体（财务/采购/仓储/销售/HR 等），基于行业云套件、流程目录与领域语言模型，而非通用横向模型 | 已发布 |
+| **Infor Agentic Orchestrator** | 监督智能体跨流程协调多个任务智能体、保持上下文与治理；以业务级流程 API 调用（如一步创建采购单）降低幻觉与 token 成本 | Limited availability（2026-10） |
+| **Agent Factory** | 用自有提示、工具与护栏构建自定义智能体的工厂 | 已发布 |
+| **GenAI Assistant** | 在员工既有应用中对话式访问实时数据并执行动作 | 已发布 |
+| **GenAI Knowledge Hub** | 基于已发布 Infor 知识（文档/用户指南/发布报告）作答，而非模型臆测 | GA（2026-10） |
+| **Infor IQ** | 语义层，为所有智能体提供一致的业务理解；350+ 预置用例开箱即用 | 已发布 |
+| **Process Mining** | 诊断层（先发现瓶颈，再自动化），已引入 GenAI 流程摘要 | 已发布 |
+| **Value+** | 预置自动化目录，可在 CloudSuite 内按角色/流程/行业浏览启用 | 已发布 |
+| **MCP 连接** | 经 ION API Gateway 把任意外部 API 转为 MCP 工具，直连 Data Fabric / Process Intelligence / EPM / RPA / Birst | Limited availability（2026-10） |
+| **Infor AI（原 Coleman AI）** | 历史品牌名（2025.x 含 Microsoft Copilot 集成、预测分析、自然语言查询 NLQ） | 演进中 |
+| **Birst Analytics** | 云端 BI 与数据分析平台（详见 [Infor Birst](birst.md)） | 已发布 |
 
 ---
 
@@ -75,7 +87,7 @@ description: "Infor OS 平台资源导航，收录 Infor OS、ION、Ming.le 等�
 ```mermaid
 graph TB
     A[Infor OS 平台<br/>基于 AWS] --> B[ION API Gateway]
-    A --> C[Infor AI]
+    A --> C[Infor Velocity Suite]
     A --> D[Birst Analytics]
     A --> E[ION 集成中间件]
     A --> F[Infor OS Portal]
@@ -99,4 +111,4 @@ graph TB
 
 ---
 
-**最后更新**：2026-05-07
+**最后更新**：2026-10-08

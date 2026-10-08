@@ -35,7 +35,50 @@ description: "追踪 Infor 各产品线版本更新、新功能和发布动态�
 - **CloudSuite Service Industries 2026.04**：嵌入式 AI、角色化工作台、整合界面、更新供应链与财务工具（[Surety Systems 解析](https://www.suretysystems.com/insights/infor-cloudsuite-service-industries-guide-to-latest-release/)）。
 - **Infor WMS**：AI 驱动的拣货路径优化（Infor Velocity Suite）。
 - **Infor Birst**：Visualizer Builder 接入 GenAI，用户可用自然语言构建与格式化图表。
-- **Infor Service Management（ISM）**：GenAI Image Recognition（现场拍照识别零件、返回常见问题与排查步骤、查库存并可直接下单）；ISM Service Manager Workspace（移动端角色视图汇总告警与关键任务）。
+  - **Infor Service Management（ISM）**：GenAI Image Recognition（现场拍照识别零件、返回常见问题与排查步骤、查库存并可直接下单）；ISM Service Manager Workspace（移动端角色视图汇总告警与关键任务）。
+
+### ☁️ Infor CloudSuite 2026.07 — 2026 年 7 月 GA（文档 2026-07-01）
+
+> CloudSuite 延续"按月增强"节奏，2026.07 为当前可公开获取的 GA 版本（接续 2026.04 / 2026.06）。方向集中在 AI 与行业智能化。
+
+| 项目 | 详情 |
+|------|------|
+| **GA 文档** | CloudSuite Distribution 用户/管理文档 2026.07（发布 2026-07-01）；Infor Operations and Regulations 2026-07-02 |
+| **官方文档库** | [docs.infor.com](https://docs.infor.com/) |
+
+**🤖 AI / 行业智能化主线（延续 2026.04）**
+- **Infor Velocity Suite** 持续扩展：Industry AI Agents、Agentic Orchestrator、流程挖掘（GenAI 流程摘要）、RPA、生成式 AI 整合至同一闭环；按角色/流程/行业组织的 AI 用例推荐包与 Agent Factory
+- 各产品 GenAI 嵌入体验深化
+
+**📦 行业版增强（以 Automotive 为例）**
+- **Sales Schedule Demand Analysis Workbench**：实时洞察 OEM 需求偏差
+- **AI 驱动的销售合同履约组件**：持续监控消耗率与预测履约
+- **自动计费对齐**
+- **CFO 运营支出管理**：基于 GenAI 的 12 个月前瞻预测与异常检测
+
+### ☁️ Infor CloudSuite 2026.10 — 2026 年 10 月发布（AI 主线："可执行的 AI"）
+
+> 2026.10 发布以"从 AI 实验走向 AI 驱动的执行"为核心，覆盖面从 LN/M3 扩展到 Birst、WMS、EPM、FSM、HR 等；同期在 Velocity Week 2026（Orlando, 10/6–10/8）发布 Industry AI 架构下一演进。详见 [行业动态](news.md)。
+
+| 项目 | 详情 |
+|------|------|
+| **主题** | Built to execute: AI in the Infor 2026.10 release |
+| **官方博客** | [Built to execute: AI in the Infor 2026.10 release](https://www.infor.com/blog/infor-industry-ai-2026-10-release) |
+
+**🤖 平台级 AI（Velocity Suite）**
+- **Infor IQ 语义层**：为所有智能体提供一致的"业务理解"，开箱即用 **350+ 预置用例**
+- **Infor GenAI Knowledge Hub**：GA（正式可用），基于已发布的 Infor 知识（产品文档/用户指南/发布报告）作答，而非模型臆测
+- **Infor GenAI 嵌入体验**：在员工已有应用中生成内容、提炼洞察、完成任务（如 Birst 仪表板自然语言生成）
+- **Infor AI Opportunity Assessment**：约 2 分钟就绪度评分与 Top 智能体用例
+
+**📦 各产品 2026.10 关键更新**
+- **Infor LN**：Prompt Management for LN Sessions——在 LN 会话内针对受治理数据集运行可复用 GenAI 提示，简化分析、保持一致
+- **Infor M3**：H5 **自然语言搜索**（后台生成并执行查询）；**XtendM3 AI Review**——AI 审查扩展代码并给出建议，加速开发与审批
+- **Infor Birst**：**Dashboard Builder**——用自然语言提示生成完整仪表板（KPI、可视化、筛选与布局）
+- **Infor Data Fabric**：Data Ledger Summary Report（暴露数据质量问题）、Replay Queue Summary（分析重放队列瓶颈）
+- **Infor Financials & Supply Management**：列表视图一键转为可分享摘要
+- **Infor OS Portal**：公告内容生成（标题/描述/配图/优先级/日期/按钮）+ 一键翻译
+- **行业 Industry AI Agents（节选）**：M3 财务/配置/采购智能体；Distribution 报价/采购/客户/供应商/产品智能体；WMS Mobile Screen / Slotting / Wave 智能体；EPM 合并日记账智能体；FSM HR Case 智能体；Birst Analytics 智能体（详见 [Infor OS / Velocity Suite](../by-product/infor-os.md)）
 
 ### SunSystems Cloud — 2025 年 10 月更新
 
@@ -71,14 +114,14 @@ description: "追踪 Infor 各产品线版本更新、新功能和发布动态�
 
 | 产品 | 最新版本 | 发布日期 | 关键更新 | 资源链接 |
 |------|---------|----------|----------|----------|
-| **Infor LN** | LN 10.x | 持续更新 | 云原生架构、与 Infor OS 深度集成 | [官方文档](https://docs.infor.com/) |
-| **Infor M3** | M3 2025.x | 2025 年持续更新 | 云端 M3、API 增强、移动端改进 | [Roadmap PDF](https://infoteam.no/wp-content/uploads/2025/03/05-250318-Strategy-and-Roadmap-M3-CloudSuites.pdf) |
-| **CloudSuite Industrial** | CSI 2025.x | 2025 年持续更新 | 高级 MES 集成、RPA 增强 | [官方文档](https://docs.infor.com/) |
-| **Infor WMS** | WMS 2026.04 | 2025–2026 持续更新 | 仓库自动化、AGV 集成、3D 可视化、AI 拣货路径优化（Velocity Suite） | [官方文档](https://docs.infor.com/) |
+| **Infor LN** | LN 10.8 / ES 10.8.5 | 持续更新 | 云原生架构、与 Infor OS 深度集成；2026.10 新增 LN 会话内 GenAI 提示管理 | [官方文档](https://docs.infor.com/) |
+| **Infor M3** | M3 2026.x | 2026 年持续更新 | 云端 M3、API 增强、移动端改进；2026.10 H5 自然语言搜索、XtendM3 AI Review | [Roadmap PDF](https://infoteam.no/wp-content/uploads/2025/03/05-250318-Strategy-and-Roadmap-M3-CloudSuites.pdf) |
+| **CloudSuite Industrial** | CSI 2026.x | 2025–2026 持续更新 | 高级 MES 集成、RPA 增强；2026.10 GenAI Assistant / Enterprise Quality Hub / Financial Reporting | [官方文档](https://docs.infor.com/) |
+| **Infor WMS** | WMS 2026.10 | 2025–2026 持续更新 | 仓库自动化、AGV 集成、3D 可视化、AI 拣货路径优化（Velocity Suite）；2026.10 Velocity Suite 智能体（Mobile Screen/Slotting/Wave） | [官方文档](https://docs.infor.com/) |
 | **Infor SunSystems** | SunSystems Cloud | 2025-10 月 | UI 改进、移动审批、AI 异常检测 | [ECL Blog](https://www.eclgrp.com/blog/infor-sunsystems-cloud-october-2025-release-highlights) |
-| **Infor AI（原 Coleman AI）** | 2026.04 | 2026 年 4 月 | Industry AI Agents、Agentic Orchestrator、Velocity Suite（AI 用例包、WMS 拣货路径优化） | [官方文档](https://docs.infor.com/ai/) |
+| **Infor AI（原 Coleman AI）/ Velocity Suite** | 2026.10 | 2026 年 10 月 | Industry AI Agents、Agentic Orchestrator（limited availability）、GenAI Knowledge Hub（GA）、Infor IQ（350+ 用例）、Agent Factory | [官方文档](https://docs.infor.com/ai/) |
 | **Infor ION** | ION 2025.x | 2025 年持续更新 | BOD 性能优化、新连接器 | [ION 指南](https://community.infor.com/kb/articles/20-infor-ion) |
-| **Infor Birst** | Birst 2026.04 | 2025–2026 持续更新 | 增强分析、移动端仪表板、Visualizer Builder（GenAI 自然语言建图表） | [官方文档](https://docs.infor.com/) |
+| **Infor Birst** | Birst 2026.10 | 2025–2026 持续更新 | 增强分析、移动端仪表板、Visualizer Builder（GenAI 自然语言建图表）；2026.10 Dashboard Builder（NL） | [官方文档](https://docs.infor.com/) |
 | **Infor HCM** | HCM Cloud | 持续更新 | AI 招聘、移动端考勤、合规性改进 | [官方文档](https://docs.infor.com/) |
 | **Infor EAM** | EAM 2025.x | 2025 年持续更新 | 预测性维护、IoT 集成 | [官方文档](https://docs.infor.com/) |
 | **Infor Nexus** | Nexus 2025.x | 2025 年持续更新 | 供应链控制塔、Databricks 集成 | [Databricks Blog](https://www.databricks.com/blog/infor-nexus-databricks-data-intelligent-future-supply-chains) |
@@ -117,4 +160,4 @@ description: "追踪 Infor 各产品线版本更新、新功能和发布动态�
 
 ---
 
-**最后更新**：2026-07-08
+**最后更新**：2026-10-08

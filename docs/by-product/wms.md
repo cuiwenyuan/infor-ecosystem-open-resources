@@ -20,6 +20,18 @@ description: "Infor WMS 仓储管理系统资源导航，收录 WMS 相关的顾
 | **部署方式** | 云部署（Infor Industry Cloud Platform，多租户 SaaS） |
 | **市场地位** | Gartner WMS 魔力象限领导者（连续 8 年）、Nucleus Research WMS 技术价值矩阵领导者 |
 
+## 2026 年要点（持续更新）
+
+- **Infor Velocity Suite 集成（WMS 方向）**——WMS 是 Velocity Suite 最早落地的产品之一：
+  - **拣选路径优化（Pick Path Optimization）**：ML 引导仓库人员沿最高效路线拣货，实测行走距离最高降低 25%
+  - **Mobile Screen Agent**：用自然语言配置移动端屏幕、管理翻译、解决工作流问题
+  - **Slotting Agent**：依据库存流速优化货位计划并自动化重新上架
+  - **Wave Agent**：用自然语言构建、释放、优化与管理波次
+- **分析师认可**：连续 8 年获 Gartner WMS 魔力象限领导者（2026）、Nucleus Research WMS 技术价值矩阵领导者
+- **发布节奏**：CloudSuite 平台按月增强（2026.04 → 2026.07 GA → 2026.10）；详见 [版本动态](../resources/release-notes.md) 与 [Infor OS / Velocity Suite](infor-os.md)
+
+---
+
 ## 核心功能
 
 ### 入库与上架
@@ -145,4 +157,4 @@ description: "Infor WMS 仓储管理系统资源导航，收录 WMS 相关的顾
 
 ---
 
-**最后更新**：2026-05-08
+**最后更新**：2026-10-08

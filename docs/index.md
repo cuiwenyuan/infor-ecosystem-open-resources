@@ -160,6 +160,21 @@ description: "Infor 生态开放资源导航站首页，提供论坛、顾问公
 
 ### 📅 项目动态
 
+#### 2026-10-08
+- 🆕 **新增「Infor 行业动态」专页**（`resources/news.md`）
+  - 聚合 2026 年可证实的 Infor 生态**新闻、活动、产品大事件与分析师认可**，区别于「版本动态」(版本号/功能清单)
+  - 含 2026 大事件时间线（2026.04 → 2026.07 GA → 2026.10 + Velocity Week）、官方活动（Velocity Week 2026 Orlando 10/6–10/8、Inspire Amsterdam 4/3）、分析师认可（Gartner WMS 8 连冠 / Cloud ERP 5 连冠、Nucleus RPA Leader）、Koch 背景一句话
+  - 集成位置：导航「学习中心 → 行业动态」
+- 🔄 **版本动态页同步至 2026.10**：`release-notes.md` 新增 CloudSuite 2026.07（GA，Automotive 增强）与 2026.10（"可执行的 AI"：LN 会话内 GenAI 提示、M3 H5 自然语言搜索 / XtendM3 AI Review、Birst Dashboard Builder、GenAI Knowledge Hub GA、Infor IQ 350+ 用例、各行业 Industry AI Agents）；产品版本表 LN→10.8/ES 10.8.5、M3→2026.x、CSI/WMS/Birst→2026.10、AI→Velocity Suite
+- 🧭 **产品页 2026 内容补全**（`ln/m3/csi/birst/wms` + `infor-os`）：
+  - `infor-os.md`：AI 板块由「Coleman AI/预测模型」扩展为 **Infor Velocity Suite** 完整架构（Industry AI Agents、Agentic Orchestrator limited availability、GenAI Knowledge Hub GA、Infor IQ、Agent Factory、MCP 连接、Value+、Process Mining），mermaid 节点更新
+  - `ln.md`：补 LN 10.8/ES 10.8.5、Design Standard V4.5、2026.10 GenAI Prompt Management
+  - `m3.md`：补 April 2026（4/18）+ 2026.10（H5 NL 搜索、XtendM3 AI Review、Experience Designer、计划-排程-可追溯）
+  - `csi.md`：补 October 2026（GenAI Assistant、Enterprise Quality Hub、Financial Reporting、APS、IDS）
+  - `birst.md`：补 2026.10 Dashboard Builder（NL）、Analytics Agent，并修正 AI 桥接口径
+  - `wms.md`：补 Velocity Suite 集成（拣选路径优化 -25%、Mobile Screen/Slotting/Wave Agent）
+- 🔧 **工具页新增 Accure ACS4M3 + Conversion Factory 2.0**：M3 云原生文档执行/输出管理平台，StreamServe/OpenText/IDM/MRM→MCR 自动转换 + AI 字段映射；归入 M3/文档管理工具类（`resources/tools.md`）
+
 #### 2026-07-13
 - 🆕 **新增「Infor LN 授权与 Product ID」专页**（`by-product/ln-product-ids.md`）
   - 纠正概念：**Product ID = SLM 中的 License 授权代码**（数字编号，如开发权限 `10146`），定义授权级别，而非包代码
@@ -428,6 +443,6 @@ description: "Infor 生态开放资源导航站首页，提供论坛、顾问公
 
 ---
 
-**最后更新**：2026-07-13  
+**最后更新**：2026-10-08  
 **维护者**：崔文远 Troy Cui  
 **许可证**：[MIT](license.md) / [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
