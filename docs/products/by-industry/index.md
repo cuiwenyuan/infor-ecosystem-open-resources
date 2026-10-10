@@ -32,7 +32,7 @@ description: "按行业分类浏览 Infor 产品与资源，涵盖离散制造�
 - [CSI 详细介绍](../../by-product/csi.md)
 - [离散制造专长顾问](../../resources/consultants.md) — Godlan, DRI, PCG Services, NexGen, 润数信息, 拓创数字
 - [制造类博客](../../resources/blogs.md) — Reinforce Tech, FullOnBaan, SamA Consulting Blog
-- [制造工具集](../../resources/tools.md) — Factory Track (MES), PLM, DevTools
+- [制造工具集](../../resources/tools.md) — [Factory Track](../../by-product/factory-track.md) (MES)、[Infor MES](../../by-product/mes.md) (MOM)、PLM、DevTools
 
 ---
 
@@ -188,6 +188,7 @@ Infor 在多个服务垂直行业提供了行业专属的 CloudSuite 解决方�
 | 公共部门 | CloudSuite Public Sector (HCM) | - |
 | 专业服务 | Infor FSM | - |
 | 时尚零售 | Infor M3 Fashion | - |
+| 制造执行 (MES) | Infor MES / Factory Track | - |
 
 ---
 

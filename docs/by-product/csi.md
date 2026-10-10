@@ -110,6 +110,7 @@ description: "CloudSuite Industrial（原 SyteLine）资源导航，收录 CSI �
 
 - [Infor LN](ln.md) — 企业级离散制造版本
 - [Infor M3](m3.md) — 流程制造版本
+- [Infor MES](mes.md) — 制造运营管理（MOM）平台，作为 CSI 的执行层集成对象（工单释放为 MES 可调度实体、执行数据实时回写）
 - [Infor OS](infor-os.md) — 运行平台
 
 ---

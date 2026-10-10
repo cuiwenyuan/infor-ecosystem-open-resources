@@ -145,6 +145,7 @@ description: "Infor WMS 仓储管理系统资源导航，收录 WMS 相关的顾
 | Infor Birst | AI 驱动的商业智能分析 |
 | Infor Yard Management (YMS) | 场院管理系统 |
 | Infor OS | 统一平台，iPaaS 集成 |
+| [Infor MES](mes.md) | 制造执行系统，仓储与制造执行协同（库存/物流） |
 
 ---
 
@@ -153,6 +154,7 @@ description: "Infor WMS 仓储管理系统资源导航，收录 WMS 相关的顾
 - [Infor LN](ln.md) — 离散制造 ERP
 - [Infor M3](m3.md) — 流程制造 ERP
 - [Infor Factory Track](factory-track.md) — 制造执行系统（MES）
+- [Infor MES](mes.md) — 制造运营管理（MOM）平台
 - [Infor OS](infor-os.md) — 运行平台
 
 ---

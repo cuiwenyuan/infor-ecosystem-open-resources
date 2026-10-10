@@ -137,7 +137,7 @@ Infor 的核心竞争力所在，提供离散制造和流程制造的完整解�
 - [CSI 产品页](../../by-product/csi.md) — 中端离散制造方案
 - [顾问公司 — 制造专长](../../resources/consultants.md) — Godlan、DRI、PCG Services、润数信息 等
 - [博客与教程](../../resources/blogs.md) — FullOnBaan (LN 制造知识库)
-- [工具与插件](../../resources/tools.md) — [Factory Track](../../by-product/factory-track.md) (MES)、PLM 工具
+- [工具与插件](../../resources/tools.md) — [Factory Track](../../by-product/factory-track.md) (MES)、[Infor MES](../../by-product/mes.md) (MOM)、PLM 工具
 
 ---
 
@@ -206,7 +206,7 @@ Infor EAM 可以作为独立系统使用，也可以通过 ION 与 LN、M3 等ER
 |--------|----------|
 | **质量管理 (QM/QMS)** | Infor QMS、LN Quality、M3 Quality |
 | **产品生命周期管理 (PLM)** | Infor PLM (Discrete Edition & Fashion Edition) |
-| **制造执行 (MES)** | [Infor Factory Track](../../by-product/factory-track.md) |
+| **制造执行 (MES)** | [Infor Factory Track](../../by-product/factory-track.md)（轻量 MES）、[Infor MES](../../by-product/mes.md)（MOM 平台） |
 | **风险与合规** | Infor GRC（通过合作伙伴方案） |
 
 ---

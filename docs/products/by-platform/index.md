@@ -232,7 +232,7 @@ Infor 官方在 GitHub 上维护了大量开源项目：
 ```
 ┌─────────────────────────────────────────────┐
 │              应用层 (Applications)            │
-│   LN │ M3 │ CSI │ FSM │ HCM │ WMS │ EAM ...  │
+│   LN │ M3 │ CSI │ FSM │ HCM │ WMS │ EAM │ MES ...  │
 ├─────────────────────────────────────────────┤
 │          Infor OS (Operating Service)        │
 │  Portal │ IAM │ Document │ Workflow │ AI     │

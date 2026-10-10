@@ -148,6 +148,23 @@ Infor 除了核心 ERP 外，还拥有多个在特定领域处于市场领导地
 
 ---
 
+### Infor MES — 制造运营管理（MOM）
+
+| 项目 | 详情 |
+|------|------|
+| **定位** | Infor 制造运营管理（MOM）平台，独立于 ERP 的执行与监控层 |
+| **核心模块** | 生产、库存、维护、质量、能源、物流、工装、工作流 8 大模块 |
+| **部署** | 云部署（Infor Industry Cloud Platform）、本地部署；可脱离 ERP 独立运行（24/7 韧性） |
+| **集成 ERP** | Infor LN、CloudSuite Industrial、Infor M3、第三方 ERP 或独立 |
+| **与 Factory Track 区别** | Factory Track 是轻量、移动优先、快速 ROI 的 MES；Infor MES 是覆盖 MOM 全范围的独立平台 |
+| **核心行业** | 食品饮料、汽车、金属塑料、纸包装、航空、高科技电子 |
+
+**相关资源**：
+- [Infor MES 详细介绍](../../by-product/mes.md)
+- [MES 专长顾问](../../resources/consultants.md) — Sama Consulting、PCG Services、润数信息、拓创数信、Tarento
+
+---
+
 ### Infor HCM — 人力资本管理
 
 | 项目 | 详情 |

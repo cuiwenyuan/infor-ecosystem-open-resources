@@ -119,7 +119,8 @@ description: "Infor QMS 质量管理系统资源导航，收录 QMS 相关的顾
 - [Infor EAM](eam.md) — 设备校准与维护质量管理
 - [Infor LN](ln.md) — 离散制造 ERP，QMS 主要集成目标
 - [Infor M3](m3.md) — 流程制造 ERP，批次检验与留样管理
+- [Infor MES](mes.md) — 制造执行层质量（检验/偏差/可追溯/EBR）与 QMS 互补
 
 ---
 
-**最后更新**：2026-05-10
+**最后更新**：2026-10-10

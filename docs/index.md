@@ -50,6 +50,7 @@ description: "Infor 生态开放资源导航站首页，提供论坛、顾问公
 | **CloudSuite Industrial** | 中小企业离散制造 ERP（原 SyteLine） | [浏览](by-product/csi.md) |
 | **Infor WMS** | 云端仓储管理系统（Gartner 领导者） | [浏览](by-product/wms.md) |
 | **Infor Factory Track** | 制造执行系统（MES） | [浏览](by-product/factory-track.md) |
+| **Infor MES** | 制造运营管理（MOM）平台 | [浏览](by-product/mes.md) |
 | **Infor HCM** | 云端人力资本管理（AI 驱动） | [浏览](by-product/hcm.md) |
 | **Infor EAM** | 企业资产管理（现为 HxGN EAM） | [浏览](by-product/eam.md) |
 | **Infor CRM** | 客户关系管理（与 ERP 集成） | [浏览](by-product/crm.md) |
@@ -159,6 +160,14 @@ description: "Infor 生态开放资源导航站首页，提供论坛、顾问公
 ---
 
 ### 📅 项目动态
+
+#### 2026-10-10
+- 🆕 **新增「Infor MES」产品页**（`by-product/mes.md`）
+  - 收录 Infor 制造运营管理（MOM）平台：定位为独立于 ERP 的执行/监控层（可脱离 ERP 独立运行、24/7 韧性、与 LN/CSI/M3 双向同步）；8 大核心模块（生产/库存/维护/质量/能源/物流/工装/工作流）
+  - 厘清与既有同属"制造执行"产品的区别：**Infor Factory Track**（轻量、移动优先、快速 ROI 的 MES）与 **Infor QMS**（质量体系，与 MES 执行层质量互补），页内以对比表区分，避免读者混淆
+  - 含 2025–2026 更新（Nucleus Research MES Value Matrix 2025 Leader、UI 重设计、Infor OS GenAI 报告摘要、拖拽仪表板、技能矩阵、PWA）与典型客户（Halcor 数字孪生、Formica 90% 交付、H&T Presspart）
+  - 集成位置：导航「按产品浏览 → Infor MES」（紧邻 Factory Track）；并同步补入 4 个产品分类索引页（业务功能/产品线/行业/技术平台）
+- 🔗 **交叉引用网络补全**：`factory-track.md`（加与 Infor MES 区别说明+链接）、`qms.md`/`wms.md`/`csi.md`/`ln.md`/`m3.md`（相关产品处加 Infor MES 执行层集成对象链接），形成 LN/M3/CSI—WMS—Factory Track—QMS—MES 的完整 MOM 关系网
 
 #### 2026-10-08
 - 🆕 **新增「Infor 行业动态」专页**（`resources/news.md`）
@@ -443,6 +452,6 @@ description: "Infor 生态开放资源导航站首页，提供论坛、顾问公
 
 ---
 
-**最后更新**：2026-10-08  
+**最后更新**：2026-10-10  
 **维护者**：崔文远 Troy Cui  
 **许可证**：[MIT](license.md) / [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)

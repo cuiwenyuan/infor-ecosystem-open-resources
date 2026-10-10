@@ -5,7 +5,7 @@ description: "Infor Factory Track MES 制造执行系统资源导航，收录 Fa
 
 # Infor Factory Track
 
-> Infor Factory Track 是端到端的制造执行系统（MES）与仓储移动化解决方案，提供车间数据采集、批次追溯、时间考勤和劳动力管理，与 Infor LN 和 M3 无缝集成。
+> Infor Factory Track 是 Infor MOM 组合中**轻量、移动优先、快速 ROI**的制造执行系统（MES）与仓储移动化解决方案，提供车间数据采集、批次追溯、时间考勤和劳动力管理，与 Infor LN 和 M3 无缝集成。若需要覆盖 MOM 全范围、可脱离 ERP 独立运行的中大型多站点平台，请参见 [Infor MES](mes.md)（制造运营管理平台）。
 
 ---
 
@@ -128,8 +128,9 @@ description: "Infor Factory Track MES 制造执行系统资源导航，收录 Fa
 - [Infor LN](ln.md) — 离散制造 ERP
 - [Infor M3](m3.md) — 流程制造 ERP
 - [Infor WMS](wms.md) — 仓储管理系统
+- [Infor MES](mes.md) — 完整 MOM 平台（与 Factory Track 的区别见 [Infor MES](mes.md) 页）
 - [CloudSuite Industrial](csi.md) — 中端离散制造 ERP
 
 ---
 
-**最后更新**：2026-05-08
+**最后更新**：2026-10-10

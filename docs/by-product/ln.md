@@ -179,6 +179,7 @@ Infor LN 的前身是荷兰 Baan 公司（1978年创立）开发的 Baan ERP，�
 
 - [Infor M3](m3.md) — 流程制造版本
 - [CloudSuite Industrial](csi.md) — 中端离散制造版本
+- [Infor MES](mes.md) — 制造运营管理（MOM）平台，作为 LN 的执行层集成对象（工单释放为 MES 可调度实体、执行数据实时回写）
 - [Infor OS](infor-os.md) — 运行平台
 
 ---
