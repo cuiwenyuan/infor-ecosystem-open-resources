@@ -38,12 +38,14 @@ description: "Infor OS 平台资源导航，收录 Infor OS、ION、Ming.le 等�
 ### AI 与分析（Infor Velocity Suite）
 
 > 💡 2026 起，原 **Coleman AI** 能力演进为 **Infor Industry AI Agents** 与 **Infor Agentic Orchestrator**，统一归入 **Infor Velocity Suite**（与每个 CloudSuite 搭配的 AI 加速器）。全站仍用「Infor AI（原 Coleman AI）」作为历史桥接口径。
+>
+> 📊 **行业专属是差异化核心**：Infor 委托 YouGov 的《Enterprise AI Adoption Impact Index》（第 2 版，2026-08，7 市场 2,111 名决策者）显示，**68% 企业认为通用（现成）AI 难以满足其行业需求**（分销 76% / 制造 73% / 零售 69%）。这正是 Infor 以行业云套件 + 领域语言模型构建 Industry AI Agents 的出发点。
 
 | 组件 / 能力 | 说明 | 状态 |
 |------|------|------|
 | **Infor Velocity Suite** | Infor 的 AI 加速器，把 Industry AI Agents、流程挖掘、自动化、治理与行业专家打包为统一方案；按年订阅（不限用量），附一年 CareFor 托管服务 | 已发布 |
-| **Infor Industry AI Agents** | 面向行业的角色化智能体（财务/采购/仓储/销售/HR 等），基于行业云套件、流程目录与领域语言模型，而非通用横向模型 | 已发布 |
-| **Infor Agentic Orchestrator** | 监督智能体跨流程协调多个任务智能体、保持上下文与治理；以业务级流程 API 调用（如一步创建采购单）降低幻觉与 token 成本 | Limited availability（2026-10） |
+| **Infor Industry AI Agents** | 面向行业的角色化智能体，基于行业云套件、行业流程目录与领域语言模型（而非通用横向模型）。已覆盖 LN 12+ 角色智能体（制造/供应链/CRM/采购/物流/服务/财务/销售订单/工程/质量检验/项目/通用主数据等）、Process Mining 监控与建议智能体、M3 财务与配置智能体等；完整清单见 [版本动态](../resources/release-notes.md) | 已发布 |
+| **Infor Agentic Orchestrator** | 监督智能体跨流程协调多个任务智能体、保持上下文与治理；以业务级流程 API 调用（如一步创建采购单）降低幻觉与 token 成本。运行于 **AWS Bedrock** 托管基础模型环境（Infor 与 AWS 联合提供），借助 **Bedrock Guardrails** 实现内容治理与双向护栏，并支持区域化推理以满足数据驻留要求 | Limited availability（2026-10） |
 | **Agent Factory** | 用自有提示、工具与护栏构建自定义智能体的工厂 | 已发布 |
 | **GenAI Assistant** | 在员工既有应用中对话式访问实时数据并执行动作 | 已发布 |
 | **GenAI Knowledge Hub** | 基于已发布 Infor 知识（文档/用户指南/发布报告）作答，而非模型臆测 | GA（2026-10） |
@@ -111,4 +113,4 @@ graph TB
 
 ---
 
-**最后更新**：2026-10-08
+**最后更新**：2026-11-04

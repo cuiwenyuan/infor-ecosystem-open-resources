@@ -20,6 +20,13 @@ description: "Infor CPQ（配置报价）资源导航，收录 CPQ 相关的顾�
 | **技术平台** | Infor OS（内置 ION、Infor AI（原 Coleman AI））|
 | **集成产品** | Infor LN、M3、CSI、CRM |
 
+## 分析师认可
+
+- **Gartner® Magic Quadrant™ for Configure, Price, and Quote (CPQ) Applications — 领导者（Leader）连续第 3 年（2026）**
+  - Infor CPQ 在 2026-01 发布的 Gartner CPQ 魔力象限中**连续第 3 年**获评领导者；Gartner 认可其成熟的、以制造为核心的配置/定价/报价能力
+  - 亮点：规则驱动配置 + 高质量 3D 可视化、自动化 CAD 与 BOM 生成、灵活的部署选项（支持直销 / 伙伴 / 数字多渠道），以及对经销商与伙伴主导销售的有力支持
+  - 报告出处：*Gartner, Magic Quadrant for Configure, Price, and Quote Applications, Mark Lewis and Luke Tipping, 22 January 2026*（Gartner 与 Magic Quadrant 为 Gartner, Inc. 商标）
+
 ---
 
 ## 核心功能
@@ -113,4 +120,4 @@ description: "Infor CPQ（配置报价）资源导航，收录 CPQ 相关的顾�
 
 ---
 
-**最后更新**：2026-05-09
+**最后更新**：2026-11-04

@@ -32,6 +32,17 @@ description: "CloudSuite Industrial（原 SyteLine）资源导航，收录 CSI �
 
 ---
 
+## 客户案例（2026 新增 / 更新）
+
+| 客户 | 行业 / 地区 | 方案 | 关键成效 |
+|------|-----------|------|----------|
+| **Meyn** | 食品加工设备 / 全球 | 从 **Infor LN** 迁移至 **CloudSuite Industrial Enterprise** + Velocity Suite | 获得安全、行业专属的系统，摆脱基础设施维护负担，加速采纳 AI 与自动化 |
+| **Ring Container** | 包装制造 / 美国 | Infor 生产与仓库管理 | 每年节省 **12,000+ 工时** |
+
+> 更多 CloudSuite Industrial 客户成效见 [Infor 行业动态](../resources/news.md) 与 Infor 官方客户故事库。
+
+---
+
 ## 核心功能
 
 ### 制造管理
@@ -115,4 +126,4 @@ description: "CloudSuite Industrial（原 SyteLine）资源导航，收录 CSI �
 
 ---
 
-**最后更新**：2026-10-08
+**最后更新**：2026-11-04

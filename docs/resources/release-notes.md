@@ -70,6 +70,7 @@ description: "追踪 Infor 各产品线版本更新、新功能和发布动态�
 - **Infor GenAI Knowledge Hub**：GA（正式可用），基于已发布的 Infor 知识（产品文档/用户指南/发布报告）作答，而非模型臆测
 - **Infor GenAI 嵌入体验**：在员工已有应用中生成内容、提炼洞察、完成任务（如 Birst 仪表板自然语言生成）
 - **Infor AI Opportunity Assessment**：约 2 分钟就绪度评分与 Top 智能体用例
+- **行业采用背景（Enterprise AI Adoption Impact Index 第 2 版）**：Infor 委托 YouGov 于 2026-08 在 7 个市场调查 **2,111 名**业务决策者，核心发现 **68% 认为通用 AI 难满足行业需求**、**59% 计划未来 12 个月增投 AI**、**54% 接受自主智能体执行关键流程**——本发布与 Velocity Suite 扩展即针对上述"行业适配缺口"（详见 [行业动态](news.md)）
 
 **📦 各产品 2026.10 关键更新**
 - **Infor LN**：Prompt Management for LN Sessions——在 LN 会话内针对受治理数据集运行可复用 GenAI 提示，简化分析、保持一致
@@ -78,7 +79,14 @@ description: "追踪 Infor 各产品线版本更新、新功能和发布动态�
 - **Infor Data Fabric**：Data Ledger Summary Report（暴露数据质量问题）、Replay Queue Summary（分析重放队列瓶颈）
 - **Infor Financials & Supply Management**：列表视图一键转为可分享摘要
 - **Infor OS Portal**：公告内容生成（标题/描述/配图/优先级/日期/按钮）+ 一键翻译
-- **行业 Industry AI Agents（节选）**：M3 财务/配置/采购智能体；Distribution 报价/采购/客户/供应商/产品智能体；WMS Mobile Screen / Slotting / Wave 智能体；EPM 合并日记账智能体；FSM HR Case 智能体；Birst Analytics 智能体（详见 [Infor OS / Velocity Suite](../by-product/infor-os.md)）
+- **行业 Industry AI Agents（扩至完整矩阵）**：
+  - **Infor LN（12+ 角色智能体）**：Manufacturing、Supply Chain、CRM、Procurement、Logistics、Service、Financials、Sales Order、Engineering、Quality Inspection、Project、Common Master Data 等
+  - **Process Mining**：Monitoring Agent、Advisor Agent（诊断瓶颈并给出改进建议）
+  - **Infor M3**：Financial Accounting Agent、Configuration Agent
+  - **Distribution**：报价 / 采购 / 客户 / 供应商 / 产品智能体
+  - **Infor WMS**：Mobile Screen / Slotting / Wave 智能体
+  - **EPM**：合并日记账智能体；**FSM**：HR Case 智能体；**Birst**：Analytics 智能体
+  - （完整清单与说明详见 [Infor OS / Velocity Suite](../by-product/infor-os.md)）
 
 ### SunSystems Cloud — 2025 年 10 月更新
 
@@ -160,4 +168,4 @@ description: "追踪 Infor 各产品线版本更新、新功能和发布动态�
 
 ---
 
-**最后更新**：2026-10-08
+**最后更新**：2026-11-04

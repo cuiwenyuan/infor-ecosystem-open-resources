@@ -161,6 +161,20 @@ description: "Infor 生态开放资源导航站首页，提供论坛、顾问公
 
 ### 📅 项目动态
 
+#### 2026-11-04
+- 📰 **「Infor 行业动态」页大扩充**（`resources/news.md`）
+  - 分析师认可新增 **Gartner CPQ 魔力象限领导者（连续第 3 年，2026-01）** 与 **Gartner 劳动力管理技术领导者（2026）**
+  - 新增 **生态合作** 小节：Infor + Kinaxis（Infor Planning One powered by Kinaxis，供应链计划旗舰集成，2025 启动、2026 持续）
+  - 新增 **Enterprise AI Adoption Impact Index 第 2 版** 背景（YouGov 2026-08，7 市场 2,111 决策者：68% 现成 AI 不满足行业需求、59% 计划增投 AI、54% 接受自主智能体、44% 仍需专家复核）
+  - **Velocity Week 2026 充实**：10/27「AI That Moves Your Industry Forward」数字发布会、Infor GenAI Public Knowledge Hub（免费向多租户客户开放）、AI Adoption Hub 路线图生成、CEO Samuelson 行业专属观点、Gartner 2029 垂直 agentic AI 预测
+  - 新增 **新客户落地与成效** 表（Frontier Co-op $500K 早付节省、Meyn 从 LN 迁 CSI、Stadium 体育零售、Grosfillex +10% 营收、Ring Container 12,000+ 工时、Blue Logística +40% 产能、Smiths News +10%）
+  - 新增 **IBM i ERP 组合现代化**（XA/LX/System21：IBM i 7.6、REST API、System i Workspace Liberty、经 Infor OS+ION 混合路径）与 **11/05 公共部门 Agentic Enterprise 网络研讨**
+- 🧭 **Velocity Suite 架构增补**（`infor-os.md`）：AI 板块补充行业专属背景与治理要点；Industry AI Agents 扩展为 LN 12+ 角色矩阵 + Process Mining/M3 智能体；Agentic Orchestrator 补 **AWS Bedrock** 运行时与 Bedrock Guardrails 护栏
+- 🔄 **版本动态**（`release-notes.md`）：2026.10 的 Industry AI Agents「节选」扩为完整矩阵（LN 12+ / Process Mining / M3 / Distribution / WMS / EPM / FSM / Birst），并补 Impact Index 背景
+- 🏆 **CPQ 产品页**（`cpq.md`）新增 **Gartner CPQ 2026 领导者认可（连续第 3 年）** 小节
+- 🏢 **WMS / CSI 客户案例** 补充：`wms.md`（Blue Logística +40% 产能、Smiths News +10%、Stadium）；`csi.md`（Meyn 从 LN 迁移 CloudSuite Industrial Enterprise、Ring Container 年省 12,000+ 工时）
+- 📌 六页同步更新「最后更新」为 2026-11-04
+
 #### 2026-10-10
 - 🆕 **新增「Infor MES」产品页**（`by-product/mes.md`）
   - 收录 Infor 制造运营管理（MOM）平台：定位为独立于 ERP 的执行/监控层（可脱离 ERP 独立运行、24/7 韧性、与 LN/CSI/M3 双向同步）；8 大核心模块（生产/库存/维护/质量/能源/物流/工装/工作流）
@@ -452,6 +466,6 @@ description: "Infor 生态开放资源导航站首页，提供论坛、顾问公
 
 ---
 
-**最后更新**：2026-10-10  
+**最后更新**：2026-11-04  
 **维护者**：崔文远 Troy Cui  
 **许可证**：[MIT](license.md) / [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
