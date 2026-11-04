@@ -174,6 +174,7 @@ description: "Infor 生态开放资源导航站首页，提供论坛、顾问公
 - 🏆 **CPQ 产品页**（`cpq.md`）新增 **Gartner CPQ 2026 领导者认可（连续第 3 年）** 小节
 - 🏢 **WMS / CSI 客户案例** 补充：`wms.md`（Blue Logística +40% 产能、Smiths News +10%、Stadium）；`csi.md`（Meyn 从 LN 迁移 CloudSuite Industrial Enterprise、Ring Container 年省 12,000+ 工时）
 - 📌 六页同步更新「最后更新」为 2026-11-04
+- 🔍 **新增「LN Session 速查」页**（`resources/ln-sessions.md`）：基于 docs.infor.com 官方中文文档采集 **1,299 条 Session**（覆盖 14 个包 / 86 个模块组：td 392 / tc 242 / ti 219 / wh 116 / tp 68 / tf 62 / tt 48 等），支持 Code/中文/英文模糊搜索与包/模块联动筛选，按包分片 JSON 懒加载，每条附官方文档直达链接；表格采用紧凑字体防换行
 - 🔍 **长尾关键词工程**（SEO 内容扩展）
   - Bing 种子矩阵扩采（25+ 产品 × 45+ 意图修饰词 + 二级展开）：4,039 词入库，筛选出 **1,739 条长尾关键词**（≥3 词 + Infor 相关性）
   - 新增 [长尾关键词清单页](resources/long-tail-keywords.md)：可搜索/按产品线与意图筛选，每个词附站内承接页直达链接

@@ -3,6 +3,7 @@
 本页面记录 Infor 生态开放资源导航站的重大更新。
 
 ## 2026-11-04
+- **新增 `resources/ln-sessions.md`（LN Session 速查）**：基于 docs.infor.com LN 10.7 官方中文文档 BFS 采集 1,299 条 Session（14 包 / 86 模块组，含 tt 工具包 48 条常用功能），中文/英文描述双语，支持模糊搜索与包/模块筛选，按包分片 JSON 懒加载 + 官方文档直达链接，紧凑表格样式
 - **长尾关键词工程**：Bing 种子矩阵扩采（4,039 词），新增 `resources/long-tail-keywords.md`（1,739 条长尾词，可搜索/筛选，附站内承接页直达）
 - 新增 5 个针对性页面：`infor-faq.md`、`infor-pricing-tco.md`、`infor-login-guide.md`、`infor-consultant-career.md`、`ln-planning-guide.md`
 - mkdocs.yml 新增「选型与实用指南」导航组
