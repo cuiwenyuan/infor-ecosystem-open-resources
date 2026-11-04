@@ -3,6 +3,9 @@
 本页面记录 Infor 生态开放资源导航站的重大更新。
 
 ## 2026-11-04
+- **长尾关键词工程**：Bing 种子矩阵扩采（4,039 词），新增 `resources/long-tail-keywords.md`（1,739 条长尾词，可搜索/筛选，附站内承接页直达）
+- 新增 5 个针对性页面：`infor-faq.md`、`infor-pricing-tco.md`、`infor-login-guide.md`、`infor-consultant-career.md`、`ln-planning-guide.md`
+- mkdocs.yml 新增「选型与实用指南」导航组
 - 行业动态页（`resources/news.md`）大扩充：Gartner CPQ / 劳动力管理技术双领导者认可、Infor + Kinaxis 供应链计划合作、Enterprise AI Adoption Impact Index 第 2 版、Velocity Week 2026 充实、新客户落地与成效表、IBM i（XA/LX/System21）现代化路径、Agentic Enterprise 网络研讨
 - Velocity Suite 架构增补（`by-product/infor-os.md`）：Industry AI Agents 扩为 LN 12+ 角色矩阵，Agentic Orchestrator 补 AWS Bedrock 运行时与护栏
 - 版本动态（`resources/release-notes.md`）：2026.10 Industry AI Agents 矩阵扩至完整清单

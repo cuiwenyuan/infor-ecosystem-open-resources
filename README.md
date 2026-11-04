@@ -277,6 +277,7 @@ infor-ecosystem-open-resources/
 - **版本动态**（`resources/release-notes.md`）：2026.10 Industry AI Agents 矩阵扩至完整清单
 - **产品专题新增/完善**：Infor MES、Infor CPQ（Gartner 领导者认可）、Infor WMS / CloudSuite Industrial 客户案例
 - **热门搜索关键词页**（`resources/hot-keywords.md`）：基于 Bing 数据的 757 条关键词索引
+- **长尾关键词工程**：Bing 种子矩阵扩采 4,039 词，新增[长尾关键词清单页](https://cuiwenyuan.github.io/infor-ecosystem-open-resources/resources/long-tail-keywords/)（1,739 条，可搜索/筛选），并依据需求信号新建 5 个针对性页面：常见问题 FAQ、定价与 TCO 指南、登录指南、顾问职业路径、LN 规划指南（MPS/MRP）
 
 ---
 
