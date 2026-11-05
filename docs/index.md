@@ -168,6 +168,7 @@ description: "Infor 生态开放资源导航站首页，提供论坛、顾问公
   - 考证补全新包元数据（br=Warehouse Mobility、pl=Enterprise Planning Plus、bc=Migration Tools、lp=Localization、tg=Enterprise Modeler 等），FM 包名修正为 Freight Management；按包分片 JSON 增至 23 个
   - 同步更新两篇待发公众号文章与二维码卡片的数据口径
 - 📝 **公众号宣传物料**：新增「站点介绍」文章全套（完整版 + 纯净版 HTML、封面、首页二维码、言序 payload）
+- 📕 **小红书图文**：新增「Infor LN Session 速查」8 张 3:4 轮播图 + 正文与标签（干货工具贴，合规不放二维码）
 
 #### 2026-11-04
 - 📰 **「Infor 行业动态」页大扩充**（`resources/news.md`）
