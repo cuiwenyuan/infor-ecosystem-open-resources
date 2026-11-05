@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>查 Session 还在翻官方文档？12,125 条 Infor LN Session 中英速查表，扫码即用</title>
+<style>body{max-width:677px;margin:24px auto;padding:0 16px;background:#fff;}</style>
+</head>
+<body>
+<section style="font-family:-apple-system,BlinkMacSystemFont,'Helvetica Neue','PingFang SC','Microsoft YaHei',sans-serif;font-size:15px;line-height:1.85;color:#333;letter-spacing:.3px;">
+
+<!-- 导语 -->
+<p style="margin:0 0 20px;color:#888;font-size:13px;">做 Infor LN 的顾问和开发者，几乎每天都在跟 Session Code 打交道。</p>
+
+<p style="margin:0 0 16px;">配个参数要想「那个维护物料主数据的 session 是 <code style="background:#f5f5f5;padding:1px 5px;border-radius:3px;font-size:13px;">tiitm0101m000</code> 还是 <code style="background:#f5f5f5;padding:1px 5px;border-radius:3px;font-size:13px;">tiitm0107m000</code>？」；客户现场报错了，要快速定位功能入口；写 4GL 定制，要查标准 session 的编号和用途。</p>
+
+<p style="margin:0 0 16px;"><strong style="color:#E4002B;">痛点在于</strong>：LN 的 Session 数以万计，官方文档虽然权威，但查找路径深、界面以英文为主，客户现场网络受限时更是抓瞎。国内资料零散，一直缺一个「输入关键字马上找到 Session」的地方。</p>
+
+<p style="margin:0 0 24px;">今天，infor-ecosystem-open-resources 上线了一个专门解决这个问题的页面 —— <strong>「Infor LN Session 速查」</strong>。</p>
+
+<!-- 小标题 -->
+<section style="margin:0 0 16px;padding-left:10px;border-left:4px solid #E4002B;">
+<h2 style="margin:0;font-size:18px;line-height:1.4;color:#1A1A1A;">📊 这个页面收录了什么？</h2>
+</section>
+
+<p style="margin:0 0 16px;">我们基于 Infor 官方文档中心各版本（10.6 / 10.7 / 10.8 / 2024.x Cloud / 2025.x Cloud）的联机帮助与官方 Sitemap，采集整理了 <strong style="color:#E4002B;">12,125 条 Session</strong>，覆盖 <strong>23 个包、208 个模块组</strong>：</p>
+
+<table style="width:100%;border-collapse:collapse;margin:0 0 20px;font-size:13px;">
+<thead><tr style="background:#E4002B;color:#fff;">
+<th style="padding:8px 10px;text-align:left;border:none;">包</th>
+<th style="padding:8px 10px;text-align:left;border:none;">说明</th>
+<th style="padding:8px 10px;text-align:right;border:none;">条数</th>
+</tr></thead>
+<tbody>
+<tr style="background:#fafafa;"><td style="padding:7px 10px;border-bottom:1px solid #eee;"><strong>tf</strong></td><td style="padding:7px 10px;border-bottom:1px solid #eee;">财务（总帐/应收/应付/现金）</td><td style="padding:7px 10px;border-bottom:1px solid #eee;text-align:right;">1,766</td></tr>
+<tr><td style="padding:7px 10px;border-bottom:1px solid #eee;"><strong>tc</strong></td><td style="padding:7px 10px;border-bottom:1px solid #eee;">通用数据（物料/伙伴/术语）</td><td style="padding:7px 10px;border-bottom:1px solid #eee;text-align:right;">1,654</td></tr>
+<tr style="background:#fafafa;"><td style="padding:7px 10px;border-bottom:1px solid #eee;"><strong>td</strong></td><td style="padding:7px 10px;border-bottom:1px solid #eee;">分销（销售/采购/越库/EDI）</td><td style="padding:7px 10px;border-bottom:1px solid #eee;text-align:right;">1,342</td></tr>
+<tr><td style="padding:7px 10px;border-bottom:1px solid #eee;"><strong>ti</strong></td><td style="padding:7px 10px;border-bottom:1px solid #eee;">制造（车间/工艺路线/BOM/项目）</td><td style="padding:7px 10px;border-bottom:1px solid #eee;text-align:right;">1,299</td></tr>
+<tr style="background:#fafafa;"><td style="padding:7px 10px;border-bottom:1px solid #eee;"><strong>ts</strong></td><td style="padding:7px 10px;border-bottom:1px solid #eee;">企业服务（BSMS/工具服务）</td><td style="padding:7px 10px;border-bottom:1px solid #eee;text-align:right;">1,072</td></tr>
+<tr><td style="padding:7px 10px;border-bottom:1px solid #eee;"><strong>tp</strong></td><td style="padding:7px 10px;border-bottom:1px solid #eee;">项目</td><td style="padding:7px 10px;border-bottom:1px solid #eee;text-align:right;">999</td></tr>
+<tr style="background:#fafafa;"><td style="padding:7px 10px;border-bottom:1px solid #eee;"><strong>wh</strong></td><td style="padding:7px 10px;border-bottom:1px solid #eee;">仓储（入库/出库/库存核对）</td><td style="padding:7px 10px;border-bottom:1px solid #eee;text-align:right;">937</td></tr>
+<tr><td style="padding:7px 10px;border-bottom:1px solid #eee;"><strong>pd</strong></td><td style="padding:7px 10px;border-bottom:1px solid #eee;">产品开发</td><td style="padding:7px 10px;border-bottom:1px solid #eee;text-align:right;">516</td></tr>
+<tr style="background:#fafafa;"><td style="padding:7px 10px;border-bottom:1px solid #eee;"><strong>tt</strong></td><td style="padding:7px 10px;border-bottom:1px solid #eee;">工具（会话管理/表设计器/用户管理）</td><td style="padding:7px 10px;border-bottom:1px solid #eee;text-align:right;">48</td></tr>
+<tr><td style="padding:7px 10px;border-bottom:1px solid #eee;"><strong>其他 14 包</strong></td><td style="padding:7px 10px;border-bottom:1px solid #eee;">本地化/质量/EDI/货运等</td><td style="padding:7px 10px;border-bottom:1px solid #eee;text-align:right;">2,492</td></tr>
+</tbody>
+</table>
+
+<p style="margin:0 0 24px;">其中 <code style="background:#f5f5f5;padding:1px 5px;border-radius:3px;font-size:13px;">tt</code> 工具包收录了开发者最常用的功能：<code style="background:#f5f5f5;padding:1px 5px;border-radius:3px;font-size:13px;">ttaad2500m000</code>（维护会话）、<code style="background:#f5f5f5;padding:1px 5px;border-radius:3px;font-size:13px;">ttaad4100m000</code>（导出数据字典）、<code style="background:#f5f5f5;padding:1px 5px;border-radius:3px;font-size:13px;">ttadv1100m000</code>（维护表）等。</p>
+
+<section style="margin:0 0 16px;padding-left:10px;border-left:4px solid #E4002B;">
+<h2 style="margin:0;font-size:18px;line-height:1.4;color:#1A1A1A;">🔍 怎么用？</h2>
+</section>
+
+<p style="margin:0 0 16px;">三个核心功能，全部<strong>本页完成，无需跳转</strong>：</p>
+
+<p style="margin:0 0 12px;"><strong style="color:#E4002B;">1. 模糊搜索</strong> —— 输入 Session Code 的一部分（如 <code style="background:#f5f5f5;padding:1px 5px;border-radius:3px;font-size:13px;">tdsls4100</code>）、中文名（如「销售订单」）、英文名（如 <code style="background:#f5f5f5;padding:1px 5px;border-radius:3px;font-size:13px;">purchase</code>），表格即时过滤。</p>
+
+<p style="margin:0 0 12px;"><strong style="color:#E4002B;">2. 包/模块联动筛选</strong> —— 下拉选择包和模块（如 <code style="background:#f5f5f5;padding:1px 5px;border-radius:3px;font-size:13px;">tf / gld 总帐</code>），只看该模块的 Session。</p>
+
+<p style="margin:0 0 16px;"><strong style="color:#E4002B;">3. 官方文档直达</strong> —— 每一行都有「官方↗」链接，一键打开该 Session 在 docs.infor.com 的完整字段说明，工具栏可切换 10.7 / 10.6 / 10.8 / 2024.x Cloud / 2025.x Cloud 五个官方文档版本。</p>
+
+<p style="margin:0 0 24px;">数据按包分片懒加载，首屏轻快，搜哪个包加载哪个包，手机上也不卡。</p>
+
+<section style="margin:0 0 16px;padding-left:10px;border-left:4px solid #E4002B;">
+<h2 style="margin:0;font-size:18px;line-height:1.4;color:#1A1A1A;">📱 扫码直达</h2>
+</section>
+
+<p style="margin:0 0 16px;">微信扫描下方二维码，或<strong>长按识别</strong>，一键打开速查页：</p>
+
+<!-- 二维码卡片（直发时由脚本上传微信素材后替换为微信图 URL） -->
+<p style="margin:0 0 8px;text-align:center;"><img src="https://cuiwenyuan.github.io/infor-ecosystem-open-resources/assets/wechat/2026-11-04-ln-session/qrcode-card.png" alt="Infor LN Session 速查 二维码" style="max-width:80%;border-radius:8px;box-shadow:0 2px 12px rgba(0,0,0,.12);"></p>
+<p style="margin:0 0 24px;text-align:center;color:#888;font-size:12px;">▲ 长按识别二维码，直达 LN Session 速查页</p>
+
+<p style="margin:0 0 24px;">也可以直接复制链接到微信打开：<br><code style="background:#f5f5f5;padding:2px 6px;border-radius:3px;font-size:12px;word-break:break-all;">https://cuiwenyuan.github.io/infor-ecosystem-open-resources/resources/ln-sessions/</code></p>
+
+<section style="margin:0 0 16px;padding-left:10px;border-left:4px solid #E4002B;">
+<h2 style="margin:0;font-size:18px;line-height:1.4;color:#1A1A1A;">📚 顺带逛逛：站内还有这些</h2>
+</section>
+
+<p style="margin:0 0 16px;">「<strong>infor-ecosystem-open-resources</strong>」持续收录 Infor 生态的开放资源，近期上线的实用页面：</p>
+
+<ul style="margin:0 0 24px;padding-left:22px;">
+<li style="margin-bottom:8px;"><strong>Infor 常见问题 FAQ</strong> —— What is Infor？LN 和 Baan 什么关系？</li>
+<li style="margin-bottom:8px;"><strong>Infor 定价与 TCO 指南</strong> —— 订阅与实施费用区间（第三方口径）</li>
+<li style="margin-bottom:8px;"><strong>Infor 登录指南</strong> —— Ming.le 租户 URL / SSO / 密码重置</li>
+<li style="margin-bottom:8px;"><strong>Infor 顾问职业路径</strong> —— 技能阶梯、认证与中外薪酬行情</li>
+<li style="margin-bottom:8px;"><strong>LN MPS/MRP 规划指南</strong> —— 计划主数据、订单策略与实施避坑</li>
+<li style="margin-bottom:0;"><strong>长尾关键词清单</strong> —— 1739 条 Infor 相关搜索词</li>
+</ul>
+
+<section style="margin:0 0 16px;padding-left:10px;border-left:4px solid #E4002B;">
+<h2 style="margin:0;font-size:18px;line-height:1.4;color:#1A1A1A;">🧭 关于 infor-ecosystem-open-resources</h2>
+</section>
+
+<p style="margin:0 0 16px;">这是一个<strong>非官方的 Infor 生态开放资源导航库</strong>，定位很简单：把分散在全网、与 Infor 相关的第三方资源<strong>系统化地收拢到一起</strong>——论坛社区、顾问与实施公司、博客教程、工具插件、培训认证，以及本次的 LN Session 速查、错误码排查、开发手册等实用页面。</p>
+
+<p style="margin:0 0 8px;">整个库基于 MkDocs 构建、托管在 GitHub Pages，全部内容开源，欢迎共建：</p>
+
+<p style="margin:0 0 24px;"><code style="background:#f5f5f5;padding:2px 6px;border-radius:3px;font-size:12px;word-break:break-all;">https://github.com/cuiwenyuan/infor-ecosystem-open-resources</code></p>
+
+<section style="margin:0 0 16px;padding-left:10px;border-left:4px solid #E4002B;">
+<h2 style="margin:0;font-size:18px;line-height:1.4;color:#1A1A1A;">最后</h2>
+</section>
+
+<p style="margin:0 0 16px;">这个 Session 速查页会持续扩充（目前已覆盖 10.6 / 10.7 / 10.8 / 2024.x Cloud / 2025.x Cloud 五个官方文档版本）。如果你发现某个常用 Session 没被收录，欢迎在 GitHub 仓库提 Issue 告诉我们。</p>
+
+<p style="margin:0 0 24px;">觉得有用的话，<strong style="color:#E4002B;">转发给你身边做 Infor LN 的同事和朋友</strong>吧。</p>
+
+<!-- 尾部品牌 -->
+<section style="margin:32px 0 0;padding:16px;background:#fafafa;border-radius:8px;">
+<p style="margin:0 0 4px;font-size:13px;color:#666;"><strong>infor-ecosystem-open-resources · Infor 生态开放资源导航</strong></p>
+<p style="margin:0;font-size:12px;color:#999;">维护者：崔文远（Troy Cui）｜数据更新 2026-11-05<br>页面地址：cuiwenyuan.github.io/infor-ecosystem-open-resources/resources/ln-sessions/</p>
+</section>
+
+</section>
+
+</body>
+</html>

@@ -161,6 +161,14 @@ description: "Infor 生态开放资源导航站首页，提供论坛、顾问公
 
 ### 📅 项目动态
 
+#### 2026-11-05
+- 🚀 **「LN Session 速查」页 v2 大升级**（`resources/ln-sessions.md`）：由 1,299 条扩充至 **12,125 条**（约 9.3 倍），覆盖 **23 个包 / 208 个模块组**
+  - 数据合并 docs.infor.com **10.8 / 2024.x Cloud / 2025.x Cloud** 三份官方 Sitemap 全量 Session 页 + **10.7 zh-cn** 联机帮助采集；中文描述 10,626 条，其余回退英文并标注 (EN)
+  - 新增「文档版本」下拉：**10.7 / 10.6 / 10.8 / 2024.x Cloud / 2025.x Cloud** 五版本官方链接一键切换；每条按官方 Sitemap 严格标注可用版本，未收录显示「—」避免死链（10.5 库不全，仅提供文档库入口）
+  - 考证补全新包元数据（br=Warehouse Mobility、pl=Enterprise Planning Plus、bc=Migration Tools、lp=Localization、tg=Enterprise Modeler 等），FM 包名修正为 Freight Management；按包分片 JSON 增至 23 个
+  - 同步更新两篇待发公众号文章与二维码卡片的数据口径
+- 📝 **公众号宣传物料**：新增「站点介绍」文章全套（完整版 + 纯净版 HTML、封面、首页二维码、言序 payload）
+
 #### 2026-11-04
 - 📰 **「Infor 行业动态」页大扩充**（`resources/news.md`）
   - 分析师认可新增 **Gartner CPQ 魔力象限领导者（连续第 3 年，2026-01）** 与 **Gartner 劳动力管理技术领导者（2026）**

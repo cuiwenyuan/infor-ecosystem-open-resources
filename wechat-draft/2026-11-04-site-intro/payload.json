@@ -1,7 +1,7 @@
 {
   "_usage": "前置：将 docs/assets/wechat/2026-11-04-site-intro/ 两张图随仓库推送上线（GitHub Pages 直链已写入 payload）。注意：本文以用户手动复制 article-wx-content.html 覆盖正文为主方案，payload 仅作言序建稿壳子（标题/摘要/封面/导语）。在已注册言序工具的新会话中执行：(1) 调 list_wechat_accounts 确认账号；(2) 校验 cover_img URL 可公网访问；(3) 调 create_article 传入本 payload 的 title/abstract/intro/cover_img/chapters；(4) 用户在公众号草稿编辑器中用 article-wx-content.html 覆盖正文（含二维码图）；或用返回的 info_id 调 publish_article 发布到草稿箱。",
   "title": "找 Infor 资源还在到处搜？240+ 精选资源，一个开源导航站全收齐",
-  "abstract": "一个完全开源免费的 Infor 生态资源导航站：240+ 精选资源、10 大产品页、1299 条 Session 速查、中文专区。收藏这一站，找 Infor 资源不再东搜西找。",
+  "abstract": "一个完全开源免费的 Infor 生态资源导航站：240+ 精选资源、10 大产品页、12,125 条 Session 速查、中文专区。收藏这一站，找 Infor 资源不再东搜西找。",
   "cover_img": "https://cuiwenyuan.github.io/infor-ecosystem-open-resources/assets/wechat/2026-11-04-site-intro/cover-2.35.png",
   "intro": "用 Infor 的人，多少都经历过这样的时刻：找 Session 文档入口深、找顾问不知有谁、看踩坑不知博客何在。资源不是没有，而是散落各处。今天正式介绍我们维护的开源项目——infor-ecosystem-open-resources（Infor 生态开放资源导航站），把 Infor 生态里值得用的第三方资源分门别类收进一个站点，免费开放给所有 Infor 用户、实施顾问、开发者和学习者。",
   "chapters": [
@@ -9,84 +9,172 @@
       "type": "chapter",
       "title": "一、它是什么，不是什么",
       "blocks": [
-        { "type": "paragraph", "content": "一句话定位：第三方资源导航站，不是官方文档站。" },
-        { "type": "list", "style": "unordered", "items": [
-          "收录：第三方论坛与社区、全球实施顾问公司、技术博客与教程、开发工具与插件、培训与认证资源",
-          "不收录：官方产品文档（请直达 docs.infor.com）、营销广告内容、与 Infor 生态无关的站点"
-        ] },
-        { "type": "paragraph", "content": "所有资源经过筛选和整理，附中英文说明，按类型、产品、行业、地区四个维度组织，找东西像查目录一样直接。" }
+        {
+          "type": "paragraph",
+          "content": "一句话定位：第三方资源导航站，不是官方文档站。"
+        },
+        {
+          "type": "list",
+          "style": "unordered",
+          "items": [
+            "收录：第三方论坛与社区、全球实施顾问公司、技术博客与教程、开发工具与插件、培训与认证资源",
+            "不收录：官方产品文档（请直达 docs.infor.com）、营销广告内容、与 Infor 生态无关的站点"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": "所有资源经过筛选和整理，附中英文说明，按类型、产品、行业、地区四个维度组织，找东西像查目录一样直接。"
+        }
       ]
     },
     {
       "type": "chapter",
       "title": "二、六大资源板块，240+ 精选资源",
       "blocks": [
-        { "type": "table", "headers": ["板块", "数量", "收录内容"], "rows": [
-          ["论坛与社区", "30 个", "Infor User Community、独立用户组（TUG 等）、Reddit、LinkedIn 群组"],
-          ["顾问与实施公司", "55 家", "全球 Infor 实施合作伙伴目录，附地区与擅长产品"],
-          ["博客与教程", "66 个", "技术博客、视频教程、学习路线"],
-          ["工具与插件", "66+ 个", "开发工具、第三方插件、实用脚本"],
-          ["培训与认证", "20+ 个", "官方/第三方培训资源、认证指南"],
-          ["官方文档导航", "按产品", "docs.infor.com 各产品直达入口"]
-        ] },
-        { "type": "paragraph", "content": "每个条目都有统一格式的介绍：资源是什么、适合谁、怎么用——不堆链接，做有信息量的导航。" }
+        {
+          "type": "table",
+          "headers": [
+            "板块",
+            "数量",
+            "收录内容"
+          ],
+          "rows": [
+            [
+              "论坛与社区",
+              "30 个",
+              "Infor User Community、独立用户组（TUG 等）、Reddit、LinkedIn 群组"
+            ],
+            [
+              "顾问与实施公司",
+              "55 家",
+              "全球 Infor 实施合作伙伴目录，附地区与擅长产品"
+            ],
+            [
+              "博客与教程",
+              "66 个",
+              "技术博客、视频教程、学习路线"
+            ],
+            [
+              "工具与插件",
+              "66+ 个",
+              "开发工具、第三方插件、实用脚本"
+            ],
+            [
+              "培训与认证",
+              "20+ 个",
+              "官方/第三方培训资源、认证指南"
+            ],
+            [
+              "官方文档导航",
+              "按产品",
+              "docs.infor.com 各产品直达入口"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": "每个条目都有统一格式的介绍：资源是什么、适合谁、怎么用——不堆链接，做有信息量的导航。"
+        }
       ]
     },
     {
       "type": "chapter",
       "title": "三、按产品逛：10 大产品页，四种分类视角",
       "blocks": [
-        { "type": "paragraph", "content": "Infor 产品线庞杂，导航站按产品整理了 LN、M3、CloudSuite Industrial、WMS、Factory Track、MES、HCM、EAM、CRM、Infor OS 共 10 个产品详情页，每个产品页交叉串联四类资源（社区、顾问、博客、工具）。" },
-        { "type": "list", "style": "unordered", "items": [
-          "按业务功能：财务、供应链、制造、HCM、CRM、资产管理",
-          "按产品线：LN / M3 / CSI / EAM / WMS 等",
-          "按行业：制造、分销、医疗、酒店、公共事业",
-          "按技术平台：Infor OS、ION、Birst、AI、AWS"
-        ] },
-        { "type": "paragraph", "content": "不管你是「用 LN 的财务」还是「做 M3 的开发」，都能几步跳到自己关心的资源。" }
+        {
+          "type": "paragraph",
+          "content": "Infor 产品线庞杂，导航站按产品整理了 LN、M3、CloudSuite Industrial、WMS、Factory Track、MES、HCM、EAM、CRM、Infor OS 共 10 个产品详情页，每个产品页交叉串联四类资源（社区、顾问、博客、工具）。"
+        },
+        {
+          "type": "list",
+          "style": "unordered",
+          "items": [
+            "按业务功能：财务、供应链、制造、HCM、CRM、资产管理",
+            "按产品线：LN / M3 / CSI / EAM / WMS 等",
+            "按行业：制造、分销、医疗、酒店、公共事业",
+            "按技术平台：Infor OS、ION、Birst、AI、AWS"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": "不管你是「用 LN 的财务」还是「做 M3 的开发」，都能几步跳到自己关心的资源。"
+        }
       ]
     },
     {
       "type": "chapter",
       "title": "四、开发者专区：查 Session 不用再翻文档树",
       "blocks": [
-        { "type": "list", "style": "unordered", "items": [
-          "LN 4GL 代码片段库：常用 4GL/DAL2 代码模式，附讲解",
-          "API 开发指南：ION API、Infor OS 接口开发资源",
-          "故障代码百科：LN 常见错误速查与解决思路",
-          "LN Session 速查页：基于官方中文文档采集 1,299 条 Session，覆盖 14 个包、86 个模块组，支持中英文模糊搜索、按包/模块联动筛选，每条附官方文档直达链接"
-        ] },
-        { "type": "paragraph", "content": "其中 Session 速查页上周刚上线，是目前访问量最高的页面之一——输入关键字马上找到 Session，客户现场、写定制代码时都很好用。" }
+        {
+          "type": "list",
+          "style": "unordered",
+          "items": [
+            "LN 4GL 代码片段库：常用 4GL/DAL2 代码模式，附讲解",
+            "API 开发指南：ION API、Infor OS 接口开发资源",
+            "故障代码百科：LN 常见错误速查与解决思路",
+            "LN Session 速查页：基于官方多版本文档采集 12,125 条 Session，覆盖 23 个包、208 个模块组，支持中英文模糊搜索、按包/模块联动筛选，每条附多版本官方文档直达链接"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": "其中 Session 速查页上线后持续扩充，已覆盖五个官方文档版本——输入关键字马上找到 Session，客户现场、写定制代码时都很好用。"
+        }
       ]
     },
     {
       "type": "chapter",
       "title": "五、中文用户专区",
       "blocks": [
-        { "type": "paragraph", "content": "面向中文用户专门做了中国专区：中文技术资源、国内顾问与实施公司、中文培训与社群（微信公众号、知识星球）一站汇总。" },
-        { "type": "paragraph", "content": "另有 Infor 中英术语表：产品、技术、行业术语对照查询，看英文文档卡壳时很有用。" }
+        {
+          "type": "paragraph",
+          "content": "面向中文用户专门做了中国专区：中文技术资源、国内顾问与实施公司、中文培训与社群（微信公众号、知识星球）一站汇总。"
+        },
+        {
+          "type": "paragraph",
+          "content": "另有 Infor 中英术语表：产品、技术、行业术语对照查询，看英文文档卡壳时很有用。"
+        }
       ]
     },
     {
       "type": "chapter",
       "title": "六、完全开源，欢迎参与",
       "blocks": [
-        { "type": "paragraph", "content": "整个项目托管在 GitHub，完全免费、无广告、不设门槛：" },
-        { "type": "list", "style": "unordered", "items": [
-          "在线地址：cuiwenyuan.github.io/infor-ecosystem-open-resources",
-          "开源仓库：github.com/cuiwenyuan/infor-ecosystem-open-resources",
-          "技术栈：MkDocs + Material 主题，GitHub Pages 自动部署"
-        ] },
-        { "type": "paragraph", "content": "发现好资源？欢迎通过 GitHub 提 Issue 或 Pull Request 推荐收录；发现链接失效也欢迎反馈，站点会持续更新维护。" }
+        {
+          "type": "paragraph",
+          "content": "整个项目托管在 GitHub，完全免费、无广告、不设门槛："
+        },
+        {
+          "type": "list",
+          "style": "unordered",
+          "items": [
+            "在线地址：cuiwenyuan.github.io/infor-ecosystem-open-resources",
+            "开源仓库：github.com/cuiwenyuan/infor-ecosystem-open-resources",
+            "技术栈：MkDocs + Material 主题，GitHub Pages 自动部署"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": "发现好资源？欢迎通过 GitHub 提 Issue 或 Pull Request 推荐收录；发现链接失效也欢迎反馈，站点会持续更新维护。"
+        }
       ]
     },
     {
       "type": "chapter",
       "title": "写在最后",
       "blocks": [
-        { "type": "paragraph", "content": "做这个站没有商业目的，只是把 Infor 圈子里散落的好东西攒到一起，让后来的人少走点弯路。" },
-        { "type": "paragraph", "content": "收藏一个站，找 Infor 资源不再东搜西找。" },
-        { "type": "image", "url": "https://cuiwenyuan.github.io/infor-ecosystem-open-resources/assets/wechat/2026-11-04-site-intro/qrcode-card.png", "alt": "Infor 生态开放资源导航站二维码，长按识别直达" }
+        {
+          "type": "paragraph",
+          "content": "做这个站没有商业目的，只是把 Infor 圈子里散落的好东西攒到一起，让后来的人少走点弯路。"
+        },
+        {
+          "type": "paragraph",
+          "content": "收藏一个站，找 Infor 资源不再东搜西找。"
+        },
+        {
+          "type": "image",
+          "url": "https://cuiwenyuan.github.io/infor-ecosystem-open-resources/assets/wechat/2026-11-04-site-intro/qrcode-card.png",
+          "alt": "Infor 生态开放资源导航站二维码，长按识别直达"
+        }
       ]
     }
   ]
