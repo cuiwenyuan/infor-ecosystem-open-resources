@@ -6,7 +6,7 @@
 [![Infor Ecosystem](https://img.shields.io/badge/Infor-Ecosystem-purple.svg)](https://www.infor.com)
 
 **在线访问**：[https://cuiwenyuan.github.io/infor-ecosystem-open-resources/](https://cuiwenyuan.github.io/infor-ecosystem-open-resources/)
-**国内镜像**：[https://infor-ecosystem-open-resources.cuiwenyuan.cn/](https://infor-ecosystem-open-resources.cuiwenyuan.cn/)（部署完成后启用，配置见 [DEPLOY.md](DEPLOY.md)）
+**国内镜像（推荐国内用户）**：[https://infor-ecosystem-open-resources.cuiwenyuan.cn/](https://infor-ecosystem-open-resources.cuiwenyuan.cn/) ✅ 已上线，与 GitHub Pages 同一次推送自动同步（配置见 [DEPLOY.md](DEPLOY.md)）
 
 ---
 
@@ -95,7 +95,7 @@
 
 访问我们的在线网站：**[https://cuiwenyuan.github.io/infor-ecosystem-open-resources/](https://cuiwenyuan.github.io/infor-ecosystem-open-resources/)**
 
-国内访问较慢时可改用镜像站：**[https://infor-ecosystem-open-resources.cuiwenyuan.cn/](https://infor-ecosystem-open-resources.cuiwenyuan.cn/)**（部署完成后启用）
+国内访问 GitHub Pages 较慢时，推荐改用**国内镜像站**（已上线，自托管字体、无境外前端请求，首页实测约 0.1s）：**[https://infor-ecosystem-open-resources.cuiwenyuan.cn/](https://infor-ecosystem-open-resources.cuiwenyuan.cn/)**
 
 ### 本地运行
 
@@ -212,7 +212,8 @@ infor-ecosystem-open-resources/
 - ✅ **深色/浅色主题**：自动跟随系统设置，也可手动切换
 - ✅ **全文搜索**：基于 MkDocs 的高性能搜索
 - ✅ **分类筛选**：按资源类型、产品、地区等多维度筛选
-- ✅ **自动部署**：GitHub Actions 自动构建并部署到 GitHub Pages
+- ✅ **双站自动部署**：GitHub Actions 一次 `push main` 并行构建并发布到 GitHub Pages 与国内镜像站（普通 FTP 增量同步）
+- ✅ **国内访问优化**：国内镜像站自托管 Roboto 字体与本地 Mermaid，页面零境外前端请求；GitHub Pages 站维持原有外观
 - ⏳ **中英双语**：支持中英文切换（规划中）
 - ⏳ **评论系统**：基于 GitHub Discussions 的评论功能（规划中）
 
@@ -255,7 +256,7 @@ infor-ecosystem-open-resources/
 - **项目阶段**：Phase 2 已完成，进入常态化内容运营
 - **技术方案**：MkDocs + Material for MkDocs（已确定）
 - **完成度**：100%（P0 全部完成；内容持续扩充中）
-- **最后更新**：2026-11-04
+- **最后更新**：2026-11-07
 
 ### 里程碑进度
 
@@ -264,6 +265,7 @@ infor-ecosystem-open-resources/
 | Phase 1: MVP（200+ 资源，部署上线） | ✅ 已完成 | 2026-05-07 |
 | Phase 2: 内容完善（品牌主题、赞助方案、社群页面、中国专区） | ✅ 已完成 | 2026-05-12 |
 | 常态化内容运营（行业动态/版本动态/产品专题/竞品对比） | 🔄 持续中 | 2026-10 起 |
+| 国内镜像站双部署（阿里云 ECS + 宝塔 + FTP 自动同步，已上线验收） | ✅ 已完成 | 2026-11-07 |
 | Phase 3: 功能增强（评论、评分、Google Analytics） | 📝 待开始 | 规划中 |
 | Phase 4: 生态扩展（多语言、API） | 💡 规划中 | 规划中 |
 
@@ -280,8 +282,9 @@ infor-ecosystem-open-resources/
 - **版本动态**（`resources/release-notes.md`）：2026.10 Industry AI Agents 矩阵扩至完整清单
 - **产品专题新增/完善**：Infor MES、Infor CPQ（Gartner 领导者认可）、Infor WMS / CloudSuite Industrial 客户案例
 - **热门搜索关键词页**（`resources/hot-keywords.md`）：基于 Bing 数据的 757 条关键词索引
-- **LN Session 速查页**（`resources/ln-sessions.md`）：基于 docs.infor.com 官方中文文档采集 1,299 条 Session（14 包 / 86 模块组），中英双语描述、模糊搜索、按包分片懒加载、官方文档直达链接
+- **LN Session 速查页**（`resources/ln-sessions.md`）：基于 docs.infor.com 官方文档采集 **12,125 条 Session（23 包 / 208 模块组）**，中英双语描述、模糊搜索、按包分片懒加载、五版本官方文档链接切换
 - **长尾关键词工程**：Bing 种子矩阵扩采 4,039 词，新增[长尾关键词清单页](https://cuiwenyuan.github.io/infor-ecosystem-open-resources/resources/long-tail-keywords/)（1,739 条，可搜索/筛选），并依据需求信号新建 5 个针对性页面：常见问题 FAQ、定价与 TCO 指南、登录指南、顾问职业路径、LN 规划指南（MPS/MRP）
+- **国内镜像站正式上线**（2026-11-07）：`infor-ecosystem-open-resources.cuiwenyuan.cn` 已通过全项验收，首页 0.1s 左右（GitHub Pages 同期 0.9~7s）；`sitemap.xml` 178 条全为 `.cn` 域名、canonical 正确、23 个 Session 分片与二维码资源均可访问；`mkdocs.yml` 零改动，GitHub Pages 站外观不变
 
 ---
 
@@ -291,8 +294,8 @@ infor-ecosystem-open-resources/
 - **主题**：[Material for MkDocs](https://squidfunk.github.io/mkdocs-material/)
 - **编程语言**：Python 3.13+
 - **版本控制**：Git + GitHub
-- **部署平台**：GitHub Pages
-- **CI/CD**：GitHub Actions
+- **部署平台**：GitHub Pages + 国内镜像站（阿里云 ECS / 宝塔面板 / HTTPS）
+- **CI/CD**：GitHub Actions（两个并行 job：`deploy` + `deploy-cn`）
 
 ---
 
@@ -327,6 +330,6 @@ infor-ecosystem-open-resources/
 
 ---
 
-**文档版本**：v6.0（内容大扩充 + 结构树与里程碑更新）
-**最后更新**：2026-11-04  
+**文档版本**：v6.1（国内镜像站上线状态同步 + LN Session 数据口径修正）
+**最后更新**：2026-11-07  
 **维护者**：崔文远 Troy Cui

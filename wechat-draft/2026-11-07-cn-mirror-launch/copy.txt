@@ -1,0 +1,37 @@
+【标题（推荐 A）】
+国内打开 Infor 资源站总转圈？镜像站上线了，首页实测 0.10 秒，扫码即用
+
+【标题备选 B】
+Infor 生态开放资源导航，国内镜像站正式上线
+
+【标题备选 C】
+一次 push，两个站点：我们把 Infor 资源站搬回了国内
+
+————————————————————————
+
+【描述语（复制以下全部内容）】
+
+做 Infor 的，大概都遇到过：查个资料，GitHub Pages 首页转五六秒；字体走 Google Fonts 常加载不出来；客户现场网络一限制，有时干脆打不开。
+
+国内镜像站 2026-11-07 正式上线：infor-ecosystem-open-resources.cuiwenyuan.cn
+
+📊 实测（图 3）
+同一网络各测 3 次：国内站首页 0.098 / 0.100 / 0.104 秒，GitHub Pages 0.904 / 1.540 / 7.064 秒。本机抽样，不同网络会有差异。
+
+🔁 一次推送，两个站点（图 4）
+GitHub Actions 双 job 并行：deploy 发 GitHub Pages，deploy-cn 用 FTP 增量同步到国内主机。内容同一份，失败互不影响。
+
+🧩 不只是搬服务器（图 5、6）
+· Roboto / Roboto Mono 字体 woff2 自托管，Mermaid 本地化，页面零境外前端请求
+· 独立 site_url，canonical / sitemap.xml / JSON-LD 按 .cn 生成；实测 sitemap 178 条全为 .cn、0 条 github.io
+· 主 mkdocs.yml 一字未改，老站外观不变
+
+✅ 上线前逐项实测（图 7）
+首页 200、静态资源 200、零境外请求、canonical 正确、LN Session 分片与二维码图可访问、老站零改动，数据记在 DEPLOY.md。
+
+📌 免费 · 开源 · 无广告
+库名 infor-ecosystem-open-resources，非官方文档站。第 9 张二维码，微信长按识别直达国内站；也可搜库名或复制地址到浏览器。
+
+你平时用哪个站？评论区聊聊。觉得有用，点个「在看」或转发给做 Infor 的同事。
+
+#Infor #InforLN #ERP #ERP顾问 #GitHubPages #网站提速 #开源

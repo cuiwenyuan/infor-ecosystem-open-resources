@@ -155,6 +155,7 @@ GitHub Pages 在国内访问偏慢、偶发不可达，因此增加一份**国�
 - **镜像域名**：`https://infor-ecosystem-open-resources.cuiwenyuan.cn/`（根路径部署）
 - **主机**：阿里云 ECS + 宝塔面板，`cuiwenyuan.cn` 已备案、国内节点
 - **接入方式**：普通 FTP（**主机不支持 FTPS**），端口 21，部署到 FTP 根目录
+- **当前状态**：✅ **2026-11-07 已正式上线并通过全项验收**（GitHub Secrets 补齐后重跑 workflow 成功），后续无需人工干预，每次 `push main` 自动更新两站
 
 ### 架构：一次 push，两个站点
 
@@ -183,6 +184,8 @@ GitHub Pages 在国内访问偏慢、偶发不可达，因此增加一份**国�
 
 ### 需要你在主机 / GitHub 后台完成的操作
 
+> ✅ 本节为**一次性首次配置记录**，本项目已于 2026-11-07 全部完成并验证通过。以下保留供日后迁移主机、重建站点或排查故障时参照。
+>
 > ⚠️ 密码不要发给我，也不要写进任何项目文件，只填到 GitHub Secrets。
 
 **1. DNS 解析**
@@ -248,15 +251,31 @@ FTP 使用被动模式（PASV），需要同时放行控制端口和数据端口
 
 推送代码后（或 Actions 页手动 `Run workflow`），首次为全量上传约 **30MB / 267 个文件**，几分钟完成；之后依靠服务器上的 `.ftp-deploy-sync-state.json` 只传变化文件。
 
-逐项验收：
+#### ✅ 上线验收结果（2026-11-07，全部通过）
 
-- [ ] `https://infor-ecosystem-open-resources.cuiwenyuan.cn/` 首页打开，样式正常（Roboto 自托管生效、无字体闪烁）
-- [ ] 「LN Session 速查」页可搜索，且 `assets/ln-sessions/tf.json` 等 23 个分片 JSON 能加载
-- [ ] 二维码图 `assets/wechat/2026-11-04-ln-session/qrcode-card.png` 可访问
-- [ ] `sitemap.xml` 中 `<loc>` 全部为 `.cn` 域名，**不含 github.io**
-- [ ] 页面源码中无 `fonts.googleapis.com` / `fonts.gstatic.com` / `unpkg.com`
-- [ ] `<link rel="canonical">` 指向 `.cn` 域名
-- [ ] GitHub Pages 站复查：Google Fonts 与原有外观无变化
+| 验收项 | 实测结果 |
+|---|---|
+| 首页 | `HTTP 200`，nginx + HTTPS/HSTS，`Content-Length` 159,639 B |
+| 首页速度 | 3 次均值约 **0.10s**（1.5~1.6 MB/s）；同期 GitHub Pages 0.90s / 1.54s / 7.06s |
+| 自托管字体 | `fonts-selfhost.css` 200；`roboto-latin-400-normal.woff2` 等 3 个抽样均 200 且 `Content-Type: font/woff2` |
+| 本地 Mermaid | `assets/javascripts/mermaid.min.js` 200（3.3 MB） |
+| 境外前端请求 | 页面源码中 `fonts.googleapis.com` / `fonts.gstatic.com` / `unpkg.com` **均为 0** |
+| LN Session 速查 | 页面 200；`tf.json`（325 KB）、`td.json`（294 KB）等分片 200 |
+| 二维码图 | `assets/wechat/2026-11-04-ln-session/qrcode-card.png` 200（54.9 KB） |
+| sitemap.xml | 200，**178 条 `<loc>` 全部为 `.cn` 域名，0 条 `github.io`**，`lastmod` 为 2026-11-07 |
+| canonical | `<link rel="canonical" href="https://infor-ecosystem-open-resources.cuiwenyuan.cn/">` |
+| 品牌口径 | 首页无 `InforIndex` 字样，统一使用库名 `infor-ecosystem-open-resources` |
+| GitHub Pages 站复查 | `fonts.googleapis.com` 2 / `fonts.gstatic.com` 1 / `unpkg.com` 1 均保留，`fonts-selfhost.css` 为 0，外观零改动 |
+
+逐项清单：
+
+- [x] `https://infor-ecosystem-open-resources.cuiwenyuan.cn/` 首页打开，样式正常（Roboto 自托管生效、无字体闪烁）
+- [x] 「LN Session 速查」页可打开，且 `assets/ln-sessions/tf.json` 等分片 JSON 能加载
+- [x] 二维码图 `assets/wechat/2026-11-04-ln-session/qrcode-card.png` 可访问
+- [x] `sitemap.xml` 中 `<loc>` 全部为 `.cn` 域名，**不含 github.io**
+- [x] 页面源码中无 `fonts.googleapis.com` / `fonts.gstatic.com` / `unpkg.com`
+- [x] `<link rel="canonical">` 指向 `.cn` 域名
+- [x] GitHub Pages 站复查：Google Fonts 与原有外观无变化
 
 可选：把国内站的 `sitemap.xml` 提交到百度搜索资源平台。
 
@@ -285,6 +304,8 @@ py -m mkdocs build -f mkdocs.cn.yml --strict -d site-cn
 #### `Error: Input required and not supplied: server`
 
 **原因**：`FTP_SERVER`（或其余两个 Secret）在这次 workflow 运行时解析为空字符串。`FTP-Deploy-Action` 把 `server` 声明为必填入参，拿到空值就抛这个错。**属于 Secrets 配置未完成，不是 workflow 或代码问题。**
+
+> ✅ **本仓库该问题已于 2026-11-07 解决**：补齐 3 个 Repository secrets 后重跑 workflow，FTP 上传成功，国内站正式上线（见上文「上线验收结果」）。以下保留为排障参考。
 
 按上文「6. 添加 GitHub Secrets」补齐 3 个后，到 Actions 页 `Run workflow` 重跑即可。核对要点：
 

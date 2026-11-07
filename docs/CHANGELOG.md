@@ -2,6 +2,16 @@
 
 本页面记录 Infor 生态开放资源导航站的重大更新。
 
+## 2026-11-07
+- **国内镜像站 `infor-ecosystem-open-resources.cuiwenyuan.cn` 正式上线**：GitHub Actions 新增 `deploy-cn` job，与 GitHub Pages 的 `deploy` job 并行、失败隔离；`push main` 一次触发双站自动更新
+- 新增 `mkdocs.cn.yml`（`INHERIT` 主配置 + 独立 `site_url`），主 `mkdocs.yml` 零改动；canonical / `sitemap.xml` / JSON-LD 按 `.cn` 域名生成（实测 178 条全为 `.cn`，0 条 github.io）
+- **国内访问优化**：国内站改用自托管 Roboto / Roboto Mono woff2 与本地 Mermaid，页面零境外前端请求；GitHub Pages 站维持 Google Fonts 与 unpkg mermaid，外观不变
+- 补齐第三方许可文件：Roboto / Roboto Mono（SIL OFL 1.1）、Mermaid（MIT）
+- 修复首次 Actions 报错 `Input required and not supplied: server`：新增 `Check FTP secrets` 自检步骤，Secrets 缺失时跳过上传并输出中文 warning 与 Job Summary；`DEPLOY.md` 补常见报错排查章节
+- **上线验收全项通过**：首页 HTTP 200、约 0.10s（GitHub Pages 同期 0.90~7.06s）；字体 / mermaid / 23 个 LN Session 分片 / 二维码图均可访问；GitHub 站 Google Fonts 原样保留
+- 仓库文档同步：`README.md` v6.1、`DEPLOY.md` 上线验收结果、`docs/index.md` 项目动态、`TODO.md`
+- 新增微信贴图物料 `wechat-draft/2026-11-07-cn-mirror-launch/`：9 张 3:4 图 + `note.md` + `copy.txt`，围绕国内镜像站上线，含实测速度对比、双站架构图、两站差异表与 7 项验收清单；第 9 张二维码指向国内站首页，沿用既有品牌红视觉与库名口径
+
 ## 2026-11-05
 - **`resources/ln-sessions.md` v2 大升级**：Session 由 1,299 条扩至 **12,125 条**（23 包 / 208 模块组，约 9.3 倍）；合并 10.8 / 2024.x Cloud / 2025.x Cloud 官方 Sitemap 全量 + 10.7 zh-cn 联机帮助采集，中文描述 10,626 条
 - 新增「文档版本」切换：10.6 / 10.7 / 10.8 / 2024.x Cloud / 2025.x Cloud 五个官方文档版本，按官方集合严格标注可用版本避免死链（10.5 库不全，仅给文档库入口）；按包分片 JSON 增至 23 个

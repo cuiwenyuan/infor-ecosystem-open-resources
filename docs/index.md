@@ -167,6 +167,15 @@ description: "Infor 生态开放资源导航站首页，提供论坛、顾问公
   - 国内站使用独立 `site_url`，canonical / `sitemap.xml` / JSON-LD 均按 `.cn` 域名生成，避免被搜索引擎判为重复内容
   - 补齐第三方资源许可（Roboto 系 SIL OFL 1.1、Mermaid MIT）；`DEPLOY.md` 追加国内部署章节（DNS、独立 FTP 账号、被动端口放行、3 个 Secrets、验收清单）
   - 本地双构建 `mkdocs build --strict` 与 `mkdocs build -f mkdocs.cn.yml --strict` 均通过
+- ✅ **国内镜像站正式上线并验收通过**：补齐 GitHub Secrets 后重跑 workflow，FTP 上传成功，`https://infor-ecosystem-open-resources.cuiwenyuan.cn/` 已可正常访问
+  - **访问提速明显**：首页 3 次实测约 **0.10s**（约 1.5 MB/s），同期 GitHub Pages 为 0.90s / 1.54s / 7.06s；nginx + HTTPS/HSTS 正常
+  - **全项验收通过**：自托管 woff2 字体与本地 mermaid 均 200；页面源码零 `googleapis` / `gstatic` / `unpkg` 请求；canonical 指向 `.cn`；`sitemap.xml` **178 条全为 `.cn` 域名、0 条 github.io**；LN Session 分片 JSON、二维码图均可访问
+  - **GitHub 站零影响**：`mkdocs.yml` 未改，Google Fonts 与 unpkg mermaid 原样保留；此后每次 `push main` 两站自动同步，无需人工操作
+  - 仓库文档同步：`README.md` 升级 v6.1（镜像入口、双部署里程碑、LN Session 数据口径修正）、`DEPLOY.md` 补上线验收结果与实测数据、`docs/CHANGELOG.md` 补 2026-11-07 条目
+- 💬 **微信贴图（公众号图片消息）· 国内镜像站上线**：新增 `wechat-draft/2026-11-07-cn-mirror-launch/`，9 张 1080×1440（3:4）横滑图 + `note.md` 文案方案 + `copy.txt` 纯文本发布稿
+  - 内容线：封面 / 痛点三连 / 实测速度对比（0.10s vs 0.90~7.06s）/ 一次推送双站架构图 / 两站差异表 / 三项优化 / 7 项上线验收清单 / 收尾 / 第 9 张二维码直达国内站首页
+  - 沿用 11-05「LN Session 速查」贴图同款品牌红 `#E4002B` 视觉与页眉页脚；二维码改用 ECC-H 高容错并指向国内站；描述语 842 字符，在微信 1000 字上限内留足余量
+  - 全套物料复核：0 处旧站名简称，统一库名 `infor-ecosystem-open-resources`；9 张图尺寸/排版/二维码均逐项目检通过
 
 #### 2026-11-05
 - 🚀 **「LN Session 速查」页 v2 大升级**（`resources/ln-sessions.md`）：由 1,299 条扩充至 **12,125 条**（约 9.3 倍），覆盖 **23 个包 / 208 个模块组**
