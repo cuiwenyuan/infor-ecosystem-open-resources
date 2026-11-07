@@ -99,8 +99,10 @@
 
 
 
-<!-- Preconnect to Google Fonts -->
+<!-- Preconnect to Google Fonts（仅 GitHub Pages 站需要；国内自托管字体站跳过） -->
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
+
 
 
   </head>
@@ -794,6 +796,17 @@
   
     <nav class="md-nav" aria-label="📅 项目动态">
       <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#2026-11-07" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2026-11-07
+      
+    </span>
+  </a>
+  
+</li>
         
           <li class="md-nav__item">
   <a href="#2026-11-05" class="md-nav__link">
@@ -7298,6 +7311,17 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
+  <a href="#2026-11-07" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2026-11-07
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#2026-11-05" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -8004,6 +8028,14 @@
 <p>请阅读 <a href="contributing/">CONTRIBUTING.md</a> 了解详细的贡献流程和规范。</p>
 <hr />
 <h3 id="_14">📅 项目动态</h3>
+<h4 id="2026-11-07">2026-11-07</h4>
+<ul>
+<li>🌏 <strong>新增国内镜像站自动部署</strong>：<code>mkdocs.cn.yml</code>（INHERIT 主配置）+ <code>deploy-cn</code> job，<code>push main</code> 时与 GitHub Pages <strong>并行</strong>自动构建，经 FTP 增量同步至 <code>infor-ecosystem-open-resources.cuiwenyuan.cn</code>（阿里云 + 宝塔面板，已备案国内节点）</li>
+<li><strong>两站差异化</strong>：国内站改用<strong>自托管 Roboto / Roboto Mono woff2 字体</strong>与本地 mermaid，实际页面零境外前端请求；GitHub Pages 站<strong>维持 Google Fonts 与 unpkg mermaid</strong>，<code>mkdocs.yml</code> 零改动、外观不变</li>
+<li>国内站使用独立 <code>site_url</code>，canonical / <code>sitemap.xml</code> / JSON-LD 均按 <code>.cn</code> 域名生成，避免被搜索引擎判为重复内容</li>
+<li>补齐第三方资源许可（Roboto 系 SIL OFL 1.1、Mermaid MIT）；<code>DEPLOY.md</code> 追加国内部署章节（DNS、独立 FTP 账号、被动端口放行、3 个 Secrets、验收清单）</li>
+<li>本地双构建 <code>mkdocs build --strict</code> 与 <code>mkdocs build -f mkdocs.cn.yml --strict</code> 均通过</li>
+</ul>
 <h4 id="2026-11-05">2026-11-05</h4>
 <ul>
 <li>🚀 <strong>「LN Session 速查」页 v2 大升级</strong>（<code>resources/ln-sessions.md</code>）：由 1,299 条扩充至 <strong>12,125 条</strong>（约 9.3 倍），覆盖 <strong>23 个包 / 208 个模块组</strong></li>
