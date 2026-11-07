@@ -54,14 +54,59 @@ jobs:
       - name: Build China mirror site
         run: mkdocs build -f mkdocs.cn.yml --strict -d site-cn
 
+      # GitHub Actions 不允许在 if: 中直接引用 secrets 上下文，
+      # 因此用 env 中转，再把判断结果写到 GITHUB_OUTPUT。
+      # Secrets 未配置时跳过 FTP 上传（避免每次 push 都让本 job 报红），
+      # 并在 Annotations 与 Job Summary 中给出明确的中文排查提示。
+      - name: Check FTP secrets
+        id: ftp-check
+        env:
+          FTP_SERVER: ${{ secrets.FTP_SERVER }}
+          FTP_USERNAME: ${{ secrets.FTP_USERNAME }}
+          FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
+        run: |
+          missing=""
+          if [ -z "$FTP_SERVER" ];   then missing="$missing FTP_SERVER";   fi
+          if [ -z "$FTP_USERNAME" ]; then missing="$missing FTP_USERNAME"; fi
+          if [ -z "$FTP_PASSWORD" ]; then missing="$missing FTP_PASSWORD"; fi
+
+          if [ -n "$missing" ]; then
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+            echo "::warning::国内镜像站部署已跳过，缺少 Secrets:$missing"
+            {
+              echo "## ⚠️ 国内镜像站部署已跳过"
+              echo ""
+              echo "以下 GitHub Secrets 未配置或当前 job 读不到：**$missing**"
+              echo ""
+              echo "请在仓库 Settings → Secrets and variables → Actions → New repository secret 添加以下 3 个 Repository secrets："
+              echo ""
+              echo "| Secret | 填写内容 |"
+              echo "| --- | --- |"
+              echo "| FTP_SERVER | FTP 主机地址（IP 或域名，不带 ftp://、不带端口） |"
+              echo "| FTP_USERNAME | 独立 FTP 账号用户名 |"
+              echo "| FTP_PASSWORD | 该账号密码 |"
+              echo ""
+              echo "常见原因：Secret 名称不一致、误建在 Environments 而非 Repository secrets、加到了别的仓库、值前后带空格。"
+              echo "若配置在 Environments 中，job 必须显式声明 environment 才能读取。"
+              echo ""
+              echo "配置后重新运行本工作流即可。GitHub Pages 站的部署不受影响。"
+              echo ""
+              echo "首次连通失败请检查：阿里云安全组与宝塔防火墙是否放行 TCP 21 及 FTP 被动端口段（常见 39000-40000）。"
+            } >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo "skip=false" >> "$GITHUB_OUTPUT"
+            echo "FTP Secrets 齐备，开始部署"
+          fi
+
       - name: Deploy to China mirror via FTP
+        if: steps.ftp-check.outputs.skip == 'false'
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
           server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           protocol: ftp
-          port: 21
+          port: "21"
           local-dir: ./site-cn/
           server-dir: ./
           exclude: |

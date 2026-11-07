@@ -279,3 +279,25 @@ py -m mkdocs build -f mkdocs.cn.yml --strict -d site-cn
 | Roboto | `@fontsource/roboto@5`（latin woff2） | SIL OFL 1.1 | `docs/assets/fonts/LICENSE-ROBOTO.txt` |
 | Roboto Mono | `@fontsource/roboto-mono@5`（latin woff2） | SIL OFL 1.1 | `docs/assets/fonts/LICENSE-ROBOTO-MONO.txt` |
 | Mermaid | `mermaid@10` dist | MIT | `docs/assets/javascripts/LICENSE-MERMAID.txt` |
+
+### 常见报错排查
+
+#### `Error: Input required and not supplied: server`
+
+**原因**：`FTP_SERVER`（或其余两个 Secret）在这次 workflow 运行时解析为空字符串。`FTP-Deploy-Action` 把 `server` 声明为必填入参，拿到空值就抛这个错。**属于 Secrets 配置未完成，不是 workflow 或代码问题。**
+
+按上文「6. 添加 GitHub Secrets」补齐 3 个后，到 Actions 页 `Run workflow` 重跑即可。核对要点：
+
+| 检查项 | 正确做法 |
+|---|---|
+| 名称 | 必须**完全一致且区分大小写**：`FTP_SERVER` / `FTP_USERNAME` / `FTP_PASSWORD` |
+| 位置 | 仓库 `Settings → Secrets and variables → Actions → Repository secrets`；**不要建在 Environments secrets**（除非 job 显式声明 `environment:`） |
+| 仓库 | 确认是当前这个仓库，不是其他仓库或组织级 Secret |
+| `FTP_SERVER` 值 | 只填主机，如 `123.45.67.89` 或 `ftp.cuiwenyuan.cn`；**不带** `ftp://`、路径、端口，值前后不要有空格 |
+| 生效时机 | Secret 新建后**已完成的运行不会自动回填**，需重新触发一次 workflow |
+
+> 自 2026-11-07 起 workflow 增加了 `Check FTP secrets` 步骤：Secrets 缺失时 `deploy-cn` 会**跳过上传**，在 Annotations 显示 warning、在 Job Summary 输出中文排查清单，job 保持绿色，GitHub Pages 站部署完全不受影响；3 个 Secret 齐全后自动恢复上传。若希望缺失时**直接让 job 失败**，删掉 FTP 部署步骤上的 `if: steps.ftp-check.outputs.skip == 'false'` 即可。
+
+#### `425 Can't open data connection` / 能登录但 LIST、上传超时
+
+FTP 被动模式的数据端口未放行：在阿里云安全组与宝塔防火墙同时放行 TCP `21` + 被动端口段（Pure-FTPd 常见 `39000-40000`）；ECS 在 NAT 后还需在 Pure-FTPd 配置 `ForcePassiveIP` 为公网 IP。详见上文「放行 FTP 端口」。
