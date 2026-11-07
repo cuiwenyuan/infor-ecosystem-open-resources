@@ -1,0 +1,34 @@
+# ==========================================================================
+# 国内镜像站构建配置
+#   https://infor-ecosystem-open-resources.cuiwenyuan.cn/
+# --------------------------------------------------------------------------
+# 通过 INHERIT 继承 mkdocs.yml 的全部配置（nav / plugins / markdown_extensions
+# / theme 主题外观等），此处只覆盖「两站之间必须不同」的几项。
+#
+# 主 mkdocs.yml 保持零改动 —— GitHub Pages 站继续加载 Google Fonts 与
+# unpkg 的 mermaid，视觉与行为完全不变；国内站则改用自托管字体与本地 mermaid。
+#
+# 本地构建：py -m mkdocs build -f mkdocs.cn.yml --strict -d site-cn
+# GitHub Actions：.github/workflows/deploy.yml 的 deploy-cn job 使用本文件
+# ==========================================================================
+
+INHERIT: ./mkdocs.yml
+
+# 根域名部署，canonical / sitemap.xml / JSON-LD 均按本域名生成
+site_url: https://infor-ecosystem-open-resources.cuiwenyuan.cn/
+
+theme:
+  # 关闭主题自动注入 Google Fonts（fonts.googleapis.com / fonts.gstatic.com）
+  font: false
+
+extra:
+  # 供 overrides/main.html 判断，去掉国内站无用的 Google Fonts preconnect
+  selfhost_fonts: true
+
+extra_css:
+  - assets/css/extra.css
+  - assets/css/fonts-selfhost.css
+
+extra_javascript:
+  # 本地 mermaid，替代主配置里的 https://unpkg.com/mermaid@10/...
+  - assets/javascripts/mermaid.min.js

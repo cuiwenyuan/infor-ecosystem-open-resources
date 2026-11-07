@@ -31,3 +31,40 @@ jobs:
 
       - name: Deploy MkDocs site
         run: mkdocs gh-deploy --force
+
+  # --------------------------------------------------------------------------
+  # 国内镜像站：infor-ecosystem-open-resources.cuiwenyuan.cn
+  # 与上面的 GitHub Pages job 并行、互不依赖，任一失败不影响另一个。
+  # 主配置 mkdocs.yml 保持原样（GitHub 站继续用 Google Fonts / unpkg），
+  # 这里单独用 mkdocs.cn.yml 构建一份自托管字体 + 本地 mermaid 的产物。
+  # 主机为阿里云 + 宝塔面板，仅支持明文 FTP（不支持 FTPS），根目录部署。
+  # --------------------------------------------------------------------------
+  deploy-cn:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Build China mirror site
+        run: mkdocs build -f mkdocs.cn.yml --strict -d site-cn
+
+      - name: Deploy to China mirror via FTP
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          protocol: ftp
+          port: 21
+          local-dir: ./site-cn/
+          server-dir: ./
+          exclude: |
+            **/.git*
+            **/.git*/**
+            **/node_modules/**

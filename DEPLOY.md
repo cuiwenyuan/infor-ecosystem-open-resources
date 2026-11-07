@@ -145,3 +145,137 @@ GitHub Actions 会自动重新构建并部署，通常 2-3 分钟后生效。
 ---
 
 **完成后网站地址**：[https://cuiwenyuan.github.io/infor-ecosystem-open-resources/](https://cuiwenyuan.github.io/infor-ecosystem-open-resources/)
+
+---
+
+## 附录：国内镜像站部署（2026-11-07 新增）
+
+GitHub Pages 在国内访问偏慢、偶发不可达，因此增加一份**国内镜像站**，与 GitHub Pages 保持同一份内容、同一次推送自动更新。
+
+- **镜像域名**：`https://infor-ecosystem-open-resources.cuiwenyuan.cn/`（根路径部署）
+- **主机**：阿里云 ECS + 宝塔面板，`cuiwenyuan.cn` 已备案、国内节点
+- **接入方式**：普通 FTP（**主机不支持 FTPS**），端口 21，部署到 FTP 根目录
+
+### 架构：一次 push，两个站点
+
+`.github/workflows/deploy.yml` 里有两个**并行、互不依赖**的 job，任一失败不影响另一个：
+
+| job | 目标 | 构建配置 | 命令 |
+|---|---|---|---|
+| `deploy` | GitHub Pages | `mkdocs.yml`（原样，零改动） | `mkdocs gh-deploy --force` |
+| `deploy-cn` | 国内镜像站 | `mkdocs.cn.yml`（INHERIT 主配置） | `mkdocs build -f mkdocs.cn.yml --strict -d site-cn` → FTP 增量同步 |
+
+触发方式沿用现有 `push main` + `workflow_dispatch`（可在 Actions 页手动重跑）。
+
+**为什么要两次构建**：GitHub Pages 地址带 `/infor-ecosystem-open-resources/` 子路径，国内站是根路径 `/`；`site_url` 会写进 canonical、`sitemap.xml` 和 JSON-LD，必须各自生成，否则搜索引擎会把国内站判成 GitHub Pages 的重复内容。
+
+**两站差异**（内容完全相同，仅前端资源与元数据不同）：
+
+| 项 | GitHub Pages 站 | 国内镜像站 |
+|---|---|---|
+| 构建配置 | `mkdocs.yml` | `mkdocs.cn.yml` |
+| `site_url` | `cuiwenyuan.github.io/infor-ecosystem-open-resources/` | `infor-ecosystem-open-resources.cuiwenyuan.cn/` |
+| 字体 | **维持 Google Fonts**（Roboto / Roboto Mono） | **自托管 woff2**（`fonts-selfhost.css` + `assets/fonts/`），视觉一致 |
+| Mermaid | `unpkg.com/mermaid@10` | 本地 `assets/javascripts/mermaid.min.js` |
+| 境外前端请求 | 有 | **零**（实际页面已验证） |
+
+主 `mkdocs.yml` 一个字都不改，因此 GitHub Pages 站的字体与行为完全不变。
+
+### 需要你在主机 / GitHub 后台完成的操作
+
+> ⚠️ 密码不要发给我，也不要写进任何项目文件，只填到 GitHub Secrets。
+
+**1. DNS 解析**
+
+在域名解析处添加一条记录，把 `infor-ecosystem-open-resources` 指向主机公网 IP：
+
+| 类型 | 主机记录 | 记录值 |
+|---|---|---|
+| A | `infor-ecosystem-open-resources` | 阿里云 ECS 公网 IP |
+
+**2. 宝塔面板添加站点**
+
+- 「网站」→ 添加站点，域名填 `infor-ecosystem-open-resources.cuiwenyuan.cn`，先建好站点根目录（如 `/www/wwwroot/infor-ecosystem-open-resources.cuiwenyuan.cn/`）
+- 申请免费 SSL 证书（Let's Encrypt），并开启「强制 HTTPS」
+- 「设置 → 默认文档」确认 `index.html` 在列表内 —— 这是 `/resources/ln-sessions/` 这类目录能正常打开的关键
+
+**3. 创建独立 FTP 账号（重要）**
+
+- 「FTP」→ 创建账号，**根目录直接指向上面这个子域名的站点根目录**
+- 不要用主账号、也不要把根目录设为 `/www/wwwroot/`：`FTP-Deploy-Action` 会按 state 文件删除服务器上的旧文件，共用根目录有误删其他站点的风险
+- 记下 FTP 服务器地址（IP 或域名）、用户名、密码
+
+**4. 放行 FTP 端口（最常见的失败原因）**
+
+FTP 使用被动模式（PASV），需要同时放行控制端口和数据端口：
+
+| 位置 | 需要放行 |
+|---|---|
+| 阿里云 ECS 安全组（入方向） | TCP `21` + 被动端口段 |
+| 宝塔「安全」→ 系统防火墙 | 同上 |
+
+被动端口段以宝塔「FTP 管理 → 配置」里的 `PassivePortRange` 为准，Pure-FTPd 常见默认是 `39000-40000`。
+
+若出现「能登录但 LIST / 上传超时」，多半是 ECS 在 NAT 后返回了私网 IP，需在 Pure-FTPd 配置里设置 `ForcePassiveIP` 为 ECS 公网 IP。
+
+**5. 确认没有 IP 限制**
+
+宝塔若开启「FTP 登录 IP 限制 / 境外 IP 拦截」需关闭 —— GitHub Actions 的出口 IP 不固定。（本项目已确认未开启。）
+
+**6. 添加 GitHub Secrets**
+
+仓库 → `Settings` → `Secrets and variables` → `Actions` → `New repository secret`，添加 3 个：
+
+| Secret 名称 | 值 |
+|---|---|
+| `FTP_SERVER` | FTP 服务器地址（IP 或域名，不带 `ftp://`、不带端口） |
+| `FTP_USERNAME` | 第 3 步创建的独立账号用户名 |
+| `FTP_PASSWORD` | 该账号密码 |
+
+端口 `21`、`protocol: ftp`、`server-dir: ./` 已明文写在 workflow 里，无需配置。
+
+### ⚠️ 明文 FTP 的安全提醒
+
+主机不支持 FTPS，因此账号密码与文件内容在传输中是**明文**的。已采取的缓解措施：
+
+- 使用**仅授权该子域名目录**的独立最小权限账号
+- 密码只存于 GitHub Secrets，不落盘、不进仓库、不经过对话
+- 建议定期更换该 FTP 密码；不要与其他服务复用
+
+若将来主机支持 FTPS，只需把 workflow 中 `protocol: ftp` 改为 `ftps`（显式 FTPS，端口仍 21）或 `ftps-legacy`（隐式，端口 990）。
+
+### 首次部署与验收
+
+推送代码后（或 Actions 页手动 `Run workflow`），首次为全量上传约 **30MB / 267 个文件**，几分钟完成；之后依靠服务器上的 `.ftp-deploy-sync-state.json` 只传变化文件。
+
+逐项验收：
+
+- [ ] `https://infor-ecosystem-open-resources.cuiwenyuan.cn/` 首页打开，样式正常（Roboto 自托管生效、无字体闪烁）
+- [ ] 「LN Session 速查」页可搜索，且 `assets/ln-sessions/tf.json` 等 23 个分片 JSON 能加载
+- [ ] 二维码图 `assets/wechat/2026-11-04-ln-session/qrcode-card.png` 可访问
+- [ ] `sitemap.xml` 中 `<loc>` 全部为 `.cn` 域名，**不含 github.io**
+- [ ] 页面源码中无 `fonts.googleapis.com` / `fonts.gstatic.com` / `unpkg.com`
+- [ ] `<link rel="canonical">` 指向 `.cn` 域名
+- [ ] GitHub Pages 站复查：Google Fonts 与原有外观无变化
+
+可选：把国内站的 `sitemap.xml` 提交到百度搜索资源平台。
+
+### 本地验证命令
+
+```bash
+cd C:\Users\Administrator\Documents\InforIndex
+
+# GitHub Pages 站（默认配置）
+py -m mkdocs build --strict
+
+# 国内镜像站（独立配置，输出到 site-cn/，已被 .gitignore 排除）
+py -m mkdocs build -f mkdocs.cn.yml --strict -d site-cn
+```
+
+### 第三方资源许可
+
+| 资源 | 版本 / 来源 | 许可证 | 许可证文件 |
+|---|---|---|---|
+| Roboto | `@fontsource/roboto@5`（latin woff2） | SIL OFL 1.1 | `docs/assets/fonts/LICENSE-ROBOTO.txt` |
+| Roboto Mono | `@fontsource/roboto-mono@5`（latin woff2） | SIL OFL 1.1 | `docs/assets/fonts/LICENSE-ROBOTO-MONO.txt` |
+| Mermaid | `mermaid@10` dist | MIT | `docs/assets/javascripts/LICENSE-MERMAID.txt` |

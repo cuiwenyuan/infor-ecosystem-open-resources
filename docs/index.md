@@ -161,6 +161,13 @@ description: "Infor 生态开放资源导航站首页，提供论坛、顾问公
 
 ### 📅 项目动态
 
+#### 2026-11-07
+- 🌏 **新增国内镜像站自动部署**：`mkdocs.cn.yml`（INHERIT 主配置）+ `deploy-cn` job，`push main` 时与 GitHub Pages **并行**自动构建，经 FTP 增量同步至 `infor-ecosystem-open-resources.cuiwenyuan.cn`（阿里云 + 宝塔面板，已备案国内节点）
+  - **两站差异化**：国内站改用**自托管 Roboto / Roboto Mono woff2 字体**与本地 mermaid，实际页面零境外前端请求；GitHub Pages 站**维持 Google Fonts 与 unpkg mermaid**，`mkdocs.yml` 零改动、外观不变
+  - 国内站使用独立 `site_url`，canonical / `sitemap.xml` / JSON-LD 均按 `.cn` 域名生成，避免被搜索引擎判为重复内容
+  - 补齐第三方资源许可（Roboto 系 SIL OFL 1.1、Mermaid MIT）；`DEPLOY.md` 追加国内部署章节（DNS、独立 FTP 账号、被动端口放行、3 个 Secrets、验收清单）
+  - 本地双构建 `mkdocs build --strict` 与 `mkdocs build -f mkdocs.cn.yml --strict` 均通过
+
 #### 2026-11-05
 - 🚀 **「LN Session 速查」页 v2 大升级**（`resources/ln-sessions.md`）：由 1,299 条扩充至 **12,125 条**（约 9.3 倍），覆盖 **23 个包 / 208 个模块组**
   - 数据合并 docs.infor.com **10.8 / 2024.x Cloud / 2025.x Cloud** 三份官方 Sitemap 全量 Session 页 + **10.7 zh-cn** 联机帮助采集；中文描述 10,626 条，其余回退英文并标注 (EN)

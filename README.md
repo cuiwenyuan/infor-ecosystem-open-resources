@@ -6,6 +6,7 @@
 [![Infor Ecosystem](https://img.shields.io/badge/Infor-Ecosystem-purple.svg)](https://www.infor.com)
 
 **在线访问**：[https://cuiwenyuan.github.io/infor-ecosystem-open-resources/](https://cuiwenyuan.github.io/infor-ecosystem-open-resources/)
+**国内镜像**：[https://infor-ecosystem-open-resources.cuiwenyuan.cn/](https://infor-ecosystem-open-resources.cuiwenyuan.cn/)（部署完成后启用，配置见 [DEPLOY.md](DEPLOY.md)）
 
 ---
 
@@ -93,6 +94,8 @@
 ### 在线访问
 
 访问我们的在线网站：**[https://cuiwenyuan.github.io/infor-ecosystem-open-resources/](https://cuiwenyuan.github.io/infor-ecosystem-open-resources/)**
+
+国内访问较慢时可改用镜像站：**[https://infor-ecosystem-open-resources.cuiwenyuan.cn/](https://infor-ecosystem-open-resources.cuiwenyuan.cn/)**（部署完成后启用）
 
 ### 本地运行
 
