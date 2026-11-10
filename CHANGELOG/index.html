@@ -21,7 +21,7 @@
       
       
       <link rel="icon" href="../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.8.0">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.8.1">
     
     
       
@@ -6473,6 +6473,28 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#2026-11-10" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2026-11-10
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2026-11-07" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2026-11-07
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#2026-11-05" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -6573,6 +6595,26 @@
 
 <h1 id="changelog">Changelog</h1>
 <p>本页面记录 Infor 生态开放资源导航站的重大更新。</p>
+<h2 id="2026-11-10">2026-11-10</h2>
+<ul>
+<li><strong>「行业动态」新增「2026 中国区新客户与新项目」专题</strong>（<code>resources/news.md</code>）：以时间线 + 分类展开的方式，补齐 Infor 中国区 2026 年可公开核实的新签、启动与上线项目，全部附来源链接</li>
+<li>收录 <strong>4 个中国本土新客户</strong>：中秦兴龙工业集团（2026-03-04 启动）、苏州英赛斯（04-01 启动，计划下半年上线）、易开迪 EKT（04-13 启动）、德生堂壹壹壹智慧云仓（07-25 投运，Infor WMS）</li>
+<li>收录 <strong>2 个中国实施商交付的海外项目</strong>：Toyo 东南亚工厂（03-13 启动）与美国工厂（07-01 Go-Live）</li>
+<li>收录 <strong>1 个跨年度延续项目</strong>：凯斯纽荷兰 CNH（2025-10-31 签约，ERP + WMS 三地仓库，2026 推进）</li>
+<li>补充 <strong>中国区组织侧变化</strong>：2026-02-04 APJ 领导层调整（大中华区并入 SENA）、2026-08-21 恩富软件（中国）法定代表人变更；并说明 CloudSuite 无中国大陆 Region 带来的 PIPL 数据驻留约束</li>
+<li>明确标注信息来源与局限：中国区官方新闻稿缺位、动态多由实施伙伴发布、"公开可见 ≠ 全部签约"，并对 Toyo 主体存疑、中秦兴龙未披露产品版本等给出引用口径建议</li>
+</ul>
+<h2 id="2026-11-07">2026-11-07</h2>
+<ul>
+<li><strong>国内镜像站 <code>infor-ecosystem-open-resources.cuiwenyuan.cn</code> 正式上线</strong>：GitHub Actions 新增 <code>deploy-cn</code> job，与 GitHub Pages 的 <code>deploy</code> job 并行、失败隔离；<code>push main</code> 一次触发双站自动更新</li>
+<li>新增 <code>mkdocs.cn.yml</code>（<code>INHERIT</code> 主配置 + 独立 <code>site_url</code>），主 <code>mkdocs.yml</code> 零改动；canonical / <code>sitemap.xml</code> / JSON-LD 按 <code>.cn</code> 域名生成（实测 178 条全为 <code>.cn</code>，0 条 github.io）</li>
+<li><strong>国内访问优化</strong>：国内站改用自托管 Roboto / Roboto Mono woff2 与本地 Mermaid，页面零境外前端请求；GitHub Pages 站维持 Google Fonts 与 unpkg mermaid，外观不变</li>
+<li>补齐第三方许可文件：Roboto / Roboto Mono（SIL OFL 1.1）、Mermaid（MIT）</li>
+<li>修复首次 Actions 报错 <code>Input required and not supplied: server</code>：新增 <code>Check FTP secrets</code> 自检步骤，Secrets 缺失时跳过上传并输出中文 warning 与 Job Summary；<code>DEPLOY.md</code> 补常见报错排查章节</li>
+<li><strong>上线验收全项通过</strong>：首页 HTTP 200、约 0.10s（GitHub Pages 同期 0.90~7.06s）；字体 / mermaid / 23 个 LN Session 分片 / 二维码图均可访问；GitHub 站 Google Fonts 原样保留</li>
+<li>仓库文档同步：<code>README.md</code> v6.1、<code>DEPLOY.md</code> 上线验收结果、<code>docs/index.md</code> 项目动态、<code>TODO.md</code></li>
+<li>新增微信贴图物料 <code>wechat-draft/2026-11-07-cn-mirror-launch/</code>：9 张 3:4 图 + <code>note.md</code> + <code>copy.txt</code>，围绕国内镜像站上线，含实测速度对比、双站架构图、两站差异表与 7 项验收清单；第 9 张二维码指向国内站首页，沿用既有品牌红视觉与库名口径</li>
+</ul>
 <h2 id="2026-11-05">2026-11-05</h2>
 <ul>
 <li><strong><code>resources/ln-sessions.md</code> v2 大升级</strong>：Session 由 1,299 条扩至 <strong>12,125 条</strong>（23 包 / 208 模块组，约 9.3 倍）；合并 10.8 / 2024.x Cloud / 2025.x Cloud 官方 Sitemap 全量 + 10.7 zh-cn 联机帮助采集，中文描述 10,626 条</li>
@@ -6704,7 +6746,7 @@
       <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.tabs", "navigation.sections", "navigation.expand", "navigation.top", "search.suggest", "search.highlight", "content.code.copy", "content.action.edit", "content.action.view"], "search": "../assets/javascripts/workers/search.a7633da7.min.js", "tags": null, "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}, "version": null}</script>
     
     
-      <script src="../assets/javascripts/bundle.c21346df.min.js"></script>
+      <script src="../assets/javascripts/bundle.a5f9d56c.min.js"></script>
       
         <script src="https://unpkg.com/mermaid@10/dist/mermaid.min.js"></script>
       

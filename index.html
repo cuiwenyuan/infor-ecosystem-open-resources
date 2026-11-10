@@ -23,7 +23,7 @@
       
       
       <link rel="icon" href="assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.8.0">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.8.1">
     
     
       
@@ -796,6 +796,17 @@
   
     <nav class="md-nav" aria-label="📅 项目动态">
       <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#2026-11-10" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2026-11-10
+      
+    </span>
+  </a>
+  
+</li>
         
           <li class="md-nav__item">
   <a href="#2026-11-07" class="md-nav__link">
@@ -7311,6 +7322,17 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
+  <a href="#2026-11-10" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2026-11-10
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#2026-11-07" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -8028,6 +8050,15 @@
 <p>请阅读 <a href="contributing/">CONTRIBUTING.md</a> 了解详细的贡献流程和规范。</p>
 <hr />
 <h3 id="_14">📅 项目动态</h3>
+<h4 id="2026-11-10">2026-11-10</h4>
+<ul>
+<li>🇨🇳 <strong>「行业动态」新增「2026 中国区新客户与新项目」专题</strong>（<code>resources/news.md</code>）：补齐 Infor 中国区 2026 年可核实的新签/启动/上线项目，8 条时间线 + 分四类展开 + 来源清单</li>
+<li><strong>中国本土新客户</strong>：秦皇岛中秦兴龙工业集团（03-04 启动，Infor ERP）、苏州英赛斯智能科技（04-01 启动，Infor LN）、易开迪集团 EKT（04-13 启动，Infor LN）、德生堂集团壹壹壹智慧云仓（07-25 投运，Infor WMS）</li>
+<li><strong>中国实施商交付的海外项目</strong>：Toyo 东南亚工厂（03-13 启动）→ 美国工厂（07-01 Go-Live），Infor CloudSuite Enterprise（LN 云）</li>
+<li><strong>跨年度延续项目</strong>：凯斯纽荷兰 CNH（2025-10-31 签约，ERP 升级 + WMS 覆盖上海/哈尔滨/乌鲁木齐，2026 推进）</li>
+<li><strong>组织与生态侧</strong>：2026-02-04 APJ 领导层调整（大中华区并入 SENA，Victor Ng 统管）、2026-08-21 恩富软件（中国）法定代表人变更，并说明 CloudSuite 无中国大陆 Region 带来的数据驻留约束</li>
+<li>明确标注"公开可见 ≠ 全部签约"，并对 Toyo 主体存疑、中秦兴龙未披露产品版本等做出口径提示</li>
+</ul>
 <h4 id="2026-11-07">2026-11-07</h4>
 <ul>
 <li>🌏 <strong>新增国内镜像站自动部署</strong>：<code>mkdocs.cn.yml</code>（INHERIT 主配置）+ <code>deploy-cn</code> job，<code>push main</code> 时与 GitHub Pages <strong>并行</strong>自动构建，经 FTP 增量同步至 <code>infor-ecosystem-open-resources.cuiwenyuan.cn</code>（阿里云 + 宝塔面板，已备案国内节点）</li>
@@ -8035,6 +8066,15 @@
 <li>国内站使用独立 <code>site_url</code>，canonical / <code>sitemap.xml</code> / JSON-LD 均按 <code>.cn</code> 域名生成，避免被搜索引擎判为重复内容</li>
 <li>补齐第三方资源许可（Roboto 系 SIL OFL 1.1、Mermaid MIT）；<code>DEPLOY.md</code> 追加国内部署章节（DNS、独立 FTP 账号、被动端口放行、3 个 Secrets、验收清单）</li>
 <li>本地双构建 <code>mkdocs build --strict</code> 与 <code>mkdocs build -f mkdocs.cn.yml --strict</code> 均通过</li>
+<li>✅ <strong>国内镜像站正式上线并验收通过</strong>：补齐 GitHub Secrets 后重跑 workflow，FTP 上传成功，<code>https://infor-ecosystem-open-resources.cuiwenyuan.cn/</code> 已可正常访问</li>
+<li><strong>访问提速明显</strong>：首页 3 次实测约 <strong>0.10s</strong>（约 1.5 MB/s），同期 GitHub Pages 为 0.90s / 1.54s / 7.06s；nginx + HTTPS/HSTS 正常</li>
+<li><strong>全项验收通过</strong>：自托管 woff2 字体与本地 mermaid 均 200；页面源码零 <code>googleapis</code> / <code>gstatic</code> / <code>unpkg</code> 请求；canonical 指向 <code>.cn</code>；<code>sitemap.xml</code> <strong>178 条全为 <code>.cn</code> 域名、0 条 github.io</strong>；LN Session 分片 JSON、二维码图均可访问</li>
+<li><strong>GitHub 站零影响</strong>：<code>mkdocs.yml</code> 未改，Google Fonts 与 unpkg mermaid 原样保留；此后每次 <code>push main</code> 两站自动同步，无需人工操作</li>
+<li>仓库文档同步：<code>README.md</code> 升级 v6.1（镜像入口、双部署里程碑、LN Session 数据口径修正）、<code>DEPLOY.md</code> 补上线验收结果与实测数据、<code>docs/CHANGELOG.md</code> 补 2026-11-07 条目</li>
+<li>💬 <strong>微信贴图（公众号图片消息）· 国内镜像站上线</strong>：新增 <code>wechat-draft/2026-11-07-cn-mirror-launch/</code>，9 张 1080×1440（3:4）横滑图 + <code>note.md</code> 文案方案 + <code>copy.txt</code> 纯文本发布稿</li>
+<li>内容线：封面 / 痛点三连 / 实测速度对比（0.10s vs 0.90~7.06s）/ 一次推送双站架构图 / 两站差异表 / 三项优化 / 7 项上线验收清单 / 收尾 / 第 9 张二维码直达国内站首页</li>
+<li>沿用 11-05「LN Session 速查」贴图同款品牌红 <code>#E4002B</code> 视觉与页眉页脚；二维码改用 ECC-H 高容错并指向国内站；描述语 842 字符，在微信 1000 字上限内留足余量</li>
+<li>全套物料复核：0 处旧站名简称，统一库名 <code>infor-ecosystem-open-resources</code>；9 张图尺寸/排版/二维码均逐项目检通过</li>
 </ul>
 <h4 id="2026-11-05">2026-11-05</h4>
 <ul>
@@ -8484,7 +8524,7 @@
       <script id="__config" type="application/json">{"annotate": null, "base": ".", "features": ["navigation.tabs", "navigation.sections", "navigation.expand", "navigation.top", "search.suggest", "search.highlight", "content.code.copy", "content.action.edit", "content.action.view"], "search": "assets/javascripts/workers/search.a7633da7.min.js", "tags": null, "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}, "version": null}</script>
     
     
-      <script src="assets/javascripts/bundle.c21346df.min.js"></script>
+      <script src="assets/javascripts/bundle.a5f9d56c.min.js"></script>
       
         <script src="https://unpkg.com/mermaid@10/dist/mermaid.min.js"></script>
       
