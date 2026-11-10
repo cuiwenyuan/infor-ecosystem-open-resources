@@ -161,6 +161,14 @@ description: "Infor 生态开放资源导航站首页，提供论坛、顾问公
 
 ### 📅 项目动态
 
+#### 2026-11-10
+- 🇨🇳 **「行业动态」新增「2026 中国区新客户与新项目」专题**（`resources/news.md`）：补齐 Infor 中国区 2026 年可核实的新签/启动/上线项目，8 条时间线 + 分四类展开 + 来源清单
+  - **中国本土新客户**：秦皇岛中秦兴龙工业集团（03-04 启动，Infor ERP）、苏州英赛斯智能科技（04-01 启动，Infor LN）、易开迪集团 EKT（04-13 启动，Infor LN）、德生堂集团壹壹壹智慧云仓（07-25 投运，Infor WMS）
+  - **中国实施商交付的海外项目**：Toyo 东南亚工厂（03-13 启动）→ 美国工厂（07-01 Go-Live），Infor CloudSuite Enterprise（LN 云）
+  - **跨年度延续项目**：凯斯纽荷兰 CNH（2025-10-31 签约，ERP 升级 + WMS 覆盖上海/哈尔滨/乌鲁木齐，2026 推进）
+  - **组织与生态侧**：2026-02-04 APJ 领导层调整（大中华区并入 SENA，Victor Ng 统管）、2026-08-21 恩富软件（中国）法定代表人变更，并说明 CloudSuite 无中国大陆 Region 带来的数据驻留约束
+  - 明确标注"公开可见 ≠ 全部签约"，并对 Toyo 主体存疑、中秦兴龙未披露产品版本等做出口径提示
+
 #### 2026-11-07
 - 🌏 **新增国内镜像站自动部署**：`mkdocs.cn.yml`（INHERIT 主配置）+ `deploy-cn` job，`push main` 时与 GitHub Pages **并行**自动构建，经 FTP 增量同步至 `infor-ecosystem-open-resources.cuiwenyuan.cn`（阿里云 + 宝塔面板，已备案国内节点）
   - **两站差异化**：国内站改用**自托管 Roboto / Roboto Mono woff2 字体**与本地 mermaid，实际页面零境外前端请求；GitHub Pages 站**维持 Google Fonts 与 unpkg mermaid**，`mkdocs.yml` 零改动、外观不变
