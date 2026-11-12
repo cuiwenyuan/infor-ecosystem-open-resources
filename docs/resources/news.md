@@ -22,7 +22,11 @@ description: "追踪 Infor 及 CloudSuite 生态的 2026 年新闻、产品大�
 | 2026-10-06 ~ 10-08 | **Infor Velocity Week 2026（Orlando）** | Infor 年度 AI 旗舰活动；同期发布 Industry AI 架构下一演进与 Velocity Suite 扩展（自适应 UX、新治理模型、更多 Industry AI Agents；GenAI Knowledge Hub GA；MCP 连接 limited availability） |
 | 2026-10 | **CloudSuite 2026.10（October 2026 发布）** | 主题"可执行的 AI"：LN 会话内 GenAI 提示管理、M3 H5 自然语言搜索、XtendM3 AI Review、Birst 仪表板自然语言生成、350+ 预置用例的 Infor IQ 语义层、各行业 Industry AI Agents 矩阵 |
 | 2026-10-27 | **AI That Moves Your Industry Forward** 产品数字发布会 | Velocity Suite 下一阶段 Industry AI 数字活动（美东 10:00，另有 10/29 场次）；同期推出 **Infor GenAI Public Knowledge Hub**（免费向所有多租户客户开放，无需 Velocity Suite 订阅） |
+| 2026-11-02 | **Gartner 发布 2026 云 ERP 魔力象限** | 《Magic Quadrant for Cloud ERP for Product-Centric Enterprises》（Tomas Kienast 等 5 人）；判断「agentic AI 成为主导创新」，并给出 2030 年 >50% 基础 ERP 任务由 AI 自主执行等预测 |
+| 2026-11-03 | **瓦努阿图政府签约 Infor** | 5 年 / VT878 million（约 AU$1,047 万）合同，部署 **Infor CloudSuite Public Sector** 替换使用 20+ 年的 SmartStream，覆盖财政/HR/薪资/预算/采购/资产 |
+| 2026-11-04 | **2026.10 三条产品线 AI 细节公布** | Infor 连发 Automotive / Distribution / CPQ 官方博客，把 10 月发布的「可执行的 AI」拆到具体动作；同日 [ERP News](https://erpnews.com/infor-details-ai-agents-for-distribution-erp-warehouse-picking-and-finance/) 与 ERP Today 逐项梳理 |
 | 2026-11-05 | **Agentic Enterprise** 网络研讨 | 面向公共部门与服务组织的 AI & 自动化路线图研讨（美东 11:00，1 小时），展示 Infor **AI Adoption Hub**（为客户生成定制化 AI 路线图） |
+| 2026-11-06 | **Infor 官宣连续第 6 年入选 Gartner 云 ERP 领导者** | 2026 MQ 基于「执行力 × 愿景完整性」评选；同期 2026 Critical Capabilities 报告中 Infor 在 **2 个 Use Cases 得分最高**；Microsoft 同日官宣入选同一象限 |
 | 2026（全年） | **IBM i ERP 组合现代化** | XA / LX / System21 现代化路线图落地：IBM i 7.6 支持、REST API、System i Workspace Liberty 浏览器 UI（Q3 2026）；经 Multi-Tenant Infor OS + ION/BOD 的混合现代化路径（无需全量云迁移） |
 
 ---
@@ -64,13 +68,64 @@ description: "追踪 Infor 及 CloudSuite 生态的 2026 年新闻、产品大�
 
 | 机构 / 报告 | 认可 | 说明 |
 |------------|------|------|
-| **Gartner® Magic Quadrant™ for WMS** | **领导者（Leader）连续第 8 年**（2026） | Infor WMS 连续 8 年获 Gartner 仓储管理系统魔力象限领导者 |
-| **Gartner® Magic Quadrant™ for Cloud ERP for Product-Centric Enterprises** | **领导者连续第 5 年**（2025） | Infor Cloud ERP 连续 5 年获产品-centric 云 ERP 魔力象限领导者 |
+| **Gartner® Magic Quadrant™ for WMS** | **领导者（Leader）连续第 8 年**（2026-05-04） | Infor WMS 连续 8 年获 Gartner 仓储管理系统魔力象限领导者（[官方公告](https://www.infor.com/news/infor-named-leader-2026-gartner-magic-quadrant-warehouse-management-systems)） |
+| **Gartner® Magic Quadrant™ for Cloud ERP for Product-Centric Enterprises** | **领导者连续第 6 年**（2026-11-06 官宣） | 报告发布于 2026-11-02，基于 Ability to Execute × Completeness of Vision；2025 为连续第 5 年，[2026 官方公告](https://www.infor.com/news/infor-leader-6th-consecutive-year-2026-gartner-mq-cloud-erp-product-centric) |
+| **Gartner® Critical Capabilities for Cloud ERP 2026** | **2 个 Use Cases 得分最高** | Infor 以 CloudSuite LN / M3 / Industrial 三条产品线分别参评，在 2 个 Use Cases 中排名第一（[Infor 官网分析师视窗](https://www.infor.com/)） |
 | **Nucleus Research RPA Technology Value Matrix 2026** | **Leader** | 认可 Infor 在规模化 agentic AI 编排（agentic AI orchestration at scale）的能力 |
 | **Gartner® Magic Quadrant™ for Configure, Price, and Quote (CPQ) Applications** | **领导者（Leader）连续第 3 年**（2026） | Infor CPQ 连续第 3 年获 Gartner CPQ 魔力象限领导者（2026-01 发布），认可其成熟的、以制造为核心的配置/定价/报价能力 |
-| **Gartner® 劳动力管理技术（Workforce Management Technology）** | **领导者（Leader）** | Gartner 认可 Infor 在劳动力管理技术领域的领导者地位（2026） |
+| **Gartner® 劳动力管理技术（Workforce Management Technology）** | **领导者（Leader）**（2026-09-16） | Gartner 认可 Infor 在制造、医疗等一线行业的劳动力编排能力（[官方公告](https://www.infor.com/news/infor-named-leader-2026-gartner-wfm-technology)） |
 
-> 来源：Infor 官网首页分析师视窗、Infor 新闻室（2026-10/11 检索）。报告结论以 Gartner / Nucleus 原文为准，本页仅作索引。
+> 来源：Infor 官方新闻室与分析师视窗（2026-11-12 复核）。**Gartner 免责声明**：Gartner 不背书任何厂商、产品或服务，报告属观点而非事实陈述，引用时不宜写成「Gartner 推荐」。报告结论以原文为准，本页仅作索引。
+
+---
+
+## 🆕 2026 年 11 月生态速览（本次更新）
+
+> 记录 2026-11-02 ~ 11-12 期间可核实的新动态。这是官方新闻室 11 月唯一一条正式公告之外，从官方博客、分析机构与行业媒体补齐的部分。
+
+### 一、Gartner 2026 云 ERP 魔力象限：连续第六年 Leader
+
+| 项 | 内容 |
+|---|---|
+| 报告 | Gartner® *Magic Quadrant™ for Cloud ERP for Product-Centric Enterprises*，**2026-11-02**，分析师 Tomas Kienast、Johan Jartelius、Dennis Gaughan、Greg Leiter、Dixie John |
+| 官宣 | **2026-11-06**，Infor [宣布连续第六年入选「领导者」](https://www.infor.com/news/infor-leader-6th-consecutive-year-2026-gartner-mq-cloud-erp-product-centric)（Ability to Execute × Completeness of Vision） |
+| Gartner 市场判断 | 「市场正经历深刻转变，**agentic AI 成为主导创新**，推动架构走向可组合、平台化，通过*受治理的扩展*实现差异化，同时保持*标准化运营内核*」 |
+| 两条 2030 预测 | ① 超过 **50%** 的基础 ERP 任务将由 AI 自主执行（财务、供应链、HR 的人工参与减少）；② AI 工具使 **ERP 现代化成本降低 40%** |
+| 配套报告 | 2026 Gartner *Critical Capabilities for Cloud ERP*：Infor 在 **2 个 Use Cases 得分最高**，以 CloudSuite LN / M3 / Industrial 三条产品线分别参评 |
+| 企业规模口径 | Infor 官方稿自述：**60,000+ 组织 / 175+ 国家 / 17,000 员工**，Koch 全资持有 |
+
+- **ERX（Enterprise Resource Execution，企业资源执行）**：Infor 在[官方报告解读页](https://www.infor.com/en-gb/resources/gartner-names-cloudsuite-solutions-as-leader)称其为 Gartner 描述「智能、自主 ERP」的术语。⚠️ 口径提示：该词**并非 11 月新造**，早在 2026-07 已由 Infor 亚太 Geoff Thomas 对外阐释（[IT Brief Australia 07-13](https://itbrief.com.au/story/erx-the-next-generation-of-enterprise-software)、[ERP Today 07-10](https://erp.today/infor-erx-agentic-enterprise-erp/)），11 月是随 MQ 报告再次被强调；且目前见于厂商对报告的转述，未见 Gartner 原文独立核实。
+- **同日对照**：Microsoft 亦于 2026-11-06 官宣入选同一象限。按 Gartner 免责声明，两家同日「入选领导者」只说明象限里有谁，**不构成机构推荐**。
+- CEO Kevin Samuelson 表态：「客户是我们构建一切的中心……帮助制造商与分销商应对最复杂的挑战、有信心地采用 AI」。
+
+### 二、2026.10 三条产品线 AI 落地细节（11-04 官方博客）
+
+11 月 4 日 Infor 连发三篇官方博客，把 10 月发布中「可执行的 AI」拆到具体动作，是这轮最有参考价值的技术信息（功能清单另见 [版本动态](release-notes.md)）：
+
+| 产品线 | 关键能力 | 来源 |
+|---|---|---|
+| **CloudSuite Automotive 2026.10** | Velocity Suite 预置行业 AI：**物料短缺检查 agent**（比对未来用料与预计库存，给出调拨 / 改 PO 建议，计划员复核后让 agent 执行并重跑校验）、**SPC 质量趋势检测**（AI 生成图表与摘要直接进 Infor LN）、**合同履行 widget**（Shipping Planner / Supply Chain Manager 工作台）。合规侧：Factory Track 客户专属标签 + 扫描防错、业务伙伴级包装指令、装车优化、**原生 VIN 登记**（17 位掩码 / 唯一性 / 校验位）、拒收检验单快速关闭 | [官方博客](https://www.infor.com/en-au/blog/cloudsuite-automotive-2026-10-automation-agentic-enterprise) |
+| **CloudSuites for Distribution 2026.10** | 库存 / 产品 / 报价 / 财务 / 采购 / 供应链 / 定价 7 类 agent；Infor WMS 的 **Batch Wave Agent**（按共享行项目合并拣货波次，按需触发）与 **User & Task Management Agent**（自然语言做入职、权限、任务改派）；**GenAI Assistant 成为 Infor OS 门户默认首页**，Knowledge Hub 支持自有文档 + Infor 文档问答并加 guardrails；**A2A 协议**接 Microsoft Copilot / ServiceNow、**MCP** 单一受治理接口、**100+ 新增或更新 API**；19 个新增/更新 Experience Designer 应用；属性化预测（长尾 / 新品 SKU）、战略库存计划、事件化预测；**Product Advisor 拍照识件**；tiered vendor rebates、银行对账单 AI 识别；ESG 新增 **ESRS 内容库**与 **CBAM 模块** | [官方博客](https://www.infor.com/en-nl/blog/infor-cloudsuites-distribution-ai-october-2026) |
+| **Infor CPQ 2026.10** | 嵌入式 AI 三件套：**AI-Assisted Product Modeling**（加速规则集创建与维护）、**AI-Assisted Quoting**（对话式配置 + 引导补全 + 校验后直接进报价）、**AI Document Driven Transactions Agent**（RFQ / PO / PDF 自由文本转结构化报价或 ERP 就绪订单）；官方称能力 **available now** | [官方博客](https://www.infor.com/en-au/blog/infor-cpq-2026-10-release-embedded-ai) |
+
+**架构侧两个硬数字**（Automotive 官方博客）：Infor LN 经 **MCP 暴露 6,000+ OData API**；**100+ 单体智能体收敛为 12 个 domain agents**，既有 API 授权与安全策略继续生效。这比「有多少个 Agent」更能说明 agentic ERP 的实际门槛——底层要有结构化、可调用、有权限的业务能力。
+
+> ⚖️ **中立提示**：[ERP Today](https://erp.today/infor-builds-ai-agents-into-automotive-distribution-and-cpq-software/) 与 [ERP News](https://erpnews.com/infor-details-ai-agents-for-distribution-erp-warehouse-picking-and-finance/) 均指出这批公告**未提供可测量的客户成效**，降本提速属厂商 stated benefits；[第三方尽调文章](https://www.zodioo.com/blog/3/erp-ai-shipping-status-due-diligence-1108-964)亦提醒 2026.10 分销版缺少逐产品 entitlement / availability 矩阵与启用步骤。选型时应向厂商确认**版本、地区、许可档位、启用步骤**四件事，不要把「发布」直接等同于「今天可开」。
+
+### 三、新客户签约：瓦努阿图政府（2026-11-03）
+
+- 瓦努阿图政府与 Infor 签订 **5 年 / VT878 million（约 AU$1,047 万）** 合同，部署 **Infor CloudSuite Public Sector** 作为全国政府统一平台，替换已使用 20+ 年的 SmartStream。
+- 覆盖财务管理、HR、薪资、预算、采购、资产管理；新增公民 / 企业门户、供应商门户、公务员自助（请假、工资单、招聘入职、绩效）。
+- 资金由瓦努阿图政府承担、**澳大利亚政府支持**；项目已启动，未来一年分阶段上线。Infor Pacific 服务业负责人 Michelle Thurecht 代表发言。
+- 来源：[IT Brief Australia（2026-11-03）](https://itbrief.com.au/story/vanuatu-signs-aud-10-47-million-deal-to-modernise-finance)｜[Enterprise IT World](https://enterpriseitworld.com/vanuatu-awards-au10-47-million-infor-contract-to-modernise-government-financial-systems/)。属**亚太公共部门大单**，与中国区无直接关系，可作为 CloudSuite Public Sector 的最新落地参考。
+
+### 四、商业与生态侧小信号
+
+- **Velocity Suite 定价口径**：Infor 官网 ERP 页现表述为「**One flat fee, no matter where you're starting from**」（一口价，含行业 AI agents、GenAI、流程挖掘、自动化及实施专家团队）。与按模块叠加计价的旧印象不同，做 [TCO 评估](infor-pricing-tco.md) 时值得单独确认。
+- **官网改版**：首页主推「From AI insight to accountable execution」的 October release 专题，10/27 数字发布会已转为 **on demand**；Analyst Perspectives 区并列 Gartner MQ 6× / WMS 8× / Nucleus RPA Leader 三项。
+- **官方研究背景**：2026-10-06 新闻稿[《Infor Unveils Its Expanded Infor Industry AI》](https://www.infor.com/news/infor-unveils-its-expanded-infor-industry-ai)的标题口径为「三分之二企业认为现成 AI 不够用」，即上文 YouGov 调研的 68%。
+- **Infor 中国区**：本轮检索**未发现 11 月新增的本土客户官宣**。此前收录的 4 家本土新客户与 2 个海外交付节点见下文专题，「公开信息少」的成因保持不变。
+- ⚠️ **同名干扰项再提醒**：`INFOR／亿富智能装备`（东莞研磨设备企业）2026-11-02~03 亮相巴塞罗那欧洲锂电池峰会、`Informa／英富曼` 授权业务更名，均与 Infor 软件无关；检索中文资料时务必区分。
 
 ---
 
@@ -191,10 +246,12 @@ Infor 是面向行业的云企业软件公司，由 **Koch** 全资持有；产�
 
 - [Infor 产品版本动态](release-notes.md) — 各产品线版本号与功能清单
 - [Infor OS（平台）](../by-product/infor-os.md) — 含 Velocity Suite / Infor AI 架构详解
+- [定价与 TCO 评估](infor-pricing-tco.md) — 许可、实施与总体拥有成本
 - [Infor 官方新闻室](https://www.infor.com/news) — 一手公告
+- [Infor Community 版本发布页](https://community.infor.com/releases/october2026/distribution) — 2026.10 各产品线发布摘要与启用步骤
 - [Infor Community](https://community.infor.com/) — 版本公告与用户讨论
 
 ---
 
-**最后更新**：2026-11-10
+**最后更新**：2026-11-12
 **维护者**：崔文远 Troy Cui

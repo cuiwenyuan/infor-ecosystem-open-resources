@@ -88,6 +88,20 @@ description: "追踪 Infor 各产品线版本更新、新功能和发布动态�
   - **EPM**：合并日记账智能体；**FSM**：HR Case 智能体；**Birst**：Analytics 智能体
   - （完整清单与说明详见 [Infor OS / Velocity Suite](../by-product/infor-os.md)）
 
+**🧩 2026-11-04 官方补充：三条产品线的落地细节**
+
+Infor 于 11 月 4 日连发三篇官方博客，把 10 月发布中的「可执行的 AI」拆到具体动作（背景与口径见 [行业动态](news.md)）：
+
+| 产品线 | 2026.10 具体能力 | 官方博客 |
+|---|---|---|
+| **CloudSuite Automotive** | 物料短缺检查 agent（建议 → 计划员复核 → agent 执行 → 重跑校验）、SPC 质量趋势检测（图表与 AI 摘要直入 Infor LN）、合同履行 widget；Factory Track 客户专属标签 + 扫描防错、业务伙伴级包装指令、装车优化、原生 VIN 登记（17 位掩码 / 唯一性 / 校验位）、拒收检验单快速关闭 | [链接](https://www.infor.com/en-au/blog/cloudsuite-automotive-2026-10-automation-agentic-enterprise) |
+| **CloudSuites for Distribution** | 7 类业务 agent（库存/产品/报价/财务/采购/供应链/定价）；Infor WMS 的 Batch Wave Agent 与 User & Task Management Agent；**GenAI Assistant 成为 Infor OS 门户默认首页** + Knowledge Hub guardrails；**A2A**（Microsoft Copilot / ServiceNow）与 **MCP** 单一受治理接口；**100+ 新增或更新 API**；19 个新增/更新 Experience Designer 应用；属性化预测 / 战略库存计划 / 事件化预测；Product Advisor 拍照识件；tiered vendor rebates、银行对账单 AI 识别；ESG 的 **ESRS 内容库**与 **CBAM 模块** | [链接](https://www.infor.com/en-nl/blog/infor-cloudsuites-distribution-ai-october-2026) |
+| **Infor CPQ** | AI-Assisted Product Modeling（规则集创建维护）、AI-Assisted Quoting（对话式配置 + 引导补全 + 校验后直接进报价）、AI Document Driven Transactions Agent（RFQ / PO / PDF → 结构化报价或 ERP 就绪订单）；官方称 **available now** | [链接](https://www.infor.com/en-au/blog/infor-cpq-2026-10-release-embedded-ai) |
+
+**架构侧两个数字**（Automotive 官方博客）：Infor LN 经 **MCP 暴露 6,000+ OData API**；**100+ 单体智能体收敛为 12 个 domain agents**，既有 API 授权与安全策略继续生效。
+
+> ⚠️ 可用性口径：据 [ERP Today](https://erp.today/infor-builds-ai-agents-into-automotive-distribution-and-cpq-software/) 与 [ERP News](https://erpnews.com/infor-details-ai-agents-for-distribution-erp-warehouse-picking-and-finance/)，这批公告未提供可测量的客户成效，亦未附逐产品 entitlement / availability 矩阵；启用步骤以 [Infor Community 发布页](https://community.infor.com/releases/october2026/distribution) 为准，规划升级前请向厂商确认版本、地区、许可档位与启用条件。
+
 ### SunSystems Cloud — 2025 年 10 月更新
 
 | 项目 | 详情 |
@@ -168,4 +182,4 @@ description: "追踪 Infor 各产品线版本更新、新功能和发布动态�
 
 ---
 
-**最后更新**：2026-11-04
+**最后更新**：2026-11-12
