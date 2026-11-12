@@ -98,7 +98,7 @@ Infor 于 11 月 4 日连发三篇官方博客，把 10 月发布中的「可执
 | **CloudSuites for Distribution** | 7 类业务 agent（库存/产品/报价/财务/采购/供应链/定价）；Infor WMS 的 Batch Wave Agent 与 User & Task Management Agent；**GenAI Assistant 成为 Infor OS 门户默认首页** + Knowledge Hub guardrails；**A2A**（Microsoft Copilot / ServiceNow）与 **MCP** 单一受治理接口；**100+ 新增或更新 API**；19 个新增/更新 Experience Designer 应用；属性化预测 / 战略库存计划 / 事件化预测；Product Advisor 拍照识件；tiered vendor rebates、银行对账单 AI 识别；ESG 的 **ESRS 内容库**与 **CBAM 模块** | [链接](https://www.infor.com/en-nl/blog/infor-cloudsuites-distribution-ai-october-2026) |
 | **Infor CPQ** | AI-Assisted Product Modeling（规则集创建维护）、AI-Assisted Quoting（对话式配置 + 引导补全 + 校验后直接进报价）、AI Document Driven Transactions Agent（RFQ / PO / PDF → 结构化报价或 ERP 就绪订单）；官方称 **available now** | [链接](https://www.infor.com/en-au/blog/infor-cpq-2026-10-release-embedded-ai) |
 
-**架构侧两个数字**（Automotive 官方博客）：Infor LN 经 **MCP 暴露 6,000+ OData API**；**100+ 单体智能体收敛为 12 个 domain agents**，既有 API 授权与安全策略继续生效。
+**架构侧两个数字**（Automotive 官方博客）：Infor LN 经 **MCP 暴露 6,000+ OData API**；**100+ 单体智能体收敛为 12 个 domain agents**，既有 API 授权与安全策略继续生效。完整拆解（MCP / A2A 协议、12 个领域智能体矩阵、受治理接口、技术深潜、行业观察）见 [Infor LN AI 智能体架构专题页](ln-ai-agents-mcp.md)。
 
 > ⚠️ 可用性口径：据 [ERP Today](https://erp.today/infor-builds-ai-agents-into-automotive-distribution-and-cpq-software/) 与 [ERP News](https://erpnews.com/infor-details-ai-agents-for-distribution-erp-warehouse-picking-and-finance/)，这批公告未提供可测量的客户成效，亦未附逐产品 entitlement / availability 矩阵；启用步骤以 [Infor Community 发布页](https://community.infor.com/releases/october2026/distribution) 为准，规划升级前请向厂商确认版本、地区、许可档位与启用条件。
 

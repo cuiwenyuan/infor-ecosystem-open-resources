@@ -61,6 +61,7 @@ description: "Infor LN 资源导航，收录 LN 相关的顾问公司、技术�
 - **LN 10.8 / Enterprise Server 10.8.5**：企业服务器现代化 UI 组件（滑块、分组框，对齐 Infor Design Standard V4.5）、可访问性增强（PDF 含屏幕阅读器元标签）；UI 按 Infor Design Standard V4.5 更新（现代图标集、当代表单）
 - **CloudSuite 2026.10（2026-10 发布）**：**Prompt Management for LN Sessions**——在 LN 会话内针对受治理数据集运行可复用 GenAI 提示，简化分析、保持一致（详见 [版本动态](../resources/release-notes.md) 与 [Infor OS / Velocity Suite](infor-os.md)）
 - **发布节奏**：CloudSuite 平台按月增强（2026.04 → 2026.07 GA → 2026.10）
+- **AI 智能体架构（2026.10）**：Infor LN 经 **MCP 暴露 6,000+ OData API**，并把 **100+ 单体智能体收敛为 12 个 domain agents**（制造 / 供应链 / CRM / 采购 / 物流 / 服务 / 财务 / 销售订单 / 工程 / 质量检验 / 项目 / 通用主数据）；既有 API 授权与安全策略继续生效。完整拆解见 [Infor LN AI 智能体架构专题](../resources/ln-ai-agents-mcp.md)
 
 ---
 
@@ -184,4 +185,4 @@ Infor LN 的前身是荷兰 Baan 公司（1978年创立）开发的 Baan ERP，�
 
 ---
 
-**最后更新**：2026-10-08
+**最后更新**：2026-11-12

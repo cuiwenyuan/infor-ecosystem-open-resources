@@ -167,6 +167,10 @@ description: "Infor 生态开放资源导航站首页，提供论坛、顾问公
   - **新增「2026 年 11 月生态速览」章节**：Gartner 2030 两条预测（>50% 基础 ERP 任务由 AI 自主执行、AI 使现代化成本降 40%）、ERX 术语溯源（实为 2026-07 提出，非 11 月新造词）、2026.10 三条产品线 AI 落地细节、瓦努阿图政府 5 年 CloudSuite Public Sector 大单、Velocity Suite「一口价」口径与中国区无新增官宣说明
   - **版本动态补 2026-11-04 官方博客**：Automotive / Distribution / CPQ 具体能力表，含 MCP 6,000+ OData API、100+ 智能体收敛为 12 个 domain agents、A2A 协议等架构数字与可用性中立提示
   - **同名干扰项剔除**：`INFOR／亿富智能装备`（研磨设备）、`Informa／英富曼`（展会集团）均与 Infor 软件无关
+- 🤖 **新增「Infor LN AI 智能体架构」专题页**（`resources/ln-ai-agents-mcp.md`）：围绕 Infor LN 经 **MCP 暴露 6,000+ OData API**、**100+ 单体智能体收敛为 12 个 domain agents** 两个关键数字做完整拆解
+  - 系统梳理 **MCP**（智能体经 ION API Gateway 把任意外部 API 转为 MCP server、LN 读路径走 OData REST、写路径走 ION BOD）、**A2A 协议**（Infor 经 A2A 连 Microsoft Copilot / ServiceNow，MCP 垂直轴 vs A2A 水平轴）、**12 个领域智能体矩阵**（对应 LN 12 个角色域）与 **分销 7 类业务 agent**
+  - 补 **治理与安全**（既有 API 授权继续生效、Supervisor Agent 敏感操作人工确认、Inline Thoughts / Evaluation Framework / Bedrock Guardrails、Planners stay in control）、**汽车行业缺料检查端到端序列图**、**Pexon 技术深潜**（读/写分治、MCP server limited availability 现实、6 个前置问题）与 **Infor vs SAP 开放/控制格局**
+  - 含 4 张 mermaid 图（MCP 架构、100+→12 收敛、A2A 互联、缺料检查流程）、术语对照表与 11 条来源清单（官方博客 / ERP Today / zodioo 中文解读 / WorkAI.tv / Pexon / Community 发布页）；`mkdocs.yml` 新增「学习中心 → Infor LN AI 智能体架构」导航，并与 `release-notes.md` / `infor-os.md` / `ln.md` 双向交叉引用
 
 #### 2026-11-11
 - 📣 **新增「2026 中国区新客户与新项目」双平台图文物料**（`xiaohongshu-draft/2026-11-11-cn-2026-projects/`）：面向小红书与微信小绿书（公众号图片消息）的 9 张 1080×1440 品牌红图文 + 双平台文案

@@ -3,6 +3,7 @@
 本页面记录 Infor 生态开放资源导航站的重大更新。
 
 ## 2026-11-12
+- **新增「Infor LN AI 智能体架构」专题页（`resources/ln-ai-agents-mcp.md`）**：围绕 Infor LN 经 MCP 暴露 6,000+ OData API、100+ 单体智能体收敛为 12 个 domain agents 两个关键数字，完整拆解 MCP（ION API Gateway 转 MCP server、读走 OData REST / 写走 ION BOD）、A2A 协议（连 Copilot / ServiceNow、垂直 vs 水平轴）、12 个领域智能体矩阵与分销 7 类业务 agent、治理与安全、汽车行业缺料检查端到端流程、Pexon 技术深潜、Infor vs SAP 开放/控制格局；含 4 张 mermaid 图、术语表与 11 条来源；`mkdocs.yml` 新增「学习中心 → Infor LN AI 智能体架构」导航，并与 `release-notes.md` / `infor-os.md` / `ln.md` 交叉引用
 - **行业动态页（`resources/news.md`）新增「2026 年 11 月生态速览」章节**：Gartner 2026 云 ERP 魔力象限（11-02 报告 / 11-06 官宣连续第 6 年 Leader）、2030 两条预测、ERX 术语溯源、2026.10 三条产品线 AI 落地细节、瓦努阿图政府签约、商业与生态侧信号，全部附来源链接
 - **修正分析师认可表**：Cloud ERP MQ 由「2025 连续第 5 年」更新为「2026 连续第 6 年」，新增 2026 Critical Capabilities「2 个 Use Cases 得分最高」，补齐 WMS / WFM 公告日期与 Gartner 免责声明
 - **主时间线补 6 行**：11-02 Gartner MQ、11-03 瓦努阿图签约、11-04 三条产品线详解、11-06 连续第 6 年 Leader，以及 10-27 之后的排序整理

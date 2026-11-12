@@ -56,6 +56,8 @@ description: "Infor OS 平台资源导航，收录 Infor OS、ION、Ming.le 等�
 | **Infor AI（原 Coleman AI）** | 历史品牌名（2025.x 含 Microsoft Copilot 集成、预测分析、自然语言查询 NLQ） | 演进中 |
 | **Birst Analytics** | 云端 BI 与数据分析平台（详见 [Infor Birst](birst.md)） | 已发布 |
 
+> 🔗 **深度专题**：Infor LN 经 MCP 暴露 6,000+ OData API、100+ 单体智能体收敛为 12 个 domain agents 的架构演进，以及 MCP / A2A 协议、受治理接口与技术深潜，见 [Infor LN AI 智能体架构](../resources/ln-ai-agents-mcp.md)。
+
 ---
 
 ## 第三方资源速查
@@ -113,4 +115,4 @@ graph TB
 
 ---
 
-**最后更新**：2026-11-04
+**最后更新**：2026-11-12
